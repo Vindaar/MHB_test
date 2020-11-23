@@ -5,6 +5,34 @@ like. It's hosted using Github pages:
 
 [[https://vindaar.github.io/MHB_test]]
 
+The structure of each Modulhandbuch is simply represented in a tree of
+directories containing Markdown files. An excerpt:
+#+begin_src sh
+basti at void in ~/src/tinyIap/staticExample/content/docs/mhb_bsphysik ツ tree
+.                       
+├── _index.md           
+├── math140             
+│   ├── _index.md       
+│   └── math141         
+│       └── _index.md   
+├── math240             
+│   ├── _index.md       
+│   └── math241         
+│       └── _index.md
+├── math340             
+│   ├── _index.md 
+│   └── math341      
+│       └── _index.md
+├── physik110           
+│   ├── _index.md       
+│   ├── ph110.pdf    
+│   ├── physik111       
+│   │   └── _index.md   
+│   └── physik112
+│       └── _index.md
+...
+#+end_src
+
 ** Neat features
 
 Just a few features I personally like, cause I would have enjoyed them
@@ -44,3 +72,20 @@ Module / course structure is represented by the directory structure.
 
 Each page has the actual content that is found in the PDF then.
 
+
+PDF creation can be achieved reasonably well already with a default
+=pandoc= call:
+#+begin_src sh
+pandoc _index.md -o <module>.pdf
+#+end_src
+will create a single PDF for a module, which looks really good. 
+See number 14 here:
+
+https://pandoc.org/demos.html
+
+for an idea how we might generate a full handbook for all pages
+(e.g. we walk the =content= directory and append the content of each
+found markdown file to a single one and use a custom TeX header). With
+that we should be able to generate a beautiful PDF, which can then be
+injected with things like the page of the overview etc using
+=pdfunite, pdftk= or similar.
