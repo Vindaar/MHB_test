@@ -1,10 +1,30 @@
 * Simple example for the Modulhandbuch
 
+This is a simple example of what the future Modulhandbuch might look
+like. It's hosted using Github pages:
+
+[[https://vindaar.github.io/MHB_test]]
+
+** Neat features
+
+Just a few features I personally like, cause I would have enjoyed them
+back when I was a student or things that could improve the module
+handbook in some ways.
+
+- working search functionality (yay!)
+- multi language support for the full website, so one could in
+  principle even offer e.g. the B.Sc. handbooks with English headers or the
+  M.Sc. handbooks with German headers (and theoretically content of couse)
+- KaTeX (similar to MathJax) for inline LaTeX equations (well,
+  probably not too important for the module handbook, unless something
+  in the descriptions)
+- dark theme
 
 ** Some notes
 
 Generate the table of contents from the database when converting to
 generate something like the following table of content.
+
 *UPDATE*: We do not even have to manually generate the sub trees. Only
 the degrees have to be manually added. The rest is done automagically.
 #+begin_src markdown
@@ -23,7 +43,4 @@ PDF is currently.
 Module / course structure is represented by the directory structure.
 
 Each page has the actual content that is found in the PDF then.
-
-
-
 
