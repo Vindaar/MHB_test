@@ -1,0 +1,1 @@
+if(navigator.serviceWorker){navigator.serviceWorker.register("/mhb_test/sw.js",{scope:"/mhb_test/"});}

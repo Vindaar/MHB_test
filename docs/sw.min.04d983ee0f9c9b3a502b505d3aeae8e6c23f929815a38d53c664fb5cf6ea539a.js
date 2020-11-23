@@ -1,0 +1,1 @@
+if(navigator.serviceWorker){navigator.serviceWorker.register("/vindaar.github.io/MHB_test/sw.js",{scope:"/vindaar.github.io/MHB_test/"});}
