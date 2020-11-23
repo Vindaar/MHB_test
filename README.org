@@ -1,2 +1,29 @@
 * Simple example for the Modulhandbuch
 
+
+** Some notes
+
+Generate the table of contents from the database when converting to
+generate something like the following table of content.
+*UPDATE*: We do not even have to manually generate the sub trees. Only
+the degrees have to be manually added. The rest is done automagically.
+#+begin_src markdown
+- [**B.Sc. Physik**]({{< relref "/docs/mhb_bsphysik" >}})
+- [**M.Sc. Physics**]({{< relref "/docs/mhb_msphysik" >}})
+  - [**Module**]({{< relref "/docs/module" >}})
+    - [Modul 1]({{< relref "/docs/module/modul1" >}})
+      - [Course 1.1]({{< relref "/docs/module/modul1/course1" >}})
+      - [Course 1.2]({{< relref "/docs/module/modul1/course2" >}})
+    - [Modul 2]({{< relref "/docs/module/modul1" >}})
+      - [Course 2.1]({{< relref "/docs/module/modul1/course1" >}})
+#+end_src
+where the module / course pages are generated in the same way as the
+PDF is currently.
+
+Module / course structure is represented by the directory structure.
+
+Each page has the actual content that is found in the PDF then.
+
+
+
+
