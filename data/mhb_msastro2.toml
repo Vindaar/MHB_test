@@ -1,0 +1,433 @@
+[astro800]
+mfDegree = ""
+mfDegreeLang = "M.Sc. in Astrophysics (PO von 2014)"
+mfTitle = "Introduction to Astrophysics"
+mfNum = "astro800"
+mfCP = "4"
+mfCategory = "Required*"
+mfSemester = "1."
+mfRequirements = ""
+mfPreparation = ""
+mfContent = "Introduction to Astrophysics to establish common standards at the start of the Masters programme"
+mfGoals = '''The module brings the student up to the level required for the Master of Astrophysics programme. Students have to demonstrate adequate knowledge in astronomy at the introductory level and in advanced quantum theory.
+
+Those who have demonstrated in the procedure for admission to the M.Sc. in Astrophysics programme to have one (or both) of these, are not required to take these courses
+'''
+mfFormalities = '''Requirements for the premodule examination (written or oral examination): successful work with the
+
+exercises
+'''
+mfLength = "1 semester"
+mfParticipants = "ca. 100"
+mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
+mfNotes = '''*This Module is compulsory for students who have not had any introduction to astrophysics in their
+
+Bachelor study course.
+'''
+mfOrder = "0"
+[astro800.Courses.astro801]
+cfTitle = "Introduction to Astrophysics"
+cfNum = "astro801"
+cfCP = "4"
+cfWorkload = "2+1"
+cfKind = "Lecture with tutorial and exercises"
+cfCategory = "Required (see note on astro800)"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = ""
+cfFormalities = '''Requirements for the premodule examination (written or oral examination): successful work with the
+
+exercises
+'''
+cfLength = "1 semester"
+cfGoals = "Students with B.Sc. in Physics lacking sufficient introductory astronomy knowledge will be brought up to the level required for the Master in Astrophysics programme. Students need to acquire allowance to take this course upon admission to the M.Sc. in Astrophysics programme"
+cfContent = "Celestial mechanics; Stars: photometric and spectroscopic measurements; Stellar structure: atmosphere, interior, nuclear fusion; Stellar evolution; Variable and binary stars; Star clusters, Interstellar medium: ionized gas, neutral and molecular gas, hot matrix, star formation, measurements; Galactic structure: distribution and motion of stars, galactic rotation, mass components, galactic evolution; Galaxies: types, distance determination, clustering; Cosmology: big bang, nucleosynthesis, expansion, dark matter, dark energy. Lecture will be supplemented by a tutorial, with relevant textbooks"
+cfLiterature = '''P. Schneider: Introduction to Extragalactic Astronomy and Cosmology, Springer (2006)
+
+A. Unsöld, B. Baschek: The New Cosmos, Springer (1999)
+'''
+cfKindShort = "Lect. + tut. + ex."
+cfSemester = "WT"
+cfLecturer = "Profs. of astronomy"
+cfMail = "astro@uni-bonn.de"
+
+
+[physics601]
+mfDegree = ""
+mfDegreeLang = "M.Sc. in Astrophysics (PO von 2014)"
+mfTitle = "Advanced Laboratory Course"
+mfNum = "physics601"
+mfCP = "7"
+mfCategory = "Required"
+mfSemester = "1."
+mfRequirements = ""
+mfPreparation = "written report for every laboratory"
+mfContent = "Every student has to complete this Laboratory Course. The course consists of advanced experiments introducing into important subfields of contemporary experimental physics and astrophysics. The lab-course is accompanied by a seminar."
+mfGoals = "The students shall gain insight in the conceptual and complex properties of relevant contemporary experiments. The students gain experience in setting up an experiment, data logging and data analysis. They experience the intricacies of forefront experimental research"
+mfFormalities = '''Before carrying out an experiment, the students shall demonstrate to have acquired the necessary preparatory knowledge. Experiments are selected from the catalogue of laboratory set-ups offered. Cumulative lab-units of >= 9 are required.
+
+Requirements for the examination (written report for every laboratory): successful completion of the experiment and initial oral questioning plus seminar talk
+'''
+mfLength = "1 semester"
+mfParticipants = "ca. 100"
+mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
+mfNotes = ""
+mfOrder = "0"
+[physics601.Courses.physics601]
+cfTitle = "Advanced Laboratory Course"
+cfNum = "physics601"
+cfCP = "7"
+cfWorkload = "3+2"
+cfKind = "Laboratory"
+cfCategory = "Required"
+cfLanguage = "English"
+cfRequirements = "Requirement for experiment 12 is astro800 Introduction to Astrophysics or an equivalent basic knowledge in astrophysics."
+cfPreparation = "Recommended for experiment 13 is lecture astro841 Radio Astronomy: Tools, Applications, Impacts"
+cfFormalities = "Experiments are selected from the catalogue of laboratory set-ups offered. 9 cumulative lab-units (LU) are required. One of the experiments 1-3 is compulsory for physics students. The experiments 12-14 are compulsory for astrophysics students. Requirements for the module examination (written report for every laboratory): successful completion of the experiment and initial oral questioning"
+cfLength = "1 semester"
+cfGoals = "The student shall gain insight in the intricate workings of physics in relevant advanced experiments. The student gains experience in the setting up of a proper experimental environment and experiences the intricacies of forefront experimental research and presenting his/her results."
+cfContent = '''Advanced experiments are carried out. Experimenting time in units of 8 hrs, preparation time and report writing each ~15 hrs. Further details are listed in the catalogue of laboratories. The experiments are chosen among those being offered and after consultation with the head of the course.
+
+In the accompanying seminar the students report about one experiment. This experiment will be selected after consultation with the head of the course.
+'''
+cfLiterature = "Hand outs and literature will be distributed with the registration for an experiment"
+cfKindShort = "Laboratory"
+cfSemester = "WT/ST"
+cfLecturer = "Profs. of experimental physics and astronomy"
+cfMail = "exphysik@uni-bonn.de"
+
+
+[astro608]
+mfDegree = ""
+mfDegreeLang = "M.Sc. in Astrophysics (PO von 2014)"
+mfTitle = "Theoretical Astrophysics"
+mfNum = "astro608"
+mfCP = "7"
+mfCategory = "Required"
+mfSemester = "1."
+mfRequirements = ""
+mfPreparation = "written examination"
+mfContent = "Introduction into Theoretical Astrophysics"
+mfGoals = "To provide the students with sound theoretical bases on a number of topics that have wide applications in astrophysics. They include general relativity, kinetic theory, plasma and fluid dynamics, stochastic and radiative processes, and radiative transfer."
+mfFormalities = "successful work with exercises"
+mfLength = "1 semester"
+mfParticipants = "ca. 100"
+mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
+mfNotes = ""
+mfOrder = "0"
+[astro608.Courses.astro608]
+cfTitle = "Theoretical Astrophysics"
+cfNum = "astro608"
+cfCP = "7"
+cfWorkload = "3+2"
+cfKind = "Lecture with exercises"
+cfCategory = "Required"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Theoretical courses at the Bachelor degree level"
+cfFormalities = "Requirements for the examination (written): successful work with the exercises"
+cfLength = "1 semester"
+cfGoals = "The goal of this course is to provide the students with sound theoretical bases on a number of topics that have wide applications in astrophysics. They include general relativity, kinetic theory, plasma and fluid dynamics, stochastic and radiative processes, and radiative transfer."
+cfContent = '''Introduction to General Relativity, Schwarzschild metric and gravitational waves.
+
+Kinetic theory, Klimontovich equation, BBGKY hierarchy, Boltzmann and Vlasov equations, fluid limit, transport coefficients.
+
+Basics of hydrodynamics, spherical flows, shock waves, Bondi accretion.
+
+Random fields and stochastic processes, correlation and structure functions, power spectrum and multispectra, Langevin and Fokker-Planck equations.
+
+Continuum radiation processes, synchrotron radiation, free-free radiation, Compton scattering.
+
+Radiation from bound-free and bound-bound transitions.
+
+Radiative transfer.
+
+Concepts of plasma physics, Langmuir waves, Alfven waves, Faraday rotation, dispersion relations.
+'''
+cfLiterature = '''Lecture notes
+
+S. Carroll, Spacetime and Geometry (Addison Wesley 2004) 
+
+F.F. Chen, Introduction to Plasma Physics and Controlled Fusion (Springer 1984)
+
+K. Huang, Statistical Physics (John Wiley & Sons 1987) 
+
+C.W. Misner, K.S. Thorne, J.A. Wheeler, Gravitation (Freeman 1973)
+
+H. Risken, The Fokker-Planck Equation (Springer 1996)
+
+G.R. Rybicky, A.P. Lightman; Radiative Processes in Astrophysics (John Wiley & Sons 1991)
+
+F.H. Shu, The Physics of Astrophysics, Vol I & II (University Science Books 2010)
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "WT"
+cfLecturer = "Profs. of astronomy"
+cfMail = "astro@uni-bonn.de"
+
+
+[astro810]
+mfDegree = ""
+mfDegreeLang = "M.Sc. in Astrophysics (PO von 2014)"
+mfTitle = "Compulsory Astrophysics I"
+mfNum = "astro810"
+mfCP = "12"
+mfCategory = "Required"
+mfSemester = "1."
+mfRequirements = ""
+mfPreparation = "written examination"
+mfContent = "The module represents the fundamentals of the phases of stars and stellar evolution and the knowledge about our cosmological model"
+mfGoals = '''The student shall acquire deeper understanding of the workings of stars and their evolution, in particular of important transitory phases of evolution, and shall be able to understand the origin of stars related with the location of their parameters in the HRD.
+
+The student shall acquire deep understanding of the foundation of our world models and of their consequences, with special emphasis on the formation of structures in the universe and its physical and observational consequences
+'''
+mfFormalities = "successful work with the exercises"
+mfLength = "1 semester"
+mfParticipants = "ca. 100"
+mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
+mfNotes = ""
+mfOrder = "0"
+[astro810.Courses.astro811]
+cfTitle = '''Stars and Stellar Evolution
+
+or specific: Stellar Structure and Evolution
+'''
+cfNum = "astro811"
+cfCP = "6"
+cfWorkload = "3+1"
+cfKind = "Lecture with exercises"
+cfCategory = "Required"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = ""
+cfFormalities = "Requirements for the examination (written or oral): successful work with the exercises"
+cfLength = "1 semester"
+cfGoals = "Students will acquire sufficient knowledge to understand stars and their evolution. Study of radiation transport, energy production, nucleosynthesis and the various end phases of stellar evolution shall lead to appreciation for the effects these processes have on the structure and evolution of galaxies and of the universe"
+cfContent = "Historical introduction, measuring quantities, the HRD. Continuum and line radiation (emission and absorption) and effects on the stellar spectral energy distribution. Basic equations of stellar structure. Nuclear fusion. Making stellar models. Star formation and protostars. Brown Dwarfs. Evolution from the main-sequence state to the red giant phase. Evolution of lower mass stars: the RG, AGB, HB, OH/IR, pAGB, WD phases. Stellar pulsation. Evolution of higher mass stars: supergiants, mass loss, Wolf-Rayet stars, P-Cyg stars. Degenerate stars: White Dwarfs, Neutron Stars, Black Holes. Supernovae and their mechanisms. Binary stars and their diverse evolution (massive X-ray binaries, low-mass X-ray binaries, Cataclysmic variables, etc.). Luminosity and mass functions, isochrones. Stars and their influence on evolution in the universe"
+cfLiterature = "Lecture notes on \"Stars and Stellar Evolution\" (de Boer & Seggewiss)"
+cfKindShort = "Lect. + ex."
+cfSemester = "WT"
+cfLecturer = "Profs. of astronomy"
+cfMail = "astro@uni-bonn.de"
+
+[astro810.Courses.astro812]
+cfTitle = "Cosmology"
+cfNum = "astro812"
+cfCP = "6"
+cfWorkload = "3+1"
+cfKind = "Lecture with exercises"
+cfCategory = "Required"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Introductory astronomy"
+cfFormalities = "Requirements for the examination (written or oral): successful work with the exercises"
+cfLength = "1 semester"
+cfGoals = "The student shall acquire deep understanding of the foundation of our world models and of their consequences, with special emphasis on the formation of structures in the universe and its physical and observational consequences. The lecture shall enable the student to read and understand original literature in astrophysical cosmology, but also to see the direct connection between the fundamental problems in cosmology and particle physics, such as the nature of dark matter and dark energy"
+cfContent = "Kinematics and dynamics of cosmic expansion, introduction to General relativity, Friedmann equations and classification of world models, flatness and horizon problem; thermal history of the big bang, decoupling, WIMPS, nucleosynthesis, recombination and the CMB; gravitational light deflection, principles and applications of strong and weak gravitational lensing; structure formation in the Universe, perturbation theory, structure growth and transfer function, power spectrum of cosmic fluctuations, spherical collapse model, Press-Schechter theory and generalizations, cosmological simulations, cosmic velocity fields; principles of inflation; lensing by the large-scale structure, cosmic shear; anisotropies of the CMB, determination of cosmological parameters"
+cfLiterature = '''J. A. Peacock; Cosmological Physics (Cambridge University Press 1998)
+
+P. J. E. Peebles; Principles of Physical Cosmology (Princeton University Press 1993)
+
+Handout of the Transparencies
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "WT"
+cfLecturer = "Profs. of astronomy"
+cfMail = "astro@uni-bonn.de"
+
+
+[astro820]
+mfDegree = ""
+mfDegreeLang = "M.Sc. in Astrophysics (PO von 2014)"
+mfTitle = "Compulsory Astrophysics II"
+mfNum = "astro820"
+mfCP = "12"
+mfCategory = "Required"
+mfSemester = "2."
+mfRequirements = ""
+mfPreparation = "written examination"
+mfContent = "This module presents both, theoretical aspects, as well as the detailed properties of the major building blocks of cosmic structure, viz. galaxies. The fundamentals of the physics of the interstellar medium are conveyed, along with the tools used to study its properties"
+mfGoals = "The student shall acquire knowledge about the properties of galaxies, including their formation and their evolution, based on knowledge of the constituent matter (stars, gas, dark matter). The fundamentals of stellar dynamics are also conveyed. Physical processes relevant for the study of the interstellar medium have to be understood including the basic methods of measurements and their interpretation of the fundamental phases of the ISM"
+mfFormalities = "successful work with the exercises"
+mfLength = "1 semester"
+mfParticipants = "ca. 100"
+mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
+mfNotes = ""
+mfOrder = "0"
+[astro820.Courses.astro821]
+cfTitle = "Astrophysics of Galaxies"
+cfNum = "astro821"
+cfCP = "6"
+cfWorkload = "3+1"
+cfKind = "Lecture with exercises"
+cfCategory = "Required"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Introductory astronomy as well as a good understanding of stars and their evolution as well as of the interstellar medium"
+cfFormalities = "Requirements for the examination (written or oral): successful work with exercises"
+cfLength = "1 semester"
+cfGoals = '''The student shall acquire deep knowledge of the structure of the Milky Way and of other galaxies including their evolution.
+
+This must enable them to understand and evaluate new publications in the field. It should provide the student a quick entry into the research phase of the study programme
+'''
+cfContent = "Review of stars and stellar evolution, review of the interstellar medium. Solar neighbourhood: observables, differential galactic rotation, Hyades, Goulds Belt, Local Bubble. The Galaxy: size, dynamics of objects, rotation curve, disk and z-distribution. Stellar dynamics: Boltzmann, Jeans drift, Schwarzschild ellipsoid, scale length and height, density wave, mass distribution, age of populations, dark matter concept, evolution. Satellites: the Magellanic Clouds, their structure and evolution, Magellanic Stream, Dwarf spheroidals, Local Group galaxies. Star clusters: stellar dynamics, binary and multiple stars, energy exchange, star-cluster birth and death, origin of galactic field population. Active galactic nuclei: observables, jets, accretion, black holes. Structure and shape of spirals and ellipticals, surface brightness, globular cluster systems. Galaxy clusters: distances, statistics, luminosity function, X-ray halos, virial theorem. Galaxy evolution: chemical enrichment, galactic winds, infall, observables. Galaxy collisions: relaxation, mergers, birth of dwarf galaxies"
+cfLiterature = '''J. Binney; B. Merrifield; Galactic Astronomy (Princeton University Press 1998)
+
+J. Binney, S. Tremaine; Galactic Dynamics (Princeton University Press 1988)
+
+L. S. Sparke; J. S. Gallagher; Galaxies in the Universe (Cambridge University Press, 2000)
+
+Write-up of the class
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "ST"
+cfLecturer = "Profs. of astronomy"
+cfMail = "astro@uni-bonn.de"
+
+[astro820.Courses.astro822]
+cfTitle = "Physics of the Interstellar Medium"
+cfNum = "astro822"
+cfCP = "6"
+cfWorkload = "3+1"
+cfKind = "Lecture with exercises"
+cfCategory = "Required"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Introductory astronomy"
+cfFormalities = "Requirements for the examination (written or oral): successful work with the exercises"
+cfLength = "1 semester"
+cfGoals = "The student shall acquire a good understanding of the physics and of the phases of the ISM. The importance for star formation and the effects on the structure and evolution of galaxies is discussed."
+cfContent = "Constitutens of the interstellar medium, physical processes, radiative transfer, recombination, HI 21cm line, absorption lines, Stroemgren spheres, HII regions, interstellar dust, molecular gas and clouds, shocks, photodissociation regions, energy balances, the multi-phase ISM, gravitational stability and star formation."
+cfLiterature = '''B. Draine; The Physics of the Interstellar and Intergalactic Medium (Princeton Univ. Press 2010)
+
+J. Lequeux; The Interstellar Medium (Springer 2005)
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "ST"
+cfLecturer = "Profs. of astronomy"
+cfMail = "astro@uni-bonn.de"
+
+
+[astro840]
+mfDegree = ""
+mfDegreeLang = "M.Sc. in Astrophysics (PO von 2014)"
+mfTitle = "Elective Advanced Lectures: Observational Astronomy"
+mfNum = "astro840"
+mfCP = ""
+mfCategory = "Elective"
+mfSemester = "1.-2."
+mfRequirements = ""
+mfPreparation = "written examination"
+mfContent = "This module covers all observational tools used in modern astronomy, over a wide range of the electromagnetic spectrum"
+mfGoals = '''Observational astronomy shall be conveyed to the students by teaching the fundamentals of observational astronomical tools, along with relevant applications. These tools cover essentially the entire electro-magnetic spectrum, from radio wavelengths through X-ray energies. They naturally also encompass a wide range of astrophysical phenomena, including condensed matter (stars, neutron stars), the interstellar and intergalactic medium, galaxies and active galactic nuclei, and clusters of galaxies.
+
+Emphasis is also on observational cosmology
+'''
+mfFormalities = "see with the course"
+mfLength = "1 semester"
+mfParticipants = "ca. 100"
+mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
+mfNotes = "The students must obtain 18 CP in all out of the modules astro840 and astro850."
+mfOrder = "0"
+
+[astro850]
+mfDegree = ""
+mfDegreeLang = "M.Sc. in Astrophysics (PO von 2014)"
+mfTitle = "Elective Advanced Lectures: Modern Astrophysics"
+mfNum = "astro850"
+mfCP = ""
+mfCategory = "Elective"
+mfSemester = "1.-2."
+mfRequirements = ""
+mfPreparation = "written examination"
+mfContent = "This module contains a number of lectures on various astrophysical phenomena, from stars to the largescale structure of the universe"
+mfGoals = "The student shall acquire deeper knowledge of a variety of astrophysical phenomena, from stars through large-scale structure to cosmological aspects. The physical mechanisms and mathematical tools required to understand these phenomena shall be conveyed, complementing what is being treated in the compulsory astrophysics courses"
+mfFormalities = "see with the course"
+mfLength = "1 semester"
+mfParticipants = "ca. 100"
+mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
+mfNotes = "The students must obtain 18 CP in all out of the modules astro840 and astro850."
+mfOrder = "0"
+
+[astro830]
+mfDegree = ""
+mfDegreeLang = "M.Sc. in Astrophysics (PO von 2014)"
+mfTitle = "Seminar: Astrophysics"
+mfNum = "astro830"
+mfCP = "4"
+mfCategory = "Elective"
+mfSemester = "2."
+mfRequirements = ""
+mfPreparation = "Presentation"
+mfContent = "Modern developments in astrophysics are discussed using recent literature"
+mfGoals = '''These seminars will introduce the student for the first time into professional research in astrophysics.
+
+Active participation will furnish the student with the skill to read and present modern research topics
+'''
+mfFormalities = "regular participation and active contribution"
+mfLength = "1 semester"
+mfParticipants = "ca. 100"
+mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
+mfNotes = "former astro890"
+mfOrder = "0"
+
+[astro940]
+mfDegree = ""
+mfDegreeLang = "M.Sc. in Astrophysics (PO von 2014)"
+mfTitle = "Scientific Exploration of the Master Thesis Topic"
+mfNum = "astro940"
+mfCP = "15"
+mfCategory = "Required"
+mfSemester = "3."
+mfRequirements = "Successful completion of 60 credit points from the first year of the Master phase, including the modules physics601, astro608, astro 810, and astro820"
+mfPreparation = "Presentation"
+mfContent = "Under guidance of the supervisor of the Master Thesis topic, the student shall explore the science field, read the relevant recent literature, and perhaps participate in further specialised classes and in seminars. The student shall write an essay about the acquired knowledge, which may serve as the introduction part of the Master Thesis"
+mfGoals = "The student shall demonstrate to have understood the scientific question to be studied in the Master Thesis"
+mfFormalities = ""
+mfLength = "1 semester"
+mfParticipants = "ca. 100"
+mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
+mfNotes = ""
+mfOrder = "0"
+
+[astro950]
+mfDegree = ""
+mfDegreeLang = "M.Sc. in Astrophysics (PO von 2014)"
+mfTitle = "Methods and Project Planning"
+mfNum = "astro950"
+mfCP = "15"
+mfCategory = "Required"
+mfSemester = "3."
+mfRequirements = "Successful completion of 60 credit points from the first year of the Master phase, including the modules physics601, astro608, astro 810, and astro820"
+mfPreparation = "written proposal"
+mfContent = "Under guidance of the supervisor of the planned Master Thesis topic, the student shall acquire knowledge about the methods required to carry out the Master Thesis project. This may include the participation in specialised seminars or specialised classes for the Master programme. The student shall plan the steps needed to successfully complete the Master Thesis"
+mfGoals = "The student shall demonstrate to have understood the methods to be used in the Master Thesis research. The project plan has to be presented"
+mfFormalities = ""
+mfLength = "1 semester"
+mfParticipants = "ca. 100"
+mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
+mfNotes = ""
+mfOrder = "0"
+
+[astro960]
+mfDegree = ""
+mfDegreeLang = "M.Sc. in Astrophysics (PO von 2014)"
+mfTitle = "Master Thesis"
+mfNum = "astro960"
+mfCP = "30"
+mfCategory = "Required"
+mfSemester = "4."
+mfRequirements = "Successful completion of 60 credit points from the first year of the Master phase, including the modules physics601, astro608, astro 810, and astro820"
+mfPreparation = "Master Thesis"
+mfContent = '''Under guidance of the supervisor of the Master Thesis topic, the student shall carry out the research of
+
+the Master Thesis project
+'''
+mfGoals = "The student shall identify and work out the science question to be tackled in the Master Thesis"
+mfFormalities = "oral presentation"
+mfLength = "1 semester"
+mfParticipants = "ca. 100"
+mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
+mfNotes = ""
+mfOrder = "0"
+
