@@ -1,3 +1,4 @@
+ModuleList = ["physik110", "physik210", "physik310", "physik510", "math140", "math240", "math340", "physik260", "physik360", "physik460", "physik560", "physik660", "physik540", "physik450", "physik120", "physik130", "physik440", "physik690", "physik410", "physik220", "physik320", "physik420", "physik520", "physik470", "physik670", "physik680", "physik120"]
 [physik110]
 mfDegree = ""
 mfDegreeLang = "B.Sc. in Physik (PO von 2014)"
@@ -16,6 +17,7 @@ mfParticipants = "ca. 200"
 mfSignup = "0/163"
 mfNotes = ""
 mfOrder = "0"
+CourseList = ["physik111"]
 [physik110.Courses.physik111]
 cfTitle = "Physik I (Mechanik, Wärmelehre)"
 cfNum = "physik111"
@@ -81,6 +83,7 @@ mfParticipants = "ca. 200"
 mfSignup = "0/163"
 mfNotes = ""
 mfOrder = "0"
+CourseList = ["physik211"]
 [physik210.Courses.physik211]
 cfTitle = "Physik II (Elektromagnetismus)"
 cfNum = "physik211"
@@ -131,6 +134,7 @@ mfParticipants = "ca. 200"
 mfSignup = "0/163"
 mfNotes = ""
 mfOrder = "0"
+CourseList = ["physik311"]
 [physik310.Courses.physik311]
 cfTitle = "Physik III (Optik und Wellenmechanik)"
 cfNum = "physik311"
@@ -184,6 +188,7 @@ mfParticipants = "ca. 200"
 mfSignup = "0/163"
 mfNotes = ""
 mfOrder = "0"
+CourseList = ["physik511"]
 [physik510.Courses.physik511]
 cfTitle = "Physik V (Kern- und Teilchenphysik)"
 cfNum = "physik511"
@@ -240,6 +245,7 @@ mfParticipants = "ca. 200"
 mfSignup = "0/163"
 mfNotes = ""
 mfOrder = "0"
+CourseList = ["math141"]
 [math140.Courses.math141]
 cfTitle = "Mathematik I (für Physiker und Physikerinnen)"
 cfNum = "math141"
@@ -293,6 +299,7 @@ mfParticipants = "ca. 200"
 mfSignup = "11/163"
 mfNotes = ""
 mfOrder = "0"
+CourseList = ["math241"]
 [math240.Courses.math241]
 cfTitle = "Mathematik II (für Physiker und Physikerinnen)"
 cfNum = "math241"
@@ -346,6 +353,7 @@ mfParticipants = "ca. 200"
 mfSignup = "11/163"
 mfNotes = ""
 mfOrder = "0"
+CourseList = ["math341"]
 [math340.Courses.math341]
 cfTitle = "Mathematik III (für Physiker und Physikerinnen)"
 cfNum = "math341"
@@ -393,6 +401,7 @@ mfParticipants = "ca. 200"
 mfSignup = "3/163"
 mfNotes = ""
 mfOrder = "0"
+CourseList = ["physik261"]
 [physik260.Courses.physik261]
 cfTitle = "Praktikum Mechanik, Wärmelehre"
 cfNum = "physik261"
@@ -454,6 +463,7 @@ mfParticipants = "ca. 200"
 mfSignup = "6/163"
 mfNotes = ""
 mfOrder = "0"
+CourseList = ["physik361", "physik362"]
 [physik360.Courses.physik361]
 cfTitle = "Praktikum Elektromagnetismus"
 cfNum = "physik361"
@@ -555,6 +565,7 @@ mfParticipants = "ca. 200"
 mfSignup = "4/163"
 mfNotes = ""
 mfOrder = "0"
+CourseList = ["physik461"]
 [physik460.Courses.physik461]
 cfTitle = "Elektronikpraktikum"
 cfNum = "physik461"
@@ -628,6 +639,7 @@ mfParticipants = "ca. 200"
 mfSignup = "5/163"
 mfNotes = ""
 mfOrder = "0"
+CourseList = ["physik561"]
 [physik560.Courses.physik561]
 cfTitle = "Praktikum Atome, Moleküle, Kondensierte Materie"
 cfNum = "physik561"
@@ -687,6 +699,7 @@ mfParticipants = "ca. 200"
 mfSignup = "5/163"
 mfNotes = ""
 mfOrder = "0"
+CourseList = ["physik661"]
 [physik660.Courses.physik661]
 cfTitle = "Praktikum Kern- und Teilchenphysik"
 cfNum = "physik661"
@@ -748,6 +761,7 @@ mfParticipants = "ca. 200"
 mfSignup = "5/163"
 mfNotes = ""
 mfOrder = "0"
+CourseList = ["physik541", "physik542"]
 [physik540.Courses.physik541]
 cfTitle = "Proseminar Präsentationstechnik"
 cfNum = "physik541"
@@ -825,6 +839,7 @@ mfParticipants = "ca. 200"
 mfSignup = "6/163"
 mfNotes = "* Wird für B.Sc. als 6 LP angerechnet"
 mfOrder = "0"
+CourseList = ["physik459", "physik458"]
 [physik450.Courses.physik459]
 cfTitle = "Betriebspraktikum"
 cfNum = "physik459"
@@ -892,6 +907,7 @@ mfParticipants = ""
 mfSignup = "8/163"
 mfNotes = "* Die Leistungspunkte müssen in einem Fach erworben werden"
 mfOrder = "0"
+CourseList = []
 
 [physik130]
 mfDegree = ""
@@ -911,6 +927,7 @@ mfParticipants = "ca. 200"
 mfSignup = "0/163"
 mfNotes = ""
 mfOrder = "0"
+CourseList = ["physik131"]
 [physik130.Courses.physik131]
 cfTitle = "EDV"
 cfNum = "physik131"
@@ -950,6 +967,7 @@ mfParticipants = "ca. 200"
 mfSignup = "6/163"
 mfNotes = ""
 mfOrder = "0"
+CourseList = ["physik441"]
 [physik440.Courses.physik441]
 cfTitle = "Computerphysik"
 cfNum = "physik441"
@@ -1012,6 +1030,7 @@ mfParticipants = ""
 mfSignup = "12/163"
 mfNotes = "Die Bachelorarbeit kann im Einvernehmen mit der Betreuerin bzw. dem Betreuer wahlweise in deutscher oder englischer Sprache abgefasst werden."
 mfOrder = "0"
+CourseList = ["physik691"]
 [physik690.Courses.physik691]
 cfTitle = "Bachelorarbeit"
 cfNum = "physik691"
@@ -1060,6 +1079,7 @@ mfParticipants = "ca. 200"
 mfSignup = "0/163"
 mfNotes = ""
 mfOrder = "0"
+CourseList = ["physik411"]
 [physik410.Courses.physik411]
 cfTitle = "Physik IV (Atome, Moleküle, Kondensierte Materie)"
 cfNum = "physik411"
@@ -1115,6 +1135,7 @@ mfParticipants = "ca. 200"
 mfSignup = "0/163"
 mfNotes = ""
 mfOrder = "0"
+CourseList = ["physik221"]
 [physik220.Courses.physik221]
 cfTitle = "Theoretische Physik I (Mechanik)"
 cfNum = "physik221"
@@ -1178,6 +1199,7 @@ mfParticipants = "ca. 200"
 mfSignup = "9/163"
 mfNotes = ""
 mfOrder = "0"
+CourseList = ["physik321"]
 [physik320.Courses.physik321]
 cfTitle = "Theoretische Physik II (Elektrodynamik)"
 cfNum = "physik321"
@@ -1244,6 +1266,7 @@ mfParticipants = "ca. 200"
 mfSignup = "9/163"
 mfNotes = ""
 mfOrder = "0"
+CourseList = ["physik421"]
 [physik420.Courses.physik421]
 cfTitle = "Theoretische Physik III (Quantenmechanik)"
 cfNum = "physik421"
@@ -1316,6 +1339,7 @@ mfParticipants = "ca. 200"
 mfSignup = "0/163"
 mfNotes = ""
 mfOrder = "0"
+CourseList = ["physik521"]
 [physik520.Courses.physik521]
 cfTitle = "Theoretische Physik IV (Statistische Physik)"
 cfNum = "physik521"
@@ -1376,6 +1400,7 @@ mfParticipants = ""
 mfSignup = "24/163"
 mfNotes = ""
 mfOrder = "0"
+CourseList = ["physik471"]
 [physik470.Courses.physik471]
 cfTitle = "Übersichtsprüfung Experimentalphysik Teil I"
 cfNum = "physik471"
@@ -1415,6 +1440,7 @@ mfParticipants = ""
 mfSignup = "17/163"
 mfNotes = ""
 mfOrder = "0"
+CourseList = ["physik671"]
 [physik670.Courses.physik671]
 cfTitle = "Übersichtsprüfung Experimentalphysik Teil II"
 cfNum = "physik671"
@@ -1454,6 +1480,7 @@ mfParticipants = ""
 mfSignup = "22/163"
 mfNotes = ""
 mfOrder = "0"
+CourseList = ["physik681"]
 [physik680.Courses.physik681]
 cfTitle = "Übersichtsprüfung Theoretische Physik"
 cfNum = "physik681"

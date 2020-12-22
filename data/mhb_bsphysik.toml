@@ -1,3 +1,4 @@
+ModuleList = ["physik110", "physik130", "physik450", "math140", "physik120", "physik210", "physik220", "physik310", "physik320", "physik410", "physik420", "physik440", "physik510", "physik520", "physik530", "physik540", "physik590", "math240", "math340", "physik590", "physik120"]
 [physik110]
 mfDegree = ""
 mfDegreeLang = "B.Sc. in Physik (PO von 2006)"
@@ -23,6 +24,7 @@ mfParticipants = "ca. 200"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
 mfOrder = "0"
+CourseList = ["physik111", "physik112"]
 [physik110.Courses.physik111]
 cfTitle = "Physik I (Mechanik, Wärmelehre)"
 cfNum = "physik111"
@@ -122,6 +124,7 @@ mfParticipants = "ca. 200"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
 mfOrder = "0"
+CourseList = ["physik131"]
 [physik130.Courses.physik131]
 cfTitle = "EDV für Physiker und Physikerinnen"
 cfNum = "physik131"
@@ -172,6 +175,7 @@ mfParticipants = "ca. 200"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = "* Wird für B.Sc. als 6 LP angerechnet"
 mfOrder = "0"
+CourseList = ["physik459", "physik458"]
 [physik450.Courses.physik459]
 cfTitle = "Betriebspraktikum"
 cfNum = "physik459"
@@ -246,6 +250,7 @@ mfParticipants = "ca. 200"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
 mfOrder = "0"
+CourseList = ["math141"]
 [math140.Courses.math141]
 cfTitle = "Mathematik I (für Physiker und Physikerinnen)"
 cfNum = "math141"
@@ -299,6 +304,7 @@ mfParticipants = ""
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = "* Die Leistungspunkte müssen in einem Fach erworben werden"
 mfOrder = "0"
+CourseList = []
 
 [physik210]
 mfDegree = ""
@@ -325,6 +331,7 @@ mfParticipants = "ca. 200"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
 mfOrder = "0"
+CourseList = ["physik211", "physik212"]
 [physik210.Courses.physik211]
 cfTitle = "Physik II (Elektromagnetismus)"
 cfNum = "physik211"
@@ -421,6 +428,7 @@ mfParticipants = "ca. 200"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
 mfOrder = "0"
+CourseList = ["physik221"]
 [physik220.Courses.physik221]
 cfTitle = "Theoretische Physik I (Mechanik)"
 cfNum = "physik221"
@@ -491,6 +499,7 @@ mfParticipants = "ca. 200"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
 mfOrder = "0"
+CourseList = ["physik311", "physik312", "physik313"]
 [physik310.Courses.physik311]
 cfTitle = "Physik III (Optik und Wellenmechanik)"
 cfNum = "physik311"
@@ -646,6 +655,7 @@ mfParticipants = "ca. 200"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
 mfOrder = "0"
+CourseList = ["physik321"]
 [physik320.Courses.physik321]
 cfTitle = "Theoretische Physik II (Elektrodynamik)"
 cfNum = "physik321"
@@ -725,6 +735,7 @@ mfParticipants = "ca. 200"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
 mfOrder = "0"
+CourseList = ["physik411", "physik411", "physik411", "physik412"]
 [physik410.Courses.physik411]
 cfTitle = "Physik IV (Atome, Moleküle, Kondensierte Materie)"
 cfNum = "physik411"
@@ -826,6 +837,7 @@ mfParticipants = "ca. 200"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
 mfOrder = "0"
+CourseList = ["physik421"]
 [physik420.Courses.physik421]
 cfTitle = "Theoretische Physik III (Quantenmechanik)"
 cfNum = "physik421"
@@ -896,6 +908,7 @@ mfParticipants = "ca. 200"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
 mfOrder = "0"
+CourseList = ["physik441"]
 [physik440.Courses.physik441]
 cfTitle = "Numerische Methoden der Physik"
 cfNum = "physik441"
@@ -953,6 +966,7 @@ mfParticipants = "ca. 200"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
 mfOrder = "0"
+CourseList = ["physik511", "physik512"]
 [physik510.Courses.physik511]
 cfTitle = "Physik V (Kern- und Teilchenphysik)"
 cfNum = "physik511"
@@ -1053,6 +1067,7 @@ mfParticipants = "ca. 200"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
 mfOrder = "0"
+CourseList = ["physik521"]
 [physik520.Courses.physik521]
 cfTitle = "Theoretische Physik IV (Statistische Physik)"
 cfNum = "physik521"
@@ -1116,6 +1131,7 @@ mfParticipants = ""
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
 mfOrder = "0"
+CourseList = ["physik531", "physik531", "physik532"]
 [physik530.Courses.physik531]
 cfTitle = "Prüfung Experimentalphysik"
 cfNum = "physik531"
@@ -1175,6 +1191,7 @@ mfParticipants = "ca. 200"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
 mfOrder = "0"
+CourseList = ["physik541", "physik542"]
 [physik540.Courses.physik541]
 cfTitle = "Proseminar Präsentationstechnik"
 cfNum = "physik541"
@@ -1261,6 +1278,7 @@ mfParticipants = ""
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
 mfOrder = "0"
+CourseList = ["physik591"]
 [physik590.Courses.physik591]
 cfTitle = "Bachelorarbeit"
 cfNum = "physik591"
@@ -1318,6 +1336,7 @@ mfParticipants = "ca. 200"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
 mfOrder = "0"
+CourseList = ["math241"]
 [math240.Courses.math241]
 cfTitle = "Mathematik II (für Physiker und Physikerinnen)"
 cfNum = "math241"
@@ -1376,6 +1395,7 @@ mfParticipants = "ca. 200"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
 mfOrder = "0"
+CourseList = ["math341"]
 [math340.Courses.math341]
 cfTitle = "Mathematik III (für Physiker und Physikerinnen)"
 cfNum = "math341"

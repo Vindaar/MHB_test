@@ -1,3 +1,4 @@
+ModuleList = ["ECThPhysics", "physics910", "physics920", "physics930", "physics70a", "physics70b", "physics70c", "physics61a", "physics62a", "physics61c", "physics62c", "physics61b", "physics62b", "physics65a", "physics65b", "physics65c", "physics70d", "physics601"]
 [ECThPhysics]
 mfDegree = ""
 mfDegreeLang = "M.Sc. in Physics (PO von 2014)"
@@ -19,6 +20,7 @@ mfParticipants = "ca. 100"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = "at least 7 cp out of this area must be achieved"
 mfOrder = "0"
+CourseList = ["physics751", "physics754", "physics755", "physics760", "physics7501", "physics606"]
 [ECThPhysics.Courses.physics751]
 cfTitle = "Group Theory (T)"
 cfNum = "physics751"
@@ -290,6 +292,7 @@ mfParticipants = "ca. 100"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
 mfOrder = "0"
+CourseList = []
 
 [physics920]
 mfDegree = ""
@@ -309,6 +312,7 @@ mfParticipants = "ca. 100"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
 mfOrder = "0"
+CourseList = []
 
 [physics930]
 mfDegree = ""
@@ -328,6 +332,7 @@ mfParticipants = "ca. 100"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
 mfOrder = "0"
+CourseList = []
 
 [physics70a]
 mfDegree = ""
@@ -347,6 +352,7 @@ mfParticipants = "ca. 100"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = "Note: The student must achieve at least 18 CP out of all 4 Elective Advanced Modules"
 mfOrder = "0"
+CourseList = []
 
 [physics70b]
 mfDegree = ""
@@ -366,6 +372,7 @@ mfParticipants = "ca. 100"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = "Note: The student must achieve at least 18 CP out of all 4 Elective Advanced Modules"
 mfOrder = "0"
+CourseList = []
 
 [physics70c]
 mfDegree = ""
@@ -385,6 +392,7 @@ mfParticipants = "ca. 100"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = "Note: The student must achieve at least 18 CP out of all 4 Elective Advanced Modules"
 mfOrder = "0"
+CourseList = []
 
 [physics61a]
 mfDegree = ""
@@ -404,6 +412,7 @@ mfParticipants = "ca. 100"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = "Note: The student must achieve at least 24 CP out of all 6 Specialization Modules"
 mfOrder = "0"
+CourseList = ["physics611", "physics612", "physics613", "physics614", "physics618", "MolPhys I", "CondMatter I", "physics620"]
 [physics61a.Courses.physics611]
 cfTitle = "Particle Physics"
 cfNum = "physics611"
@@ -764,6 +773,7 @@ mfParticipants = "ca. 100"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = "Note: The student must achieve at least 24 CP out of all 6 Specialization Modules"
 mfOrder = "0"
+CourseList = ["physics632", "physics633", "physics639", "physics631", "physics634", "MolPhys II", "physics640"]
 [physics62a.Courses.physics632]
 cfTitle = "Physics of Hadrons"
 cfNum = "physics632"
@@ -1076,6 +1086,7 @@ mfParticipants = "ca. 100"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = "Note: The student must achieve at least 24 CP out of all 6 Specialization Modules"
 mfOrder = "0"
+CourseList = ["physics615", "physics616", "physics617", "TheoSolidSt"]
 [physics61c.Courses.physics615]
 cfTitle = "Theoretical Particle Physics"
 cfNum = "physics615"
@@ -1242,6 +1253,7 @@ mfParticipants = "ca. 100"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = "Note: The student must achieve at least 24 CP out of all 6 Specialization Modules"
 mfOrder = "0"
+CourseList = ["physics636", "physics637", "physics638"]
 [physics62c.Courses.physics636]
 cfTitle = "Advanced Theoretical Particle Physics"
 cfNum = "physics636"
@@ -1381,6 +1393,7 @@ mfParticipants = "ca. 100"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = "Note: The student must achieve at least 24 CP out of all 6 Specialization Modules"
 mfOrder = "0"
+CourseList = []
 
 [physics62b]
 mfDegree = ""
@@ -1400,6 +1413,7 @@ mfParticipants = "ca. 100"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = "Note: The student must achieve at least 24 CP out of all 6 Specialization Modules"
 mfOrder = "0"
+CourseList = []
 
 [physics65a]
 mfDegree = ""
@@ -1422,6 +1436,7 @@ mfParticipants = "20 per seminar"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
 mfOrder = "0"
+CourseList = []
 
 [physics65b]
 mfDegree = ""
@@ -1444,6 +1459,7 @@ mfParticipants = "20 per seminar"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
 mfOrder = "0"
+CourseList = []
 
 [physics65c]
 mfDegree = ""
@@ -1463,6 +1479,7 @@ mfParticipants = "20 per seminar"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
 mfOrder = "0"
+CourseList = []
 
 [physics70d]
 mfDegree = ""
@@ -1482,6 +1499,7 @@ mfParticipants = "ca. 100"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = "Note: The student must achieve at least 18 CP out of all 4 Elective Advanced Modules"
 mfOrder = "0"
+CourseList = []
 
 [physics601]
 mfDegree = ""
@@ -1504,6 +1522,7 @@ mfParticipants = "ca. 100"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
 mfOrder = "600"
+CourseList = ["physics601"]
 [physics601.Courses.physics601]
 cfTitle = "Advanced Laboratory Course"
 cfNum = "physics601"

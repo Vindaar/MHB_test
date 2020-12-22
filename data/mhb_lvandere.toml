@@ -1,3 +1,4 @@
+ModuleList = ["physik010", "astro080"]
 [physik010]
 mfDegree = ""
 mfDegreeLang = "Lehrveranstaltungen für andere Fächer"
@@ -16,6 +17,7 @@ mfParticipants = ""
 mfSignup = ""
 mfNotes = "* Wird in der Bachelor-Prüfungsordnung des importierenden Faches festgelegt."
 mfOrder = "0"
+CourseList = ["physik051", "physik011", "physik012", "physik021", "physik021"]
 [physik010.Courses.physik051]
 cfTitle = "Physikalische Anwendungen in der Medizin"
 cfNum = "physik051"
@@ -178,6 +180,7 @@ mfParticipants = ""
 mfSignup = ""
 mfNotes = ""
 mfOrder = "0"
+CourseList = ["astro123", "astro081", "astro082", "astro121", "astro122", "astro811", "astro811", "astro822", "astro822"]
 [astro080.Courses.astro123]
 cfTitle = "Einführung in die Radioastronomie"
 cfNum = "astro123"

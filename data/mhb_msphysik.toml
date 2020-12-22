@@ -1,3 +1,4 @@
+ModuleList = ["physics610", "physics700", "physics600", "physics710", "", "physics605", "physics630", "physics720", "physics730", "physics650", "physics910", "physics920", "physics930", "", "", "", "physics600", "physics700", "physics710", "physics720", "physics730", "physics600", "", "", "", "", "", ""]
 [physics610]
 mfDegree = ""
 mfDegreeLang = "M.Sc. in Physics (PO von 2006)"
@@ -16,6 +17,7 @@ mfParticipants = "ca. 100"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = "Note: The student must achieve 12 CP from two different specialization areas (Particle Physics; Condensed Matter and Photonics; Theoretical Physics)"
 mfOrder = "0"
+CourseList = ["MolPhys I", "TheoSolidSt", "CondMatter I", "physics620", "physics611", "physics612", "physics618", "physics613", "physics614", "physics619", "physics615", "physics616", "physics617"]
 [physics610.Courses."MolPhys I"]
 cfTitle = "Molecular Physics I"
 cfNum = "MolPhys I"
@@ -565,6 +567,7 @@ mfParticipants = "ca. 100"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = "Note: The students must obtain 18 CP in all out of the modules physics700, -710, -720, -730."
 mfOrder = "0"
+CourseList = []
 
 [physics600]
 mfDegree = ""
@@ -587,6 +590,7 @@ mfParticipants = "60"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
 mfOrder = "0"
+CourseList = ["physics601"]
 [physics600.Courses.physics601]
 cfTitle = "Advanced Laboratory Course"
 cfNum = "physics601"
@@ -629,6 +633,7 @@ mfParticipants = "ca. 100"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = "Note: The students must obtain 18 CP in all out of the modules physics700, -710, -720, -730."
 mfOrder = "0"
+CourseList = []
 
 []
 mfDegree = ""
@@ -648,6 +653,7 @@ mfParticipants = ""
 mfSignup = ""
 mfNotes = ""
 mfOrder = "0"
+CourseList = ["MolPhys I", "MolPhys II", "Astrochemistry", "FundMolSym"]
 [Courses."MolPhys I"]
 cfTitle = "Molecular Physics I"
 cfNum = "MolPhys I"
@@ -855,6 +861,7 @@ mfParticipants = "ca. 100"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = "Note: When the student has (upon admission) demonstrated satisfactory knowledge of Advanced Quantum Theory already, the class Advanced Theoretical Physics may be taken instead"
 mfOrder = "0"
+CourseList = ["physics606", "physics607"]
 [physics605.Courses.physics606]
 cfTitle = "Advanced Quantum Theory"
 cfNum = "physics606"
@@ -962,6 +969,7 @@ mfParticipants = "ca. 100"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = "Note: The student must achieve 12 CP from one or two specialization areas."
 mfOrder = "0"
+CourseList = ["physics639", "physics631", "MolPhys II", "physics640", "physics632", "physics633", "physics634", "physics635", "physics636", "physics637", "physics638"]
 [physics630.Courses.physics639]
 cfTitle = "Advanced Topics in High Energy Particle Physics"
 cfNum = "physics639"
@@ -1437,6 +1445,7 @@ mfParticipants = "ca. 100"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = "Note: The students must obtain 18 CP in all out of the modules physics700, -710, -720, -730."
 mfOrder = "0"
+CourseList = []
 
 [physics730]
 mfDegree = ""
@@ -1456,6 +1465,7 @@ mfParticipants = "ca. 100"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = "Note: The students must obtain 18 CP in all out of the modules physics700, -710, -720, -730."
 mfOrder = "0"
+CourseList = []
 
 [physics650]
 mfDegree = ""
@@ -1475,6 +1485,7 @@ mfParticipants = "20 per seminar"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
 mfOrder = "0"
+CourseList = []
 
 [physics910]
 mfDegree = ""
@@ -1494,6 +1505,7 @@ mfParticipants = "ca. 100"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
 mfOrder = "0"
+CourseList = []
 
 [physics920]
 mfDegree = ""
@@ -1513,6 +1525,7 @@ mfParticipants = "ca. 100"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
 mfOrder = "0"
+CourseList = []
 
 [physics930]
 mfDegree = ""
@@ -1532,4 +1545,5 @@ mfParticipants = "ca. 100"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
 mfOrder = "0"
+CourseList = []
 

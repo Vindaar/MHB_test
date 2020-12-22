@@ -1,3 +1,4 @@
+ModuleList = ["astro800", "physics601", "astro608", "astro810", "astro820", "astro840", "astro850", "astro830", "astro940", "astro950", "astro960"]
 [astro800]
 mfDegree = ""
 mfDegreeLang = "M.Sc. in Astrophysics (PO von 2014)"
@@ -25,6 +26,7 @@ mfNotes = '''*This Module is compulsory for students who have not had any introd
 Bachelor study course.
 '''
 mfOrder = "0"
+CourseList = ["astro801"]
 [astro800.Courses.astro801]
 cfTitle = "Introduction to Astrophysics"
 cfNum = "astro801"
@@ -73,6 +75,7 @@ mfParticipants = "ca. 100"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
 mfOrder = "0"
+CourseList = ["physics601"]
 [physics601.Courses.physics601]
 cfTitle = "Advanced Laboratory Course"
 cfNum = "physics601"
@@ -115,6 +118,7 @@ mfParticipants = "ca. 100"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
 mfOrder = "0"
+CourseList = ["astro608"]
 [astro608.Courses.astro608]
 cfTitle = "Theoretical Astrophysics"
 cfNum = "astro608"
@@ -187,6 +191,7 @@ mfParticipants = "ca. 100"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
 mfOrder = "0"
+CourseList = ["astro811", "astro811", "astro812"]
 [astro810.Courses.astro811]
 cfTitle = '''Stars and Stellar Evolution
 
@@ -254,6 +259,7 @@ mfParticipants = "ca. 100"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
 mfOrder = "0"
+CourseList = ["astro821", "astro822", "astro822"]
 [astro820.Courses.astro821]
 cfTitle = "Astrophysics of Galaxies"
 cfNum = "astro821"
@@ -329,6 +335,7 @@ mfParticipants = "ca. 100"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = "The students must obtain 18 CP in all out of the modules astro840 and astro850."
 mfOrder = "0"
+CourseList = []
 
 [astro850]
 mfDegree = ""
@@ -348,6 +355,7 @@ mfParticipants = "ca. 100"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = "The students must obtain 18 CP in all out of the modules astro840 and astro850."
 mfOrder = "0"
+CourseList = []
 
 [astro830]
 mfDegree = ""
@@ -370,6 +378,7 @@ mfParticipants = "ca. 100"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = "former astro890"
 mfOrder = "0"
+CourseList = []
 
 [astro940]
 mfDegree = ""
@@ -389,6 +398,7 @@ mfParticipants = "ca. 100"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
 mfOrder = "0"
+CourseList = []
 
 [astro950]
 mfDegree = ""
@@ -408,6 +418,7 @@ mfParticipants = "ca. 100"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
 mfOrder = "0"
+CourseList = []
 
 [astro960]
 mfDegree = ""
@@ -430,4 +441,5 @@ mfParticipants = "ca. 100"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
 mfOrder = "0"
+CourseList = []
 

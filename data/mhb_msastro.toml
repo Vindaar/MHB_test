@@ -1,3 +1,4 @@
+ModuleList = ["astro810", "physics600", "physics605", "astro800", "astro830", "astro820", "astro840", "astro850", "astro890", "astro940", "astro950", "astro960", "", "physics600", "", "astro840", "astro850", "astro830", "physics600", ""]
 [astro810]
 mfDegree = ""
 mfDegreeLang = "M.Sc. in Astrophysics (PO von 2006)"
@@ -19,6 +20,7 @@ mfParticipants = "ca. 100"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
 mfOrder = "0"
+CourseList = ["astro811", "astro811", "astro812"]
 [astro810.Courses.astro811]
 cfTitle = '''Stars and Stellar Evolution
 
@@ -89,6 +91,7 @@ mfParticipants = "ca. 100"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
 mfOrder = "0"
+CourseList = ["physics601"]
 [physics600.Courses.physics601]
 cfTitle = "Advanced Laboratory Course"
 cfNum = "physics601"
@@ -131,6 +134,7 @@ mfParticipants = "ca. 100"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = "Note: When the student has (upon admission) demonstrated satisfactory knowledge of Advanced Quantum Theory already, the class Advanced Theoretical Physics may be taken instead"
 mfOrder = "0"
+CourseList = ["physics606", "physics607"]
 [physics605.Courses.physics606]
 cfTitle = "Advanced Quantum Theory"
 cfNum = "physics606"
@@ -247,6 +251,7 @@ mfNotes = '''*This Module is compulsory for students who have not had any introd
 Bachelor study course.
 '''
 mfOrder = "0"
+CourseList = ["astro801"]
 [astro800.Courses.astro801]
 cfTitle = "Introduction to Astrophysics"
 cfNum = "astro801"
@@ -292,6 +297,7 @@ mfParticipants = "ca. 100"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = "The students must obtain 18 CP in all out of the modules astro830, -840, -850."
 mfOrder = "0"
+CourseList = []
 
 [astro820]
 mfDegree = ""
@@ -311,6 +317,7 @@ mfParticipants = "ca. 100"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
 mfOrder = "0"
+CourseList = ["astro821", "astro822", "astro822"]
 [astro820.Courses.astro821]
 cfTitle = "Astrophysics of Galaxies"
 cfNum = "astro821"
@@ -386,6 +393,7 @@ mfParticipants = "ca. 100"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = "The students must obtain 18 CP in all out of the modules astro830, -840, -850."
 mfOrder = "0"
+CourseList = []
 
 [astro850]
 mfDegree = ""
@@ -408,6 +416,7 @@ mfParticipants = "ca. 100"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = "The students must obtain 18 CP in all out of the modules astro830, -840, -850."
 mfOrder = "0"
+CourseList = []
 
 [astro890]
 mfDegree = ""
@@ -430,6 +439,7 @@ mfParticipants = "ca. 100"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
 mfOrder = "0"
+CourseList = ["astro891", "astro892", "astro893", "astro894"]
 [astro890.Courses.astro891]
 cfTitle = "Seminar on Cosmology"
 cfNum = "astro891"
@@ -529,6 +539,7 @@ mfParticipants = "ca. 100"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
 mfOrder = "0"
+CourseList = []
 
 [astro950]
 mfDegree = ""
@@ -548,6 +559,7 @@ mfParticipants = "ca. 100"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
 mfOrder = "0"
+CourseList = []
 
 [astro960]
 mfDegree = ""
@@ -570,6 +582,7 @@ mfParticipants = "ca. 100"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
 mfOrder = "0"
+CourseList = []
 
 []
 mfDegree = ""
@@ -589,6 +602,7 @@ mfParticipants = ""
 mfSignup = ""
 mfNotes = ""
 mfOrder = "0"
+CourseList = ["Astrophysics II", "Star Formation", "Galaxy Dynamics", "AGN", "MethExpAstro", "FTA"]
 [Courses."Astrophysics II"]
 cfTitle = "Astrophysics II (MA)"
 cfNum = "Astrophysics II"
