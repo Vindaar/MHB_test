@@ -1,0 +1,70 @@
+<article class="markdown book-post">
+  {{ with .File }}
+
+    {{/* Preamble and definitions */}}
+
+    {{ $thisfile := path.Base .Dir }}
+    {{ $xyz := "math340" }}
+
+    {{/*
+    {{ printf "%T" $thisfile }}
+    {{ printf "%T" $xyz }}
+    */}}
+    {{ $langmap := "mhb_bsphysik_langmap" }}
+    {{ $data := "mhb_bsphysik" }}
+
+    {{ $fileMap := (index $.Site.Data $langmap) }}
+    {{ $fileDict := (index $.Site.Data $data) }}
+
+    {{ $map := (index $fileMap "ModuleFields") }}
+    {{ $mapCourse := (index $fileMap "CourseFields") }}
+    {{ $dict := (index $fileDict $thisfile) }}
+
+    <h1> {{ $dict.mfTitle | markdownify }} - {{ $dict.mfNum | markdownify }} </h1>
+
+    {{ $header := (dict $map.mfNum $dict.mfNum) }}
+
+    {{ $body := (dict $map.mfCP $dict.mfCP $map.mfCategory $dict.mfCategory $map.mfSemester $dict.mfSemester) }}
+
+    {{ partial "genTable.html" (dict "Head" $header "Body" $body) }}
+
+    <h3> {{ $map.mfTitle }}: {{ $dict.mfTitle }} </h3>
+
+    <em> {{ $map.mfParts }}: </em>
+
+    {{ $header = slice "Nr" }}
+
+    {{ $rowFields := (slice "cfTitle" "cfNum" "cfCP" "cfKindShort" "cfWorkload" "cfSemester") }}
+    {{/* Read the header */}}
+    {{ $header := $header | append (partial "getFields.html" (dict "Map" $mapCourse "Data" $rowFields)) }}
+
+    {{ $tabBody := partial "getCourseFields.html" (dict "Map" $dict "Fields" $rowFields)}}
+
+    {{ $tabBody = dict "Head" $header "Body" $tabBody }}
+
+    {{ partial "genCourseTable.html" $tabBody }}
+
+    {{/* Finally read all of the last key/value pairs and emit */}}
+
+    {{ $cntFields := (slice "mfRequirements" "mfPreparation" "mfContent" "mfGoals" "mfFormalities" "mfLength" "mfParticipants" "mfSignup" "mfNotes") }}
+
+    {{ $body = partial "getMapDictFields.html" (dict "Map" $map "Dict" $dict "Fields" $cntFields) }}
+
+    {{ range $el := $body }}
+      {{ range $key, $val := $el }}
+        <b> {{ $key | markdownify }}: </b>
+        {{ $val | markdownify }}
+        <br> <br>
+      {{ end }}
+    {{ end  }}
+
+    {{/*
+    {{ define "T1" }}
+    fufufufu
+    {{ . }}
+    {{ template "T1" "fefefe" }}
+    */}}
+
+  {{ end }}
+
+</article>

@@ -1,0 +1,14 @@
+{{ $result := dict }}
+{{ $map := .Map }}
+{{ range $idx, $course := $map.CourseList }}
+  {{/* Add the "Nr." field manually */}}
+  {{ $row := slice }}
+  {{ $row = $row | append (add $idx 1) }}
+  {{ range $el := $.Fields }}
+    {{ $courseMap := (index $map.Courses $course) }}
+    {{ $row = $row | append (index $courseMap $el) }}
+  {{ end }}
+  {{ $rowDict := dict $course $row }}
+  {{ $result = merge $result $rowDict }}
+{{ end }}
+{{ return $result }}

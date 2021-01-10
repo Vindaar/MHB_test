@@ -1,0 +1,19 @@
+<table>
+  <thead>
+    {{ $dict := .Head }}
+    <tr>
+      {{ range $val := $dict }}
+        <th> <b> {{ $val }} </b> </th>
+      {{ end }}
+    </tr>
+  </thead>
+  <tbody>
+    {{ range $dict := .Body }}
+      <tr>
+        {{ range $val := $dict }}
+          <td> {{ $val }} </td>
+        {{ end }}
+      </tr>
+    {{ end }}
+  </tbody>
+</table>

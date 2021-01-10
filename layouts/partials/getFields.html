@@ -1,0 +1,6 @@
+{{ $result := slice }}
+{{ $map := .Map }}
+{{ range $el := .Data }}
+  {{ $result = $result | append (index $map $el) }}
+{{ end }}
+{{ return $result }}

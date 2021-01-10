@@ -1,0 +1,10 @@
+{{ $map := .Map }}
+{{ $dict := .Dict }}
+{{ $fields := .Fields }}
+{{ $result := slice }}
+{{ range $val := $fields }}
+  {{ if (isset $dict $val) }} }}
+    {{ $result = $result | append (dict (index $map $val) (index $dict $val)) }}
+  {{ end }}
+{{ end }}
+{{ return $result }}

@@ -1,0 +1,21 @@
+
+<table>
+  <thead>
+    {{ range $key, $val := .Head }}
+    <tr>
+      <th> <em> <b> {{ $key }} </b> </em> </th>
+      <th> <b> {{ $val }} </b> </th>
+    </tr>
+    {{ end }}
+  </thead>
+
+  <tbody>
+    {{ range $key, $val := .Body }}
+    <tr>
+      <td> <em> {{ $key }} </em> </td>
+      <td> {{ $val }} </td>
+    </tr>
+    {{ end }}
+  </tbody>
+
+</table>
