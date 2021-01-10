@@ -57,7 +57,7 @@ cfGoals = '''Erarbeitung von Physikalischen Grundkenntnissen und Ihre Anwendung 
 
 Vorbereitung auf die Durchführung eigener praktischer Experimente im physikalischen Praktikum.
 '''
-cfContent = "Grundlagen (Größen, Einheiten, Statistik und Fehlerrechnung), Bewegung in einer Dimension (Geschwindigkeit, Beschleunigung, diffenzieren, integrieren), Bewegung in zwei Dimensionen (Vektoren, Wurfbahnen), Newton'sche Gesetze (Kraftgesetze, Bewegungsgleichungen, Lösung in einfachen Fällen), Erhaltungssätze (Arbeit, Energie, Impuls, Stoßprozesse), Rotationen und Kreisbewegungen (Vektorprodukt, Drehmoment, Drehimpuls,Trägheitsmoment),Gravitation (Gravitationsgesetz, Kepler'sche Gesetze), Rotierende Bezugssysteme (Zentrifugalkraft, Corioliskraft), Schwingungen (einfach, gedämpft, erzwungen, Resonanz), Elastische Eigenschaften von Festkörpern (Kompressionsmodul, Schermodul), Wellen (mechanisch, akustisch), Fluide (Druck, Auftrieb, Strömungen, Bernoulli)."
+cfContent = "Grundlagen (Größen, Einheiten, Statistik und Fehlerrechnung), Bewegung in einer Dimension (Geschwindigkeit, Beschleunigung, diffenzieren, integrieren), Bewegung in zwei Dimensionen (Vektoren, Wurfbahnen), Newton\'sche Gesetze (Kraftgesetze, Bewegungsgleichungen, Lösung in einfachen Fällen), Erhaltungssätze (Arbeit, Energie, Impuls, Stoßprozesse), Rotationen und Kreisbewegungen (Vektorprodukt, Drehmoment, Drehimpuls,Trägheitsmoment),Gravitation (Gravitationsgesetz, Kepler\'sche Gesetze), Rotierende Bezugssysteme (Zentrifugalkraft, Corioliskraft), Schwingungen (einfach, gedämpft, erzwungen, Resonanz), Elastische Eigenschaften von Festkörpern (Kompressionsmodul, Schermodul), Wellen (mechanisch, akustisch), Fluide (Druck, Auftrieb, Strömungen, Bernoulli)."
 cfLiterature = '''W. Bauer, W. Benenson G. Westfall : CliXX Physik CD-Rom (Harri Deutsch, Frankfurt am Main 2004)
 
 E.W. Otten: Repetitorium Experimentalphysik (Springer, Heidelberg 2. Aufl. 2002)
@@ -90,7 +90,7 @@ cfGoals = '''Erarbeitung von Physikalischen Grundkenntnissen und Ihre Anwendung 
 
 Vorbereitung auf die Durchführung eigener praktischer Experimente im physikalischen Praktikum.
 '''
-cfContent = "Wärmelehre (Temperatur, Wärme, Thermodynamik, Zustandsänderungen, Kreisprozesse) , Elektrostatik (Ladung, Coulomb-Gesetz, elektrisches Feld, Dipol, Kondensator, Kapazität, Dielektrika) Elektrische Leitung (Leitungsmechanismen, Stromdichte, Ladungserhaltung, Ohm'sches Gesetz, Stromkreise) Magnetismus (Ströme als Ursache, Felder, magn. Dipol, Spule, Materie in magnetischen Feldern) Veränderliche Ströme (Induktion, Transformator, Wechselstromkreis, Schwingkreis) Elektromagnetische Wellen (Hertz'scher Dipol, Polarisation, Wärmestrahlung) Ursprünge der Quantentheorie (Photonen, Atomaufbau, Spektrallinien, Kernspinresonanz), Kern-und Teilchenphysik (Kernzerfälle, Aufbau der Materie, fundamentale Wechselwirkungen), Optik (Wellenoptik und Photonen, Interferenz an Spalt und Gitter, Auflösungsvermögen, Strahlenoptik, Linsen und optische Instrumente)."
+cfContent = "Wärmelehre (Temperatur, Wärme, Thermodynamik, Zustandsänderungen, Kreisprozesse) , Elektrostatik (Ladung, Coulomb-Gesetz, elektrisches Feld, Dipol, Kondensator, Kapazität, Dielektrika) Elektrische Leitung (Leitungsmechanismen, Stromdichte, Ladungserhaltung, Ohm\'sches Gesetz, Stromkreise) Magnetismus (Ströme als Ursache, Felder, magn. Dipol, Spule, Materie in magnetischen Feldern) Veränderliche Ströme (Induktion, Transformator, Wechselstromkreis, Schwingkreis) Elektromagnetische Wellen (Hertz\'scher Dipol, Polarisation, Wärmestrahlung) Ursprünge der Quantentheorie (Photonen, Atomaufbau, Spektrallinien, Kernspinresonanz), Kern-und Teilchenphysik (Kernzerfälle, Aufbau der Materie, fundamentale Wechselwirkungen), Optik (Wellenoptik und Photonen, Interferenz an Spalt und Gitter, Auflösungsvermögen, Strahlenoptik, Linsen und optische Instrumente)."
 cfLiterature = '''W. Bauer, W. Benenson G. Westfall : CliXX Physik CD-Rom (Harri Deutsch, Frankfurt am Main 2004)
 
 E.W. Otten: Repetitorium Experimentalphysik (Springer, Heidelberg 2. Aufl. 2002)
@@ -140,7 +140,7 @@ Elektrisches Feld, Materie im elektrischen Feld, Magnetostatik, Elektromagnetism
 
 - Optik: Geometrische Optik, Optische Instrumente, Wellenoptik, Elektronenoptik, Röntgenstrahlen
 
-- Atomphysik: Aufbau des Atoms, Bohr'sches Atommodell, Absorption und Strahlung
+- Atomphysik: Aufbau des Atoms, Bohr\'sches Atommodell, Absorption und Strahlung
 
 - Kern und Elementarteilchenphysik: Aufbau und Bindungsenergie der Kerne, radioaktiver Zerfall
 '''

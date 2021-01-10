@@ -481,7 +481,7 @@ cfLecturer = "Profs. of astronomy"
 cfMail = "astro@uni-bonn.de"
 
 [astro890.Courses.astro893]
-cfTitle = "Seminar on Stellar Systems: \"Star Clusters and Dwarf Galaxies''"
+cfTitle = "Seminar on Stellar Systems: \"Star Clusters and Dwarf Galaxies\'\'"
 cfNum = "astro893"
 cfCP = "4"
 cfWorkload = "2"
@@ -616,7 +616,7 @@ cfPreparation = "Astrophysics I"
 cfFormalities = "written test"
 cfLength = "1 semester"
 cfGoals = "The student will gain the ability to apply fundamental concepts of physics to describe astrophysical phenomena and will obtain an overview of the experimental foundations of our knowledge about the cosmos. The courses will enable him to understand the fundamental principles of the universe and its history. The courses also give an introduction to topics of active research in astrophysics and thus prepares the students towards their own research activity within the master thesis."
-cfContent = '''Based on the introductory course 'Astrophysics I' in the Bachelor program this course deepens the understanding in selected topical areas of relevance. These are:
+cfContent = '''Based on the introductory course \'Astrophysics I\' in the Bachelor program this course deepens the understanding in selected topical areas of relevance. These are:
 
 Interstellar medium: molecular clouds, HII regions, photon dominated regions, shock waves, radiation processes, radiative transfer, astrochemistry
 
