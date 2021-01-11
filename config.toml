@@ -4,7 +4,7 @@
 # different pages completely for different languages?
 languageCode = "de-de"
 # languageCode = "de-de"
-title = "Modulhandbuch example"
+title = "Modulhandbuch Physik/Astronomie der Universität Bonn"
 theme = "book"
 defaultContentLanguage = "de"
 
