@@ -369,7 +369,7 @@ cfLength = "1 Semester"
 cfGoals = "Vermittlung der mathematischen Grundbegriffe und Methoden, erforderlich für die - theoretischen - Physikvorlesungen nach dem 3. Semester"
 cfContent = '''Funktionentheorie: Potenzreihen, Laurentreihen, Residuensatz, spezielle Funktionen.
 
-Partielle Differentialgleichungen + Variationsrechnung. Harmonische Funktionen, Poissongleichung, Green\'sche Funktion
+Partielle Differentialgleichungen + Variationsrechnung. Harmonische Funktionen, Poissongleichung, Green'sche Funktion
 '''
 cfLiterature = '''G.B. Arfken, H.J. Weber; Mathematical Methods for Phycisists (Academic Press 6. Aufl. 2005)
 

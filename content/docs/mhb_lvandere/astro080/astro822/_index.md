@@ -1,6 +1,10 @@
----
-weight: 10
-title: "astro822"
-tags: ["LVANDERE", "astro822", "astro080"]
-categories: ["course"]
----
++++
+weight = 10
+title = "astro822"
+degree = "lvandere"
+parent = "astro080"
+tags = ["lvandere", "astro822", "astro080"]
+categories = ["course"]
++++
+
+{{< genCoursePage >}}

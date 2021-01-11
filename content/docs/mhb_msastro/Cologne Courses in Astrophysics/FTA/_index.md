@@ -1,0 +1,10 @@
++++
+weight = 10
+title = "FTA"
+degree = "msastro"
+parent = "Cologne Courses in Astrophysics"
+tags = ["msastro", "FTA", "Cologne Courses in Astrophysics"]
+categories = ["course"]
++++
+
+{{< genCoursePage >}}

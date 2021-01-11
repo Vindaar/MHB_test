@@ -1,6 +1,9 @@
----
-weight: 10
-title: "astro830"
-tags: ["MSASTRO2", "astro830"]
-categories: ["module"]
----
++++
+weight = 10
+title = "astro830"
+degree = "msastro2"
+tags = ["msastro2", "astro830"]
+categories = ["module"]
++++
+
+{{< genModulePage >}}

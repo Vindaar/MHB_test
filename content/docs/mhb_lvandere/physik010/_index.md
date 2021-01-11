@@ -1,6 +1,9 @@
----
-weight: 10
-title: "physik010"
-tags: ["LVANDERE", "physik010"]
-categories: ["module"]
----
++++
+weight = 10
+title = "physik010"
+degree = "lvandere"
+tags = ["lvandere", "physik010"]
+categories = ["module"]
++++
+
+{{< genModulePage >}}

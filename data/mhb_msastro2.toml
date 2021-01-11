@@ -191,7 +191,7 @@ mfParticipants = "ca. 100"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
 mfOrder = "0"
-CourseList = ["astro811", "astro811", "astro812"]
+CourseList = ["astro811", "astro812"]
 [astro810.Courses.astro811]
 cfTitle = '''Stars and Stellar Evolution
 
@@ -259,7 +259,7 @@ mfParticipants = "ca. 100"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
 mfOrder = "0"
-CourseList = ["astro821", "astro822", "astro822"]
+CourseList = ["astro821", "astro822"]
 [astro820.Courses.astro821]
 cfTitle = "Astrophysics of Galaxies"
 cfNum = "astro821"

@@ -1,6 +1,9 @@
----
-weight: 10
-title: "physics910"
-tags: ["MSPHYSIK", "physics910"]
-categories: ["module"]
----
++++
+weight = 10
+title = "physics910"
+degree = "msphysik"
+tags = ["msphysik", "physics910"]
+categories = ["module"]
++++
+
+{{< genModulePage >}}

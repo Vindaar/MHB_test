@@ -1,6 +1,9 @@
----
-weight: 10
-title: "ECThPhysics"
-tags: ["MSPHYSIK2", "ECThPhysics"]
-categories: ["module"]
----
++++
+weight = 10
+title = "ECThPhysics"
+degree = "msphysik2"
+tags = ["msphysik2", "ECThPhysics"]
+categories = ["module"]
++++
+
+{{< genModulePage >}}

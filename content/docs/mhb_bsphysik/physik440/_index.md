@@ -1,6 +1,9 @@
----
-weight: 10
-title: "physik440"
-tags: ["BSPHYSIK", "physik440"]
-categories: ["module"]
----
++++
+weight = 10
+title = "physik440"
+degree = "bsphysik"
+tags = ["bsphysik", "physik440"]
+categories = ["module"]
++++
+
+{{< genModulePage >}}

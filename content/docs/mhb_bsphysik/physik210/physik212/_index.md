@@ -1,6 +1,10 @@
----
-weight: 10
-title: "physik212"
-tags: ["BSPHYSIK", "physik212", "physik210"]
-categories: ["course"]
----
++++
+weight = 10
+title = "physik212"
+degree = "bsphysik"
+parent = "physik210"
+tags = ["bsphysik", "physik212", "physik210"]
+categories = ["course"]
++++
+
+{{< genCoursePage >}}
