@@ -1,6 +1,6 @@
 {
-  "name": "Modulhandbuch example",
-  "short_name": "Modulhandbuch example",
+  "name": "Modulhandbuch Physik/Astronomie der Universität Bonn",
+  "short_name": "Modulhandbuch Physik/Astronomie der Universität Bonn",
   "start_url": "/MHB_test/",
   "scope": "/MHB_test/",
   "display": "standalone",
