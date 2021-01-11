@@ -1,3 +1,11 @@
+{{/*
+Given two maps "Map" and "Dict" as well as a number of "Fields" as a dictionary,
+this partial template returns a slice of dictionaries.
+
+Each dictionary has key/value pairs of: (Map.Fields : Dict.Fields).
+Thus each "Field" must be contained in both Map and Dict. Essentially the result
+is to be understood as a vector of tuples.
+*/}}
 {{ $map := .Map }}
 {{ $dict := .Dict }}
 {{ $fields := .Fields }}

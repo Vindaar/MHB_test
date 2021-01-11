@@ -1,0 +1,57 @@
+{{/*
+Generates the page for a single course (the child of a module).
+*/}}
+
+<article class="markdown book-post">
+  {{/* Preamble and definitions */}}
+  {{ $fname := .Page.Params.Title }}
+  {{ $fnameParent := .Page.Params.Parent }}
+
+  {{ $data := printf "%s_%s" "mhb" $.Page.Params.Degree }}
+  {{ $langmap := printf "%s_%s" $data "langmap" }}
+
+  {{ $fileMap := (index $.Site.Data $langmap) }}
+  {{ $fileDict := (index $.Site.Data $data) }}
+
+  {{ $map := (index $fileMap "CourseFields") }}
+  {{ $mapModules := (index $fileMap "ModuleFields") }}
+  {{ $dictParent := (index $fileDict $fnameParent) }}
+  {{ $dict := (index (index $fileDict $fnameParent).Courses $fname) }}
+
+  {{/* Title of the page */}}
+  <h2> {{ $dict.cfTitle | markdownify }} - {{ $dict.cfNum | markdownify }} </h2>
+
+  <b>{{ $mapModules.mfDegree | markdownify }}</b> - {{ $dictParent.mfDegreeLang | markdownify }}
+
+  {{/* Generate first table about parent module */}}
+  {{ $header := (dict $mapModules.mfTitle $dictParent.mfTitle) }}
+  {{ $body := (dict $mapModules.mfNum $dictParent.mfNum) }}
+  {{/* Generate module overview table */}}
+  {{ partial "genTable.html" (dict "Head" $header "Body" $body) }}
+  {{/* Generate second table about this course */}}
+  {{ $header = (dict $map.cfTitle $dict.cfTitle) }}
+  {{ $body = (dict $map.cfNum $dict.cfNum) }}
+  {{ partial "genTable.html" (dict "Head" $header "Body" $body) }}
+
+  {{/* Read the header */}}
+  {{ $rowFields := (slice "cfCategory" "cfKind" "cfLanguage" "cfWorkload" "cfCP" "cfSemester") }}
+  {{ $header = (partial "getFields.html" (dict "Map" $map "Data" $rowFields)) }}
+  {{/* Generate the table listing all courses in this module */}}
+  {{ $tabBody := partial "getCourseDescr.html" (dict "Map" $dict "Fields" $rowFields)}}
+  {{ $tabBody = dict "Head" $header "Body" $tabBody }}
+  {{ partial "genCourseTable.html" $tabBody }}
+
+  {{/* Finally read all of the last key/value pairs and emit */}}
+  {{ $cntFields := (slice "cfRequirements" "cfPreparation" "cfFormalities" "cfLength" "cfGoals" "cfContent" "cfLiterature") }}
+  {{ $body = partial "getMapDictFields.html" (dict "Map" $map "Dict" $dict "Fields" $cntFields) }}
+  {{ range $el := $body }}
+    {{ range $key, $val := $el }}
+      <b> {{ $key | markdownify }}: </b>
+      {{ $val | markdownify }}
+      <br> <br>
+    {{ end }}
+  {{ end  }}
+
+
+
+</article>

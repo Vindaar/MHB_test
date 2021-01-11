@@ -1,8 +1,19 @@
+{{/*
+Given a dictionary containing "Head" and "Body" generates a table
+with N columns.
+
+Head needs to be a slice. The columns of the table are just all elements
+of the Head slice.
+
+Body needs to be a dictionary containing slices for values. Each row
+corresponds to one key of Body containing the values for each slice
+as the column values.
+*/}}
 <table>
   <thead>
-    {{ $dict := .Head }}
+    {{ $slice := .Head }}
     <tr>
-      {{ range $val := $dict }}
+      {{ range $val := $slice }}
         <th> <b> {{ $val }} </b> </th>
       {{ end }}
     </tr>

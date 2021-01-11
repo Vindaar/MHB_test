@@ -1,4 +1,13 @@
+{{/*
+Given a dictionary containing "Head" and "Body" generates a table
+with 2 columns. Head and Body need to be dictionaries themself.
+The resulting table will contain rows with:
+- 1st column: key of Head/Body table
+- 2nd column: value of Head/Body table
 
+For the Body we simply walk over all key/value pairs of the dictionary
+and emit one row for each.
+*/}}
 <table>
   <thead>
     {{ range $key, $val := .Head }}

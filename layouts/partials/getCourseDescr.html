@@ -1,0 +1,18 @@
+{{/*
+Generates a dictionary compatible with the `getCourseFields.html` partial
+template.
+
+This means the result is a dictionary with one key "Course" (a dummy of
+sorts) with the value of that key being a slice containing the values for
+the given Fields read from the given Map.
+*/}}
+{{ $result := dict }}
+{{ $map := .Map }}
+{{ $row := slice }}
+{{ range $el := $.Fields }}
+  {{ $row = $row | append (index $map $el) }}
+{{ end }}
+{{/* store as dummy "Course" for genCouseTable.html partial */}}
+{{ $rowDict := dict "Course" $row }}
+{{ $result = merge $result $rowDict }}
+{{ return $result }}
