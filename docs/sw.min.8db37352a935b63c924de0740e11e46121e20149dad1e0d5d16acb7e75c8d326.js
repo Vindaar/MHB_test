@@ -1,1 +1,0 @@
-if(navigator.serviceWorker){navigator.serviceWorker.register("/MHB_test/sw.js",{scope:"/MHB_test/"});}
