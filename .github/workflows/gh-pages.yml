@@ -20,7 +20,7 @@ jobs:
 
       - name: Build
         run: |
-          hugo --minify
+          hugo --minify --theme book
           tar czf page.tar.gz public
 
       - name: Upload page
