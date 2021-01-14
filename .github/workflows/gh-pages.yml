@@ -1,12 +1,10 @@
 name: github pages
 
 on:
-  push:
-    branches:
-      - master
+  push
 
 jobs:
-  deploy:
+  gen-hugo:
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
@@ -23,9 +21,29 @@ jobs:
       - name: Build
         run: |
           hugo --minify
+          tar czf page.tar.gz public
+
+      - name: Upload page
+        uses: actions/upload-artifact@v2
+        with:
+          name: page
+          path: page.tar.gz
+          retention-days: 2
+
+  deploy-page:
+    needs: [ gen-hugo ]
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Download all artifacts
+        uses: actions/download-artifact@v2
+
+      - name: Prepare page tree
+        run: |
+          tar xf page/page.tar.gz
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
+        if: endsWith(github.event.ref, '/master')
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
