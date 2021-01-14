@@ -1,12 +1,43 @@
 * Simple example for the Modulhandbuch
 
-This is a simple example of what the future Modulhandbuch might look
+This is a simple example of what the future Modulhandbuch will look
 like. It's hosted using Github pages:
 
 [[https://vindaar.github.io/MHB_test]]
 
-The structure of each Modulhandbuch is simply represented in a tree of
-directories containing Markdown files. An excerpt:
+
+** Project structure
+
+There is one "Modulhandbuch" for each degree and for each
+"Prüfungsordnung". The list of current hand books is:
+
+- =BSPHYSIK=: B.Sc. of Physics (Prüfungsordngung of 2006)
+- =BSPHYSIK2=: B.Sc. of Physics (Prüfungsordngung of 2014)
+- =MSPHYSIK=: M.Sc. of Physics (Prüfungsordngung of 2006)
+- =MSPHYSIK=: M.Sc. of Physics (Prüfungsordngung of 2014)
+- =MSASTRO=: M.Sc. of Astrophysics (Prüfungsordngung of 2006) 
+- =MSASTRO2=: M.Sc. of Astrophysics (Prüfungsordngung of 2014)
+- =LVANDERE=: Lehrveranstaltungen anderer Fächer
+  - contains physics modules that may be taken by students as the
+    first elective module (TODO: what's the term for those modules?)
+  - contains physics modules people from other degrees might take 
+
+For each degree there is one subdirectory in the =content= directory
+starting with =mhb_<degree>= where =<degree>= is the notation given above.
+
+The structure of each Modulhandbuch is represented in a tree of directories
+containing containing =_index.md= markdown files. For all courses there is
+another subdirectory, which then again contains such a markdown file.
+
+In Hugo these =_index.md= files are called [[https://gohugo.io/templates/lists/][list files]], i.e. their goal normally
+would be to list all posts found in a given directory. In our use case we
+(ab-)use them to map our module / course structure directly to a Hugo structure.
+
+TODO: an alternative / possibly an improvement would be to use a regular "post"
+file (i.e. a named markdown file within a directory e.g. =physik110=, which
+contains =physik111.md=). 
+
+An example tree as such looks like:
 #+begin_src sh
 basti at void in ~/src/tinyIap/staticExample/content/docs/mhb_bsphysik ツ tree
 .                       
@@ -32,6 +63,70 @@ basti at void in ~/src/tinyIap/staticExample/content/docs/mhb_bsphysik ツ tree
 │       └── _index.md
 ...
 #+end_src
+
+*** Data and page generation
+
+Each of these =_index.md= files itself is essentially empty, aside from a few
+pieces of information about the name of the module/course and some optional
+tags.
+
+Consider the list file of the =physik110= module:
+#+begin_src markdown
++++
+weight = 10
+title = "physik110"
+degree = "bsphysik"
+tags = ["bsphysik", "physik110"]
+categories = ["module"]
++++
+
+{{< genModulePage >}}
+#+end_src
+
+The part within the =+++= is called the [[https://gohugo.io/content-management/front-matter/]["front matter"]] in Hugo and it may
+contain metadata about each file. The fact that it starts and stops using =+++=
+indicates that the front matter body is written in [[https://github.com/toml-lang/toml][TOML]] (Hugo supports TOML,
+YAML, JSON and Org mode). 
+
+A short explanation of the fields present:
+- =weight=: the associated weight for this module. The weights are used to
+  determine the order of the modules in the menu
+  TODO: assign correct weights to all modules!
+- =title=: The name of the module / course
+- =degree=: the name of the degree in the notation from above (e.g. =BSPHYSIK=)
+  in lowercase letters
+- =tags=: 
+  - for modules: the degree and the module name
+  - for courses: the degree, the course name and its parent module
+- =categories=: the kind of this file: a =module= or a =course=
+
+Here the =tags= and =categories= fields are [[https://gohugo.io/content-management/taxonomies/][taxonomies]] in Hugo terms. These
+essentially just create auto generated pages, which list all pages that have the
+same value (same tag or same category). These two are default taxonomies,
+additional ones can be added.
+
+Finally, the line containing ={{< genModulePage >}}= is a [[https://golang.org/pkg/text/template/][Go text template]] used
+for string interpolation, which Hugo is essentially built on top of by using
+such string interpolation code to build HTML pages from individual snippets and
+template functions. 
+In particular a template showing up in a *markdown file* is a [[https://gohugo.io/content-management/shortcodes/][Hugo shortcode]] (in
+this case a [[https://gohugo.io/templates/shortcode-templates/][custom shortcode]]). 
+
+From a programming perspective shortcodes and in general Go templates can be
+considered a crude programming language. A shortcode is a function, which can
+take arguments and returns markdown or HTML strings.
+
+Shortcodes however are pretty restricted. The majority of Hugo templating is
+done via full [[https://golang.org/pkg/html/template/][HTML focussed templates]] (a Go library to build HTML using the
+above mentioned Go text templates).
+
+*** TODO 
+
+- finish the above:
+  - partial templates: what are they, where are they
+  - distinguish genCoursePage and genModulePage
+  - give brief idea about how they work
+- explain the data model
 
 ** Neat features
 
