@@ -20,23 +20,6 @@ enableGitInfo = true
 [markup.tableOfContents]
   startLevel = 1
 
-# Multi-lingual mode config
-# There are different options to translate files
-# See https://gohugo.io/content-management/multilingual/#translation-by-filename
-# And https://gohugo.io/content-management/multilingual/#translation-by-content-directory
-[languages]
-
-[languages.de]
-  languageName = 'German'
-  contentDir = 'content'
-  weight = 1
-
-[languages.en]
-  languageName = 'English'
-  contentDir = 'content.en'
-  weight = 2
-
-
 [menu]
 # [[menu.before]]
 [params]
