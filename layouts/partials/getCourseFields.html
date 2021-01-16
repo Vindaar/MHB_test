@@ -1,22 +1,22 @@
 {{/*
-Returns a dictionary of of all courses (the key) found in the given module
-with all fields of that module stored as a slice (the values of each key).
+Returns a slice of slices of of all courses found in the given module.
+Each element of the result is a slice containing all fields of that
+course.
 
 The first element of each slice is always the current index, which is just
-a counter (+ 1) to enumerate the courses in the module.
+a counter (+ 1) to enumerate the courses in the module. This assumes that the
+order in the TOML file under `CourseList` actually is the desired order!
 */}}
 
-{{ $result := dict }}
+{{ $result := slice }}
 {{ $map := .Map }}
 {{ range $idx, $course := $map.CourseList }}
   {{/* Add the "Nr." field manually */}}
-  {{ $row := slice }}
-  {{ $row = $row | append (add $idx 1) }}
+  {{ $row := slice (add $idx 1) }}
   {{ range $el := $.Fields }}
     {{ $courseMap := (index $map.Courses $course) }}
     {{ $row = $row | append (index $courseMap $el) }}
   {{ end }}
-  {{ $rowDict := dict $course $row }}
-  {{ $result = merge $result $rowDict }}
+  {{ $result = $result | append (slice $row) }}
 {{ end }}
 {{ return $result }}

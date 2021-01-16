@@ -19,9 +19,9 @@ as the column values.
     </tr>
   </thead>
   <tbody>
-    {{ range $dict := .Body }}
+    {{ range $row := .Body }}
       <tr>
-        {{ range $val := $dict }}
+        {{ range $val := $row }}
           <td> {{ $val }} </td>
         {{ end }}
       </tr>
