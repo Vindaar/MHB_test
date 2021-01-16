@@ -1,5 +1,5 @@
 +++
-weight = 10
+weight = 40
 title = "Galaxy Dynamics"
 degree = "msastro"
 parent = "Cologne Courses in Astrophysics"

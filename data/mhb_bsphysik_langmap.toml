@@ -46,4 +46,5 @@ cfKindShort = "Artkurz"
 cfSemester = "Semester"
 cfLecturer = "Dozenten"
 cfMail = "email"
+cfOrder = "Reihenfolge"
 

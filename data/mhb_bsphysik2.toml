@@ -1,6 +1,6 @@
-ModuleList = ["physik110", "physik210", "physik310", "physik510", "math140", "math240", "math340", "physik260", "physik360", "physik460", "physik560", "physik660", "physik540", "physik450", "physik120", "physik130", "physik440", "physik690", "physik410", "physik220", "physik320", "physik420", "physik520", "physik470", "physik670", "physik680", "physik120"]
+ModuleList = ["physik110", "physik120", "physik130", "math140", "physik210", "physik220", "math240", "physik260", "physik310", "physik320", "math340", "physik360", "physik410", "physik420", "physik440", "physik450", "physik460", "physik470", "physik510", "physik520", "physik540", "physik560", "physik660", "physik670", "physik680", "physik690"]
 [physik110]
-mfDegree = ""
+mfDegree = "BSPHYSIK2"
 mfDegreeLang = "B.Sc. in Physik (PO von 2014)"
 mfTitle = "Physik I (Mechanik, Wärmelehre)"
 mfNum = "physik110"
@@ -16,7 +16,7 @@ mfLength = "1 Semester"
 mfParticipants = "ca. 200"
 mfSignup = "0/163"
 mfNotes = ""
-mfOrder = "0"
+mfOrder = "110"
 CourseList = ["physik111"]
 [physik110.Courses.physik111]
 cfTitle = "Physik I (Mechanik, Wärmelehre)"
@@ -63,172 +63,194 @@ cfKindShort = "Vorl. + Üb."
 cfSemester = "WS"
 cfLecturer = "Dozentinnen und Dozenten der Experimentalphysik"
 cfMail = "exphysik@uni-bonn.de"
+cfOrder = "10"
 
 
-[physik210]
-mfDegree = ""
+[physik120]
+mfDegree = "BSPHYSIK2"
 mfDegreeLang = "B.Sc. in Physik (PO von 2014)"
-mfTitle = "Physik II (Elektromagnetismus)"
-mfNum = "physik210"
-mfCP = "7"
-mfCategory = "Pflicht"
-mfSemester = "2."
-mfRequirements = "keine"
-mfPreparation = "keine"
-mfContent = "Elektromagnetismus"
-mfGoals = "Einarbeitung in die Phänomene von Elektrizitätslehre und Magnetismus, elektromagnetische Wellen und damit verwandte Phänomene"
-mfFormalities = "Erfolgreiche Bearbeitung der Übungsaufgaben + bestandene Klausur"
-mfLength = "1 Semester"
-mfParticipants = "ca. 200"
-mfSignup = "0/163"
-mfNotes = ""
-mfOrder = "0"
-CourseList = ["physik211"]
-[physik210.Courses.physik211]
-cfTitle = "Physik II (Elektromagnetismus)"
-cfNum = "physik211"
-cfCP = "7"
-cfWorkload = "4+2"
+mfTitle = "Einführungsveranstaltungen anderer Fächer"
+mfNum = "physik120"
+mfCP = "8*"
+mfCategory = "Wahlpflicht"
+mfSemester = "1.-4."
+mfRequirements = "gemäß gewähltem Modul"
+mfPreparation = "gemäß gewähltem Modul"
+mfContent = "Einführende Lehrveranstaltungen aus anderen Fächern ermöglichen es den Studierenden, Grundlagenwissen in anderen wissenschaftlichen Bereichen zu erwerben. Inhalt und Umfang des Moduls werden durch das jeweilige Fach definiert"
+mfGoals = "Die Studierenden sollen elementare Grundlagen aus anderen Wissensbereichen erarbeiten, um Verständnis für interdisziplinäre Fragestellungen zu erwerben. Sie sollen mit Sachverstand über die Bereiche berichten können"
+mfFormalities = "gemäß gewähltem Modul"
+mfLength = "1 oder 2 Semester"
+mfParticipants = ""
+mfSignup = "8/163"
+mfNotes = "* Die Leistungspunkte müssen in einem Fach erworben werden"
+mfOrder = "120"
+CourseList = ["astro121", "astro122", "astro123", "astro121-123", "siehe Liste"]
+[physik120.Courses.astro121]
+cfTitle = "Einführung in die Astronomie"
+cfNum = "astro121"
+cfCP = "4"
+cfWorkload = "2+1"
 cfKind = "Vorlesung mit Übungen"
-cfCategory = "Pflicht"
+cfCategory = "Wahlpflicht"
 cfLanguage = "deutsch"
 cfRequirements = ""
-cfPreparation = "Physik I (physik110)"
-cfFormalities = "Zulassungsvoraussetzung zur unbenoteten Klausur: erfolgreiche Teilnahme an den Übungen"
+cfPreparation = ""
+cfFormalities = "Voraussetzung zur Teilnahme an der Prüfung (Klausur): erfolgreiche Teilnahme an den Übungen"
 cfLength = "1 Semester"
-cfGoals = "Die zweite Grundvorlesung Experimentalphysik behandelt zunächst die elektrischen Phänomene in Experimenten und in elementarer theoretischer Betrachtung. Im zweiten Teil werden die elektromagnetischen Wechselwirkungen bis zu elektromagnetischen Wellen behandelt, um schließlich die vollständigen Maxwell-Gleichungen zu behandeln, auch in Vorbereitung auf die theoretischen Vorlesungen zur Elektrodynamik."
-cfContent = "Elektrostatik (Ladung, Coulomb-Gesetz, Feld, Dipol, elektrische Struktur der Materie, el. Fluss, Gauß-Gesetz, Poisson-Gleichung, Ladungsverteilung, Kapazität, Vergleich mit Gravitation). Elektrische Leitung (Stromdichte, Ladungserhaltung, Ohmsches Gesetz, Rotation des Vektorfeldes, Stokes-Satz, Stromkreise, Kirchhoff-Gesetze, Leitungsmechanismen). Magnetische Wechselwirkung, (Magnetismus als relativistischer Effekt, Magnetfeld, stationäre Maxwell-Gleichungen, Lorentz-Kraft, Hall-Effekt, Magnetischer Dipol, Vektorpotential, Biot-Savart-Gesetz). Materie in stationären Feldern (induzierte und permanente Dipole, Dielektrikum, Verschiebungsfeld, elektrische Polarisation, magnetische Dipole, H-Feld, Verhalten an Grenzflächen). Zeitabhängige Felder (Induktion, Maxwellscher Verschiebungsstrom, technischer Wechselstrom, Schwingkreise), Elektromagnetische Wellen (Hochfrequenz-Phänomene, Abstrahlung, freie EM-Wellen, Hertz-Dipol, Polarisation, Reflexion). Vollständige Maxwell-Gleichungen, Symmetrie zwischen elektrischen und magnetischen Feldern."
-cfLiterature = '''W. Demtröder; Experimentalphysik 2 (Springer, Heidelberg 4. Aufl. 2008)
+cfGoals = "Die Studierenden werden an die stellare Astronomie herangeführt. Sie lernen die Probleme der Entfernungsbestimmung in der Astronomie kennen und erwerben Kenntnisse über Sterne und Sternentwicklung, einschließlich Phänomene in den Endphasen, wie Planetarische Nebel, Supernovaexplosionen und Schwarze Löcher. Man wird in die Lage versetzt, die Grundlagen der stellaren Astronomie einem Laien zu erklären"
+cfContent = "Teleskope, Instrumente, Detektoren; Himmelsmechanik; Himmel, Planetensystem, Kometen, Meteore; Sonne und Erdklima; Planck-Funktion, Photometrie, Sterne, Entfernungsbestimmung der Sterne, Hertzsprung-Russell-Diagramm; Sternatmosphäre; Sternaufbau und Sternentwicklung, Kernfusionsprozesse; Variable Sterne; Doppelsterne; Sternhaufen und Altersbestimmung; Endstadien der Sterne; Messgeräte der anderen Wellenlängenbereiche; Interstellares Medium, ionisiertes Gas, neutrales Gas und Molekülwolken mit Sternentstehung, heiße Phase"
+cfLiterature = "Skriptum zur Vorlesung; Astronomie (PAETEC Verlag, ISBN 3-89517-798-9)"
+cfKindShort = "Vorl. + Üb."
+cfSemester = "WS"
+cfLecturer = "Dozentinnen und Dozenten der Astronomie"
+cfMail = "astro@uni-bonn.de"
+cfOrder = "11"
 
-D. Meschede; Gerthsen Physik (Springer, Heidelberg 24. Aufl. 2010)
+[physik120.Courses.astro122]
+cfTitle = "Einführung in die extragalaktische Astronomie"
+cfNum = "astro122"
+cfCP = "4"
+cfWorkload = "2+1"
+cfKind = "Vorlesung mit Übungen"
+cfCategory = "Wahlpflicht"
+cfLanguage = "deutsch"
+cfRequirements = ""
+cfPreparation = "Einführung in die Astronomie"
+cfFormalities = "Voraussetzung zur Teilnahme an der Prüfung (Klausur): erfolgreiche Teilnahme an den Übungen"
+cfLength = "1 Semester"
+cfGoals = "Studierende sollen die extragalaktische Astronomie in ihrer Breite kennen lernen, werden an die Schwerpunkte der aktuellen Forschung herangeführt und sollen in die Lage versetzt werden, astrophysikalische Zusammenhänge auch für Laien verständlich darzustellen. Durch die Diskussion der Dunklen Materie und der Dunklen Energie werden auch zentrale Fragen der fundamentalen Physik angesprochen"
+cfContent = "Struktur der Galaxis: Scheibe, Bulge, Halo; Rotation der Galaxis, Entfernung zum Zentrum; Dunkle Materie; Spiralgalaxien und ihre Strukturen; Elliptische Galaxien und ihre stellare Populationen; Aktive Galaxien; Quasare; Galaxienhaufen, großskalige Strukturen im Universum; Gravitationslinsen; Bestimmung des Anteils an Dunkler Materie; Kosmologie, Expansion des Universums, Bestimmung der Entfernungen weit entfernter Objekte; Urknall, Kosmische Hintergrundstrahlung, kosmologische Parameter"
+cfLiterature = '''Skriptum zur Vorlesung
 
-Alonso Finn, Physics, Addison Wesley
-
-Feynman, Vorlesungen über Physik, Bd. II (Oldenbourg)
-
-W. Otten, Repetitorium der Experimentalphysik (Springer Verlag, Heidelberg)
-
-P. Tipler, Physik (Spektrum Akad. Verlag, Heidelberg)
+P. Schneider, Einführung in die Extragalaktische Astronomie und Kosmologie (Springer Verlag, Heidelberg 2005)
 '''
 cfKindShort = "Vorl. + Üb."
 cfSemester = "SS"
-cfLecturer = "Dozentinnen und Dozenten der Experimentalphysik"
-cfMail = "exphysik@uni-bonn.de"
+cfLecturer = "Dozentinnen und Dozenten der Astronomie"
+cfMail = "astro@uni-bonn.de"
+cfOrder = "12"
+
+[physik120.Courses.astro123]
+cfTitle = "Einführung in die Radioastronomie"
+cfNum = "astro123"
+cfCP = "4"
+cfWorkload = "2+1"
+cfKind = "Vorlesung mit Übungen und Praktikum"
+cfCategory = "Wahlpflicht"
+cfLanguage = "deutsch"
+cfRequirements = ""
+cfPreparation = "Einführung in die Astronomie I + II (astro121, 122),  Physik I-III (Physik 110, 210, 310)"
+cfFormalities = "Voraussetzung zur Teilnahme an der Prüfung (mündliche Prüfung oder Klausur): erfolgreiche Teilnahme an den Übungen"
+cfLength = "1 Semester"
+cfGoals = "Verständnis der Grundlagen der radioastronomischen Beobachtungstechnik und der wesentlichen astrophysikalischen Prozesse"
+cfContent = '''Vorlesung:
+
+Radioastronomische Empfangstechnik (Teleskope, Empfänger und Detektoren), atmosphärische Fenster, Strahlungstransport, Radiometergleichung, statistische Prozesse in der Signalerkennung, interstellares Medium, HI 21-cm Linienstrahlung, Sternentstehung in Molekülwolken, kontinuierliche Strahlungsprozesse, Maser, Radiogalaxien, Entwicklung der Galaxien im Universum, Pulsare, Physik in starken Gravitationsfeldern, Epoche der Re-Ionisation, frühes Universum, Zukunftsprojekte der Radioastronomie
 
 
-[physik310]
-mfDegree = ""
+
+Ergänzendes, optionales Praktikum (1 bis 2 tägig am Observatorium):
+
+Eichung eines radioastronomischen Empfängers, Messung der HI 21-cm Linienstrahlung, Ableitung der Spiralstruktur der Milchstraße, Messung der kontinuierlichen Strahlung der Milchstraße, Messung und Analyse eines Pulsarsignals
+'''
+cfLiterature = '''Folien der Vorlesung werden zur Verfügung gestellt.
+
+
+
+On-line material: http://www.cv.nrao.edu/course/astr534/ERA.shtml
+'''
+cfKindShort = "Vorl. + Üb. + Pr."
+cfSemester = "SS"
+cfLecturer = "Dozentinnen und Dozenten der Astronomie"
+cfMail = "astro@uni-bonn.de"
+cfOrder = "13"
+
+[physik120.Courses.astro121-123]
+cfTitle = "Veranstaltungen in Astronomie"
+cfNum = "astro121-123"
+cfCP = "4+4"
+cfWorkload = ""
+cfKind = ""
+cfCategory = ""
+cfLanguage = ""
+cfRequirements = ""
+cfPreparation = ""
+cfFormalities = ""
+cfLength = ""
+cfGoals = ""
+cfContent = ""
+cfLiterature = ""
+cfKindShort = "s. Katalog"
+cfSemester = "WS+SS"
+cfLecturer = ""
+cfMail = ""
+cfOrder = "19"
+
+[physik120.Courses."siehe Liste"]
+cfTitle = "Veranstaltungen in Philosophie"
+cfNum = "siehe Liste"
+cfCP = "8"
+cfWorkload = ""
+cfKind = ""
+cfCategory = ""
+cfLanguage = ""
+cfRequirements = ""
+cfPreparation = ""
+cfFormalities = ""
+cfLength = ""
+cfGoals = ""
+cfContent = ""
+cfLiterature = ""
+cfKindShort = "s. Liste"
+cfSemester = "WS"
+cfLecturer = ""
+cfMail = ""
+cfOrder = "69"
+
+
+[physik130]
+mfDegree = "BSPHYSIK2"
 mfDegreeLang = "B.Sc. in Physik (PO von 2014)"
-mfTitle = "Physik III (Optik und Wellenmechanik)"
-mfNum = "physik310"
-mfCP = "7"
+mfTitle = "EDV"
+mfNum = "physik130"
+mfCP = "4"
 mfCategory = "Pflicht"
-mfSemester = "3."
+mfSemester = "1."
 mfRequirements = "keine"
 mfPreparation = "keine"
-mfContent = "Grundzüge der Optik; Grundzüge der mikroskopischen Physik"
-mfGoals = "Einarbeitung in die Phänomene der linearen und der Wellenoptik und der mikroskopischen Physik"
-mfFormalities = "Erfolgreiche Bearbeitung der Übungsaufgaben + bestandene Klausur"
+mfContent = "Grundlagen der EDV in der Physik"
+mfGoals = "Die Studierenden sollen grundlegende Konzepte einer modernen Programmiersprache (z. B. C oder C++) erlernen und anwenden; Erstellen einfacher Dokumente mit Hilfe von LaTeX"
+mfFormalities = "Eine schriftliche Ausarbeitung"
 mfLength = "1 Semester"
 mfParticipants = "ca. 200"
 mfSignup = "0/163"
 mfNotes = ""
-mfOrder = "0"
-CourseList = ["physik311"]
-[physik310.Courses.physik311]
-cfTitle = "Physik III (Optik und Wellenmechanik)"
-cfNum = "physik311"
-cfCP = "7"
-cfWorkload = "4+2"
+mfOrder = "130"
+CourseList = ["physik131"]
+[physik130.Courses.physik131]
+cfTitle = "EDV"
+cfNum = "physik131"
+cfCP = "4"
+cfWorkload = "1+2"
 cfKind = "Vorlesung mit Übungen"
 cfCategory = "Pflicht"
 cfLanguage = "deutsch"
 cfRequirements = ""
-cfPreparation = "Physik I - II (physik110, physik210)"
-cfFormalities = "Voraussetzung zur Teilnahme an der unbenoteten Klausur: erfolgreiche Teilnahme an den Übungen"
+cfPreparation = ""
+cfFormalities = "Das Modul bleibt unbenotet"
 cfLength = "1 Semester"
-cfGoals = "Die dritte Grundvorlesung Experimentalphysik stellt im ersten Teil optische Phänomene in Experimenten und elementarer theoretischer Behandlung als Erweiterung der Elektrizitätslehre dar. Insbesondere die Interferenzphänomene der Wellenlehre bieten eine sehr gute propädeutische Basis, um im zweiten Teil eine Einführung in die mikroskopische Physik mit Hilfe elementarer Wellenfunktionen der Quantenmechanik zu realisieren"
-cfContent = '''Optik: Strahlenoptik und Matrizenoptik; Abbildungen und Abbildungsfehler; Mikroskop und Teleskop; Wellengleichung und Wellentypen; Brechung und Dispersion; Wellenleiter; Polarisation und Doppelbrechung; Beugung (Kirchhoffsche Theorie der Beugung, Fraunhofer-Beugung, Beugung am Einzelspalt, am Doppelspalt und am Gitter); Kohärenz und Zweistrahl-Interferometer; Vielstrahl-Interferometer; Räumliche und zeitliche Wellenpakete
-
-
-
-Wellenmechanik: Teilchenphänomene mit Licht (Schwarzkörperstrahlung, Photo-Effekt, Compton-Effekt, Photon); Materiewellen (Doppelspalt mit Materiewellen, de Broglie Wellenlänge, Wellenfunktion und Schrödingergleichung); Tunnel-Effekt; Teilchen im externen Potenzial; Paul-Falle; Aufbau der Atome (Rutherford-Experiment, Franck-Hertz-Versuch); Spektrum des Wasserstoff-Atoms, Bohrsches Atommodell; Stern-Gerlach-Experiment
-'''
-cfLiterature = '''Hecht, Optik (Oldenbourg-Verlag, München 4. Aufl. 2005)
-
-D. Meschede; Optik, Licht und Laser (Teubner, Wiesbaden 2. überarb. Aufl. 2005)
-
-W. Demtröder; Experimentalphysik 2: Elektrizität und Optik (Springer, Heidelberg 5. überarb. Aufl. 2009)
-
-W. Demtröder; Experimentalphysik 3: Atome, Moleküle und Festkörper (Springer, Heidelberg 4. überarb. Aufl. 2010)
-
-D. Meschede; Gerthsen Physik (Springer, Heidelberg 23. Aufl. 2006)
-'''
+cfGoals = "Die Studierenden sollen grundlegende Konzepte einer modernen Programmiersprache am Beispiel von C (C++) erlernen und anwenden; Erstellen einfacher Dokumente mit LaTeX"
+cfContent = "Programmiersprache C/C++, LaTeX"
+cfLiterature = "Es werden kompakte Anleitungen zur Verfügung gestellt"
 cfKindShort = "Vorl. + Üb."
 cfSemester = "WS"
-cfLecturer = "Dozentinnen und Dozenten der Experimentalphysik"
+cfLecturer = "Dozentinnen und Dozenten der Physik und Astronomie"
 cfMail = "exphysik@uni-bonn.de"
-
-
-[physik510]
-mfDegree = ""
-mfDegreeLang = "B.Sc. in Physik (PO von 2014)"
-mfTitle = "Physik V (Kerne und Teilchen)"
-mfNum = "physik510"
-mfCP = "7"
-mfCategory = "Pflicht"
-mfSemester = "5."
-mfRequirements = "keine"
-mfPreparation = "keine"
-mfContent = "Grundlagen des Aufbaus und der Physik der Atomkerne, Physik der Elementarteilchen, grundlegende Experimente dazu im Kontext detektor- und beschleunigerspezifischer Aspekte"
-mfGoals = "Verständnis der Grundlagen der Kernphysik und der Elementarteilchenphysik sowie der Experimente, die zu dem derzeitigen Stand der Erkenntnis geführt haben"
-mfFormalities = "Erfolgreiche Bearbeitung der Übungsaufgaben + bestandene Klausur"
-mfLength = "1 Semester"
-mfParticipants = "ca. 200"
-mfSignup = "0/163"
-mfNotes = ""
-mfOrder = "0"
-CourseList = ["physik511"]
-[physik510.Courses.physik511]
-cfTitle = "Physik V (Kern- und Teilchenphysik)"
-cfNum = "physik511"
-cfCP = "7"
-cfWorkload = "4+2"
-cfKind = "Vorlesung mit Übungen"
-cfCategory = "Pflicht"
-cfLanguage = "deutsch"
-cfRequirements = ""
-cfPreparation = '''Physik I - IV (physik110, physik210, physik310, physik410)
-
-Theoretische Physik I - III (physik220, physik320, physik420)
-'''
-cfFormalities = "Voraussetzung zur Teilnahme an der unbenoteten Klausur: erfolgreiche Teilnahme an den Übungen"
-cfLength = "1 Semester"
-cfGoals = "Verständnis der Grundlagen der Kernphysik und der Elementarteilchenphysik sowie der wichtigsten Experimente, die zu dem derzeitigen Wissensstand auf diesen Gebieten geführt haben"
-cfContent = '''Nukleonen und Kernaufbau, Isotope und Stabilität, versch. Kernmodelle, alpha-, beta- und gamma- Zerfall, Kernspaltung, Kernfusion, Sonnenzyklus, grundlegende Experimente der Kernphysik;
-
-Elementarteilchen, Wechselwirkungen, relativistische Kinematik, Wirkungsquerschnitte u.  Lebensdauern, Symmetrien und Erhaltungssätze, Quarkmodell, Beschleuniger und Detektoren, grundlegende Experimente zur Struktur des Nukleons, zur elektromagnetischen, schwachen und starken Wechselwirkung, kurze Einführung in das Standardmodell der Elementarteilchenphysik und Experimente dazu
-'''
-cfLiterature = '''C. Berger; Elementarteilchenphysik (Springer, Heidelberg)
-
-B. Povh, K. Rith, C. Scholz, F. Zetsche; Teilchen und Kerne (Springer, Heidelberg)
-
-C. Amsler, Kern- und Teilchenphysik (vdf Hochschulverlag, 2007)
-
-D. Griffith; Introduction to Elementary Particle Physics (J. Wiley, Weinheim)
-
-D. Perkins; Introduction to High Energy Physics (Cambridge University Press)
-
-A. Bettini; Introduction to Elementary Particle Physics (Cambridge University Press)
-'''
-cfKindShort = "Vorl. + Üb."
-cfSemester = "WS"
-cfLecturer = "Dozentinnen und Dozenten der Experimentalphysik"
-cfMail = "exphysik@uni-bonn.de"
+cfOrder = "10"
 
 
 [math140]
-mfDegree = ""
+mfDegree = "BSPHYSIK2"
 mfDegreeLang = "B.Sc. in Physik (PO von 2014)"
 mfTitle = "Mathematik I für Physiker und Physikerinnen"
 mfNum = "math140"
@@ -244,7 +266,7 @@ mfLength = "1 Semester"
 mfParticipants = "ca. 200"
 mfSignup = "0/163"
 mfNotes = ""
-mfOrder = "0"
+mfOrder = "140"
 CourseList = ["math141"]
 [math140.Courses.math141]
 cfTitle = "Mathematik I (für Physiker und Physikerinnen)"
@@ -279,846 +301,63 @@ cfKindShort = "Vorl. + Üb."
 cfSemester = "WS"
 cfLecturer = "Dozentinnen und Dozenten der Mathematik und theoretischen Physik"
 cfMail = "theophys@uni-bonn.de"
+cfOrder = "10"
 
 
-[math240]
-mfDegree = ""
+[physik210]
+mfDegree = "BSPHYSIK2"
 mfDegreeLang = "B.Sc. in Physik (PO von 2014)"
-mfTitle = "Mathematik II  für Physiker und Physikerinnen"
-mfNum = "math240"
-mfCP = "11"
-mfCategory = "Pflicht"
-mfSemester = "2."
-mfRequirements = "keine"
-mfPreparation = "Klausur"
-mfContent = "Analysis II"
-mfGoals = "Vermittlung der mathematischen Grundbegriffe und Methoden"
-mfFormalities = "Erfolgreiche Bearbeitung der Übungsaufgaben"
-mfLength = "1 Semester"
-mfParticipants = "ca. 200"
-mfSignup = "11/163"
-mfNotes = ""
-mfOrder = "0"
-CourseList = ["math241"]
-[math240.Courses.math241]
-cfTitle = "Mathematik II (für Physiker und Physikerinnen)"
-cfNum = "math241"
-cfCP = "11"
-cfWorkload = "4+3"
-cfKind = "Vorlesung mit Übungen"
-cfCategory = "Pflicht"
-cfLanguage = "deutsch"
-cfRequirements = ""
-cfPreparation = "Mathematik I für Physiker und Physikerinnen (math140)"
-cfFormalities = "Zulassungsvoraussetzung zur Modulprüfung (Klausur): erfolgreiche Teilnahme an den Übungen"
-cfLength = "1 Semester"
-cfGoals = "Vermittlung der mathematischen Grundbegriffe und Methoden, erforderlich für die theoretischen Physikvorlesungen nach dem 2. Semester"
-cfContent = '''Mehrdimensionale Integration:
-
-Transformationssatz, Integration auf gekrümmten Objekten (Gramsche Determinate), Längenberechnung von Kurven, Flächeninhaltsberechnung von gekrümmten Flächen, Berechnung von Volumina.
-
-Vektoranalysis in drei Dimensionen: grad, rot, div, Gaußscher und Stokesscher Satz, Erhaltungsgrößen, Maxwellgleichungen. Verallgemeinerung auf beliebige Dimension.
-
-Fourieranalysis, Fourierreihen, Fouriertransformation, Hilberträume, vollständige Funktionensysteme
-'''
-cfLiterature = '''G. B. Arfken, H. J. Weber; Mathematical Methods for Physicists (Academic Press 6. Aufl. 2005)
-
-S. Hassani; Mathematical Physics (Springer; New York 1999)
-
-O. Forster; Analysis II (Vieweg, Wiesbaden 2005)
-
-O. Forster; Analysis III (Vieweg, Wiesbaden 1984)
-'''
-cfKindShort = "Vorl. + Üb."
-cfSemester = "SS"
-cfLecturer = "Dozentinnen und Dozenten der Mathematik"
-cfMail = "theophys@uni-bonn.de"
-
-
-[math340]
-mfDegree = ""
-mfDegreeLang = "B.Sc. in Physik (PO von 2014)"
-mfTitle = "Mathematik III für Physiker und Physikerinnen"
-mfNum = "math340"
-mfCP = "11"
-mfCategory = "Pflicht"
-mfSemester = "3."
-mfRequirements = "keine"
-mfPreparation = "Klausur"
-mfContent = "Funktionentheorie"
-mfGoals = "Vermittlung der mathematischen Grundbegriffe und Methoden"
-mfFormalities = "Erfolgreiche Bearbeitung der Übungsaufgaben"
-mfLength = "1 Semester"
-mfParticipants = "ca. 200"
-mfSignup = "11/163"
-mfNotes = ""
-mfOrder = "0"
-CourseList = ["math341"]
-[math340.Courses.math341]
-cfTitle = "Mathematik III (für Physiker und Physikerinnen)"
-cfNum = "math341"
-cfCP = "11"
-cfWorkload = "4+3"
-cfKind = "Vorlesung mit Übungen"
-cfCategory = "Pflicht"
-cfLanguage = "deutsch"
-cfRequirements = ""
-cfPreparation = "Mathematik I - II für Physiker und Physikerinnen (math140, math240)"
-cfFormalities = "Zulassungsvoraussetzung zur Modulprüfung (Klausur): erfolgreiche Teilnahme an den Übungen"
-cfLength = "1 Semester"
-cfGoals = "Vermittlung der mathematischen Grundbegriffe und Methoden, erforderlich für die - theoretischen - Physikvorlesungen nach dem 3. Semester"
-cfContent = '''Funktionentheorie: Potenzreihen, Laurentreihen, Residuensatz, spezielle Funktionen.
-
-Partielle Differentialgleichungen + Variationsrechnung. Harmonische Funktionen, Poissongleichung, Green'sche Funktion
-'''
-cfLiterature = '''G.B. Arfken, H.J. Weber; Mathematical Methods for Phycisists (Academic Press 6. Aufl. 2005)
-
-S. Hassani; Mathematical Physics (Springer; New York 1999)
-
-R. Remmert, G. Schumacher; Funktionentheorie I (Springer; Berlin 2001)
-'''
-cfKindShort = "Vorl. + Üb."
-cfSemester = "WS"
-cfLecturer = "Dozentinnen und Dozenten der Mathematik"
-cfMail = "theophys@uni-bonn.de"
-
-
-[physik260]
-mfDegree = ""
-mfDegreeLang = "B.Sc. in Physik (PO von 2014)"
-mfTitle = "Praktikum Mechanik, Wärmelehre"
-mfNum = "physik260"
-mfCP = "3"
-mfCategory = "Pflicht"
-mfSemester = "2."
-mfRequirements = "Teilnahme an der Klausur zu Modul physik110"
-mfPreparation = "Mündliche Prüfung"
-mfContent = "Vorbereiten auf physikalische Grundlagen; praktisches Durchführen und Auswerten von Experimenten"
-mfGoals = "Erlernen von Experimentiertechniken"
-mfFormalities = "Mündl. Überprüfung der Versuchsvorbereitung, erfolgreiche Durchführung der Versuche, Erstellung von Versuchsprotokollen"
-mfLength = "1 Semester"
-mfParticipants = "ca. 200"
-mfSignup = "3/163"
-mfNotes = ""
-mfOrder = "0"
-CourseList = ["physik261"]
-[physik260.Courses.physik261]
-cfTitle = "Praktikum Mechanik, Wärmelehre"
-cfNum = "physik261"
-cfCP = "3"
-cfWorkload = "3"
-cfKind = "Praktikum"
-cfCategory = "Pflicht"
-cfLanguage = "deutsch"
-cfRequirements = "Teilnahme an Physik I (physik110). Das heißt: erfolgreiche Teilnahme an den Übungen plus Teilnahme an der Modulprüfung physik110"
-cfPreparation = "Grundlagen der statistischen Datenauswertung"
-cfFormalities = "Zulassungsvoraussetzung zur Modulprüfung (Klausur oder mündliche Prüfung): mündliche Überprüfung der Versuchsvorbereitung, erfolgreiche Durchführung der Versuche, Erstellung von Versuchsprotokollen"
-cfLength = "1 Semester (während der Vorlesungszeit)"
-cfGoals = "Praktische Erfahrungen zum zielgerichteten Experimentieren und Auswerten. Erarbeitung von Versuchsprotokollen."
-cfContent = '''Vorbereiten auf physikalische Grundlagen anhand von Anleitungen und Versuchen. Praktisches Durchführen und Auswerten von Experimenten in kleinen Gruppen.
-
-Ausgewählte Versuche im Praktikum zur Mechanik und Wärmelehre
-
-
-
-Auswahl: Einführungsversuch mit Seminar; Elastizitätskonstanten; Biegung und Knickung; Schwingungen; freie und erzwungene Schwingungen (Pohlsches Drehpendel);Trägheitsmoment und physisches Pendel; spezifische Wärmekapazität; Adiabatenkoeffizient; Wärmeausdehnungskoeffizient; ideales Gas; statistische Schwankungen
-'''
-cfLiterature = '''Versuchsanleitungen: http://www.praktika.physik.uni-bonn.de/
-
-W. Walcher; Praktikum der Physik (Teubner, Wiesbaden 8. Aufl. 2004)
-
-D. Geschke; Physikalisches Praktikum (Teubner, Wiesbaden 12. Aufl. 2001)
-
-V. Blobel; E. Lohrmann; Statistische und numerische Methoden der Datenanalyse (Teubner, Wiesbaden 1. Aufl. 1999)
-
-S. Brandt; Datenanalyse (Spektrum Akademischer Vlg., Heidelberg 4. Aufl. 1999)
-
-E.W. Otten: Repetitorium Experimentalphysik (Springer, Heidelberg 2. Aufl. 2002)
-
-Westphal; Physikalisches Praktikum (Vieweg); Titel vergriffen, aber in der ULB vorhanden
-
-Kohlrausch; Praktische Physik Bd. 1-3 (Teubner, Wiesbaden) Titel vergriffen, aber in der ULB vorhanden
-'''
-cfKindShort = "Praktikum"
-cfSemester = "SS"
-cfLecturer = "Dozentinnen und Dozenten der Experimentalphysik"
-cfMail = "exphysik@uni-bonn.de"
-
-
-[physik360]
-mfDegree = ""
-mfDegreeLang = "B.Sc. in Physik (PO von 2014)"
-mfTitle = "Praktikum Elektromagnetismus/Optik"
-mfNum = "physik360"
-mfCP = "6"
-mfCategory = "Pflicht"
-mfSemester = "3."
-mfRequirements = "Teilnahme an der Klausur zu Modul physik210"
-mfPreparation = "Mündliche Prüfung"
-mfContent = "Praktikumsversuche aus den Themengebieten Elektromagnetismus und klassische Optik"
-mfGoals = "Erlernen von Experimentiertechniken und Vertiefung der Grundlagen anhand von Versuchen zur Elektrizitätslehre und Magnetismus, elektromagnetischen Wellen und klassischer Optik"
-mfFormalities = "Mündliche Überprüfung der Versuchsvorbereitung, erfolgreiche Durchführung der Versuche, Erstellung von Versuchsprotokollen"
-mfLength = "1 Semester"
-mfParticipants = "ca. 200"
-mfSignup = "6/163"
-mfNotes = ""
-mfOrder = "0"
-CourseList = ["physik361", "physik362"]
-[physik360.Courses.physik361]
-cfTitle = "Praktikum Elektromagnetismus"
-cfNum = "physik361"
-cfCP = ""
-cfWorkload = "3"
-cfKind = "Praktikum"
-cfCategory = "Pflicht"
-cfLanguage = "deutsch"
-cfRequirements = "Teilnahme an  Physik II (physik210). Das heißt: erfolgreiche Teilnahme an den Übungen plus Teilnahme an der Modulprüfung physik210"
-cfPreparation = ""
-cfFormalities = "mündliche Überprüfung der Versuchsvorbereitung, erfolgreiche Durchführung der Versuche, Erstellung von Versuchsprotokollen"
-cfLength = "1 Semester (während der Vorlesungszeit)"
-cfGoals = "Praktische Erfahrungen zum zielgerichteten Experimentieren und Auswerten. Anfertigen von Versuchsprotokollen"
-cfContent = '''Vorbereiten auf physikalische Grundlagen anhand von Anleitungen und Versuchen. Praktisches Durchführen und Auswerten von Experimenten in kleinen Gruppen.
-
-Ausgewählte Versuche im Praktikum zum Elektromagnetismus
-
-
-
-Auswahl: Gleichströme; Spannungsquellen; Widerstände; elektrische und magnetische Felder; Galvanometer und gedämpfte Schwingungen; Wechselstromwiderstände, Schwingkreis und Phasenschieber; Transformator; Fourieranalyse von Signalen; Hysterese der Magnetisierung von Eisen; elektrische und magnetische Kraftwirkung auf geladene Teilchen (Fadenstrahlrohr, Millikanversuch);
-'''
-cfLiterature = '''Versuchsanleitungen: http://www.praktika.physik.uni-bonn.de/
-
-W. Walcher; Praktikum der Physik (Teubner, Wiebaden 8. Aufl. 2004)
-
-D. Geschke; Physikalisches Praktikum (Teubner, Wiesbaden 12. Aufl. 2001)
-
-V. Blobel, E. Lohrmann; Statistische und numerische Methoden der Datenanalyse (Teubner, Wiesbaden 1. Aufl. 1999)
-
-S. Brandt; Datenanalyse (Spektrum Akademischer Vlg., Heidelberg 4. Aufl. 1999)
-
-E.W. Otten; Repetitorium Experimentalphysik (Springer, Heidelberg 2. Aufl. 2002)
-
-Westphal; Physikalisches Praktikum (Vieweg) Titel vergriffen, aber in der ULB vorhanden
-
-Kohlrausch; Praktische Physik Bd. 1-3 (Teubner, Wiesbaden) Titel vergriffen, aber in der ULB vorhanden
-'''
-cfKindShort = "Praktikum"
-cfSemester = "WS"
-cfLecturer = "Dozentinnen und Dozenten der Experimentalphysik"
-cfMail = "exphysik@uni-bonn.de"
-
-[physik360.Courses.physik362]
-cfTitle = "Praktikum Optik, Wellenmechanik"
-cfNum = "physik362"
-cfCP = ""
-cfWorkload = "3"
-cfKind = "Praktikum"
-cfCategory = "Pflicht"
-cfLanguage = "deutsch"
-cfRequirements = ""
-cfPreparation = ""
-cfFormalities = "mündliche Überprüfung der Versuchsvorbereitung, erfolgreiche Durchführung der Versuche, Erstellung von Versuchsprotokollen"
-cfLength = "1 Semester (im Blockkurs in der vorlesungsfreien Zeit)"
-cfGoals = "Praktische Erfahrungen zum zielgerichteten Experimentieren und Auswerten; Anfertigung von Versuchsprotokollen"
-cfContent = '''Vorbereiten auf physikalische Grundlagen anhand von Anleitungen und Versuchen. Praktisches Durchführen und Auswerten von Experimenten in kleinen Gruppen.
-
-Ausgewählte Versuche im Praktikum zur Optik und Wellenmechanik.
-
-
-
-Auswahl: Linsen und Linsensysteme; optische Instrumente (Fernrohr, Mikroskop, Projektor); Dispersion, Brechung; Spektrometer; Beugung und Interferenz; Polarisation von Licht; Elektro- und Magnetooptik; Absorption und Streuung; Wärmestrahlung
-'''
-cfLiterature = '''W. Walcher; Praktikum der Physik (Teubner, Wiebaden 8. Aufl. 2004)
-
-D. Geschke; Physikalisches Praktikum (Teubner, Wiesbaden 12. Aufl. 2001)
-
-V. Blobel, E. Lohrmann; Statistische und numerische Methoden der Datenanalyse (Teubner, Wiesbaden 1. Aufl. 1999)
-
-S. Brandt; Datenanalyse (Spektrum Akademischer Vlg., Heidelberg 4. Aufl. 1999)
-
-E.W. Otten; Repetitorium Experimentalphysik (Springer, Heidelberg 2. Aufl. 2002)
-
-Westphal; Physikalisches Praktikum (Vieweg) Titel vergriffen, aber in der ULB vorhanden
-
-Kohlrausch; Praktische Physik Bd. 1-3 (Teubner, Wiesbaden) Titel vergriffen, aber in der ULB vorhanden
-'''
-cfKindShort = "Praktikum"
-cfSemester = "WS"
-cfLecturer = "Dozentinnen und Dozenten der Experimentalphysik"
-cfMail = "exphysik@uni-bonn.de"
-
-
-[physik460]
-mfDegree = ""
-mfDegreeLang = "B.Sc. in Physik (PO von 2014)"
-mfTitle = "Elektronikpraktikum"
-mfNum = "physik460"
-mfCP = "4"
-mfCategory = "Pflicht"
-mfSemester = "4."
-mfRequirements = "keine"
-mfPreparation = "Klausur"
-mfContent = "Blockvorlesung und ausgewählte Versuche zur Elektronik."
-mfGoals = "Verständnis und Anwendungen der Grundlagen der Elektronik in der Praxis"
-mfFormalities = "Mündliche Überprüfung der Versuchsvorbereitung, erfolgreiche Durchführung der Versuche, Erstellung von Versuchsprotokollen"
-mfLength = "1 Semester"
-mfParticipants = "ca. 200"
-mfSignup = "4/163"
-mfNotes = ""
-mfOrder = "0"
-CourseList = ["physik461"]
-[physik460.Courses.physik461]
-cfTitle = "Elektronikpraktikum"
-cfNum = "physik461"
-cfCP = "4"
-cfWorkload = "4"
-cfKind = "Vorlesung, Praktikum"
-cfCategory = "Pflicht"
-cfLanguage = "deutsch"
-cfRequirements = ""
-cfPreparation = "Physik I - II (physik110, physik210)"
-cfFormalities = '''Zulassungsvoraussetzung zur Modulprüfung (Klausur):
-
-mündliche Überprüfung der Versuchsvorbereitung, erfolgreiche Durchführung der Versuche, Erstellung von Versuchsprotokollen
-'''
-cfLength = "1 Semester"
-cfGoals = "Verständnis und Anwendungen der Grundlagen der Elektronik in der Praxis"
-cfContent = '''Blockvorlesung und ausgewählte Versuche zur Elektronik. Diese Lehrveranstaltung wird zum Teil in der vorlesungsfreien Zeit durchgeführt.
-
-
-
-Auswahl:
-
-Ausbreitung von Signalen auf Leitungen
-
-Diode
-
-Transistor
-
-Transistorverstärker
-
-Operationsverstärker
-
-Anwendung des Operationsverstärkers
-
-Computeralgebra
-
-Mikroprozessor
-'''
-cfLiterature = '''P. Horowitz, W. Hill; The Art of Electronics (Cambridge University Press, 2. Aufl. 1999)
-
-A. Schlachetzki; Halbleiterelektronik (Teubner, Wiesbaden 1990)
-
-U. Tietze, C. Schenk; Halbleiter-Schaltungstechnik (Springer, Heidelberg 12. Aufl. 2002)
-
-K.-H. Rohe: Elektronik für Physiker: Eine Einführung in analoge Grundschaltungen (Teubner, Wiesbaden 1987)
-'''
-cfKindShort = "Vorles. u. Praktikum"
-cfSemester = "SS"
-cfLecturer = "Dozentinnen und Dozenten der Experimentalphysik"
-cfMail = "exphysik@uni-bonn.de"
-
-
-[physik560]
-mfDegree = ""
-mfDegreeLang = "B.Sc. in Physik (PO von 2014)"
-mfTitle = "Praktikum Atome, Moleküle, Kondensierte Materie"
-mfNum = "physik560"
-mfCP = "5"
-mfCategory = "Pflicht"
-mfSemester = "5."
-mfRequirements = "Teilnahme an der Klausur zu Modul physik410"
-mfPreparation = "Schriftliche Ausarbeitungen (Ein Versuchsprotokoll pro durchgeführtem Versuch)"
-mfContent = "Vorbereiten auf physikalische Grundlagen anhand von Anleitungen und Versuchen. Praktisches Durchführen und Auswerten von Experimenten in kleinen Gruppen"
-mfGoals = '''Verständnis der Grundlagen der Experimente der Atomphysik und der kondensierten Materie. 
-
-Praktische Erfahrungen zum zielgerichteten Experimentieren und Auswerten.
-'''
-mfFormalities = "Erfolgreiche mündliche Überprüfung der Versuchsvorbereitung und Durchführung der Versuche"
-mfLength = "1 Semester"
-mfParticipants = "ca. 200"
-mfSignup = "5/163"
-mfNotes = ""
-mfOrder = "0"
-CourseList = ["physik561"]
-[physik560.Courses.physik561]
-cfTitle = "Praktikum Atome, Moleküle, Kondensierte Materie"
-cfNum = "physik561"
-cfCP = "5"
-cfWorkload = "5"
-cfKind = "Praktikum"
-cfCategory = "Pflicht"
-cfLanguage = "deutsch"
-cfRequirements = "Teilnahme an Physik IV (physik411). Das heißt: erfolgreiche Teilnahme an den Übungen plus Teilnahme an der Modulprüfung physik411"
-cfPreparation = '''Physik I - III (physik110, physik210, physik310)
-
-Theoretische Physik I - III (physik220, physik320, physik420)
-'''
-cfFormalities = "Voraussetzung zur Prüfungsteilnahme (Versuchsprotokolle): erfolgreiche mündliche Überprüfung der Versuchsvorbereitung und Durchführung der Versuche"
-cfLength = "1 Semester (während der Vorlesungszeit oder im Blockkurs in der vorlesungsfreien Zeit)"
-cfGoals = "Verständnis der Grundlagen der Experimente der Atomphysik und der kondensierten Materie. Praktische Erfahrungen zum zielgerichteten Experimentieren und Auswerten."
-cfContent = '''Vorbereiten auf physikalische Grundlagen anhand von Anleitungen und Versuchen. Praktisches Durchführen und Auswerten von Experimenten in kleinen Gruppen. Ausgewählte Versuche im Praktikum zur Atomphysik und kondensierten Materie.
-
-
-
-Auswahl:
-
-Balmerserie, Frank-Hertz-Versuch, optisches Pumpen; Plancksches Wirkungsquantum;  Zeeman-Effekt, Hall-Effekt in Halbleitern, Rastertunnelmikroskopie, kernmagnetische Relaxation, Laser, Weißlichspektroskopie an Gold-Nanostrukturen, Röntgenstrahlung und Materialanalyse, Spektroskopie von Sternen
-'''
-cfLiterature = '''C. Kittel; Einführung in die Festkörperphysik (R. Oldenbourg Vlg., München 14. Aufl. 2005)
-
-L. Bergmann, C. Schaefer; Lehrbuch der Experimentalphysik Bd. 6: Festkörperphysik (de Gruyter, Berlin 2. Aufl. 2005 )
-
-H. Haken, H.C. Wolf; Atom- und Quantenphysik (Springer, Heidelberg 8. Aufl. 2003)
-
-T. Mayer-Kuckuk; Atomphysik (Teubner, Wiesbaden 5. Aufl. 1997)
-'''
-cfKindShort = "Praktikum"
-cfSemester = "WS/SS"
-cfLecturer = "Dozentinnen und Dozenten der Experimentalphysik"
-cfMail = "exphysik@uni-bonn.de"
-
-
-[physik660]
-mfDegree = ""
-mfDegreeLang = "B.Sc. in Physik (PO von 2014)"
-mfTitle = "Praktikum Kerne und Teilchen"
-mfNum = "physik660"
-mfCP = "5"
-mfCategory = "Pflicht"
-mfSemester = "6."
-mfRequirements = "Teilnahme an der Klausur zu Modul physik510"
-mfPreparation = "Schriftliche Ausarbeitungen (Ein Versuchsprotokoll pro durchgeführtem Versuch)"
-mfContent = "Erlernen der physikalischen Grundlagen anhand von Anleitungen und Versuchen. Praktisches Durchführen und Auswerten von Experimenten in kleinen Gruppen."
-mfGoals = '''Verständnis der Grundlagen der Experimente der Kernphysik und der Teilchenphysik.
-
-Praktische Erfahrungen zum zielgerichteten Experimentieren und Auswerten
-'''
-mfFormalities = "Erfolgreiche mündliche Überprüfung der Versuchsvorbereitung und Durchführung der Versuche"
-mfLength = "1 Semester"
-mfParticipants = "ca. 200"
-mfSignup = "5/163"
-mfNotes = ""
-mfOrder = "0"
-CourseList = ["physik661"]
-[physik660.Courses.physik661]
-cfTitle = "Praktikum Kern- und Teilchenphysik"
-cfNum = "physik661"
-cfCP = "5"
-cfWorkload = "5"
-cfKind = "Praktikum"
-cfCategory = "Pflicht"
-cfLanguage = "deutsch"
-cfRequirements = "Teilnahme an Physik V (physik511). Das heißt: erfolgreiche Teilnahme an den Übungen plus Teilnahme an der Modulprüfung physik511"
-cfPreparation = '''Physik I - IV (physik110, physik210, physik310, physik410)
-
-Theoretische Physik I - III (physik220, physik320, physik420)
-'''
-cfFormalities = "Voraussetzung zur Prüfungsteilnahme (Versuchsprotokolle): erfolgreiche mündliche Überprüfung der Versuchsvorbereitung und Durchführung der Versuche"
-cfLength = "1 Semester (während der Vorlesungszeit oder im Blockkurs in der vorlesungsfreien Zeit)"
-cfGoals = '''Verständnis der Grundlagen der Experimente der Kernphysik und der Teilchenphysik.
-
-Praktische Erfahrungen zum zielgerichteten Experimentieren und Auswerten
-'''
-cfContent = '''Erlernen der physikalischen Grundlagen anhand von Anleitungen und Versuchen. Praktisches Durchführen und Auswerten von Experimenten in kleinen Gruppen.
-
-Ausgewählte Versuche im Praktikum zur Kern- und/oder Teilchenphysik.
-
-
-
-Auswahl:
-
-Gamma-Spektroskopie, Höhenstrahlung (zählt doppelt), Compton-Effekt, Beta-Spektroskopie, Nukleare Elektronik, Halbleiterdetektoren (zählt doppelt), Driftkammern, Mottstreuung von Elektronen, Dosimetrie
-'''
-cfLiterature = '''C. Berger; Elementarteilchenphysik (Springer, Heidelberg 2. überarb. Aufl. 2006)
-
-B. Povh, K. Rith, C. Scholz, F. Zetsche; Teilchen und Kerne (Springer, Heidelberg 6. Aufl. 2004)
-
-E. Bodenstedt; Experimente der Kernphysik und ihre Deutung Bd. 1-3 (Bibliographisches Institut, Mannheim ) Titel vergriffen, aber in der ULB vorhanden
-
-T.Mayer-Kuckuk; Kernphysik (Teubner, Wiesbaden 7. Aufl. 2002)
-'''
-cfKindShort = "Praktikum"
-cfSemester = "SS/WS"
-cfLecturer = "Dozentinnen und Dozenten der Experimentalphysik"
-cfMail = "exphysik@uni-bonn.de"
-
-
-[physik540]
-mfDegree = ""
-mfDegreeLang = "B.Sc. in Physik (PO von 2014)"
-mfTitle = "Präsentation"
-mfNum = "physik540"
-mfCP = "5"
-mfCategory = "Pflicht"
-mfSemester = "5.-6."
-mfRequirements = "keine"
-mfPreparation = "Präsentation im Proseminar Präsentationstechnik (60 %) + Präsentation der Bachelorarbeit im Seminar zur Bachelorarbeit (40 %)"
-mfContent = "Abfassung von Texten, Relevanz der gewählten Einteilung, Bedeutung von Tabellen und Bildern, Quellenangaben; Vortragsstil, Vortragsgestaltung, Medien."
-mfGoals = "Die Studierenden sollen in die Problematik der Präsentation eingeführt werden, sollen selbst Texte und Vorträge verfassen und schließlich den Vortrag zur Bachelorarbeit halten. Fähigkeiten zu Präsentationen sollen entwickelt werden."
-mfFormalities = ""
-mfLength = "2 Semester"
-mfParticipants = "ca. 200"
-mfSignup = "5/163"
-mfNotes = ""
-mfOrder = "0"
-CourseList = ["physik541", "physik542"]
-[physik540.Courses.physik541]
-cfTitle = "Proseminar Präsentationstechnik"
-cfNum = "physik541"
-cfCP = "3"
-cfWorkload = "3"
-cfKind = "Seminar mit Übungen"
-cfCategory = "Pflicht"
-cfLanguage = "deutsch"
-cfRequirements = ""
-cfPreparation = "Abgeschlossenes viertes Semester"
-cfFormalities = "Voraussetzung zur Prüfungsteilnahme (Vortrag): regelmäßige Teilnahme"
-cfLength = "1 Semester"
-cfGoals = "Die Studierenden sollen lernen, Publikationen effizient vorzubereiten und optimal (Berücksichtigung der Zielgruppe) zu gestalten. Sie sollen lernen, Vorträge vorzubereiten, die zu behandelnden Themen zielgruppengerecht einzuteilen und didaktisch zu gestalten"
-cfContent = '''Texte: an welche Leser richtet sich der Text?; Textteile: Einleitung, Messdaten, Reduktion, Analyse, Resultate, Wichtigkeit der Teile; Unterschiede zwischen Veröffentlichung, Antrag und Tagungsabstrakt; Einteilung in Sections, Subsections und Paragraphen; Struktur der jeweiligen Öffnungssätze; Relative Bedeutung von Tabellen, Abbildungen und Abstrakt; Vorgehensweise bei Textabfassung; Gestaltung von Abbildungen; Begutachtungsprozess, Beispiele.
-
-Vortrag: Vortragsstruktur, Foliengestaltung, Einteilung einer Folie und Verwendung von Farben; Quellenangaben; zeitliche Abfolge; Körperhaltung beim Vortrag; Atemtechnik und Stimmvolumen; Verwendung einer Tafel; Zeigestock oder pointer; Laptop; Pausen beim Sprechen; Vermeidung von Füllwörtern.
-
-Gelegenheit zum Vortrag
-'''
-cfLiterature = ""
-cfKindShort = "Proseminar"
-cfSemester = "WS/SS"
-cfLecturer = "Dozentinnen und Dozenten der Physik und Astronomie"
-cfMail = '''astro@uni-bonn.de
-
-exphysik@uni-bonn.de
-
-theophys@uni-bonn.de
-'''
-
-[physik540.Courses.physik542]
-cfTitle = "Seminar zur Bachelorarbeit"
-cfNum = "physik542"
-cfCP = "2"
-cfWorkload = "2"
-cfKind = "Seminar"
-cfCategory = "Pflicht"
-cfLanguage = "deutsch"
-cfRequirements = ""
-cfPreparation = "Abgeschlossenes viertes Semester"
-cfFormalities = "Voraussetzung zur Prüfungsteilnahme (Vortrag): regelmäßige Teilnahme"
-cfLength = "1 Semester"
-cfGoals = "Die Studierenden sollen lernen über ein Projekt zu berichten. Sie sollen aus den Vorträgen der Kommilitonen ersehen, wie Vorträge gehalten und gestaltet werden sollen"
-cfContent = "Die Studierenden sollen über ihre durchgeführten Projekte (die Bachelorarbeit) berichten. Sie sollen zugleich das im Proseminar physik541 (zum Gestalten und Halten von Vorträgen) Gelernte noch einmal in der Praxis unter Beweis stellen"
-cfLiterature = ""
-cfKindShort = "Seminar"
-cfSemester = "WS/SS"
-cfLecturer = "Dozentinnen und Dozenten der Physik und Astronomie"
-cfMail = '''astro@uni-bonn.de
-
-exphysik@uni-bonn.de
-
-theophys@uni-bonn.de
-'''
-
-
-[physik450]
-mfDegree = ""
-mfDegreeLang = "B.Sc. in Physik (PO von 2014)"
-mfTitle = "Fachgebundenes Wahlpflichtmodul"
-mfNum = "physik450"
-mfCP = "6"
-mfCategory = "Wahlpflicht"
-mfSemester = "4.-6."
-mfRequirements = "keine"
-mfPreparation = "Klausur bzw. schriftliche Ausarbeitung"
-mfContent = '''Eine weiterführende/vertiefende Vorlesung aus den Masterstudiengängen Physik und Astrophysik
-
-oder: Betriebspraktikum im Umfang von 180 Arbeitsstunden
-'''
-mfGoals = "Mit den Wahlpflichtvorlesungen wird die Möglichkeit eröffnet, den Stoff des Pflichtkanons mit einer ausgewählten, fortgeschrittenen Lehrveranstaltung der Physik oder Astrophysik zu ergänzen; zum Teil dienen sie der Vorbereitung auf das Masterstudium. Alternativ kann im Betriebspraktikum Erfahrung mit der Arbeit in der Industrie oder in einer anderen Institution, in der physikalische Kenntnisse erforderlich sind, gesammelt werden. Forschungseinrichtungen (z. B. DLR, FhG, MPI) sind davon ausgenommen."
-mfFormalities = "Erfolgreiche Bearbeitung der Übungsaufgaben, des Projektes, bzw. Bescheinigung über ein Betriebspraktikum"
-mfLength = "1 Semester"
-mfParticipants = "ca. 200"
-mfSignup = "6/163"
-mfNotes = "* Wird für B.Sc. als 6 LP angerechnet"
-mfOrder = "0"
-CourseList = ["physik459", "physik458"]
-[physik450.Courses.physik459]
-cfTitle = "Betriebspraktikum"
-cfNum = "physik459"
-cfCP = "6"
-cfWorkload = "n.a."
-cfKind = "Praktikum"
-cfCategory = "Wahlpflicht"
-cfLanguage = "deutsch"
-cfRequirements = ""
-cfPreparation = "Lehrveranstaltungen des 1.-3. Semesters"
-cfFormalities = "Zulassungsvoraussetzung zur Modulprüfung (schriftlicher Bericht): erfolgreiche Teilnahme am Praktikum"
-cfLength = "1 Semester"
-cfGoals = "Der Studierende soll in einem Praktikum in einem Industriebetrieb oder in einer Institution, in der physikalische Kenntnisse erforderlich sind, erste praktische Erfahrungen sammeln"
-cfContent = '''Sammeln erster berufsnaher Erfahrungen in einem Betrieb der öffentlichen Hand oder der Wirtschaft.
-
-Verfassen eines Erfahrungsberichtes
-'''
-cfLiterature = ""
-cfKindShort = "Praktikum"
-cfSemester = "WS/SS"
-cfLecturer = "Dozentinnen und Dozenten der Physik und Astronomie"
-cfMail = '''astro@uni-bonn.de
-
-exphysik@uni-bonn.de
-
-theophys@uni-bonn.de
-'''
-
-[physik450.Courses.physik458]
-cfTitle = "Projektpraktikum Physik"
-cfNum = "physik458"
-cfCP = "6"
-cfWorkload = "6"
-cfKind = "Praktikum"
-cfCategory = "Wahlpflicht"
-cfLanguage = "deutsch"
-cfRequirements = "Erfolgreiche Teilnahme an physik260 und physik360"
-cfPreparation = "physik110, physik210, physik310"
-cfFormalities = "Führen eines Laborbuches, erfolgreiche Bearbeitung des Projekts, Posterpräsentation und Diskussion"
-cfLength = "1 Semester (während Vorlesungszeit und evtl. vorlesungsfreier Zeit)"
-cfGoals = "Einüben des experimentell-wissenschaftlichen Prozesses anhand ausgewählter (kleiner) Projekte. Dies beinhaltet u. a. eine \"Forschungsfrage\" zu formulieren, entsprechende Fachliteratur zu finden und zu verstehen, ein adäquates Versuchsdesign zu entwickeln, den entwickelten Versuch durchzuführen, Daten zu nehmen und auszuwerten, Ergebnisse zu dokumentieren und zu diskutieren. Grundlegend dafür sind entsprechende Fachkenntnisse."
-cfContent = "Die Studenten identifizieren experimentelle Themen, die sie bearbeiten möchten und entwickeln einen Projektplan in Abstimmung mit der Praktikumsleitung, um die abgesprochenen Versuche zu entwickeln und durchzuführen. Die Themen sollen einen Bezug zu physikalischen Fragestellungen der experimentellen Vorlesungen des Bachelorstudiengangs (Physik 1 – Physik  5) haben. Physikalische Versuche werden entwickelt und durchgeführt. Die Ergebnisse werden in einer Posterpräsentation dem gesamten Kurs vorgestellt und diskutiert."
-cfLiterature = ""
-cfKindShort = "Praktikum"
-cfSemester = "WS/SS"
-cfLecturer = "Dozentinnen und Dozenten der Physik und Astronomie"
-cfMail = "exphysik@uni-bonn.de"
-
-
-[physik120]
-mfDegree = ""
-mfDegreeLang = "B.Sc. in Physik (PO von 2014)"
-mfTitle = "Einführungsveranstaltungen anderer Fächer"
-mfNum = "physik120"
-mfCP = "8*"
-mfCategory = "Wahlpflicht"
-mfSemester = "1.-4."
-mfRequirements = "gemäß gewähltem Modul"
-mfPreparation = "gemäß gewähltem Modul"
-mfContent = "Einführende Lehrveranstaltungen aus anderen Fächern ermöglichen es den Studierenden, Grundlagenwissen in anderen wissenschaftlichen Bereichen zu erwerben. Inhalt und Umfang des Moduls werden durch das jeweilige Fach definiert"
-mfGoals = "Die Studierenden sollen elementare Grundlagen aus anderen Wissensbereichen erarbeiten, um Verständnis für interdisziplinäre Fragestellungen zu erwerben. Sie sollen mit Sachverstand über die Bereiche berichten können"
-mfFormalities = "gemäß gewähltem Modul"
-mfLength = "1 oder 2 Semester"
-mfParticipants = ""
-mfSignup = "8/163"
-mfNotes = "* Die Leistungspunkte müssen in einem Fach erworben werden"
-mfOrder = "0"
-CourseList = []
-
-[physik130]
-mfDegree = ""
-mfDegreeLang = "B.Sc. in Physik (PO von 2014)"
-mfTitle = "EDV"
-mfNum = "physik130"
-mfCP = "4"
-mfCategory = "Pflicht"
-mfSemester = "1."
-mfRequirements = "keine"
-mfPreparation = "keine"
-mfContent = "Grundlagen der EDV in der Physik"
-mfGoals = "Die Studierenden sollen grundlegende Konzepte einer modernen Programmiersprache (z. B. C oder C++) erlernen und anwenden; Erstellen einfacher Dokumente mit Hilfe von LaTeX"
-mfFormalities = "Eine schriftliche Ausarbeitung"
-mfLength = "1 Semester"
-mfParticipants = "ca. 200"
-mfSignup = "0/163"
-mfNotes = ""
-mfOrder = "0"
-CourseList = ["physik131"]
-[physik130.Courses.physik131]
-cfTitle = "EDV"
-cfNum = "physik131"
-cfCP = "4"
-cfWorkload = "1+2"
-cfKind = "Vorlesung mit Übungen"
-cfCategory = "Pflicht"
-cfLanguage = "deutsch"
-cfRequirements = ""
-cfPreparation = ""
-cfFormalities = "Das Modul bleibt unbenotet"
-cfLength = "1 Semester"
-cfGoals = "Die Studierenden sollen grundlegende Konzepte einer modernen Programmiersprache am Beispiel von C (C++) erlernen und anwenden; Erstellen einfacher Dokumente mit LaTeX"
-cfContent = "Programmiersprache C/C++, LaTeX"
-cfLiterature = "Es werden kompakte Anleitungen zur Verfügung gestellt"
-cfKindShort = "Vorl. + Üb."
-cfSemester = "WS"
-cfLecturer = "Dozentinnen und Dozenten der Physik und Astronomie"
-cfMail = "exphysik@uni-bonn.de"
-
-
-[physik440]
-mfDegree = ""
-mfDegreeLang = "B.Sc. in Physik (PO von 2014)"
-mfTitle = "Computerphysik"
-mfNum = "physik440"
-mfCP = "6"
-mfCategory = "Pflicht"
-mfSemester = "4."
-mfRequirements = "keine"
-mfPreparation = "Schriftliche Ausarbeitungen"
-mfContent = "Anwendung numerischer Methoden auf Problemlösungen in der Physik"
-mfGoals = "Die Studierenden sollen lernen, ein physikalisches Problem in eine auf dem Rechner lösbare Form zu bringen, das Problem mit Hilfe der in der Vorlesung erlernten Methoden zu lösen und ihre Ergebnisse darzustellen."
-mfFormalities = "keine"
-mfLength = "1 Semester"
-mfParticipants = "ca. 200"
-mfSignup = "6/163"
-mfNotes = ""
-mfOrder = "0"
-CourseList = ["physik441"]
-[physik440.Courses.physik441]
-cfTitle = "Computerphysik"
-cfNum = "physik441"
-cfCP = "6"
-cfWorkload = "3+2"
-cfKind = "Vorlesung mit Übungen"
-cfCategory = "Pflicht"
-cfLanguage = "deutsch"
-cfRequirements = ""
-cfPreparation = "Theoretische Physik I-II (physik220, physik320), Physik I - III (physik110, physik210, physik310),  EDV (physik130), Lineare Algebra, Analysis."
-cfFormalities = "Die Prüfung erfolgt in der Form von sechs Übungsaufgaben. Die Übungsaufgaben werden über das Semester verteilt in Gruppen von zwei Studierenden bearbeitet und bewertet."
-cfLength = "1 Semester"
-cfGoals = "Lösung eines physikalischen Problems im Team mit Hilfe numerischer Methoden. Darstellung der Lösung. Vorbereitung für Softwareentwicklung auch für nichtuniversitäre Bereiche."
-cfContent = "Rechengenauigkeit, numerische und algorithmische Fehler; Lösung wissenschaftlicher Probleme mit numerischen Methoden: Lösung linearer Gleichungssysteme, Lösung von Differentialgleichungen, Nullstellensuche, Approximation (Schnelle Fourier Transformation), Numerische Integration, Minimierungsprobleme"
-cfLiterature = '''S.E. Koonin, Computational Physics; (Benjamin/Cummings, 1986)
-
-T. Pang, Computational Physics; (Cambridge University Press, 2006)
-
-F. J. Vesely, Computational Physics; (Plenum Press, 1994)
-
-W.H. Press et al.; Numerical Recipes in C (Cambridge University Press, 1992)
-
-H. R. Schwarz, N. Köckler; Numerische Mathematik (Vieweg+Teubner, 2009)
-'''
-cfKindShort = "Vorl. + Üb."
-cfSemester = "SS"
-cfLecturer = "Dozentinnen und Dozenten der Physik und Astronomie"
-cfMail = '''exphysik@uni-bonn.de
-
-theophysik@uni-bonn.de
-
-astro@uni-bonn.de
-'''
-
-
-[physik690]
-mfDegree = ""
-mfDegreeLang = "B.Sc. in Physik (PO von 2014)"
-mfTitle = "Bachelorarbeit"
-mfNum = "physik690"
-mfCP = "12"
-mfCategory = "Pflicht"
-mfSemester = "5.-6."
-mfRequirements = "mindestens 90 LP aus dem Bachelorstudium"
-mfPreparation = "Bachelorarbeit"
-mfContent = '''Die Studierenden sollen ein Projekt physikalischer Art durchführen bzw. eine physikalische Fragestellung bearbeiten.
-
-Variante FV:
-
-Die wissenschaftliche Vorbereitung basiert auf dem Inhalt einer weiterführenden/vertiefenden Vorlesung aus den Bereichen Experimentalphysik, Theoretische Physik oder Astronomie/Astrophysik (siehe nächste Seite)
-
-Variante AG:
-
-Die wissenschaftliche Vorbereitung basiert auf der Methoden- und Projektplanung in einer wissenschaftlichen Arbeitsgruppe.
-'''
-mfGoals = "Die Studierenden sollen dokumentieren, dass sie in der Lage sind, ein physikalisches Projekt durchzuführen bzw. eine physikalische Fragestellung zu bearbeiten und darüber eine schriftliche Ausarbeitung anzufertigen."
-mfFormalities = "keine"
-mfLength = "1 Semester"
-mfParticipants = ""
-mfSignup = "12/163"
-mfNotes = "Die Bachelorarbeit kann im Einvernehmen mit der Betreuerin bzw. dem Betreuer wahlweise in deutscher oder englischer Sprache abgefasst werden."
-mfOrder = "0"
-CourseList = ["physik691"]
-[physik690.Courses.physik691]
-cfTitle = "Bachelorarbeit"
-cfNum = "physik691"
-cfCP = "12"
-cfWorkload = "n.a."
-cfKind = "Bachelorarbeit"
-cfCategory = "Pflicht"
-cfLanguage = "deutsch"
-cfRequirements = "Das Thema der Bachelorarbeit kann erst ausgegeben werden, wenn die Studentin, der Student mindestens 90 Leistungspunkte aus dem Bachelorstudium erworben hat."
-cfPreparation = ""
-cfFormalities = "Die Prüfungsleistung ist eine schriftliche Ausarbeitung über ein selbst durchgeführtes Projekt im Rahmen eines \"Praktikums in einer Arbeitsgruppe\" oder über ein selbst bearbeitetes Thema einer weiterführenden/vertiefenden Wahlpflichtvorlesung (s. oben genannte Lehrveranstaltungen). Sie soll in der Regel den Umfang von 20 DIN A4 Seiten nicht überschreiten. Die Bestätigung über die erfolgreiche Durchführung des Praktikums in der Arbeitsgruppe bzw. über die Teilnahme an der Vorlesung wird zusammen mit der Beurteilung der schriftlichen Ausarbeitung von der betreuenden Dozentin / dem betreuenden Dozenten vorgenommen. Die Note der Bachelorarbeit wird durch die Beurteilung der schriftlichen Ausarbeitung festgelegt und wird mit dem Gewicht von 12 Leistungspunkten in der Endnote berücksichtigt. Das Modul muss insgesamt innerhalb von 4 Monaten abgeschlossen werden. Auf begründeten Antrag hin kann der Prüfungsausschuss eine Verlängerung der Bearbeitungszeit um bis zu 4 Wochen genehmigen."
-cfLength = "1 Semester"
-cfGoals = "Die Studierenden sollen dokumentieren, dass sie in der Lage sind, ein physikalisches Projekt durchzuführen bzw. eine physikalische Fragestellung zu bearbeiten und darüber eine schriftliche Ausarbeitung anzufertigen."
-cfContent = '''Die Studierenden sollen ein Projekt physikalischer Art durchführen bzw. eine physikalische Fragestellung bearbeiten.
-
-Variante FV:
-
-Die wissenschaftliche Vorbereitung basiert auf dem Inhalt einer weiterführenden/vertiefenden Vorlesung aus den Bereichen Experimentalphysik, Theoretische Physik oder Astronomie/Astrophysik
-
-Variante AG:
-
-Die wissenschaftliche Vorbereitung basiert auf der Methoden- und Projektplanung in einer wissenschaftlichen Arbeitsgruppe.
-'''
-cfLiterature = "siehe die entsprechenden Modulbeschreibungen des Masterstudienganges Physik bzw. Astrophysik"
-cfKindShort = "BA-Arbeit"
-cfSemester = "WS/SS"
-cfLecturer = ""
-cfMail = ""
-
-
-[physik410]
-mfDegree = ""
-mfDegreeLang = "B.Sc. in Physik (PO von 2014)"
-mfTitle = "Physik IV (Atome, Moleküle, Kondensierte Materie)"
-mfNum = "physik410"
+mfTitle = "Physik II (Elektromagnetismus)"
+mfNum = "physik210"
 mfCP = "7"
 mfCategory = "Pflicht"
-mfSemester = "4."
+mfSemester = "2."
 mfRequirements = "keine"
 mfPreparation = "keine"
-mfContent = "Grundzüge der Atom-, Molekül- und Festkörperphysik"
-mfGoals = "Es soll ein Verständnis der elektronischen Struktur der Materie auf atomarer und molekularer Ebene sowie der Struktur von allgemein festen Materialien und von Halbleitern erlangt werden."
+mfContent = "Elektromagnetismus"
+mfGoals = "Einarbeitung in die Phänomene von Elektrizitätslehre und Magnetismus, elektromagnetische Wellen und damit verwandte Phänomene"
 mfFormalities = "Erfolgreiche Bearbeitung der Übungsaufgaben + bestandene Klausur"
 mfLength = "1 Semester"
 mfParticipants = "ca. 200"
 mfSignup = "0/163"
 mfNotes = ""
-mfOrder = "0"
-CourseList = ["physik411"]
-[physik410.Courses.physik411]
-cfTitle = "Physik IV (Atome, Moleküle, Kondensierte Materie)"
-cfNum = "physik411"
+mfOrder = "210"
+CourseList = ["physik211"]
+[physik210.Courses.physik211]
+cfTitle = "Physik II (Elektromagnetismus)"
+cfNum = "physik211"
 cfCP = "7"
 cfWorkload = "4+2"
 cfKind = "Vorlesung mit Übungen"
 cfCategory = "Pflicht"
 cfLanguage = "deutsch"
 cfRequirements = ""
-cfPreparation = "Physik I - III (physik110, physik210, physik310); Theoretische Physik I - II (physik220, physik320)"
-cfFormalities = "Voraussetzung zur Teilnahme an der unbenoteten Klausur: erfolgreiche Teilnahme an den Übungen"
+cfPreparation = "Physik I (physik110)"
+cfFormalities = "Zulassungsvoraussetzung zur unbenoteten Klausur: erfolgreiche Teilnahme an den Übungen"
 cfLength = "1 Semester"
-cfGoals = "Die vierte Grundvorlesung Experimentalphysik präsentiert eine Einführung in die Struktur der elektronisch dominierten Materie, wobei ein Bogen geschlagen wird von den atomaren Modellsystemen über die Grundzüge der Chemie zur Festkörperphysik und kondensierten Materie"
-cfContent = '''Atome:  Quantenmechanik des Wasserstoffatoms; Quantenmechanischer Drehimpuls und Spin; Feinstruktur und Hyperfeinstruktur; Atome in Magnetfeldern; Identische Teilchen, Helium und Mehrelektronenatome; das periodische System der Elemente; Wechselwirkung zwischen Licht und Materie, Laser
+cfGoals = "Die zweite Grundvorlesung Experimentalphysik behandelt zunächst die elektrischen Phänomene in Experimenten und in elementarer theoretischer Betrachtung. Im zweiten Teil werden die elektromagnetischen Wechselwirkungen bis zu elektromagnetischen Wellen behandelt, um schließlich die vollständigen Maxwell-Gleichungen zu behandeln, auch in Vorbereitung auf die theoretischen Vorlesungen zur Elektrodynamik."
+cfContent = "Elektrostatik (Ladung, Coulomb-Gesetz, Feld, Dipol, elektrische Struktur der Materie, el. Fluss, Gauß-Gesetz, Poisson-Gleichung, Ladungsverteilung, Kapazität, Vergleich mit Gravitation). Elektrische Leitung (Stromdichte, Ladungserhaltung, Ohmsches Gesetz, Rotation des Vektorfeldes, Stokes-Satz, Stromkreise, Kirchhoff-Gesetze, Leitungsmechanismen). Magnetische Wechselwirkung, (Magnetismus als relativistischer Effekt, Magnetfeld, stationäre Maxwell-Gleichungen, Lorentz-Kraft, Hall-Effekt, Magnetischer Dipol, Vektorpotential, Biot-Savart-Gesetz). Materie in stationären Feldern (induzierte und permanente Dipole, Dielektrikum, Verschiebungsfeld, elektrische Polarisation, magnetische Dipole, H-Feld, Verhalten an Grenzflächen). Zeitabhängige Felder (Induktion, Maxwellscher Verschiebungsstrom, technischer Wechselstrom, Schwingkreise), Elektromagnetische Wellen (Hochfrequenz-Phänomene, Abstrahlung, freie EM-Wellen, Hertz-Dipol, Polarisation, Reflexion). Vollständige Maxwell-Gleichungen, Symmetrie zwischen elektrischen und magnetischen Feldern."
+cfLiterature = '''W. Demtröder; Experimentalphysik 2 (Springer, Heidelberg 4. Aufl. 2008)
 
+D. Meschede; Gerthsen Physik (Springer, Heidelberg 24. Aufl. 2010)
 
+Alonso Finn, Physics, Addison Wesley
 
-Moleküle: Zweiatomige Moleküle: Born-Oppenheimer-Näherung; Molekulare Bindung; Vibrationen, Normalkoordinaten von Molekülen; Rotationsstruktur von Molekülen
+Feynman, Vorlesungen über Physik, Bd. II (Oldenbourg)
 
+W. Otten, Repetitorium der Experimentalphysik (Springer Verlag, Heidelberg)
 
-
-Kondensierte Materie: Kristallstrukturen, Strukturanalyse, Bindungstypen; Gitterdynamik (Phononen, Dispersionsrelation, spezifische Wärme); Modell des freien Elektronengases; Bandstruktur, elektrische  Eigenschaften von Festkörpern, Halbleiter; Magnetische Eigenschaften von Festkörpern
-'''
-cfLiterature = '''W. Demtröder; Experimentalphysik 3: Atome, Moleküle und Festkörper (Springer, Heidelberg 4. überarb. Aufl. 2010)
-
-H. Ibach, H. Lüth; Festkörperphysik (Springer Heidelberg 6. Aufl. 2002)
-
-H. Haken, H.C. Wolf; Atom- und Quantenphysik (Springer, Heidelberg 8. aktual. u. erw. Aufl. 2003)
-
-C. Kittel; Einführung in die Festkörperphysik (R. Oldenbourg Vlg., München 14. Aufl. 2005)
+P. Tipler, Physik (Spektrum Akad. Verlag, Heidelberg)
 '''
 cfKindShort = "Vorl. + Üb."
 cfSemester = "SS"
 cfLecturer = "Dozentinnen und Dozenten der Experimentalphysik"
 cfMail = "exphysik@uni-bonn.de"
+cfOrder = "10"
 
 
 [physik220]
-mfDegree = ""
+mfDegree = "BSPHYSIK2"
 mfDegreeLang = "B.Sc. in Physik (PO von 2014)"
 mfTitle = "Theoretische Physik I (Mechanik)"
 mfNum = "physik220"
@@ -1134,7 +373,7 @@ mfLength = "1 Semester"
 mfParticipants = "ca. 200"
 mfSignup = "0/163"
 mfNotes = ""
-mfOrder = "0"
+mfOrder = "220"
 CourseList = ["physik221"]
 [physik220.Courses.physik221]
 cfTitle = "Theoretische Physik I (Mechanik)"
@@ -1179,10 +418,184 @@ cfKindShort = "Vorl. + Üb."
 cfSemester = "SS"
 cfLecturer = "Dozentinnen und Dozenten der theoretischen Physik"
 cfMail = "theophys@uni-bonn.de"
+cfOrder = "10"
+
+
+[math240]
+mfDegree = "BSPHYSIK2"
+mfDegreeLang = "B.Sc. in Physik (PO von 2014)"
+mfTitle = "Mathematik II  für Physiker und Physikerinnen"
+mfNum = "math240"
+mfCP = "11"
+mfCategory = "Pflicht"
+mfSemester = "2."
+mfRequirements = "keine"
+mfPreparation = "Klausur"
+mfContent = "Analysis II"
+mfGoals = "Vermittlung der mathematischen Grundbegriffe und Methoden"
+mfFormalities = "Erfolgreiche Bearbeitung der Übungsaufgaben"
+mfLength = "1 Semester"
+mfParticipants = "ca. 200"
+mfSignup = "11/163"
+mfNotes = ""
+mfOrder = "240"
+CourseList = ["math241"]
+[math240.Courses.math241]
+cfTitle = "Mathematik II (für Physiker und Physikerinnen)"
+cfNum = "math241"
+cfCP = "11"
+cfWorkload = "4+3"
+cfKind = "Vorlesung mit Übungen"
+cfCategory = "Pflicht"
+cfLanguage = "deutsch"
+cfRequirements = ""
+cfPreparation = "Mathematik I für Physiker und Physikerinnen (math140)"
+cfFormalities = "Zulassungsvoraussetzung zur Modulprüfung (Klausur): erfolgreiche Teilnahme an den Übungen"
+cfLength = "1 Semester"
+cfGoals = "Vermittlung der mathematischen Grundbegriffe und Methoden, erforderlich für die theoretischen Physikvorlesungen nach dem 2. Semester"
+cfContent = '''Mehrdimensionale Integration:
+
+Transformationssatz, Integration auf gekrümmten Objekten (Gramsche Determinate), Längenberechnung von Kurven, Flächeninhaltsberechnung von gekrümmten Flächen, Berechnung von Volumina.
+
+Vektoranalysis in drei Dimensionen: grad, rot, div, Gaußscher und Stokesscher Satz, Erhaltungsgrößen, Maxwellgleichungen. Verallgemeinerung auf beliebige Dimension.
+
+Fourieranalysis, Fourierreihen, Fouriertransformation, Hilberträume, vollständige Funktionensysteme
+'''
+cfLiterature = '''G. B. Arfken, H. J. Weber; Mathematical Methods for Physicists (Academic Press 6. Aufl. 2005)
+
+S. Hassani; Mathematical Physics (Springer; New York 1999)
+
+O. Forster; Analysis II (Vieweg, Wiesbaden 2005)
+
+O. Forster; Analysis III (Vieweg, Wiesbaden 1984)
+'''
+cfKindShort = "Vorl. + Üb."
+cfSemester = "SS"
+cfLecturer = "Dozentinnen und Dozenten der Mathematik"
+cfMail = "theophys@uni-bonn.de"
+cfOrder = "10"
+
+
+[physik260]
+mfDegree = "BSPHYSIK2"
+mfDegreeLang = "B.Sc. in Physik (PO von 2014)"
+mfTitle = "Praktikum Mechanik, Wärmelehre"
+mfNum = "physik260"
+mfCP = "3"
+mfCategory = "Pflicht"
+mfSemester = "2."
+mfRequirements = "Teilnahme an der Klausur zu Modul physik110"
+mfPreparation = "Mündliche Prüfung"
+mfContent = "Vorbereiten auf physikalische Grundlagen; praktisches Durchführen und Auswerten von Experimenten"
+mfGoals = "Erlernen von Experimentiertechniken"
+mfFormalities = "Mündl. Überprüfung der Versuchsvorbereitung, erfolgreiche Durchführung der Versuche, Erstellung von Versuchsprotokollen"
+mfLength = "1 Semester"
+mfParticipants = "ca. 200"
+mfSignup = "3/163"
+mfNotes = ""
+mfOrder = "260"
+CourseList = ["physik261"]
+[physik260.Courses.physik261]
+cfTitle = "Praktikum Mechanik, Wärmelehre"
+cfNum = "physik261"
+cfCP = "3"
+cfWorkload = "3"
+cfKind = "Praktikum"
+cfCategory = "Pflicht"
+cfLanguage = "deutsch"
+cfRequirements = "Teilnahme an Physik I (physik110). Das heißt: erfolgreiche Teilnahme an den Übungen plus Teilnahme an der Modulprüfung physik110"
+cfPreparation = "Grundlagen der statistischen Datenauswertung"
+cfFormalities = "Zulassungsvoraussetzung zur Modulprüfung (Klausur oder mündliche Prüfung): mündliche Überprüfung der Versuchsvorbereitung, erfolgreiche Durchführung der Versuche, Erstellung von Versuchsprotokollen"
+cfLength = "1 Semester (während der Vorlesungszeit)"
+cfGoals = "Praktische Erfahrungen zum zielgerichteten Experimentieren und Auswerten. Erarbeitung von Versuchsprotokollen."
+cfContent = '''Vorbereiten auf physikalische Grundlagen anhand von Anleitungen und Versuchen. Praktisches Durchführen und Auswerten von Experimenten in kleinen Gruppen.
+
+Ausgewählte Versuche im Praktikum zur Mechanik und Wärmelehre
+
+
+
+Auswahl: Einführungsversuch mit Seminar; Elastizitätskonstanten; Biegung und Knickung; Schwingungen; freie und erzwungene Schwingungen (Pohlsches Drehpendel);Trägheitsmoment und physisches Pendel; spezifische Wärmekapazität; Adiabatenkoeffizient; Wärmeausdehnungskoeffizient; ideales Gas; statistische Schwankungen
+'''
+cfLiterature = '''Versuchsanleitungen: http://www.praktika.physik.uni-bonn.de/
+
+W. Walcher; Praktikum der Physik (Teubner, Wiesbaden 8. Aufl. 2004)
+
+D. Geschke; Physikalisches Praktikum (Teubner, Wiesbaden 12. Aufl. 2001)
+
+V. Blobel; E. Lohrmann; Statistische und numerische Methoden der Datenanalyse (Teubner, Wiesbaden 1. Aufl. 1999)
+
+S. Brandt; Datenanalyse (Spektrum Akademischer Vlg., Heidelberg 4. Aufl. 1999)
+
+E.W. Otten: Repetitorium Experimentalphysik (Springer, Heidelberg 2. Aufl. 2002)
+
+Westphal; Physikalisches Praktikum (Vieweg); Titel vergriffen, aber in der ULB vorhanden
+
+Kohlrausch; Praktische Physik Bd. 1-3 (Teubner, Wiesbaden) Titel vergriffen, aber in der ULB vorhanden
+'''
+cfKindShort = "Praktikum"
+cfSemester = "SS"
+cfLecturer = "Dozentinnen und Dozenten der Experimentalphysik"
+cfMail = "exphysik@uni-bonn.de"
+cfOrder = "20"
+
+
+[physik310]
+mfDegree = "BSPHYSIK2"
+mfDegreeLang = "B.Sc. in Physik (PO von 2014)"
+mfTitle = "Physik III (Optik und Wellenmechanik)"
+mfNum = "physik310"
+mfCP = "7"
+mfCategory = "Pflicht"
+mfSemester = "3."
+mfRequirements = "keine"
+mfPreparation = "keine"
+mfContent = "Grundzüge der Optik; Grundzüge der mikroskopischen Physik"
+mfGoals = "Einarbeitung in die Phänomene der linearen und der Wellenoptik und der mikroskopischen Physik"
+mfFormalities = "Erfolgreiche Bearbeitung der Übungsaufgaben + bestandene Klausur"
+mfLength = "1 Semester"
+mfParticipants = "ca. 200"
+mfSignup = "0/163"
+mfNotes = ""
+mfOrder = "310"
+CourseList = ["physik311"]
+[physik310.Courses.physik311]
+cfTitle = "Physik III (Optik und Wellenmechanik)"
+cfNum = "physik311"
+cfCP = "7"
+cfWorkload = "4+2"
+cfKind = "Vorlesung mit Übungen"
+cfCategory = "Pflicht"
+cfLanguage = "deutsch"
+cfRequirements = ""
+cfPreparation = "Physik I - II (physik110, physik210)"
+cfFormalities = "Voraussetzung zur Teilnahme an der unbenoteten Klausur: erfolgreiche Teilnahme an den Übungen"
+cfLength = "1 Semester"
+cfGoals = "Die dritte Grundvorlesung Experimentalphysik stellt im ersten Teil optische Phänomene in Experimenten und elementarer theoretischer Behandlung als Erweiterung der Elektrizitätslehre dar. Insbesondere die Interferenzphänomene der Wellenlehre bieten eine sehr gute propädeutische Basis, um im zweiten Teil eine Einführung in die mikroskopische Physik mit Hilfe elementarer Wellenfunktionen der Quantenmechanik zu realisieren"
+cfContent = '''Optik: Strahlenoptik und Matrizenoptik; Abbildungen und Abbildungsfehler; Mikroskop und Teleskop; Wellengleichung und Wellentypen; Brechung und Dispersion; Wellenleiter; Polarisation und Doppelbrechung; Beugung (Kirchhoffsche Theorie der Beugung, Fraunhofer-Beugung, Beugung am Einzelspalt, am Doppelspalt und am Gitter); Kohärenz und Zweistrahl-Interferometer; Vielstrahl-Interferometer; Räumliche und zeitliche Wellenpakete
+
+
+
+Wellenmechanik: Teilchenphänomene mit Licht (Schwarzkörperstrahlung, Photo-Effekt, Compton-Effekt, Photon); Materiewellen (Doppelspalt mit Materiewellen, de Broglie Wellenlänge, Wellenfunktion und Schrödingergleichung); Tunnel-Effekt; Teilchen im externen Potenzial; Paul-Falle; Aufbau der Atome (Rutherford-Experiment, Franck-Hertz-Versuch); Spektrum des Wasserstoff-Atoms, Bohrsches Atommodell; Stern-Gerlach-Experiment
+'''
+cfLiterature = '''Hecht, Optik (Oldenbourg-Verlag, München 4. Aufl. 2005)
+
+D. Meschede; Optik, Licht und Laser (Teubner, Wiesbaden 2. überarb. Aufl. 2005)
+
+W. Demtröder; Experimentalphysik 2: Elektrizität und Optik (Springer, Heidelberg 5. überarb. Aufl. 2009)
+
+W. Demtröder; Experimentalphysik 3: Atome, Moleküle und Festkörper (Springer, Heidelberg 4. überarb. Aufl. 2010)
+
+D. Meschede; Gerthsen Physik (Springer, Heidelberg 23. Aufl. 2006)
+'''
+cfKindShort = "Vorl. + Üb."
+cfSemester = "WS"
+cfLecturer = "Dozentinnen und Dozenten der Experimentalphysik"
+cfMail = "exphysik@uni-bonn.de"
+cfOrder = "10"
 
 
 [physik320]
-mfDegree = ""
+mfDegree = "BSPHYSIK2"
 mfDegreeLang = "B.Sc. in Physik (PO von 2014)"
 mfTitle = "Theoretische Physik II (Elektrodynamik)"
 mfNum = "physik320"
@@ -1198,7 +611,7 @@ mfLength = "1 Semester"
 mfParticipants = "ca. 200"
 mfSignup = "9/163"
 mfNotes = ""
-mfOrder = "0"
+mfOrder = "320"
 CourseList = ["physik321"]
 [physik320.Courses.physik321]
 cfTitle = "Theoretische Physik II (Elektrodynamik)"
@@ -1246,10 +659,221 @@ cfKindShort = "Vorl. + Üb."
 cfSemester = "WS"
 cfLecturer = "Dozentinnen und Dozenten der theoretischen Physik"
 cfMail = "theophys@uni-bonn.de"
+cfOrder = "10"
+
+
+[math340]
+mfDegree = "BSPHYSIK2"
+mfDegreeLang = "B.Sc. in Physik (PO von 2014)"
+mfTitle = "Mathematik III für Physiker und Physikerinnen"
+mfNum = "math340"
+mfCP = "11"
+mfCategory = "Pflicht"
+mfSemester = "3."
+mfRequirements = "keine"
+mfPreparation = "Klausur"
+mfContent = "Funktionentheorie"
+mfGoals = "Vermittlung der mathematischen Grundbegriffe und Methoden"
+mfFormalities = "Erfolgreiche Bearbeitung der Übungsaufgaben"
+mfLength = "1 Semester"
+mfParticipants = "ca. 200"
+mfSignup = "11/163"
+mfNotes = ""
+mfOrder = "340"
+CourseList = ["math341"]
+[math340.Courses.math341]
+cfTitle = "Mathematik III (für Physiker und Physikerinnen)"
+cfNum = "math341"
+cfCP = "11"
+cfWorkload = "4+3"
+cfKind = "Vorlesung mit Übungen"
+cfCategory = "Pflicht"
+cfLanguage = "deutsch"
+cfRequirements = ""
+cfPreparation = "Mathematik I - II für Physiker und Physikerinnen (math140, math240)"
+cfFormalities = "Zulassungsvoraussetzung zur Modulprüfung (Klausur): erfolgreiche Teilnahme an den Übungen"
+cfLength = "1 Semester"
+cfGoals = "Vermittlung der mathematischen Grundbegriffe und Methoden, erforderlich für die - theoretischen - Physikvorlesungen nach dem 3. Semester"
+cfContent = '''Funktionentheorie: Potenzreihen, Laurentreihen, Residuensatz, spezielle Funktionen.
+
+Partielle Differentialgleichungen + Variationsrechnung. Harmonische Funktionen, Poissongleichung, Green'sche Funktion
+'''
+cfLiterature = '''G.B. Arfken, H.J. Weber; Mathematical Methods for Phycisists (Academic Press 6. Aufl. 2005)
+
+S. Hassani; Mathematical Physics (Springer; New York 1999)
+
+R. Remmert, G. Schumacher; Funktionentheorie I (Springer; Berlin 2001)
+'''
+cfKindShort = "Vorl. + Üb."
+cfSemester = "WS"
+cfLecturer = "Dozentinnen und Dozenten der Mathematik"
+cfMail = "theophys@uni-bonn.de"
+cfOrder = "10"
+
+
+[physik360]
+mfDegree = "BSPHYSIK2"
+mfDegreeLang = "B.Sc. in Physik (PO von 2014)"
+mfTitle = "Praktikum Elektromagnetismus/Optik"
+mfNum = "physik360"
+mfCP = "6"
+mfCategory = "Pflicht"
+mfSemester = "3."
+mfRequirements = "Teilnahme an der Klausur zu Modul physik210"
+mfPreparation = "Mündliche Prüfung"
+mfContent = "Praktikumsversuche aus den Themengebieten Elektromagnetismus und klassische Optik"
+mfGoals = "Erlernen von Experimentiertechniken und Vertiefung der Grundlagen anhand von Versuchen zur Elektrizitätslehre und Magnetismus, elektromagnetischen Wellen und klassischer Optik"
+mfFormalities = "Mündliche Überprüfung der Versuchsvorbereitung, erfolgreiche Durchführung der Versuche, Erstellung von Versuchsprotokollen"
+mfLength = "1 Semester"
+mfParticipants = "ca. 200"
+mfSignup = "6/163"
+mfNotes = ""
+mfOrder = "360"
+CourseList = ["physik361", "physik362"]
+[physik360.Courses.physik361]
+cfTitle = "Praktikum Elektromagnetismus"
+cfNum = "physik361"
+cfCP = ""
+cfWorkload = "3"
+cfKind = "Praktikum"
+cfCategory = "Pflicht"
+cfLanguage = "deutsch"
+cfRequirements = "Teilnahme an  Physik II (physik210). Das heißt: erfolgreiche Teilnahme an den Übungen plus Teilnahme an der Modulprüfung physik210"
+cfPreparation = ""
+cfFormalities = "mündliche Überprüfung der Versuchsvorbereitung, erfolgreiche Durchführung der Versuche, Erstellung von Versuchsprotokollen"
+cfLength = "1 Semester (während der Vorlesungszeit)"
+cfGoals = "Praktische Erfahrungen zum zielgerichteten Experimentieren und Auswerten. Anfertigen von Versuchsprotokollen"
+cfContent = '''Vorbereiten auf physikalische Grundlagen anhand von Anleitungen und Versuchen. Praktisches Durchführen und Auswerten von Experimenten in kleinen Gruppen.
+
+Ausgewählte Versuche im Praktikum zum Elektromagnetismus
+
+
+
+Auswahl: Gleichströme; Spannungsquellen; Widerstände; elektrische und magnetische Felder; Galvanometer und gedämpfte Schwingungen; Wechselstromwiderstände, Schwingkreis und Phasenschieber; Transformator; Fourieranalyse von Signalen; Hysterese der Magnetisierung von Eisen; elektrische und magnetische Kraftwirkung auf geladene Teilchen (Fadenstrahlrohr, Millikanversuch);
+'''
+cfLiterature = '''Versuchsanleitungen: http://www.praktika.physik.uni-bonn.de/
+
+W. Walcher; Praktikum der Physik (Teubner, Wiebaden 8. Aufl. 2004)
+
+D. Geschke; Physikalisches Praktikum (Teubner, Wiesbaden 12. Aufl. 2001)
+
+V. Blobel, E. Lohrmann; Statistische und numerische Methoden der Datenanalyse (Teubner, Wiesbaden 1. Aufl. 1999)
+
+S. Brandt; Datenanalyse (Spektrum Akademischer Vlg., Heidelberg 4. Aufl. 1999)
+
+E.W. Otten; Repetitorium Experimentalphysik (Springer, Heidelberg 2. Aufl. 2002)
+
+Westphal; Physikalisches Praktikum (Vieweg) Titel vergriffen, aber in der ULB vorhanden
+
+Kohlrausch; Praktische Physik Bd. 1-3 (Teubner, Wiesbaden) Titel vergriffen, aber in der ULB vorhanden
+'''
+cfKindShort = "Praktikum"
+cfSemester = "WS"
+cfLecturer = "Dozentinnen und Dozenten der Experimentalphysik"
+cfMail = "exphysik@uni-bonn.de"
+cfOrder = "0"
+
+[physik360.Courses.physik362]
+cfTitle = "Praktikum Optik, Wellenmechanik"
+cfNum = "physik362"
+cfCP = ""
+cfWorkload = "3"
+cfKind = "Praktikum"
+cfCategory = "Pflicht"
+cfLanguage = "deutsch"
+cfRequirements = ""
+cfPreparation = ""
+cfFormalities = "mündliche Überprüfung der Versuchsvorbereitung, erfolgreiche Durchführung der Versuche, Erstellung von Versuchsprotokollen"
+cfLength = "1 Semester (im Blockkurs in der vorlesungsfreien Zeit)"
+cfGoals = "Praktische Erfahrungen zum zielgerichteten Experimentieren und Auswerten; Anfertigung von Versuchsprotokollen"
+cfContent = '''Vorbereiten auf physikalische Grundlagen anhand von Anleitungen und Versuchen. Praktisches Durchführen und Auswerten von Experimenten in kleinen Gruppen.
+
+Ausgewählte Versuche im Praktikum zur Optik und Wellenmechanik.
+
+
+
+Auswahl: Linsen und Linsensysteme; optische Instrumente (Fernrohr, Mikroskop, Projektor); Dispersion, Brechung; Spektrometer; Beugung und Interferenz; Polarisation von Licht; Elektro- und Magnetooptik; Absorption und Streuung; Wärmestrahlung
+'''
+cfLiterature = '''W. Walcher; Praktikum der Physik (Teubner, Wiebaden 8. Aufl. 2004)
+
+D. Geschke; Physikalisches Praktikum (Teubner, Wiesbaden 12. Aufl. 2001)
+
+V. Blobel, E. Lohrmann; Statistische und numerische Methoden der Datenanalyse (Teubner, Wiesbaden 1. Aufl. 1999)
+
+S. Brandt; Datenanalyse (Spektrum Akademischer Vlg., Heidelberg 4. Aufl. 1999)
+
+E.W. Otten; Repetitorium Experimentalphysik (Springer, Heidelberg 2. Aufl. 2002)
+
+Westphal; Physikalisches Praktikum (Vieweg) Titel vergriffen, aber in der ULB vorhanden
+
+Kohlrausch; Praktische Physik Bd. 1-3 (Teubner, Wiesbaden) Titel vergriffen, aber in der ULB vorhanden
+'''
+cfKindShort = "Praktikum"
+cfSemester = "WS"
+cfLecturer = "Dozentinnen und Dozenten der Experimentalphysik"
+cfMail = "exphysik@uni-bonn.de"
+cfOrder = "20"
+
+
+[physik410]
+mfDegree = "BSPHYSIK2"
+mfDegreeLang = "B.Sc. in Physik (PO von 2014)"
+mfTitle = "Physik IV (Atome, Moleküle, Kondensierte Materie)"
+mfNum = "physik410"
+mfCP = "7"
+mfCategory = "Pflicht"
+mfSemester = "4."
+mfRequirements = "keine"
+mfPreparation = "keine"
+mfContent = "Grundzüge der Atom-, Molekül- und Festkörperphysik"
+mfGoals = "Es soll ein Verständnis der elektronischen Struktur der Materie auf atomarer und molekularer Ebene sowie der Struktur von allgemein festen Materialien und von Halbleitern erlangt werden."
+mfFormalities = "Erfolgreiche Bearbeitung der Übungsaufgaben + bestandene Klausur"
+mfLength = "1 Semester"
+mfParticipants = "ca. 200"
+mfSignup = "0/163"
+mfNotes = ""
+mfOrder = "410"
+CourseList = ["physik411"]
+[physik410.Courses.physik411]
+cfTitle = "Physik IV (Atome, Moleküle, Kondensierte Materie)"
+cfNum = "physik411"
+cfCP = "7"
+cfWorkload = "4+2"
+cfKind = "Vorlesung mit Übungen"
+cfCategory = "Pflicht"
+cfLanguage = "deutsch"
+cfRequirements = ""
+cfPreparation = "Physik I - III (physik110, physik210, physik310); Theoretische Physik I - II (physik220, physik320)"
+cfFormalities = "Voraussetzung zur Teilnahme an der unbenoteten Klausur: erfolgreiche Teilnahme an den Übungen"
+cfLength = "1 Semester"
+cfGoals = "Die vierte Grundvorlesung Experimentalphysik präsentiert eine Einführung in die Struktur der elektronisch dominierten Materie, wobei ein Bogen geschlagen wird von den atomaren Modellsystemen über die Grundzüge der Chemie zur Festkörperphysik und kondensierten Materie"
+cfContent = '''Atome:  Quantenmechanik des Wasserstoffatoms; Quantenmechanischer Drehimpuls und Spin; Feinstruktur und Hyperfeinstruktur; Atome in Magnetfeldern; Identische Teilchen, Helium und Mehrelektronenatome; das periodische System der Elemente; Wechselwirkung zwischen Licht und Materie, Laser
+
+
+
+Moleküle: Zweiatomige Moleküle: Born-Oppenheimer-Näherung; Molekulare Bindung; Vibrationen, Normalkoordinaten von Molekülen; Rotationsstruktur von Molekülen
+
+
+
+Kondensierte Materie: Kristallstrukturen, Strukturanalyse, Bindungstypen; Gitterdynamik (Phononen, Dispersionsrelation, spezifische Wärme); Modell des freien Elektronengases; Bandstruktur, elektrische  Eigenschaften von Festkörpern, Halbleiter; Magnetische Eigenschaften von Festkörpern
+'''
+cfLiterature = '''W. Demtröder; Experimentalphysik 3: Atome, Moleküle und Festkörper (Springer, Heidelberg 4. überarb. Aufl. 2010)
+
+H. Ibach, H. Lüth; Festkörperphysik (Springer Heidelberg 6. Aufl. 2002)
+
+H. Haken, H.C. Wolf; Atom- und Quantenphysik (Springer, Heidelberg 8. aktual. u. erw. Aufl. 2003)
+
+C. Kittel; Einführung in die Festkörperphysik (R. Oldenbourg Vlg., München 14. Aufl. 2005)
+'''
+cfKindShort = "Vorl. + Üb."
+cfSemester = "SS"
+cfLecturer = "Dozentinnen und Dozenten der Experimentalphysik"
+cfMail = "exphysik@uni-bonn.de"
+cfOrder = "10"
 
 
 [physik420]
-mfDegree = ""
+mfDegree = "BSPHYSIK2"
 mfDegreeLang = "B.Sc. in Physik (PO von 2014)"
 mfTitle = "Theoretische Physik III (Quantenmechanik)"
 mfNum = "physik420"
@@ -1265,7 +889,7 @@ mfLength = "1 Semester"
 mfParticipants = "ca. 200"
 mfSignup = "9/163"
 mfNotes = ""
-mfOrder = "0"
+mfOrder = "420"
 CourseList = ["physik421"]
 [physik420.Courses.physik421]
 cfTitle = "Theoretische Physik III (Quantenmechanik)"
@@ -1319,10 +943,331 @@ cfKindShort = "Vorl. + Üb."
 cfSemester = "SS"
 cfLecturer = "Dozentinnen und Dozenten der theoretischen Physik"
 cfMail = "theophys@uni-bonn.de"
+cfOrder = "10"
+
+
+[physik440]
+mfDegree = "BSPHYSIK2"
+mfDegreeLang = "B.Sc. in Physik (PO von 2014)"
+mfTitle = "Computerphysik"
+mfNum = "physik440"
+mfCP = "6"
+mfCategory = "Pflicht"
+mfSemester = "4."
+mfRequirements = "keine"
+mfPreparation = "Schriftliche Ausarbeitungen"
+mfContent = "Anwendung numerischer Methoden auf Problemlösungen in der Physik"
+mfGoals = "Die Studierenden sollen lernen, ein physikalisches Problem in eine auf dem Rechner lösbare Form zu bringen, das Problem mit Hilfe der in der Vorlesung erlernten Methoden zu lösen und ihre Ergebnisse darzustellen."
+mfFormalities = "keine"
+mfLength = "1 Semester"
+mfParticipants = "ca. 200"
+mfSignup = "6/163"
+mfNotes = ""
+mfOrder = "440"
+CourseList = ["physik441"]
+[physik440.Courses.physik441]
+cfTitle = "Computerphysik"
+cfNum = "physik441"
+cfCP = "6"
+cfWorkload = "3+2"
+cfKind = "Vorlesung mit Übungen"
+cfCategory = "Pflicht"
+cfLanguage = "deutsch"
+cfRequirements = ""
+cfPreparation = "Theoretische Physik I-II (physik220, physik320), Physik I - III (physik110, physik210, physik310),  EDV (physik130), Lineare Algebra, Analysis."
+cfFormalities = "Die Prüfung erfolgt in der Form von sechs Übungsaufgaben. Die Übungsaufgaben werden über das Semester verteilt in Gruppen von zwei Studierenden bearbeitet und bewertet."
+cfLength = "1 Semester"
+cfGoals = "Lösung eines physikalischen Problems im Team mit Hilfe numerischer Methoden. Darstellung der Lösung. Vorbereitung für Softwareentwicklung auch für nichtuniversitäre Bereiche."
+cfContent = "Rechengenauigkeit, numerische und algorithmische Fehler; Lösung wissenschaftlicher Probleme mit numerischen Methoden: Lösung linearer Gleichungssysteme, Lösung von Differentialgleichungen, Nullstellensuche, Approximation (Schnelle Fourier Transformation), Numerische Integration, Minimierungsprobleme"
+cfLiterature = '''S.E. Koonin, Computational Physics; (Benjamin/Cummings, 1986)
+
+T. Pang, Computational Physics; (Cambridge University Press, 2006)
+
+F. J. Vesely, Computational Physics; (Plenum Press, 1994)
+
+W.H. Press et al.; Numerical Recipes in C (Cambridge University Press, 1992)
+
+H. R. Schwarz, N. Köckler; Numerische Mathematik (Vieweg+Teubner, 2009)
+'''
+cfKindShort = "Vorl. + Üb."
+cfSemester = "SS"
+cfLecturer = "Dozentinnen und Dozenten der Physik und Astronomie"
+cfMail = '''exphysik@uni-bonn.de
+
+theophysik@uni-bonn.de
+
+astro@uni-bonn.de
+'''
+cfOrder = "10"
+
+
+[physik450]
+mfDegree = "BSPHYSIK2"
+mfDegreeLang = "B.Sc. in Physik (PO von 2014)"
+mfTitle = "Fachgebundenes Wahlpflichtmodul"
+mfNum = "physik450"
+mfCP = "6"
+mfCategory = "Wahlpflicht"
+mfSemester = "4.-6."
+mfRequirements = "keine"
+mfPreparation = "Klausur bzw. schriftliche Ausarbeitung"
+mfContent = '''Eine weiterführende/vertiefende Vorlesung aus den Masterstudiengängen Physik und Astrophysik
+
+oder: Betriebspraktikum im Umfang von 180 Arbeitsstunden
+'''
+mfGoals = "Mit den Wahlpflichtvorlesungen wird die Möglichkeit eröffnet, den Stoff des Pflichtkanons mit einer ausgewählten, fortgeschrittenen Lehrveranstaltung der Physik oder Astrophysik zu ergänzen; zum Teil dienen sie der Vorbereitung auf das Masterstudium. Alternativ kann im Betriebspraktikum Erfahrung mit der Arbeit in der Industrie oder in einer anderen Institution, in der physikalische Kenntnisse erforderlich sind, gesammelt werden. Forschungseinrichtungen (z. B. DLR, FhG, MPI) sind davon ausgenommen."
+mfFormalities = "Erfolgreiche Bearbeitung der Übungsaufgaben, des Projektes, bzw. Bescheinigung über ein Betriebspraktikum"
+mfLength = "1 Semester"
+mfParticipants = "ca. 200"
+mfSignup = "6/163"
+mfNotes = "* Wird für B.Sc. als 6 LP angerechnet"
+mfOrder = "450"
+CourseList = ["physik459", "physik458", "siehe umseitige Liste"]
+[physik450.Courses.physik459]
+cfTitle = "Betriebspraktikum"
+cfNum = "physik459"
+cfCP = "6"
+cfWorkload = "n.a."
+cfKind = "Praktikum"
+cfCategory = "Wahlpflicht"
+cfLanguage = "deutsch"
+cfRequirements = ""
+cfPreparation = "Lehrveranstaltungen des 1.-3. Semesters"
+cfFormalities = "Zulassungsvoraussetzung zur Modulprüfung (schriftlicher Bericht): erfolgreiche Teilnahme am Praktikum"
+cfLength = "1 Semester"
+cfGoals = "Der Studierende soll in einem Praktikum in einem Industriebetrieb oder in einer Institution, in der physikalische Kenntnisse erforderlich sind, erste praktische Erfahrungen sammeln"
+cfContent = '''Sammeln erster berufsnaher Erfahrungen in einem Betrieb der öffentlichen Hand oder der Wirtschaft.
+
+Verfassen eines Erfahrungsberichtes
+'''
+cfLiterature = ""
+cfKindShort = "Praktikum"
+cfSemester = "WS/SS"
+cfLecturer = "Dozentinnen und Dozenten der Physik und Astronomie"
+cfMail = '''astro@uni-bonn.de
+
+exphysik@uni-bonn.de
+
+theophys@uni-bonn.de
+'''
+cfOrder = "0"
+
+[physik450.Courses.physik458]
+cfTitle = "Projektpraktikum Physik"
+cfNum = "physik458"
+cfCP = "6"
+cfWorkload = "6"
+cfKind = "Praktikum"
+cfCategory = "Wahlpflicht"
+cfLanguage = "deutsch"
+cfRequirements = "Erfolgreiche Teilnahme an physik260 und physik360"
+cfPreparation = "physik110, physik210, physik310"
+cfFormalities = "Führen eines Laborbuches, erfolgreiche Bearbeitung des Projekts, Posterpräsentation und Diskussion"
+cfLength = "1 Semester (während Vorlesungszeit und evtl. vorlesungsfreier Zeit)"
+cfGoals = "Einüben des experimentell-wissenschaftlichen Prozesses anhand ausgewählter (kleiner) Projekte. Dies beinhaltet u. a. eine \"Forschungsfrage\" zu formulieren, entsprechende Fachliteratur zu finden und zu verstehen, ein adäquates Versuchsdesign zu entwickeln, den entwickelten Versuch durchzuführen, Daten zu nehmen und auszuwerten, Ergebnisse zu dokumentieren und zu diskutieren. Grundlegend dafür sind entsprechende Fachkenntnisse."
+cfContent = "Die Studenten identifizieren experimentelle Themen, die sie bearbeiten möchten und entwickeln einen Projektplan in Abstimmung mit der Praktikumsleitung, um die abgesprochenen Versuche zu entwickeln und durchzuführen. Die Themen sollen einen Bezug zu physikalischen Fragestellungen der experimentellen Vorlesungen des Bachelorstudiengangs (Physik 1 – Physik  5) haben. Physikalische Versuche werden entwickelt und durchgeführt. Die Ergebnisse werden in einer Posterpräsentation dem gesamten Kurs vorgestellt und diskutiert."
+cfLiterature = ""
+cfKindShort = "Praktikum"
+cfSemester = "WS/SS"
+cfLecturer = "Dozentinnen und Dozenten der Physik und Astronomie"
+cfMail = "exphysik@uni-bonn.de"
+cfOrder = "0"
+
+[physik450.Courses."siehe umseitige Liste"]
+cfTitle = "siehe umseitige Liste"
+cfNum = "siehe umseitige Liste"
+cfCP = "6/7*"
+cfWorkload = ""
+cfKind = ""
+cfCategory = ""
+cfLanguage = "deutsch"
+cfRequirements = ""
+cfPreparation = ""
+cfFormalities = ""
+cfLength = ""
+cfGoals = ""
+cfContent = ""
+cfLiterature = ""
+cfKindShort = "Vorl. + Üb."
+cfSemester = "WS/SS"
+cfLecturer = ""
+cfMail = ""
+cfOrder = "10"
+
+
+[physik460]
+mfDegree = "BSPHYSIK2"
+mfDegreeLang = "B.Sc. in Physik (PO von 2014)"
+mfTitle = "Elektronikpraktikum"
+mfNum = "physik460"
+mfCP = "4"
+mfCategory = "Pflicht"
+mfSemester = "4."
+mfRequirements = "keine"
+mfPreparation = "Klausur"
+mfContent = "Blockvorlesung und ausgewählte Versuche zur Elektronik."
+mfGoals = "Verständnis und Anwendungen der Grundlagen der Elektronik in der Praxis"
+mfFormalities = "Mündliche Überprüfung der Versuchsvorbereitung, erfolgreiche Durchführung der Versuche, Erstellung von Versuchsprotokollen"
+mfLength = "1 Semester"
+mfParticipants = "ca. 200"
+mfSignup = "4/163"
+mfNotes = ""
+mfOrder = "460"
+CourseList = ["physik461"]
+[physik460.Courses.physik461]
+cfTitle = "Elektronikpraktikum"
+cfNum = "physik461"
+cfCP = "4"
+cfWorkload = "4"
+cfKind = "Vorlesung, Praktikum"
+cfCategory = "Pflicht"
+cfLanguage = "deutsch"
+cfRequirements = ""
+cfPreparation = "Physik I - II (physik110, physik210)"
+cfFormalities = '''Zulassungsvoraussetzung zur Modulprüfung (Klausur):
+
+mündliche Überprüfung der Versuchsvorbereitung, erfolgreiche Durchführung der Versuche, Erstellung von Versuchsprotokollen
+'''
+cfLength = "1 Semester"
+cfGoals = "Verständnis und Anwendungen der Grundlagen der Elektronik in der Praxis"
+cfContent = '''Blockvorlesung und ausgewählte Versuche zur Elektronik. Diese Lehrveranstaltung wird zum Teil in der vorlesungsfreien Zeit durchgeführt.
+
+
+
+Auswahl:
+
+Ausbreitung von Signalen auf Leitungen
+
+Diode
+
+Transistor
+
+Transistorverstärker
+
+Operationsverstärker
+
+Anwendung des Operationsverstärkers
+
+Computeralgebra
+
+Mikroprozessor
+'''
+cfLiterature = '''P. Horowitz, W. Hill; The Art of Electronics (Cambridge University Press, 2. Aufl. 1999)
+
+A. Schlachetzki; Halbleiterelektronik (Teubner, Wiesbaden 1990)
+
+U. Tietze, C. Schenk; Halbleiter-Schaltungstechnik (Springer, Heidelberg 12. Aufl. 2002)
+
+K.-H. Rohe: Elektronik für Physiker: Eine Einführung in analoge Grundschaltungen (Teubner, Wiesbaden 1987)
+'''
+cfKindShort = "Vorles. u. Praktikum"
+cfSemester = "SS"
+cfLecturer = "Dozentinnen und Dozenten der Experimentalphysik"
+cfMail = "exphysik@uni-bonn.de"
+cfOrder = "30"
+
+
+[physik470]
+mfDegree = "BSPHYSIK2"
+mfDegreeLang = "B.Sc. in Physik (PO von 2014)"
+mfTitle = "Mündliche Übersichtsprüfung Experimentalphysik Teil I"
+mfNum = "physik470"
+mfCP = "3"
+mfCategory = "Pflicht"
+mfSemester = "4."
+mfRequirements = "physik110, physik210 und physik310"
+mfPreparation = "Mündliche Prüfung (mindestens 30 und höchstens 45 Minuten)"
+mfContent = "Mündliche Prüfung über die Inhalte und Zusammenhänge der Module physik110, -210 und -310 nach angeleitetem Selbststudium"
+mfGoals = "Die Studierenden sollen die modulübergreifenden Zusammenhänge der Module physik110, -210 und -310 erarbeiten, erkennen und mündlich darstellen können."
+mfFormalities = "keine"
+mfLength = "1 Semester"
+mfParticipants = ""
+mfSignup = "24/163"
+mfNotes = ""
+mfOrder = "470"
+CourseList = ["physik471"]
+[physik470.Courses.physik471]
+cfTitle = "Übersichtsprüfung Experimentalphysik Teil I"
+cfNum = "physik471"
+cfCP = "3"
+cfWorkload = "n.a."
+cfKind = "Angeleitetes Selbststudium"
+cfCategory = "Pflicht"
+cfLanguage = "deutsch"
+cfRequirements = "bestandene Module physik110, -210 und -310"
+cfPreparation = ""
+cfFormalities = "Mündliche Prüfung von mindestens 30, höchstens 45 Minuten"
+cfLength = "Prüfungs-Vorbereitungszeit"
+cfGoals = "Die Studierenden sollen sich Überblickswissen erarbeiten"
+cfContent = "Mündliche Prüfung über den Inhalt der Module physik110, -210 und -310"
+cfLiterature = "Siehe Hinweise zu den Lehrveranstaltungen physik110, -210, -310"
+cfKindShort = "angeleit. Selbstst."
+cfSemester = "WS/SS"
+cfLecturer = "Dozentinnen und Dozenten der Experimentalphysik"
+cfMail = "exphysik@uni-bonn.de"
+cfOrder = "10"
+
+
+[physik510]
+mfDegree = "BSPHYSIK2"
+mfDegreeLang = "B.Sc. in Physik (PO von 2014)"
+mfTitle = "Physik V (Kerne und Teilchen)"
+mfNum = "physik510"
+mfCP = "7"
+mfCategory = "Pflicht"
+mfSemester = "5."
+mfRequirements = "keine"
+mfPreparation = "keine"
+mfContent = "Grundlagen des Aufbaus und der Physik der Atomkerne, Physik der Elementarteilchen, grundlegende Experimente dazu im Kontext detektor- und beschleunigerspezifischer Aspekte"
+mfGoals = "Verständnis der Grundlagen der Kernphysik und der Elementarteilchenphysik sowie der Experimente, die zu dem derzeitigen Stand der Erkenntnis geführt haben"
+mfFormalities = "Erfolgreiche Bearbeitung der Übungsaufgaben + bestandene Klausur"
+mfLength = "1 Semester"
+mfParticipants = "ca. 200"
+mfSignup = "0/163"
+mfNotes = ""
+mfOrder = "510"
+CourseList = ["physik511"]
+[physik510.Courses.physik511]
+cfTitle = "Physik V (Kern- und Teilchenphysik)"
+cfNum = "physik511"
+cfCP = "7"
+cfWorkload = "4+2"
+cfKind = "Vorlesung mit Übungen"
+cfCategory = "Pflicht"
+cfLanguage = "deutsch"
+cfRequirements = ""
+cfPreparation = '''Physik I - IV (physik110, physik210, physik310, physik410)
+
+Theoretische Physik I - III (physik220, physik320, physik420)
+'''
+cfFormalities = "Voraussetzung zur Teilnahme an der unbenoteten Klausur: erfolgreiche Teilnahme an den Übungen"
+cfLength = "1 Semester"
+cfGoals = "Verständnis der Grundlagen der Kernphysik und der Elementarteilchenphysik sowie der wichtigsten Experimente, die zu dem derzeitigen Wissensstand auf diesen Gebieten geführt haben"
+cfContent = '''Nukleonen und Kernaufbau, Isotope und Stabilität, versch. Kernmodelle, alpha-, beta- und gamma- Zerfall, Kernspaltung, Kernfusion, Sonnenzyklus, grundlegende Experimente der Kernphysik;
+
+Elementarteilchen, Wechselwirkungen, relativistische Kinematik, Wirkungsquerschnitte u.  Lebensdauern, Symmetrien und Erhaltungssätze, Quarkmodell, Beschleuniger und Detektoren, grundlegende Experimente zur Struktur des Nukleons, zur elektromagnetischen, schwachen und starken Wechselwirkung, kurze Einführung in das Standardmodell der Elementarteilchenphysik und Experimente dazu
+'''
+cfLiterature = '''C. Berger; Elementarteilchenphysik (Springer, Heidelberg)
+
+B. Povh, K. Rith, C. Scholz, F. Zetsche; Teilchen und Kerne (Springer, Heidelberg)
+
+C. Amsler, Kern- und Teilchenphysik (vdf Hochschulverlag, 2007)
+
+D. Griffith; Introduction to Elementary Particle Physics (J. Wiley, Weinheim)
+
+D. Perkins; Introduction to High Energy Physics (Cambridge University Press)
+
+A. Bettini; Introduction to Elementary Particle Physics (Cambridge University Press)
+'''
+cfKindShort = "Vorl. + Üb."
+cfSemester = "WS"
+cfLecturer = "Dozentinnen und Dozenten der Experimentalphysik"
+cfMail = "exphysik@uni-bonn.de"
+cfOrder = "10"
 
 
 [physik520]
-mfDegree = ""
+mfDegree = "BSPHYSIK2"
 mfDegreeLang = "B.Sc. in Physik (PO von 2014)"
 mfTitle = "Theoretische Physik IV (Statistische Physik)"
 mfNum = "physik520"
@@ -1338,7 +1283,7 @@ mfLength = "1 Semester"
 mfParticipants = "ca. 200"
 mfSignup = "0/163"
 mfNotes = ""
-mfOrder = "0"
+mfOrder = "520"
 CourseList = ["physik521"]
 [physik520.Courses.physik521]
 cfTitle = "Theoretische Physik IV (Statistische Physik)"
@@ -1380,50 +1325,215 @@ cfKindShort = "Vorl. + Üb."
 cfSemester = "WS"
 cfLecturer = "Dozentinnen und Dozenten der theoretischen Physik"
 cfMail = "theophys@uni-bonn.de"
+cfOrder = "10"
 
 
-[physik470]
-mfDegree = ""
+[physik540]
+mfDegree = "BSPHYSIK2"
 mfDegreeLang = "B.Sc. in Physik (PO von 2014)"
-mfTitle = "Mündliche Übersichtsprüfung Experimentalphysik Teil I"
-mfNum = "physik470"
-mfCP = "3"
+mfTitle = "Präsentation"
+mfNum = "physik540"
+mfCP = "5"
 mfCategory = "Pflicht"
-mfSemester = "4."
-mfRequirements = "physik110, physik210 und physik310"
-mfPreparation = "Mündliche Prüfung (mindestens 30 und höchstens 45 Minuten)"
-mfContent = "Mündliche Prüfung über die Inhalte und Zusammenhänge der Module physik110, -210 und -310 nach angeleitetem Selbststudium"
-mfGoals = "Die Studierenden sollen die modulübergreifenden Zusammenhänge der Module physik110, -210 und -310 erarbeiten, erkennen und mündlich darstellen können."
-mfFormalities = "keine"
-mfLength = "1 Semester"
-mfParticipants = ""
-mfSignup = "24/163"
+mfSemester = "5.-6."
+mfRequirements = "keine"
+mfPreparation = "Präsentation im Proseminar Präsentationstechnik (60 %) + Präsentation der Bachelorarbeit im Seminar zur Bachelorarbeit (40 %)"
+mfContent = "Abfassung von Texten, Relevanz der gewählten Einteilung, Bedeutung von Tabellen und Bildern, Quellenangaben; Vortragsstil, Vortragsgestaltung, Medien."
+mfGoals = "Die Studierenden sollen in die Problematik der Präsentation eingeführt werden, sollen selbst Texte und Vorträge verfassen und schließlich den Vortrag zur Bachelorarbeit halten. Fähigkeiten zu Präsentationen sollen entwickelt werden."
+mfFormalities = ""
+mfLength = "2 Semester"
+mfParticipants = "ca. 200"
+mfSignup = "5/163"
 mfNotes = ""
-mfOrder = "0"
-CourseList = ["physik471"]
-[physik470.Courses.physik471]
-cfTitle = "Übersichtsprüfung Experimentalphysik Teil I"
-cfNum = "physik471"
+mfOrder = "540"
+CourseList = ["physik541", "physik542"]
+[physik540.Courses.physik541]
+cfTitle = "Proseminar Präsentationstechnik"
+cfNum = "physik541"
 cfCP = "3"
-cfWorkload = "n.a."
-cfKind = "Angeleitetes Selbststudium"
+cfWorkload = "3"
+cfKind = "Seminar mit Übungen"
 cfCategory = "Pflicht"
 cfLanguage = "deutsch"
-cfRequirements = "bestandene Module physik110, -210 und -310"
-cfPreparation = ""
-cfFormalities = "Mündliche Prüfung von mindestens 30, höchstens 45 Minuten"
-cfLength = "Prüfungs-Vorbereitungszeit"
-cfGoals = "Die Studierenden sollen sich Überblickswissen erarbeiten"
-cfContent = "Mündliche Prüfung über den Inhalt der Module physik110, -210 und -310"
-cfLiterature = "Siehe Hinweise zu den Lehrveranstaltungen physik110, -210, -310"
-cfKindShort = "angeleit. Selbstst."
+cfRequirements = ""
+cfPreparation = "Abgeschlossenes viertes Semester"
+cfFormalities = "Voraussetzung zur Prüfungsteilnahme (Vortrag): regelmäßige Teilnahme"
+cfLength = "1 Semester"
+cfGoals = "Die Studierenden sollen lernen, Publikationen effizient vorzubereiten und optimal (Berücksichtigung der Zielgruppe) zu gestalten. Sie sollen lernen, Vorträge vorzubereiten, die zu behandelnden Themen zielgruppengerecht einzuteilen und didaktisch zu gestalten"
+cfContent = '''Texte: an welche Leser richtet sich der Text?; Textteile: Einleitung, Messdaten, Reduktion, Analyse, Resultate, Wichtigkeit der Teile; Unterschiede zwischen Veröffentlichung, Antrag und Tagungsabstrakt; Einteilung in Sections, Subsections und Paragraphen; Struktur der jeweiligen Öffnungssätze; Relative Bedeutung von Tabellen, Abbildungen und Abstrakt; Vorgehensweise bei Textabfassung; Gestaltung von Abbildungen; Begutachtungsprozess, Beispiele.
+
+Vortrag: Vortragsstruktur, Foliengestaltung, Einteilung einer Folie und Verwendung von Farben; Quellenangaben; zeitliche Abfolge; Körperhaltung beim Vortrag; Atemtechnik und Stimmvolumen; Verwendung einer Tafel; Zeigestock oder pointer; Laptop; Pausen beim Sprechen; Vermeidung von Füllwörtern.
+
+Gelegenheit zum Vortrag
+'''
+cfLiterature = ""
+cfKindShort = "Proseminar"
+cfSemester = "WS/SS"
+cfLecturer = "Dozentinnen und Dozenten der Physik und Astronomie"
+cfMail = '''astro@uni-bonn.de
+
+exphysik@uni-bonn.de
+
+theophys@uni-bonn.de
+'''
+cfOrder = "10"
+
+[physik540.Courses.physik542]
+cfTitle = "Seminar zur Bachelorarbeit"
+cfNum = "physik542"
+cfCP = "2"
+cfWorkload = "2"
+cfKind = "Seminar"
+cfCategory = "Pflicht"
+cfLanguage = "deutsch"
+cfRequirements = ""
+cfPreparation = "Abgeschlossenes viertes Semester"
+cfFormalities = "Voraussetzung zur Prüfungsteilnahme (Vortrag): regelmäßige Teilnahme"
+cfLength = "1 Semester"
+cfGoals = "Die Studierenden sollen lernen über ein Projekt zu berichten. Sie sollen aus den Vorträgen der Kommilitonen ersehen, wie Vorträge gehalten und gestaltet werden sollen"
+cfContent = "Die Studierenden sollen über ihre durchgeführten Projekte (die Bachelorarbeit) berichten. Sie sollen zugleich das im Proseminar physik541 (zum Gestalten und Halten von Vorträgen) Gelernte noch einmal in der Praxis unter Beweis stellen"
+cfLiterature = ""
+cfKindShort = "Seminar"
+cfSemester = "WS/SS"
+cfLecturer = "Dozentinnen und Dozenten der Physik und Astronomie"
+cfMail = '''astro@uni-bonn.de
+
+exphysik@uni-bonn.de
+
+theophys@uni-bonn.de
+'''
+cfOrder = "20"
+
+
+[physik560]
+mfDegree = "BSPHYSIK2"
+mfDegreeLang = "B.Sc. in Physik (PO von 2014)"
+mfTitle = "Praktikum Atome, Moleküle, Kondensierte Materie"
+mfNum = "physik560"
+mfCP = "5"
+mfCategory = "Pflicht"
+mfSemester = "5."
+mfRequirements = "Teilnahme an der Klausur zu Modul physik410"
+mfPreparation = "Schriftliche Ausarbeitungen (Ein Versuchsprotokoll pro durchgeführtem Versuch)"
+mfContent = "Vorbereiten auf physikalische Grundlagen anhand von Anleitungen und Versuchen. Praktisches Durchführen und Auswerten von Experimenten in kleinen Gruppen"
+mfGoals = '''Verständnis der Grundlagen der Experimente der Atomphysik und der kondensierten Materie. 
+
+Praktische Erfahrungen zum zielgerichteten Experimentieren und Auswerten.
+'''
+mfFormalities = "Erfolgreiche mündliche Überprüfung der Versuchsvorbereitung und Durchführung der Versuche"
+mfLength = "1 Semester"
+mfParticipants = "ca. 200"
+mfSignup = "5/163"
+mfNotes = ""
+mfOrder = "560"
+CourseList = ["physik561"]
+[physik560.Courses.physik561]
+cfTitle = "Praktikum Atome, Moleküle, Kondensierte Materie"
+cfNum = "physik561"
+cfCP = "5"
+cfWorkload = "5"
+cfKind = "Praktikum"
+cfCategory = "Pflicht"
+cfLanguage = "deutsch"
+cfRequirements = "Teilnahme an Physik IV (physik411). Das heißt: erfolgreiche Teilnahme an den Übungen plus Teilnahme an der Modulprüfung physik411"
+cfPreparation = '''Physik I - III (physik110, physik210, physik310)
+
+Theoretische Physik I - III (physik220, physik320, physik420)
+'''
+cfFormalities = "Voraussetzung zur Prüfungsteilnahme (Versuchsprotokolle): erfolgreiche mündliche Überprüfung der Versuchsvorbereitung und Durchführung der Versuche"
+cfLength = "1 Semester (während der Vorlesungszeit oder im Blockkurs in der vorlesungsfreien Zeit)"
+cfGoals = "Verständnis der Grundlagen der Experimente der Atomphysik und der kondensierten Materie. Praktische Erfahrungen zum zielgerichteten Experimentieren und Auswerten."
+cfContent = '''Vorbereiten auf physikalische Grundlagen anhand von Anleitungen und Versuchen. Praktisches Durchführen und Auswerten von Experimenten in kleinen Gruppen. Ausgewählte Versuche im Praktikum zur Atomphysik und kondensierten Materie.
+
+
+
+Auswahl:
+
+Balmerserie, Frank-Hertz-Versuch, optisches Pumpen; Plancksches Wirkungsquantum;  Zeeman-Effekt, Hall-Effekt in Halbleitern, Rastertunnelmikroskopie, kernmagnetische Relaxation, Laser, Weißlichspektroskopie an Gold-Nanostrukturen, Röntgenstrahlung und Materialanalyse, Spektroskopie von Sternen
+'''
+cfLiterature = '''C. Kittel; Einführung in die Festkörperphysik (R. Oldenbourg Vlg., München 14. Aufl. 2005)
+
+L. Bergmann, C. Schaefer; Lehrbuch der Experimentalphysik Bd. 6: Festkörperphysik (de Gruyter, Berlin 2. Aufl. 2005 )
+
+H. Haken, H.C. Wolf; Atom- und Quantenphysik (Springer, Heidelberg 8. Aufl. 2003)
+
+T. Mayer-Kuckuk; Atomphysik (Teubner, Wiesbaden 5. Aufl. 1997)
+'''
+cfKindShort = "Praktikum"
 cfSemester = "WS/SS"
 cfLecturer = "Dozentinnen und Dozenten der Experimentalphysik"
 cfMail = "exphysik@uni-bonn.de"
+cfOrder = "0"
+
+
+[physik660]
+mfDegree = "BSPHYSIK2"
+mfDegreeLang = "B.Sc. in Physik (PO von 2014)"
+mfTitle = "Praktikum Kerne und Teilchen"
+mfNum = "physik660"
+mfCP = "5"
+mfCategory = "Pflicht"
+mfSemester = "6."
+mfRequirements = "Teilnahme an der Klausur zu Modul physik510"
+mfPreparation = "Schriftliche Ausarbeitungen (Ein Versuchsprotokoll pro durchgeführtem Versuch)"
+mfContent = "Erlernen der physikalischen Grundlagen anhand von Anleitungen und Versuchen. Praktisches Durchführen und Auswerten von Experimenten in kleinen Gruppen."
+mfGoals = '''Verständnis der Grundlagen der Experimente der Kernphysik und der Teilchenphysik.
+
+Praktische Erfahrungen zum zielgerichteten Experimentieren und Auswerten
+'''
+mfFormalities = "Erfolgreiche mündliche Überprüfung der Versuchsvorbereitung und Durchführung der Versuche"
+mfLength = "1 Semester"
+mfParticipants = "ca. 200"
+mfSignup = "5/163"
+mfNotes = ""
+mfOrder = "660"
+CourseList = ["physik661"]
+[physik660.Courses.physik661]
+cfTitle = "Praktikum Kern- und Teilchenphysik"
+cfNum = "physik661"
+cfCP = "5"
+cfWorkload = "5"
+cfKind = "Praktikum"
+cfCategory = "Pflicht"
+cfLanguage = "deutsch"
+cfRequirements = "Teilnahme an Physik V (physik511). Das heißt: erfolgreiche Teilnahme an den Übungen plus Teilnahme an der Modulprüfung physik511"
+cfPreparation = '''Physik I - IV (physik110, physik210, physik310, physik410)
+
+Theoretische Physik I - III (physik220, physik320, physik420)
+'''
+cfFormalities = "Voraussetzung zur Prüfungsteilnahme (Versuchsprotokolle): erfolgreiche mündliche Überprüfung der Versuchsvorbereitung und Durchführung der Versuche"
+cfLength = "1 Semester (während der Vorlesungszeit oder im Blockkurs in der vorlesungsfreien Zeit)"
+cfGoals = '''Verständnis der Grundlagen der Experimente der Kernphysik und der Teilchenphysik.
+
+Praktische Erfahrungen zum zielgerichteten Experimentieren und Auswerten
+'''
+cfContent = '''Erlernen der physikalischen Grundlagen anhand von Anleitungen und Versuchen. Praktisches Durchführen und Auswerten von Experimenten in kleinen Gruppen.
+
+Ausgewählte Versuche im Praktikum zur Kern- und/oder Teilchenphysik.
+
+
+
+Auswahl:
+
+Gamma-Spektroskopie, Höhenstrahlung (zählt doppelt), Compton-Effekt, Beta-Spektroskopie, Nukleare Elektronik, Halbleiterdetektoren (zählt doppelt), Driftkammern, Mottstreuung von Elektronen, Dosimetrie
+'''
+cfLiterature = '''C. Berger; Elementarteilchenphysik (Springer, Heidelberg 2. überarb. Aufl. 2006)
+
+B. Povh, K. Rith, C. Scholz, F. Zetsche; Teilchen und Kerne (Springer, Heidelberg 6. Aufl. 2004)
+
+E. Bodenstedt; Experimente der Kernphysik und ihre Deutung Bd. 1-3 (Bibliographisches Institut, Mannheim ) Titel vergriffen, aber in der ULB vorhanden
+
+T.Mayer-Kuckuk; Kernphysik (Teubner, Wiesbaden 7. Aufl. 2002)
+'''
+cfKindShort = "Praktikum"
+cfSemester = "SS/WS"
+cfLecturer = "Dozentinnen und Dozenten der Experimentalphysik"
+cfMail = "exphysik@uni-bonn.de"
+cfOrder = "20"
 
 
 [physik670]
-mfDegree = ""
+mfDegree = "BSPHYSIK2"
 mfDegreeLang = "B.Sc. in Physik (PO von 2014)"
 mfTitle = "Mündliche Übersichtsprüfung Experimentalphysik Teil II"
 mfNum = "physik670"
@@ -1439,7 +1549,7 @@ mfLength = "1 Semester"
 mfParticipants = ""
 mfSignup = "17/163"
 mfNotes = ""
-mfOrder = "0"
+mfOrder = "670"
 CourseList = ["physik671"]
 [physik670.Courses.physik671]
 cfTitle = "Übersichtsprüfung Experimentalphysik Teil II"
@@ -1460,10 +1570,11 @@ cfKindShort = "angeleit. Selbstst."
 cfSemester = "WS/SS"
 cfLecturer = "Dozentinnen und Dozenten der Experimentalphysik"
 cfMail = "exphysik@uni-bonn.de"
+cfOrder = "10"
 
 
 [physik680]
-mfDegree = ""
+mfDegree = "BSPHYSIK2"
 mfDegreeLang = "B.Sc. in Physik (PO von 2014)"
 mfTitle = "Mündliche Übersichtsprüfung Theoretische Physik"
 mfNum = "physik680"
@@ -1479,7 +1590,7 @@ mfLength = "1 Semester"
 mfParticipants = ""
 mfSignup = "22/163"
 mfNotes = ""
-mfOrder = "0"
+mfOrder = "680"
 CourseList = ["physik681"]
 [physik680.Courses.physik681]
 cfTitle = "Übersichtsprüfung Theoretische Physik"
@@ -1500,5 +1611,65 @@ cfKindShort = "angeleit. Selbstst."
 cfSemester = "WS/SS"
 cfLecturer = "Dozentinnen und Dozenten der theoretischen Physik"
 cfMail = "theophys@uni-bonn.de"
+cfOrder = "0"
+
+
+[physik690]
+mfDegree = "BSPHYSIK2"
+mfDegreeLang = "B.Sc. in Physik (PO von 2014)"
+mfTitle = "Bachelorarbeit"
+mfNum = "physik690"
+mfCP = "12"
+mfCategory = "Pflicht"
+mfSemester = "5.-6."
+mfRequirements = "mindestens 90 LP aus dem Bachelorstudium"
+mfPreparation = "Bachelorarbeit"
+mfContent = '''Die Studierenden sollen ein Projekt physikalischer Art durchführen bzw. eine physikalische Fragestellung bearbeiten.
+
+Variante FV:
+
+Die wissenschaftliche Vorbereitung basiert auf dem Inhalt einer weiterführenden/vertiefenden Vorlesung aus den Bereichen Experimentalphysik, Theoretische Physik oder Astronomie/Astrophysik (siehe nächste Seite)
+
+Variante AG:
+
+Die wissenschaftliche Vorbereitung basiert auf der Methoden- und Projektplanung in einer wissenschaftlichen Arbeitsgruppe.
+'''
+mfGoals = "Die Studierenden sollen dokumentieren, dass sie in der Lage sind, ein physikalisches Projekt durchzuführen bzw. eine physikalische Fragestellung zu bearbeiten und darüber eine schriftliche Ausarbeitung anzufertigen."
+mfFormalities = "keine"
+mfLength = "1 Semester"
+mfParticipants = ""
+mfSignup = "12/163"
+mfNotes = "Die Bachelorarbeit kann im Einvernehmen mit der Betreuerin bzw. dem Betreuer wahlweise in deutscher oder englischer Sprache abgefasst werden."
+mfOrder = "690"
+CourseList = ["physik691"]
+[physik690.Courses.physik691]
+cfTitle = "Bachelorarbeit"
+cfNum = "physik691"
+cfCP = "12"
+cfWorkload = "n.a."
+cfKind = "Bachelorarbeit"
+cfCategory = "Pflicht"
+cfLanguage = "deutsch"
+cfRequirements = "Das Thema der Bachelorarbeit kann erst ausgegeben werden, wenn die Studentin, der Student mindestens 90 Leistungspunkte aus dem Bachelorstudium erworben hat."
+cfPreparation = ""
+cfFormalities = "Die Prüfungsleistung ist eine schriftliche Ausarbeitung über ein selbst durchgeführtes Projekt im Rahmen eines \"Praktikums in einer Arbeitsgruppe\" oder über ein selbst bearbeitetes Thema einer weiterführenden/vertiefenden Wahlpflichtvorlesung (s. oben genannte Lehrveranstaltungen). Sie soll in der Regel den Umfang von 20 DIN A4 Seiten nicht überschreiten. Die Bestätigung über die erfolgreiche Durchführung des Praktikums in der Arbeitsgruppe bzw. über die Teilnahme an der Vorlesung wird zusammen mit der Beurteilung der schriftlichen Ausarbeitung von der betreuenden Dozentin / dem betreuenden Dozenten vorgenommen. Die Note der Bachelorarbeit wird durch die Beurteilung der schriftlichen Ausarbeitung festgelegt und wird mit dem Gewicht von 12 Leistungspunkten in der Endnote berücksichtigt. Das Modul muss insgesamt innerhalb von 4 Monaten abgeschlossen werden. Auf begründeten Antrag hin kann der Prüfungsausschuss eine Verlängerung der Bearbeitungszeit um bis zu 4 Wochen genehmigen."
+cfLength = "1 Semester"
+cfGoals = "Die Studierenden sollen dokumentieren, dass sie in der Lage sind, ein physikalisches Projekt durchzuführen bzw. eine physikalische Fragestellung zu bearbeiten und darüber eine schriftliche Ausarbeitung anzufertigen."
+cfContent = '''Die Studierenden sollen ein Projekt physikalischer Art durchführen bzw. eine physikalische Fragestellung bearbeiten.
+
+Variante FV:
+
+Die wissenschaftliche Vorbereitung basiert auf dem Inhalt einer weiterführenden/vertiefenden Vorlesung aus den Bereichen Experimentalphysik, Theoretische Physik oder Astronomie/Astrophysik
+
+Variante AG:
+
+Die wissenschaftliche Vorbereitung basiert auf der Methoden- und Projektplanung in einer wissenschaftlichen Arbeitsgruppe.
+'''
+cfLiterature = "siehe die entsprechenden Modulbeschreibungen des Masterstudienganges Physik bzw. Astrophysik"
+cfKindShort = "BA-Arbeit"
+cfSemester = "WS/SS"
+cfLecturer = ""
+cfMail = ""
+cfOrder = "0"
 
 

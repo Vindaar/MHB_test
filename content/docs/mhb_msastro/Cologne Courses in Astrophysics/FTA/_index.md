@@ -1,5 +1,5 @@
 +++
-weight = 10
+weight = 90
 title = "FTA"
 degree = "msastro"
 parent = "Cologne Courses in Astrophysics"

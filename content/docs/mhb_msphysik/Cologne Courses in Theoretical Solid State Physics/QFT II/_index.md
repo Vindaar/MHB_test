@@ -1,5 +1,5 @@
 +++
-weight = 10
+weight = 0
 title = "QFT II"
 degree = "msphysik"
 parent = "Cologne Courses in Theoretical Solid State Physics"

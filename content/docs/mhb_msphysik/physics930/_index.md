@@ -1,5 +1,5 @@
 +++
-weight = 10
+weight = 930
 title = "physics930"
 degree = "msphysik"
 tags = ["msphysik", "physics930"]

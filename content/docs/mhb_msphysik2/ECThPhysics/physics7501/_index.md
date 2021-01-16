@@ -1,5 +1,5 @@
 +++
-weight = 10
+weight = 0
 title = "physics7501"
 degree = "msphysik2"
 parent = "ECThPhysics"

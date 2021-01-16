@@ -1,5 +1,5 @@
 +++
-weight = 10
+weight = 1200
 title = "Cologne Courses in Astrophysics"
 degree = "msastro"
 tags = ["msastro", "Cologne Courses in Astrophysics"]

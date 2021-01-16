@@ -1,5 +1,5 @@
 +++
-weight = 10
+weight = 20
 title = "Star Formation"
 degree = "msastro"
 parent = "Cologne Courses in Astrophysics"

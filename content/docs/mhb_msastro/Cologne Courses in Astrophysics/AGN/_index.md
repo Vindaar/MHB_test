@@ -1,5 +1,5 @@
 +++
-weight = 10
+weight = 50
 title = "AGN"
 degree = "msastro"
 parent = "Cologne Courses in Astrophysics"

@@ -1,5 +1,5 @@
 +++
-weight = 10
+weight = 70
 title = "MethExpAstro"
 degree = "msastro"
 parent = "Cologne Courses in Astrophysics"

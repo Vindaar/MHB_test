@@ -1,6 +1,6 @@
-ModuleList = ["physik110", "physik130", "physik450", "math140", "physik120", "physik210", "physik220", "physik310", "physik320", "physik410", "physik420", "physik440", "physik510", "physik520", "physik530", "physik540", "physik590", "math240", "math340", "physik590", "physik120"]
+ModuleList = ["physik110", "physik120", "physik130", "math140", "physik210", "physik220", "math240", "physik310", "physik320", "math340", "physik410", "physik420", "physik440", "physik450", "physik510", "physik520", "physik530", "physik540", "physik590"]
 [physik110]
-mfDegree = ""
+mfDegree = "BSPHYSIK"
 mfDegreeLang = "B.Sc. in Physik (PO von 2006)"
 mfTitle = "Physik I (Mechanik, Wärmelehre)"
 mfNum = "physik110"
@@ -23,7 +23,7 @@ mfLength = "2 Semester"
 mfParticipants = "ca. 200"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
-mfOrder = "0"
+mfOrder = "110"
 CourseList = ["physik111", "physik112"]
 [physik110.Courses.physik111]
 cfTitle = "Physik I (Mechanik, Wärmelehre)"
@@ -60,6 +60,7 @@ cfKindShort = "Vorl. + Üb."
 cfSemester = "WS"
 cfLecturer = "Dozentinnen und Dozenten der Experimentalphysik"
 cfMail = "exphysik@uni-bonn.de"
+cfOrder = "10"
 
 [physik110.Courses.physik112]
 cfTitle = "Praktikum Mechanik, Wärmelehre"
@@ -104,10 +105,153 @@ cfKindShort = "Praktikum"
 cfSemester = "SS"
 cfLecturer = "Dozentinnen und Dozenten der Experimentalphysik"
 cfMail = "exphysik@uni-bonn.de"
+cfOrder = "20"
+
+
+[physik120]
+mfDegree = "BSPHYSIK"
+mfDegreeLang = "B.Sc. in Physik (PO von 2006)"
+mfTitle = "Einführungsveranstaltungen anderer Fächer"
+mfNum = "physik120"
+mfCP = "8*"
+mfCategory = "Wahlpflicht"
+mfSemester = "1.-4."
+mfRequirements = "gemäß gewähltem Modul"
+mfPreparation = "gemäß gewähltem Modul"
+mfContent = "Einführende Lehrveranstaltungen aus anderen Fächern ermöglichen es den Studierenden, Grundlagenwissen in anderen wissenschaftlichen Bereichen zu erwerben. Inhalt und Umfang des Moduls werden durch das jeweilige Fach definiert"
+mfGoals = "Die Studierenden sollen elementare Grundlagen aus anderen Wissensbereichen erarbeiten, um Verständnis für interdisziplinäre Fragestellungen zu erwerben. Sie sollen mit Sachverstand über die Bereiche berichten können"
+mfFormalities = "gemäß gewähltem Modul"
+mfLength = "1 oder 2 Semester"
+mfParticipants = ""
+mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
+mfNotes = "* Die Leistungspunkte müssen in einem Fach erworben werden"
+mfOrder = "120"
+CourseList = ["astro121", "astro122", "astro123", "astro121-123", "siehe Liste"]
+[physik120.Courses.astro121]
+cfTitle = "Einführung in die Astronomie"
+cfNum = "astro121"
+cfCP = "4"
+cfWorkload = "2+1"
+cfKind = "Vorlesung mit Übungen"
+cfCategory = "Wahlpflicht"
+cfLanguage = "deutsch"
+cfRequirements = ""
+cfPreparation = ""
+cfFormalities = "Voraussetzung zur Teilnahme an der Prüfung (Klausur): erfolgreiche Teilnahme an den Übungen"
+cfLength = "1 Semester"
+cfGoals = "Die Studierenden werden an die stellare Astronomie herangeführt. Sie lernen die Probleme der Entfernungsbestimmung in der Astronomie kennen und erwerben Kenntnisse über Sterne und Sternentwicklung, einschließlich Phänomene in den Endphasen, wie Planetarische Nebel, Supernovaexplosionen und Schwarze Löcher. Man wird in die Lage versetzt, die Grundlagen der stellaren Astronomie einem Laien zu erklären"
+cfContent = "Teleskope, Instrumente, Detektoren; Himmelsmechanik; Himmel, Planetensystem, Kometen, Meteore; Sonne und Erdklima; Planck-Funktion, Photometrie, Sterne, Entfernungsbestimmung der Sterne, Hertzsprung-Russell-Diagramm; Sternatmosphäre; Sternaufbau und Sternentwicklung, Kernfusionsprozesse; Variable Sterne; Doppelsterne; Sternhaufen und Altersbestimmung; Endstadien der Sterne; Messgeräte der anderen Wellenlängenbereiche; Interstellares Medium, ionisiertes Gas, neutrales Gas und Molekülwolken mit Sternentstehung, heiße Phase"
+cfLiterature = "Skriptum zur Vorlesung; Astronomie (PAETEC Verlag, ISBN 3-89517-798-9)"
+cfKindShort = "Vorl. + Üb."
+cfSemester = "WS"
+cfLecturer = "Dozentinnen und Dozenten der Astronomie"
+cfMail = "astro@uni-bonn.de"
+cfOrder = "11"
+
+[physik120.Courses.astro122]
+cfTitle = "Einführung in die extragalaktische Astronomie"
+cfNum = "astro122"
+cfCP = "4"
+cfWorkload = "2+1"
+cfKind = "Vorlesung mit Übungen"
+cfCategory = "Wahlpflicht"
+cfLanguage = "deutsch"
+cfRequirements = ""
+cfPreparation = "Einführung in die Astronomie"
+cfFormalities = "Voraussetzung zur Teilnahme an der Prüfung (Klausur): erfolgreiche Teilnahme an den Übungen"
+cfLength = "1 Semester"
+cfGoals = "Studierende sollen die extragalaktische Astronomie in ihrer Breite kennen lernen, werden an die Schwerpunkte der aktuellen Forschung herangeführt und sollen in die Lage versetzt werden, astrophysikalische Zusammenhänge auch für Laien verständlich darzustellen. Durch die Diskussion der Dunklen Materie und der Dunklen Energie werden auch zentrale Fragen der fundamentalen Physik angesprochen"
+cfContent = "Struktur der Galaxis: Scheibe, Bulge, Halo; Rotation der Galaxis, Entfernung zum Zentrum; Dunkle Materie; Spiralgalaxien und ihre Strukturen; Elliptische Galaxien und ihre stellare Populationen; Aktive Galaxien; Quasare; Galaxienhaufen, großskalige Strukturen im Universum; Gravitationslinsen; Bestimmung des Anteils an Dunkler Materie; Kosmologie, Expansion des Universums, Bestimmung der Entfernungen weit entfernter Objekte; Urknall, Kosmische Hintergrundstrahlung, kosmologische Parameter"
+cfLiterature = '''Skriptum zur Vorlesung
+
+P. Schneider, Einführung in die Extragalaktische Astronomie und Kosmologie (Springer Verlag, Heidelberg 2005)
+'''
+cfKindShort = "Vorl. + Üb."
+cfSemester = "SS"
+cfLecturer = "Dozentinnen und Dozenten der Astronomie"
+cfMail = "astro@uni-bonn.de"
+cfOrder = "12"
+
+[physik120.Courses.astro123]
+cfTitle = "Einführung in die Radioastronomie"
+cfNum = "astro123"
+cfCP = "4"
+cfWorkload = "2+1"
+cfKind = "Vorlesung mit Übungen und Praktikum"
+cfCategory = "Wahlpflicht"
+cfLanguage = "deutsch"
+cfRequirements = ""
+cfPreparation = "Einführung in die Astronomie I + II (astro121, 122),  Physik I-III (Physik 110, 210, 310)"
+cfFormalities = "Voraussetzung zur Teilnahme an der Prüfung (mündliche Prüfung oder Klausur): erfolgreiche Teilnahme an den Übungen"
+cfLength = "1 Semester"
+cfGoals = "Verständnis der Grundlagen der radioastronomischen Beobachtungstechnik und der wesentlichen astrophysikalischen Prozesse"
+cfContent = '''Vorlesung:
+
+Radioastronomische Empfangstechnik (Teleskope, Empfänger und Detektoren), atmosphärische Fenster, Strahlungstransport, Radiometergleichung, statistische Prozesse in der Signalerkennung, interstellares Medium, HI 21-cm Linienstrahlung, Sternentstehung in Molekülwolken, kontinuierliche Strahlungsprozesse, Maser, Radiogalaxien, Entwicklung der Galaxien im Universum, Pulsare, Physik in starken Gravitationsfeldern, Epoche der Re-Ionisation, frühes Universum, Zukunftsprojekte der Radioastronomie
+
+
+
+Ergänzendes, optionales Praktikum (1 bis 2 tägig am Observatorium):
+
+Eichung eines radioastronomischen Empfängers, Messung der HI 21-cm Linienstrahlung, Ableitung der Spiralstruktur der Milchstraße, Messung der kontinuierlichen Strahlung der Milchstraße, Messung und Analyse eines Pulsarsignals
+'''
+cfLiterature = '''Folien der Vorlesung werden zur Verfügung gestellt.
+
+
+
+On-line material: http://www.cv.nrao.edu/course/astr534/ERA.shtml
+'''
+cfKindShort = "Vorl. + Üb. + Pr."
+cfSemester = "SS"
+cfLecturer = "Dozentinnen und Dozenten der Astronomie"
+cfMail = "astro@uni-bonn.de"
+cfOrder = "13"
+
+[physik120.Courses.astro121-123]
+cfTitle = "Veranstaltungen in Astronomie"
+cfNum = "astro121-123"
+cfCP = "4+4"
+cfWorkload = ""
+cfKind = ""
+cfCategory = ""
+cfLanguage = ""
+cfRequirements = ""
+cfPreparation = ""
+cfFormalities = ""
+cfLength = ""
+cfGoals = ""
+cfContent = ""
+cfLiterature = ""
+cfKindShort = "s. Katalog"
+cfSemester = "WS+SS"
+cfLecturer = ""
+cfMail = ""
+cfOrder = "19"
+
+[physik120.Courses."siehe Liste"]
+cfTitle = "Veranstaltungen in Philosophie"
+cfNum = "siehe Liste"
+cfCP = "8"
+cfWorkload = ""
+cfKind = ""
+cfCategory = ""
+cfLanguage = ""
+cfRequirements = ""
+cfPreparation = ""
+cfFormalities = ""
+cfLength = ""
+cfGoals = ""
+cfContent = ""
+cfLiterature = ""
+cfKindShort = "s. Liste"
+cfSemester = "WS"
+cfLecturer = ""
+cfMail = ""
+cfOrder = "69"
 
 
 [physik130]
-mfDegree = ""
+mfDegree = "BSPHYSIK"
 mfDegreeLang = "B.Sc. in Physik (PO von 2006)"
 mfTitle = "Einführung in die EDV"
 mfNum = "physik130"
@@ -123,7 +267,7 @@ mfLength = "1 Semester"
 mfParticipants = "ca. 200"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
-mfOrder = "0"
+mfOrder = "130"
 CourseList = ["physik131"]
 [physik130.Courses.physik131]
 cfTitle = "EDV für Physiker und Physikerinnen"
@@ -149,84 +293,11 @@ theophysik@uni-bonn.de
 
 astro@uni-bonn.de
 '''
-
-
-[physik450]
-mfDegree = ""
-mfDegreeLang = "B.Sc. in Physik (PO von 2006)"
-mfTitle = "Wahlpflichtmodul"
-mfNum = "physik450"
-mfCP = "6"
-mfCategory = "Wahlpflicht"
-mfSemester = "4.-6."
-mfRequirements = ""
-mfPreparation = "Lehrveranstaltungen des 1.-3. Semesters"
-mfContent = '''A. Vorlesungen aus den Bereichen Experimentalphysik (Teilchenphysik, Kondensierte Materie & Photonik), Theoretische Physik, Astronomie/Astrophysik. Siehe dazu die gesonderte Anleitung.
-
-B. Betriebspraktikum
-'''
-mfGoals = "Mit den Wahlpflichtvorlesungen wird die Möglichkeit eröffnet, den Stoff des Pflichtkanons mit einer ausgewählten, fortgeschrittenen Lehrveranstaltung zu ergänzen; zum Teil dienen sie der Vorbereitung auf das Masterstudium. Alternativ kann im Betriebspraktikum Erfahrung mit der Arbeit in der Industrie oder in einer anderen Institution, in der physikalische Kenntnisse erforderlich sind, gesammelt werden"
-mfFormalities = '''Zulassungsvoraussetzung zur Modulprüfung (Klausur, mündliche Prüfung oder schriftlicher Bericht):
-
-erfolgreiche Teilnahme an den Übungen/Praktikum
-'''
-mfLength = "1 Semester"
-mfParticipants = "ca. 200"
-mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
-mfNotes = "* Wird für B.Sc. als 6 LP angerechnet"
-mfOrder = "0"
-CourseList = ["physik459", "physik458"]
-[physik450.Courses.physik459]
-cfTitle = "Betriebspraktikum"
-cfNum = "physik459"
-cfCP = "6"
-cfWorkload = "n.a."
-cfKind = "Praktikum"
-cfCategory = "Wahlpflicht"
-cfLanguage = "deutsch"
-cfRequirements = ""
-cfPreparation = "Lehrveranstaltungen des 1.-3. Semesters"
-cfFormalities = "Zulassungsvoraussetzung zur Modulprüfung (schriftlicher Bericht): erfolgreiche Teilnahme am Praktikum"
-cfLength = "1 Semester"
-cfGoals = "Der Studierende soll in einem Praktikum in einem Industriebetrieb oder in einer Institution, in der physikalische Kenntnisse erforderlich sind, erste praktische Erfahrungen sammeln"
-cfContent = '''Sammeln erster berufsnaher Erfahrungen in einem Betrieb der öffentlichen Hand oder der Wirtschaft.
-
-Verfassen eines Erfahrungsberichtes
-'''
-cfLiterature = ""
-cfKindShort = "Praktikum"
-cfSemester = "WS/SS"
-cfLecturer = "Dozentinnen und Dozenten der Physik und Astronomie"
-cfMail = '''astro@uni-bonn.de
-
-exphysik@uni-bonn.de
-
-theophys@uni-bonn.de
-'''
-
-[physik450.Courses.physik458]
-cfTitle = "Projektpraktikum Physik"
-cfNum = "physik458"
-cfCP = "6"
-cfWorkload = "6"
-cfKind = "Praktikum"
-cfCategory = "Wahlpflicht"
-cfLanguage = "deutsch"
-cfRequirements = "Erfolgreiche Teilnahme an physik260 und physik360"
-cfPreparation = "physik110, physik210, physik310"
-cfFormalities = "Führen eines Laborbuches, erfolgreiche Bearbeitung des Projekts, Posterpräsentation und Diskussion"
-cfLength = "1 Semester (während Vorlesungszeit und evtl. vorlesungsfreier Zeit)"
-cfGoals = "Einüben des experimentell-wissenschaftlichen Prozesses anhand ausgewählter (kleiner) Projekte. Dies beinhaltet u. a. eine \"Forschungsfrage\" zu formulieren, entsprechende Fachliteratur zu finden und zu verstehen, ein adäquates Versuchsdesign zu entwickeln, den entwickelten Versuch durchzuführen, Daten zu nehmen und auszuwerten, Ergebnisse zu dokumentieren und zu diskutieren. Grundlegend dafür sind entsprechende Fachkenntnisse."
-cfContent = "Die Studenten identifizieren experimentelle Themen, die sie bearbeiten möchten und entwickeln einen Projektplan in Abstimmung mit der Praktikumsleitung, um die abgesprochenen Versuche zu entwickeln und durchzuführen. Die Themen sollen einen Bezug zu physikalischen Fragestellungen der experimentellen Vorlesungen des Bachelorstudiengangs (Physik 1 – Physik  5) haben. Physikalische Versuche werden entwickelt und durchgeführt. Die Ergebnisse werden in einer Posterpräsentation dem gesamten Kurs vorgestellt und diskutiert."
-cfLiterature = ""
-cfKindShort = "Praktikum"
-cfSemester = "WS/SS"
-cfLecturer = "Dozentinnen und Dozenten der Physik und Astronomie"
-cfMail = "exphysik@uni-bonn.de"
+cfOrder = "10"
 
 
 [math140]
-mfDegree = ""
+mfDegree = "BSPHYSIK"
 mfDegreeLang = "B.Sc. in Physik (PO von 2006)"
 mfTitle = "Mathematik I für Physiker und Physikerinnen"
 mfNum = "math140"
@@ -249,7 +320,7 @@ mfLength = "1 Semester"
 mfParticipants = "ca. 200"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
-mfOrder = "0"
+mfOrder = "140"
 CourseList = ["math141"]
 [math140.Courses.math141]
 cfTitle = "Mathematik I (für Physiker und Physikerinnen)"
@@ -284,30 +355,11 @@ cfKindShort = "Vorl. + Üb."
 cfSemester = "WS"
 cfLecturer = "Dozentinnen und Dozenten der Mathematik und theoretischen Physik"
 cfMail = "theophys@uni-bonn.de"
+cfOrder = "10"
 
-
-[physik120]
-mfDegree = ""
-mfDegreeLang = "B.Sc. in Physik (PO von 2006)"
-mfTitle = "Einführungsveranstaltungen anderer Fächer"
-mfNum = "physik120"
-mfCP = "8*"
-mfCategory = "Wahlpflicht"
-mfSemester = "1.-4."
-mfRequirements = "gemäß gewähltem Modul"
-mfPreparation = "gemäß gewähltem Modul"
-mfContent = "Einführende Lehrveranstaltungen aus anderen Fächern ermöglichen es den Studierenden, Grundlagenwissen in anderen wissenschaftlichen Bereichen zu erwerben. Inhalt und Umfang des Moduls werden durch das jeweilige Fach definiert"
-mfGoals = "Die Studierenden sollen elementare Grundlagen aus anderen Wissensbereichen erarbeiten, um Verständnis für interdisziplinäre Fragestellungen zu erwerben. Sie sollen mit Sachverstand über die Bereiche berichten können"
-mfFormalities = "gemäß gewähltem Modul"
-mfLength = "1 oder 2 Semester"
-mfParticipants = ""
-mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
-mfNotes = "* Die Leistungspunkte müssen in einem Fach erworben werden"
-mfOrder = "0"
-CourseList = []
 
 [physik210]
-mfDegree = ""
+mfDegree = "BSPHYSIK"
 mfDegreeLang = "B.Sc. in Physik (PO von 2006)"
 mfTitle = "Physik II (Elektromagnetismus)"
 mfNum = "physik210"
@@ -330,7 +382,7 @@ mfLength = "2 Semester"
 mfParticipants = "ca. 200"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
-mfOrder = "0"
+mfOrder = "210"
 CourseList = ["physik211", "physik212"]
 [physik210.Courses.physik211]
 cfTitle = "Physik II (Elektromagnetismus)"
@@ -361,6 +413,7 @@ cfKindShort = "Vorl. + Üb."
 cfSemester = "SS"
 cfLecturer = "Dozentinnen und Dozenten der Experimentalphysik"
 cfMail = "exphysik@uni-bonn.de"
+cfOrder = "10"
 
 [physik210.Courses.physik212]
 cfTitle = "Praktikum Elektromagnetismus"
@@ -408,10 +461,11 @@ cfKindShort = "Praktikum"
 cfSemester = "WS"
 cfLecturer = "Dozentinnen und Dozenten der Experimentalphysik"
 cfMail = "exphysik@uni-bonn.de"
+cfOrder = "20"
 
 
 [physik220]
-mfDegree = ""
+mfDegree = "BSPHYSIK"
 mfDegreeLang = "B.Sc. in Physik (PO von 2006)"
 mfTitle = "Theoretische Physik I (Mechanik)"
 mfNum = "physik220"
@@ -427,7 +481,7 @@ mfLength = "1 Semester"
 mfParticipants = "ca. 200"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
-mfOrder = "0"
+mfOrder = "220"
 CourseList = ["physik221"]
 [physik220.Courses.physik221]
 cfTitle = "Theoretische Physik I (Mechanik)"
@@ -472,10 +526,73 @@ cfKindShort = "Vorl. + Üb."
 cfSemester = "SS"
 cfLecturer = "Dozentinnen und Dozenten der theoretischen Physik"
 cfMail = "theophys@uni-bonn.de"
+cfOrder = "10"
+
+
+[math240]
+mfDegree = "BSPHYSIK"
+mfDegreeLang = "B.Sc. in Physik (PO von 2006)"
+mfTitle = "Mathematik II  für Physiker und Physikerinnen"
+mfNum = "math240"
+mfCP = "11"
+mfCategory = "Pflicht"
+mfSemester = "2."
+mfRequirements = ""
+mfPreparation = "Mathematik I für Physiker und Physikerinnen (math140)"
+mfContent = '''Mehrdimensionale Integration:
+
+Transformationssatz, Integration auf gekrümmten Objekten (Gramsche Determinante), Längenberechnung von Kurven, Flächeninhaltsberechnung von gekrümmten Flächen, Berechnung von Volumina.
+
+Vektoranalysis in drei Dimensionen: grad, rot, div, Gaußscher und Stokesscher Satz, Erhaltungsgrößen, Maxwellgleichungen. Verallgemeinerung auf beliebige Dimension.
+
+Fourieranalysis, Fourierreihen, Fouriertransformation, Hilberträume, vollständige Funktionensysteme
+'''
+mfGoals = "Vermittlung der mathematischen Grundbegriffe und Methoden, erforderlich für die theoretischen Physikvorlesungen nach dem 2. Semester"
+mfFormalities = "Zulassungsvoraussetzung zur Modulprüfung (Klausur): erfolgreiche Teilnahme an den Übungen"
+mfLength = "1 Semester"
+mfParticipants = "ca. 200"
+mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
+mfNotes = ""
+mfOrder = "240"
+CourseList = ["math241"]
+[math240.Courses.math241]
+cfTitle = "Mathematik II (für Physiker und Physikerinnen)"
+cfNum = "math241"
+cfCP = "11"
+cfWorkload = "4+3"
+cfKind = "Vorlesung mit Übungen"
+cfCategory = "Pflicht"
+cfLanguage = "deutsch"
+cfRequirements = ""
+cfPreparation = "Mathematik I für Physiker und Physikerinnen (math140)"
+cfFormalities = "Zulassungsvoraussetzung zur Modulprüfung (Klausur): erfolgreiche Teilnahme an den Übungen"
+cfLength = "1 Semester"
+cfGoals = "Vermittlung der mathematischen Grundbegriffe und Methoden, erforderlich für die theoretischen Physikvorlesungen nach dem 2. Semester"
+cfContent = '''Mehrdimensionale Integration:
+
+Transformationssatz, Integration auf gekrümmten Objekten (Gramsche Determinate), Längenberechnung von Kurven, Flächeninhaltsberechnung von gekrümmten Flächen, Berechnung von Volumina.
+
+Vektoranalysis in drei Dimensionen: grad, rot, div, Gaußscher und Stokesscher Satz, Erhaltungsgrößen, Maxwellgleichungen. Verallgemeinerung auf beliebige Dimension.
+
+Fourieranalysis, Fourierreihen, Fouriertransformation, Hilberträume, vollständige Funktionensysteme
+'''
+cfLiterature = '''G. B. Arfken, H. J. Weber; Mathematical Methods for Physicists (Academic Press 6. Aufl. 2005)
+
+S. Hassani; Mathematical Physics (Springer; New York 1999)
+
+O. Forster; Analysis II (Vieweg, Wiesbaden 2005)
+
+O. Forster; Analysis III (Vieweg, Wiesbaden 1984)
+'''
+cfKindShort = "Vorl. + Üb."
+cfSemester = "SS"
+cfLecturer = "Dozentinnen und Dozenten der Mathematik"
+cfMail = "theophys@uni-bonn.de"
+cfOrder = "10"
 
 
 [physik310]
-mfDegree = ""
+mfDegree = "BSPHYSIK"
 mfDegreeLang = "B.Sc. in Physik (PO von 2006)"
 mfTitle = "Physik III (Optik und Wellenmechanik)"
 mfNum = "physik310"
@@ -498,7 +615,7 @@ mfLength = "2 Semester"
 mfParticipants = "ca. 200"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
-mfOrder = "0"
+mfOrder = "310"
 CourseList = ["physik311", "physik312", "physik313"]
 [physik310.Courses.physik311]
 cfTitle = "Physik III (Optik und Wellenmechanik)"
@@ -534,6 +651,7 @@ cfKindShort = "Vorl. + Üb."
 cfSemester = "WS"
 cfLecturer = "Dozentinnen und Dozenten der Experimentalphysik"
 cfMail = "exphysik@uni-bonn.de"
+cfOrder = "10"
 
 [physik310.Courses.physik312]
 cfTitle = "Praktikum Optik, Wellenmechanik"
@@ -581,6 +699,7 @@ cfKindShort = "Praktikum"
 cfSemester = "WS"
 cfLecturer = "Dozentinnen und Dozenten der Experimentalphysik"
 cfMail = "exphysik@uni-bonn.de"
+cfOrder = "20"
 
 [physik310.Courses.physik313]
 cfTitle = "Elektronikpraktikum"
@@ -630,10 +749,11 @@ cfKindShort = "Praktikum"
 cfSemester = "SS"
 cfLecturer = "Dozentinnen und Dozenten der Experimentalphysik"
 cfMail = "exphysik@uni-bonn.de"
+cfOrder = "30"
 
 
 [physik320]
-mfDegree = ""
+mfDegree = "BSPHYSIK"
 mfDegreeLang = "B.Sc. in Physik (PO von 2006)"
 mfTitle = "Theoretische Physik II (Elektrodynamik)"
 mfNum = "physik320"
@@ -654,7 +774,7 @@ mfLength = "1 Semester"
 mfParticipants = "ca. 200"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
-mfOrder = "0"
+mfOrder = "320"
 CourseList = ["physik321"]
 [physik320.Courses.physik321]
 cfTitle = "Theoretische Physik II (Elektrodynamik)"
@@ -702,10 +822,65 @@ cfKindShort = "Vorl. + Üb."
 cfSemester = "WS"
 cfLecturer = "Dozentinnen und Dozenten der theoretischen Physik"
 cfMail = "theophys@uni-bonn.de"
+cfOrder = "10"
+
+
+[math340]
+mfDegree = "BSPHYSIK"
+mfDegreeLang = "B.Sc. in Physik (PO von 2006)"
+mfTitle = "Mathematik III für Physiker und Physikerinnen"
+mfNum = "math340"
+mfCP = "11"
+mfCategory = "Pflicht"
+mfSemester = "3."
+mfRequirements = ""
+mfPreparation = "Mathematik I - II für Physiker und Physikerinnen (math140, math240)"
+mfContent = '''Funktionentheorie:
+
+Potenzreihen, Laurentreihen, Residuensatz, spezielle Funktionen.
+
+Partielle Differentialgleichungen und Variationsrechnung. Harmonische Funktionen, Poissongleichung, Greensche Funktion
+'''
+mfGoals = "Vermittlung der mathematischen Grundbegriffe und Methoden, erforderlich für die Vorlesungen der theoretischen Physik nach dem 3. Semester"
+mfFormalities = "Zulassungsvoraussetzung zur Modulprüfung (Klausur): erfolgreiche Teilnahme an den Übungen"
+mfLength = "1 Semester"
+mfParticipants = "ca. 200"
+mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
+mfNotes = ""
+mfOrder = "340"
+CourseList = ["math341"]
+[math340.Courses.math341]
+cfTitle = "Mathematik III (für Physiker und Physikerinnen)"
+cfNum = "math341"
+cfCP = "11"
+cfWorkload = "4+3"
+cfKind = "Vorlesung mit Übungen"
+cfCategory = "Pflicht"
+cfLanguage = "deutsch"
+cfRequirements = ""
+cfPreparation = "Mathematik I - II für Physiker und Physikerinnen (math140, math240)"
+cfFormalities = "Zulassungsvoraussetzung zur Modulprüfung (Klausur): erfolgreiche Teilnahme an den Übungen"
+cfLength = "1 Semester"
+cfGoals = "Vermittlung der mathematischen Grundbegriffe und Methoden, erforderlich für die - theoretischen - Physikvorlesungen nach dem 3. Semester"
+cfContent = '''Funktionentheorie: Potenzreihen, Laurentreihen, Residuensatz, spezielle Funktionen.
+
+Partielle Differentialgleichungen + Variationsrechnung. Harmonische Funktionen, Poissongleichung, Green'sche Funktion
+'''
+cfLiterature = '''G.B. Arfken, H.J. Weber; Mathematical Methods for Phycisists (Academic Press 6. Aufl. 2005)
+
+S. Hassani; Mathematical Physics (Springer; New York 1999)
+
+R. Remmert, G. Schumacher; Funktionentheorie I (Springer; Berlin 2001)
+'''
+cfKindShort = "Vorl. + Üb."
+cfSemester = "WS"
+cfLecturer = "Dozentinnen und Dozenten der Mathematik"
+cfMail = "theophys@uni-bonn.de"
+cfOrder = "10"
 
 
 [physik410]
-mfDegree = ""
+mfDegree = "BSPHYSIK"
 mfDegreeLang = "B.Sc. in Physik (PO von 2006)"
 mfTitle = "Physik IV (Atome, Moleküle, Kondensierte Materie)"
 mfNum = "physik410"
@@ -734,7 +909,7 @@ mfLength = "2 Semester"
 mfParticipants = "ca. 200"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
-mfOrder = "0"
+mfOrder = "410"
 CourseList = ["physik411", "physik412"]
 [physik410.Courses.physik411]
 cfTitle = "Physik IV (Atome, Moleküle, Kondensierte Materie)"
@@ -771,6 +946,7 @@ cfKindShort = "Vorl. + Üb."
 cfSemester = "SS"
 cfLecturer = "Dozentinnen und Dozenten der Experimentalphysik"
 cfMail = "exphysik@uni-bonn.de"
+cfOrder = "10"
 
 [physik410.Courses.physik412]
 cfTitle = "Praktikum Atome, Moleküle, Kondensierte Materie"
@@ -812,10 +988,11 @@ cfKindShort = "Praktikum"
 cfSemester = "WS"
 cfLecturer = "Dozentinnen und Dozenten der Experimentalphysik"
 cfMail = "exphysik@uni-bonn.de"
+cfOrder = "20"
 
 
 [physik420]
-mfDegree = ""
+mfDegree = "BSPHYSIK"
 mfDegreeLang = "B.Sc. in Physik (PO von 2006)"
 mfTitle = "Theoretische Physik III (Quantenmechanik)"
 mfNum = "physik420"
@@ -836,7 +1013,7 @@ mfLength = "1 Semester"
 mfParticipants = "ca. 200"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
-mfOrder = "0"
+mfOrder = "420"
 CourseList = ["physik421"]
 [physik420.Courses.physik421]
 cfTitle = "Theoretische Physik III (Quantenmechanik)"
@@ -888,10 +1065,11 @@ cfKindShort = "Vorl. + Üb."
 cfSemester = "SS"
 cfLecturer = "Dozentinnen und Dozenten der theoretischen Physik"
 cfMail = "theophys@uni-bonn.de"
+cfOrder = "10"
 
 
 [physik440]
-mfDegree = ""
+mfDegree = "BSPHYSIK"
 mfDegreeLang = "B.Sc. in Physik (PO von 2006)"
 mfTitle = "Numerische Methoden der Physik"
 mfNum = "physik440"
@@ -907,7 +1085,7 @@ mfLength = "1 Semester"
 mfParticipants = "ca. 200"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
-mfOrder = "0"
+mfOrder = "440"
 CourseList = ["physik441"]
 [physik440.Courses.physik441]
 cfTitle = "Numerische Methoden der Physik"
@@ -936,10 +1114,108 @@ theophysik@uni-bonn.de
 
 astro@uni-bonn.de
 '''
+cfOrder = "10"
+
+
+[physik450]
+mfDegree = "BSPHYSIK"
+mfDegreeLang = "B.Sc. in Physik (PO von 2006)"
+mfTitle = "Wahlpflichtmodul"
+mfNum = "physik450"
+mfCP = "6"
+mfCategory = "Wahlpflicht"
+mfSemester = "4.-6."
+mfRequirements = ""
+mfPreparation = "Lehrveranstaltungen des 1.-3. Semesters"
+mfContent = '''A. Vorlesungen aus den Bereichen Experimentalphysik (Teilchenphysik, Kondensierte Materie & Photonik), Theoretische Physik, Astronomie/Astrophysik. Siehe dazu die gesonderte Anleitung.
+
+B. Betriebspraktikum
+'''
+mfGoals = "Mit den Wahlpflichtvorlesungen wird die Möglichkeit eröffnet, den Stoff des Pflichtkanons mit einer ausgewählten, fortgeschrittenen Lehrveranstaltung zu ergänzen; zum Teil dienen sie der Vorbereitung auf das Masterstudium. Alternativ kann im Betriebspraktikum Erfahrung mit der Arbeit in der Industrie oder in einer anderen Institution, in der physikalische Kenntnisse erforderlich sind, gesammelt werden"
+mfFormalities = '''Zulassungsvoraussetzung zur Modulprüfung (Klausur, mündliche Prüfung oder schriftlicher Bericht):
+
+erfolgreiche Teilnahme an den Übungen/Praktikum
+'''
+mfLength = "1 Semester"
+mfParticipants = "ca. 200"
+mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
+mfNotes = "* Wird für B.Sc. als 6 LP angerechnet"
+mfOrder = "450"
+CourseList = ["physik459", "siehe umseitige Liste", "physik458"]
+[physik450.Courses.physik459]
+cfTitle = "Betriebspraktikum"
+cfNum = "physik459"
+cfCP = "6"
+cfWorkload = "n.a."
+cfKind = "Praktikum"
+cfCategory = "Wahlpflicht"
+cfLanguage = "deutsch"
+cfRequirements = ""
+cfPreparation = "Lehrveranstaltungen des 1.-3. Semesters"
+cfFormalities = "Zulassungsvoraussetzung zur Modulprüfung (schriftlicher Bericht): erfolgreiche Teilnahme am Praktikum"
+cfLength = "1 Semester"
+cfGoals = "Der Studierende soll in einem Praktikum in einem Industriebetrieb oder in einer Institution, in der physikalische Kenntnisse erforderlich sind, erste praktische Erfahrungen sammeln"
+cfContent = '''Sammeln erster berufsnaher Erfahrungen in einem Betrieb der öffentlichen Hand oder der Wirtschaft.
+
+Verfassen eines Erfahrungsberichtes
+'''
+cfLiterature = ""
+cfKindShort = "Praktikum"
+cfSemester = "WS/SS"
+cfLecturer = "Dozentinnen und Dozenten der Physik und Astronomie"
+cfMail = '''astro@uni-bonn.de
+
+exphysik@uni-bonn.de
+
+theophys@uni-bonn.de
+'''
+cfOrder = "0"
+
+[physik450.Courses."siehe umseitige Liste"]
+cfTitle = "siehe umseitige Liste"
+cfNum = "siehe umseitige Liste"
+cfCP = "6/7*"
+cfWorkload = ""
+cfKind = ""
+cfCategory = ""
+cfLanguage = "deutsch"
+cfRequirements = ""
+cfPreparation = ""
+cfFormalities = ""
+cfLength = ""
+cfGoals = ""
+cfContent = ""
+cfLiterature = ""
+cfKindShort = "Vorl. + Üb."
+cfSemester = "WS/SS"
+cfLecturer = ""
+cfMail = ""
+cfOrder = "0"
+
+[physik450.Courses.physik458]
+cfTitle = "Projektpraktikum Physik"
+cfNum = "physik458"
+cfCP = "6"
+cfWorkload = "6"
+cfKind = "Praktikum"
+cfCategory = "Wahlpflicht"
+cfLanguage = "deutsch"
+cfRequirements = "Erfolgreiche Teilnahme an physik260 und physik360"
+cfPreparation = "physik110, physik210, physik310"
+cfFormalities = "Führen eines Laborbuches, erfolgreiche Bearbeitung des Projekts, Posterpräsentation und Diskussion"
+cfLength = "1 Semester (während Vorlesungszeit und evtl. vorlesungsfreier Zeit)"
+cfGoals = "Einüben des experimentell-wissenschaftlichen Prozesses anhand ausgewählter (kleiner) Projekte. Dies beinhaltet u. a. eine \"Forschungsfrage\" zu formulieren, entsprechende Fachliteratur zu finden und zu verstehen, ein adäquates Versuchsdesign zu entwickeln, den entwickelten Versuch durchzuführen, Daten zu nehmen und auszuwerten, Ergebnisse zu dokumentieren und zu diskutieren. Grundlegend dafür sind entsprechende Fachkenntnisse."
+cfContent = "Die Studenten identifizieren experimentelle Themen, die sie bearbeiten möchten und entwickeln einen Projektplan in Abstimmung mit der Praktikumsleitung, um die abgesprochenen Versuche zu entwickeln und durchzuführen. Die Themen sollen einen Bezug zu physikalischen Fragestellungen der experimentellen Vorlesungen des Bachelorstudiengangs (Physik 1 – Physik  5) haben. Physikalische Versuche werden entwickelt und durchgeführt. Die Ergebnisse werden in einer Posterpräsentation dem gesamten Kurs vorgestellt und diskutiert."
+cfLiterature = ""
+cfKindShort = "Praktikum"
+cfSemester = "WS/SS"
+cfLecturer = "Dozentinnen und Dozenten der Physik und Astronomie"
+cfMail = "exphysik@uni-bonn.de"
+cfOrder = "0"
 
 
 [physik510]
-mfDegree = ""
+mfDegree = "BSPHYSIK"
 mfDegreeLang = "B.Sc. in Physik (PO von 2006)"
 mfTitle = "Physik V (Kerne und Teilchen)"
 mfNum = "physik510"
@@ -965,7 +1241,7 @@ mfLength = "2 Semester"
 mfParticipants = "ca. 200"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
-mfOrder = "0"
+mfOrder = "510"
 CourseList = ["physik511", "physik512"]
 [physik510.Courses.physik511]
 cfTitle = "Physik V (Kern- und Teilchenphysik)"
@@ -998,6 +1274,7 @@ cfKindShort = "Vorl. + Üb."
 cfSemester = "WS"
 cfLecturer = "Dozentinnen und Dozenten der Experimentalphysik"
 cfMail = "exphysik@uni-bonn.de"
+cfOrder = "10"
 
 [physik510.Courses.physik512]
 cfTitle = "Praktikum Kern- und Teilchenphysik"
@@ -1042,10 +1319,11 @@ cfKindShort = "Praktikum"
 cfSemester = "SS"
 cfLecturer = "Dozentinnen und Dozenten der Experimentalphysik"
 cfMail = "exphysik@uni-bonn.de"
+cfOrder = "20"
 
 
 [physik520]
-mfDegree = ""
+mfDegree = "BSPHYSIK"
 mfDegreeLang = "B.Sc. in Physik (PO von 2006)"
 mfTitle = "Theoretische Physik IV (Statistische Physik)"
 mfNum = "physik520"
@@ -1066,7 +1344,7 @@ mfLength = "1 Semester"
 mfParticipants = "ca. 200"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
-mfOrder = "0"
+mfOrder = "520"
 CourseList = ["physik521"]
 [physik520.Courses.physik521]
 cfTitle = "Theoretische Physik IV (Statistische Physik)"
@@ -1108,10 +1386,11 @@ cfKindShort = "Vorl. + Üb."
 cfSemester = "WS"
 cfLecturer = "Dozentinnen und Dozenten der theoretischen Physik"
 cfMail = "theophys@uni-bonn.de"
+cfOrder = "10"
 
 
 [physik530]
-mfDegree = ""
+mfDegree = "BSPHYSIK"
 mfDegreeLang = "B.Sc. in Physik (PO von 2006)"
 mfTitle = "Mündliche Prüfungen"
 mfNum = "physik530"
@@ -1130,7 +1409,7 @@ mfLength = "2 Semester"
 mfParticipants = ""
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
-mfOrder = "0"
+mfOrder = "530"
 CourseList = ["physik531", "physik532"]
 [physik530.Courses.physik531]
 cfTitle = "Prüfung Experimentalphysik"
@@ -1151,6 +1430,7 @@ cfKindShort = "mündl. Prüf."
 cfSemester = "WS/SS"
 cfLecturer = "Dozentinnen und Dozenten der Experimentalphysik"
 cfMail = "exphysik@uni-bonn.de"
+cfOrder = "10"
 
 [physik530.Courses.physik532]
 cfTitle = "Prüfung Theoretische Physik"
@@ -1171,10 +1451,11 @@ cfKindShort = "mündl. Prüf."
 cfSemester = "WS/SS"
 cfLecturer = "Dozentinnen und Dozenten der theoretischen Physik"
 cfMail = "theophys@uni-bonn.de"
+cfOrder = "20"
 
 
 [physik540]
-mfDegree = ""
+mfDegree = "BSPHYSIK"
 mfDegreeLang = "B.Sc. in Physik (PO von 2006)"
 mfTitle = "Präsentation"
 mfNum = "physik540"
@@ -1190,7 +1471,7 @@ mfLength = "2 Semester"
 mfParticipants = "ca. 200"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
-mfOrder = "0"
+mfOrder = "540"
 CourseList = ["physik541", "physik542"]
 [physik540.Courses.physik541]
 cfTitle = "Proseminar Präsentationstechnik"
@@ -1221,6 +1502,7 @@ exphysik@uni-bonn.de
 
 theophys@uni-bonn.de
 '''
+cfOrder = "10"
 
 [physik540.Courses.physik542]
 cfTitle = "Seminar zur Bachelorarbeit"
@@ -1246,10 +1528,11 @@ exphysik@uni-bonn.de
 
 theophys@uni-bonn.de
 '''
+cfOrder = "20"
 
 
 [physik590]
-mfDegree = ""
+mfDegree = "BSPHYSIK"
 mfDegreeLang = "B.Sc. in Physik (PO von 2006)"
 mfTitle = "Bachelorarbeit"
 mfNum = "physik590"
@@ -1277,7 +1560,7 @@ mfLength = "1 Semester"
 mfParticipants = ""
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = ""
-mfOrder = "0"
+mfOrder = "590"
 CourseList = ["physik591"]
 [physik590.Courses.physik591]
 cfTitle = "Bachelorarbeit"
@@ -1309,119 +1592,6 @@ cfKindShort = "Projekt"
 cfSemester = "WS/SS"
 cfLecturer = ""
 cfMail = ""
-
-
-[math240]
-mfDegree = ""
-mfDegreeLang = "B.Sc. in Physik (PO von 2006)"
-mfTitle = "Mathematik II  für Physiker und Physikerinnen"
-mfNum = "math240"
-mfCP = "11"
-mfCategory = "Pflicht"
-mfSemester = "2."
-mfRequirements = ""
-mfPreparation = "Mathematik I für Physiker und Physikerinnen (math140)"
-mfContent = '''Mehrdimensionale Integration:
-
-Transformationssatz, Integration auf gekrümmten Objekten (Gramsche Determinante), Längenberechnung von Kurven, Flächeninhaltsberechnung von gekrümmten Flächen, Berechnung von Volumina.
-
-Vektoranalysis in drei Dimensionen: grad, rot, div, Gaußscher und Stokesscher Satz, Erhaltungsgrößen, Maxwellgleichungen. Verallgemeinerung auf beliebige Dimension.
-
-Fourieranalysis, Fourierreihen, Fouriertransformation, Hilberträume, vollständige Funktionensysteme
-'''
-mfGoals = "Vermittlung der mathematischen Grundbegriffe und Methoden, erforderlich für die theoretischen Physikvorlesungen nach dem 2. Semester"
-mfFormalities = "Zulassungsvoraussetzung zur Modulprüfung (Klausur): erfolgreiche Teilnahme an den Übungen"
-mfLength = "1 Semester"
-mfParticipants = "ca. 200"
-mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
-mfNotes = ""
-mfOrder = "0"
-CourseList = ["math241"]
-[math240.Courses.math241]
-cfTitle = "Mathematik II (für Physiker und Physikerinnen)"
-cfNum = "math241"
-cfCP = "11"
-cfWorkload = "4+3"
-cfKind = "Vorlesung mit Übungen"
-cfCategory = "Pflicht"
-cfLanguage = "deutsch"
-cfRequirements = ""
-cfPreparation = "Mathematik I für Physiker und Physikerinnen (math140)"
-cfFormalities = "Zulassungsvoraussetzung zur Modulprüfung (Klausur): erfolgreiche Teilnahme an den Übungen"
-cfLength = "1 Semester"
-cfGoals = "Vermittlung der mathematischen Grundbegriffe und Methoden, erforderlich für die theoretischen Physikvorlesungen nach dem 2. Semester"
-cfContent = '''Mehrdimensionale Integration:
-
-Transformationssatz, Integration auf gekrümmten Objekten (Gramsche Determinate), Längenberechnung von Kurven, Flächeninhaltsberechnung von gekrümmten Flächen, Berechnung von Volumina.
-
-Vektoranalysis in drei Dimensionen: grad, rot, div, Gaußscher und Stokesscher Satz, Erhaltungsgrößen, Maxwellgleichungen. Verallgemeinerung auf beliebige Dimension.
-
-Fourieranalysis, Fourierreihen, Fouriertransformation, Hilberträume, vollständige Funktionensysteme
-'''
-cfLiterature = '''G. B. Arfken, H. J. Weber; Mathematical Methods for Physicists (Academic Press 6. Aufl. 2005)
-
-S. Hassani; Mathematical Physics (Springer; New York 1999)
-
-O. Forster; Analysis II (Vieweg, Wiesbaden 2005)
-
-O. Forster; Analysis III (Vieweg, Wiesbaden 1984)
-'''
-cfKindShort = "Vorl. + Üb."
-cfSemester = "SS"
-cfLecturer = "Dozentinnen und Dozenten der Mathematik"
-cfMail = "theophys@uni-bonn.de"
-
-
-[math340]
-mfDegree = ""
-mfDegreeLang = "B.Sc. in Physik (PO von 2006)"
-mfTitle = "Mathematik III für Physiker und Physikerinnen"
-mfNum = "math340"
-mfCP = "11"
-mfCategory = "Pflicht"
-mfSemester = "3."
-mfRequirements = ""
-mfPreparation = "Mathematik I - II für Physiker und Physikerinnen (math140, math240)"
-mfContent = '''Funktionentheorie:
-
-Potenzreihen, Laurentreihen, Residuensatz, spezielle Funktionen.
-
-Partielle Differentialgleichungen und Variationsrechnung. Harmonische Funktionen, Poissongleichung, Greensche Funktion
-'''
-mfGoals = "Vermittlung der mathematischen Grundbegriffe und Methoden, erforderlich für die Vorlesungen der theoretischen Physik nach dem 3. Semester"
-mfFormalities = "Zulassungsvoraussetzung zur Modulprüfung (Klausur): erfolgreiche Teilnahme an den Übungen"
-mfLength = "1 Semester"
-mfParticipants = "ca. 200"
-mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
-mfNotes = ""
-mfOrder = "0"
-CourseList = ["math341"]
-[math340.Courses.math341]
-cfTitle = "Mathematik III (für Physiker und Physikerinnen)"
-cfNum = "math341"
-cfCP = "11"
-cfWorkload = "4+3"
-cfKind = "Vorlesung mit Übungen"
-cfCategory = "Pflicht"
-cfLanguage = "deutsch"
-cfRequirements = ""
-cfPreparation = "Mathematik I - II für Physiker und Physikerinnen (math140, math240)"
-cfFormalities = "Zulassungsvoraussetzung zur Modulprüfung (Klausur): erfolgreiche Teilnahme an den Übungen"
-cfLength = "1 Semester"
-cfGoals = "Vermittlung der mathematischen Grundbegriffe und Methoden, erforderlich für die - theoretischen - Physikvorlesungen nach dem 3. Semester"
-cfContent = '''Funktionentheorie: Potenzreihen, Laurentreihen, Residuensatz, spezielle Funktionen.
-
-Partielle Differentialgleichungen + Variationsrechnung. Harmonische Funktionen, Poissongleichung, Green'sche Funktion
-'''
-cfLiterature = '''G.B. Arfken, H.J. Weber; Mathematical Methods for Phycisists (Academic Press 6. Aufl. 2005)
-
-S. Hassani; Mathematical Physics (Springer; New York 1999)
-
-R. Remmert, G. Schumacher; Funktionentheorie I (Springer; Berlin 2001)
-'''
-cfKindShort = "Vorl. + Üb."
-cfSemester = "WS"
-cfLecturer = "Dozentinnen und Dozenten der Mathematik"
-cfMail = "theophys@uni-bonn.de"
+cfOrder = "10"
 
 

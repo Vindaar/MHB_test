@@ -1,5 +1,5 @@
 +++
-weight = 10
+weight = 0
 title = "astro123"
 degree = "lvandere"
 parent = "astro080"

@@ -1,5 +1,5 @@
 +++
-weight = 10
+weight = 830
 title = "astro830"
 degree = "msastro"
 tags = ["msastro", "astro830"]
