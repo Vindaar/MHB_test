@@ -17,7 +17,9 @@ Generates the page for a single module (the parent of possible multiple courses)
   {{ $dict := (index $fileDict $fname) }}
 
   {{/* Title of the page */}}
-  <h1> {{ $dict.mfTitle | markdownify }} - {{ $dict.mfNum | markdownify }} </h1>
+  <h1> {{ $dict.mfTitle | markdownify }} -
+    <a href={{printf "%s/%s" "/tags" $dict.mfNum}}>{{ $dict.mfNum | markdownify }}</a>
+  </h1>
 
   {{/* Generate module overview table */}}
   {{ $header := (dict $map.mfNum $dict.mfNum) }}

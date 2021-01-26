@@ -19,7 +19,9 @@ Generates the page for a single course (the child of a module).
   {{ $dict := (index (index $fileDict $fnameParent).Courses $fname) }}
 
   {{/* Title of the page */}}
-  <h2> {{ $dict.cfTitle | markdownify }} - {{ $dict.cfNum | markdownify }} </h2>
+  <h2> {{ $dict.cfTitle | markdownify }} -
+    <a href={{printf "%s/%s" "/tags" $dict.cfNum}}>{{ $dict.cfNum | markdownify }}</a>
+  </h2>
 
   <b>{{ $mapModules.mfDegree | markdownify }}</b> - {{ $dictParent.mfDegreeLang | markdownify }}
 
