@@ -38,10 +38,6 @@ jobs:
       options: --entrypoint=sh
     steps:
       - uses: actions/checkout@v2
-        with:
-          submodules: true  # Fetch Hugo themes (true OR recursive)
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
-
       - name: Build PDFs
         run: |
           mkdir static
@@ -61,7 +57,7 @@ jobs:
           retention-days: 2
 
   deploy-page:
-    needs: [ gen-hugo ]
+    needs: [ gen-hugo, convert_via_pandoc ]
     runs-on: ubuntu-20.04
     steps:
       - name: Download all artifacts
