@@ -25,6 +25,7 @@ jobs:
       - name: Build PDFs # build all pdfs by iterating over all MHBs
                          # and feeding `index.html` files
         run: |
+          mkdir static
           find public/docs/mhb_* -name "index.html" | while read fname; do
             echo $(dirname $fname).pdf
             xmllint --nowarning --html --xpath '/html/body/main/div/article' $fname 2> /dev/null | \
