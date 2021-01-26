@@ -31,6 +31,7 @@ jobs:
           retention-days: 2
 
   convert_via_pandoc:
+    needs: [ gen-hugo ]
     runs-on: ubuntu-20.04
     container:
       image: docker://pandoc/latex:2.10
