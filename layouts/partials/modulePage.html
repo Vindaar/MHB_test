@@ -38,7 +38,7 @@ Generates the page for a single module (the parent of possible multiple courses)
   {{ $header = $header | append (partial "getFields.html" (dict "Map" $mapCourse "Data" $rowFields)) }}
 
   {{ $tabBody := partial "getCourseFields.html" (dict "Map" $dict "Fields" $rowFields)}}
-  {{ $tabBody = dict "Head" $header "Body" $tabBody }}
+  {{ $tabBody = dict "Head" $header "Body" $tabBody "Type" "Module" }}
   {{/* Generate the table listing all courses in this module */}}
   {{ partial "genCourseTable.html" $tabBody }}
 

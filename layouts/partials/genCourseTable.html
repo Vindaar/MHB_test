@@ -10,6 +10,26 @@ corresponds to one key of Body containing the values for each slice
 as the column values.
 */}}
 <table>
+  {{ if (eq .Type "Module") }}
+    <colgroup> {{/* these sum to 102.5% but looks fine after PDF conversion */}}
+      <col width="5%">
+      <col width="32.5%">
+      <col width="17.5%">
+      <col width="7.5%">
+      <col width="20%">
+      <col width="7.5%">
+      <col width="12.5%">
+    </colgroup>
+  {{ else }} {{/* case "Course" */}}
+    <colgroup> {{/* these sum to 102.5% but looks fine after PDF conversion */}}
+      <col width="15%">
+      <col width="40%">
+      <col width="10%">
+      <col width="7.5%">
+      <col width="7.5%">
+      <col width="15%">
+    </colgroup>
+  {{ end }}
   <thead>
     {{ $slice := .Head }}
     <tr>

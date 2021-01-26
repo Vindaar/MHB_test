@@ -40,7 +40,7 @@ Generates the page for a single course (the child of a module).
   {{ $header = (partial "getFields.html" (dict "Map" $map "Data" $rowFields)) }}
   {{/* Generate the table listing all courses in this module */}}
   {{ $tabBody := partial "getCourseDescr.html" (dict "Map" $dict "Fields" $rowFields)}}
-  {{ $tabBody = dict "Head" $header "Body" $tabBody }}
+  {{ $tabBody = dict "Head" $header "Body" $tabBody "Type" "Course" }}
   {{ partial "genCourseTable.html" $tabBody }}
 
   {{/* Finally read all of the last key/value pairs and emit */}}
