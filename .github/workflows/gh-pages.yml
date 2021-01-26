@@ -56,12 +56,13 @@ jobs:
                 static/$(basename $(dirname $fname)).pdf
           done
           mv static public/pdfs
+          tar czf pageWithPdfs.tar.gz public
 
       - name: Upload page with PDFs
         uses: actions/upload-artifact@v2
         with:
-          name: pageWithPdf
-          path: pageWithPdf.tar.gz
+          name: pageWithPdfs
+          path: pageWithPdfs.tar.gz
           retention-days: 2
 
   deploy-page:
