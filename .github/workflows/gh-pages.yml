@@ -38,6 +38,14 @@ jobs:
       options: --entrypoint=sh
     steps:
       - uses: actions/checkout@v2
+
+      - name: Download all artifacts
+        uses: actions/download-artifact@v2
+
+      - name: Prepare page tree
+        run: |
+          tar xf page/page.tar.gz
+
       - name: Build PDFs
         run: |
           mkdir static
@@ -47,13 +55,13 @@ jobs:
               pandoc -f html -t pdf --template mhb_pandoc_template.latex > \
                 static/$(basename $(dirname $fname)).pdf
           done
-          tar czf pdfs.tar.gz static
+          mv static public/pdfs
 
-      - name: Upload PDFs
+      - name: Upload page with PDFs
         uses: actions/upload-artifact@v2
         with:
-          name: pdfs
-          path: pdfs.tar.gz
+          name: pageWithPdf
+          path: pageWithPdf.tar.gz
           retention-days: 2
 
   deploy-page:
@@ -65,9 +73,7 @@ jobs:
 
       - name: Prepare page tree
         run: |
-          tar xf page/page.tar.gz
-          tar xf pdfs/pfds.tar.gz
-          mv static public/pdfs
+          tar xf pageWithPdfs/pageWithPdfs.tar.gz
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
