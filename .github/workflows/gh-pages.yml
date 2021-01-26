@@ -52,7 +52,7 @@ jobs:
           find public/docs/mhb_* -name "index.html" | while read fname; do
             echo $(dirname $fname).pdf
             xmllint --nowarning --html --xpath '/html/body/main/div/article' $fname 2> /dev/null | \
-              pandoc -f html -t pdf --template mhb_pandoc_template.latex > \
+              pandoc -f html -t pdf --template mhb_pandoc_template.latex -o \
                 static/$(basename $(dirname $fname)).pdf
           done
           mv static public/pdfs
