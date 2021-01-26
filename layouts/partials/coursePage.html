@@ -20,7 +20,7 @@ Generates the page for a single course (the child of a module).
 
   {{/* Title of the page */}}
   <h2> {{ $dict.cfTitle | markdownify }} -
-    <a href={{printf "%s/%s" "/tags" $dict.cfNum}}>{{ $dict.cfNum | markdownify }}</a>
+    <a href={{printf "%s/%s/%s" .Site.BaseURL "/tags" $dict.cfNum}}>{{ $dict.cfNum | markdownify }}</a>
   </h2>
 
   <b>{{ $mapModules.mfDegree | markdownify }}</b> - {{ $dictParent.mfDegreeLang | markdownify }}
