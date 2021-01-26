@@ -21,9 +21,27 @@ jobs:
       - name: Build HTML
         run: |
           hugo --minify --theme book
+          tar czf page.tar.gz public
 
-      - name: Build PDFs # build all pdfs by iterating over all MHBs
-                         # and feeding `index.html` files
+      - name: Upload page
+        uses: actions/upload-artifact@v2
+        with:
+          name: page
+          path: page.tar.gz
+          retention-days: 2
+
+  convert_via_pandoc:
+    runs-on: ubuntu-20.04
+    container:
+      image: docker://pandoc/latex:2.10
+      options: --entrypoint=sh
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Build PDFs
         run: |
           mkdir static
           find public/docs/mhb_* -name "index.html" | while read fname; do
@@ -32,17 +50,13 @@ jobs:
               pandoc -f html -t pdf --template mhb_pandoc_template.latex > \
                 static/$(basename $(dirname $fname)).pdf
           done
-          mv static public/pdfs
+          tar czf pdfs.tar.gz static
 
-      - name: Tar page
-        run: |
-          tar czf page.tar.gz public
-
-      - name: Upload page
+      - name: Upload PDFs
         uses: actions/upload-artifact@v2
         with:
-          name: page
-          path: page.tar.gz
+          name: pdfs
+          path: pdfs.tar.gz
           retention-days: 2
 
   deploy-page:
@@ -55,6 +69,8 @@ jobs:
       - name: Prepare page tree
         run: |
           tar xf page/page.tar.gz
+          tar xf pdfs/pfds.tar.gz
+          mv static public/pdfs
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
