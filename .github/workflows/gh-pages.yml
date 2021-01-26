@@ -18,9 +18,23 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
-      - name: Build
+      - name: Build HTML
         run: |
           hugo --minify --theme book
+
+      - name: Build PDFs # build all pdfs by iterating over all MHBs
+                         # and feeding `index.html` files
+        run: |
+          find public/docs/mhb_* -name "index.html" | while read fname; do
+            echo $(dirname $fname).pdf
+            xmllint --nowarning --html --xpath '/html/body/main/div/article' $fname 2> /dev/null | \
+              pandoc -f html -t pdf --template mhb_pandoc_template.latex > \
+                static/$(basename $(dirname $fname)).pdf
+          done
+          mv static public/pdfs
+
+      - name: Tar page
+        run: |
           tar czf page.tar.gz public
 
       - name: Upload page
