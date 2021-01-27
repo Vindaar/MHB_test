@@ -35,7 +35,7 @@ jobs:
     runs-on: ubuntu-20.04
     container:
       image: docker://pandoc/latex:2.10
-      options: --entrypoint=sh
+      options: --entrypoint=/bin/bash # does this work to force bash?
     steps:
       - uses: actions/checkout@v2
 
@@ -52,6 +52,7 @@ jobs:
 
       - name: Build PDFs
         run: |
+          set -eou pipefail
           mkdir static
           find public/docs/mhb_* -name "index.html" | while read fname; do
             echo $(dirname $fname).pdf
