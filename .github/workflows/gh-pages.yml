@@ -53,13 +53,13 @@ jobs:
       - name: Build PDFs
         run: |
           set -eou pipefail
+          export SHELLOPTS
           mkdir static
-          find public/docs/mhb_* -name "index.html" | while read fname; do
-            echo $(dirname $fname).pdf
-            xmllint --nowarning --html --xpath '/html/body/main/div/article' $fname 2> /dev/null | \
-              pandoc -f html -t pdf --template mhb_pandoc_template.latex -o \
-                static/$(basename $(dirname $fname)).pdf
-          done
+          find public/docs/mhb_* -type f -name "index.html" -print0 | \
+            xargs -0 -n1 -I {} -P4 \
+              sh -c "echo Converting \"{}\"...; xmllint --nowarning --html --xpath '/html/body/main/div/article' {} 2> /dev/null | \
+                pandoc -f html -t pdf --template mhb_pandoc_template.latex -o \
+                  static/\$(basename \$(dirname {})).pdf"
           mv static public/pdfs
           tar czf pageWithPdfs.tar.gz public
 
