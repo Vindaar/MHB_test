@@ -9,7 +9,7 @@ theme = "book"
 defaultContentLanguage = "de"
 
 # Book configuration
-disablePathToLower = true
+disablePathToLower = false
 enableGitInfo = false
 
 # Needed for mermaid/katex shortcodes
