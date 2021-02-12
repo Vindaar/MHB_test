@@ -58,7 +58,7 @@ jobs:
           find public/docs/mhb_* -type f -name "index.html" -print0 | \
             xargs -0 -n1 -I {} -P4 \
               sh -c "echo Converting \"{}\"...; xmllint --nowarning --html --xpath '/html/body/main/div/article' {} 2> /dev/null | \
-                pandoc -f html -t pdf geometry:margin=2cm -o \
+                pandoc -f html -t pdf -V geometry:margin=2cm -o \
                   static/\$(basename \$(dirname {})).pdf"
           mv static public/pdfs
           tar czf pageWithPdfs.tar.gz public
