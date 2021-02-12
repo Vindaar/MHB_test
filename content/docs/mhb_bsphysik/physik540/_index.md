@@ -4,6 +4,7 @@ title = "physik540"
 degree = "bsphysik"
 tags = ["bsphysik", "physik540"]
 categories = ["module"]
+bookCollapseSection = true
 +++
 
 {{< genModulePage >}}

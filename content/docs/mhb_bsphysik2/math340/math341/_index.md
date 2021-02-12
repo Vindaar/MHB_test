@@ -5,6 +5,7 @@ degree = "bsphysik2"
 parent = "math340"
 tags = ["bsphysik2", "math341", "math340"]
 categories = ["course"]
+bookCollapseSection = false
 +++
 
 {{< genCoursePage >}}

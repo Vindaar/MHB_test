@@ -5,6 +5,7 @@ degree = "lvandere"
 parent = "astro080"
 tags = ["lvandere", "astro082", "astro080"]
 categories = ["course"]
+bookCollapseSection = false
 +++
 
 {{< genCoursePage >}}

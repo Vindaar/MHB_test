@@ -4,6 +4,7 @@ title = "astro850"
 degree = "msastro"
 tags = ["msastro", "astro850"]
 categories = ["module"]
+bookCollapseSection = true
 +++
 
 {{< genModulePage >}}

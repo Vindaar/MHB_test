@@ -5,6 +5,7 @@ degree = "msastro"
 parent = "Cologne Courses in Astrophysics"
 tags = ["msastro", "Galaxy Dynamics", "Cologne Courses in Astrophysics"]
 categories = ["course"]
+bookCollapseSection = false
 +++
 
 {{< genCoursePage >}}

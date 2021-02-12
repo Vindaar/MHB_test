@@ -5,6 +5,7 @@ degree = "msphysik"
 parent = "physics650"
 tags = ["msphysik", "Seminars on Current Topics in Particle Physics", "physics650"]
 categories = ["course"]
+bookCollapseSection = false
 +++
 
 {{< genCoursePage >}}

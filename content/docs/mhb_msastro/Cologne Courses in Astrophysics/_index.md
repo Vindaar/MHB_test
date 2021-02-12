@@ -4,6 +4,7 @@ title = "Cologne Courses in Astrophysics"
 degree = "msastro"
 tags = ["msastro", "Cologne Courses in Astrophysics"]
 categories = ["module"]
+bookCollapseSection = true
 +++
 
 {{< genModulePage >}}

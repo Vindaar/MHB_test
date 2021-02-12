@@ -5,6 +5,7 @@ degree = "msphysik2"
 parent = "physics62c"
 tags = ["msphysik2", "physics637", "physics62c"]
 categories = ["course"]
+bookCollapseSection = false
 +++
 
 {{< genCoursePage >}}

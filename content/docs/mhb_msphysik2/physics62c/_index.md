@@ -4,6 +4,7 @@ title = "physics62c"
 degree = "msphysik2"
 tags = ["msphysik2", "physics62c"]
 categories = ["module"]
+bookCollapseSection = true
 +++
 
 {{< genModulePage >}}
