@@ -20,40 +20,13 @@ exercises
 '''
 mfLength = "1 semester"
 mfParticipants = "ca. 100"
-mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
+mfSignup = "Candidates for this module examination are registered by the examination board"
 mfNotes = '''*This Module is compulsory for students who have not had any introduction to astrophysics in their
 
 Bachelor study course.
 '''
 mfOrder = "100"
-CourseList = ["astro801"]
-[astro800.Courses.astro801]
-cfTitle = "Introduction to Astrophysics"
-cfNum = "astro801"
-cfCP = "4"
-cfWorkload = "2+1"
-cfKind = "Lecture with tutorial and exercises"
-cfCategory = "Required (see note on astro800)"
-cfLanguage = "English"
-cfRequirements = ""
-cfPreparation = ""
-cfFormalities = '''Requirements for the premodule examination (written or oral examination): successful work with the
-
-exercises
-'''
-cfLength = "1 semester"
-cfGoals = "Students with B.Sc. in Physics lacking sufficient introductory astronomy knowledge will be brought up to the level required for the Master in Astrophysics programme. Students need to acquire allowance to take this course upon admission to the M.Sc. in Astrophysics programme"
-cfContent = "Celestial mechanics; Stars: photometric and spectroscopic measurements; Stellar structure: atmosphere, interior, nuclear fusion; Stellar evolution; Variable and binary stars; Star clusters, Interstellar medium: ionized gas, neutral and molecular gas, hot matrix, star formation, measurements; Galactic structure: distribution and motion of stars, galactic rotation, mass components, galactic evolution; Galaxies: types, distance determination, clustering; Cosmology: big bang, nucleosynthesis, expansion, dark matter, dark energy. Lecture will be supplemented by a tutorial, with relevant textbooks"
-cfLiterature = '''P. Schneider: Introduction to Extragalactic Astronomy and Cosmology, Springer (2006)
-
-A. Unsöld, B. Baschek: The New Cosmos, Springer (1999)
-'''
-cfKindShort = "Lect. + tut. + ex."
-cfSemester = "WT"
-cfLecturer = "Profs. of astronomy"
-cfMail = "astro@uni-bonn.de"
-cfOrder = "801"
-
+CourseList = []
 
 [physics601]
 mfDegree = "MSASTRO2"
@@ -336,7 +309,14 @@ Active participation will furnish the student with the skill to read and present
 mfFormalities = "regular participation and active contribution"
 mfLength = "1 semester"
 mfParticipants = "ca. 100"
-mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
+mfSignup = '''s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de
+
+
+
+Useable for:
+
+Masterstudiengang Astrophysik, Pflicht, Semester: 1-2
+'''
 mfNotes = "former astro890"
 mfOrder = "830"
 CourseList = ["Seminar on Modern Topics in Astrophysics"]
@@ -602,14 +582,14 @@ cfMail = "astro@uni-bonn.de"
 cfOrder = "0"
 
 [astro840.Courses.astro831]
-cfTitle = "Internships in the Research Groups"
+cfTitle = "Research Project"
 cfNum = "astro831"
 cfCP = "4"
 cfWorkload = ""
-cfKind = "Research Internship"
+cfKind = "Research Project"
 cfCategory = "Elective"
 cfLanguage = "English"
-cfRequirements = "Students are asked to contact one of the BCGS lecturers prior to the start of their internship. Lecturers provide help if needed to find a suitable research group and topic. Not all groups may have internships available at all times, thus participation may be limited."
+cfRequirements = "Students are asked to contact one of the BCGS lecturers prior to the start of their project. Lecturers provide help if needed to find a suitable research group and topic. Not all groups may have projects available at all times, thus participation may be limited."
 cfPreparation = "A specialization lecture from the research field in question or equivalent preparation."
 cfFormalities = "A written report or, alternatively, a presentation in a meeting of the research group."
 cfLength = "4-6 weeks"
@@ -625,7 +605,7 @@ cfContent = '''One of the following possible items:
 - numerical or analytical calculations in a theory group.
 '''
 cfLiterature = "provided by the supervisor within the research group."
-cfKindShort = "internship"
+cfKindShort = "project"
 cfSemester = "WT/ST"
 cfLecturer = "Profs. of physics"
 cfMail = ""
@@ -1096,14 +1076,14 @@ cfMail = "astro@uni-bonn.de"
 cfOrder = "0"
 
 [astro850.Courses.astro831]
-cfTitle = "Internships in the Research Groups"
+cfTitle = "Research Project"
 cfNum = "astro831"
 cfCP = "4"
 cfWorkload = ""
-cfKind = "Research Internship"
+cfKind = "Research Project"
 cfCategory = "Elective"
 cfLanguage = "English"
-cfRequirements = "Students are asked to contact one of the BCGS lecturers prior to the start of their internship. Lecturers provide help if needed to find a suitable research group and topic. Not all groups may have internships available at all times, thus participation may be limited."
+cfRequirements = "Students are asked to contact one of the BCGS lecturers prior to the start of their project. Lecturers provide help if needed to find a suitable research group and topic. Not all groups may have projects available at all times, thus participation may be limited."
 cfPreparation = "A specialization lecture from the research field in question or equivalent preparation."
 cfFormalities = "A written report or, alternatively, a presentation in a meeting of the research group."
 cfLength = "4-6 weeks"
@@ -1119,7 +1099,7 @@ cfContent = '''One of the following possible items:
 - numerical or analytical calculations in a theory group.
 '''
 cfLiterature = "provided by the supervisor within the research group."
-cfKindShort = "internship"
+cfKindShort = "project"
 cfSemester = "WT/ST"
 cfLecturer = "Profs. of physics"
 cfMail = ""
@@ -1133,7 +1113,7 @@ cfWorkload = "3+2"
 cfKind = "Lecture with exercises"
 cfCategory = "Elective"
 cfLanguage = "English"
-cfRequirements = "BSc in physics"
+cfRequirements = ""
 cfPreparation = "Participation in the lecture course and in the exercise classes and reading"
 cfFormalities = "A final two hour written exam on the contents of the course"
 cfLength = "1 semester"
@@ -1480,7 +1460,14 @@ mfGoals = "The student shall demonstrate to have understood the scientific quest
 mfFormalities = ""
 mfLength = "1 semester"
 mfParticipants = "ca. 100"
-mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
+mfSignup = '''s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de
+
+
+
+Useable for:
+
+Masterstudiengang Astrophysik, Pflicht, Semester: 3
+'''
 mfNotes = ""
 mfOrder = "940"
 CourseList = ["astro941"]
@@ -1521,7 +1508,14 @@ mfGoals = "The student shall demonstrate to have understood the methods to be us
 mfFormalities = ""
 mfLength = "1 semester"
 mfParticipants = "ca. 100"
-mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
+mfSignup = '''s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de
+
+
+
+Useable for:
+
+Masterstudiengang Astrophysik, Pflicht, Semester: 3
+'''
 mfNotes = ""
 mfOrder = "950"
 CourseList = ["astro951"]
@@ -1565,7 +1559,14 @@ mfGoals = "The student shall identify and work out the science question to be ta
 mfFormalities = "oral presentation"
 mfLength = "1 semester"
 mfParticipants = "ca. 100"
-mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
+mfSignup = '''s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de
+
+
+
+Useable for:
+
+Masterstudiengang Astrophysik, Pflicht, Semester: 4
+'''
 mfNotes = ""
 mfOrder = "960"
 CourseList = ["astro960"]

@@ -47,4 +47,5 @@ cfSemester = "Semester"
 cfLecturer = "Dozenten"
 cfMail = "email"
 cfOrder = "Reihenfolge"
+cfUseFor = "Verwendung"
 

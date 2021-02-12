@@ -124,7 +124,10 @@ mfFormalities = "gemäß gewähltem Modul"
 mfLength = "1 oder 2 Semester"
 mfParticipants = ""
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
-mfNotes = "* Die Leistungspunkte müssen in einem Fach erworben werden"
+mfNotes = '''* Die Leistungspunkte müssen in einem Fach erworben werden
+
+** Wird für B.Sc. als 8 LP angerechnet
+'''
 mfOrder = "120"
 CourseList = ["astro121", "astro122", "astro123", "astro121-123", "siehe Liste"]
 [physik120.Courses.astro121]

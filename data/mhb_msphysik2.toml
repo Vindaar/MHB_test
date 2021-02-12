@@ -345,7 +345,7 @@ mfParticipants = "ca. 100"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = "Note: The student must achieve at least 24 CP out of all 6 Specialization Modules"
 mfOrder = "610"
-CourseList = ["physics611", "physics612", "physics613", "physics614", "physics618", "MolPhys I", "CondMatter I", "physics620"]
+CourseList = ["physics611", "physics612", "physics613", "physics618", "MolPhys I", "CondMatter I", "physics620", "physics631"]
 [physics61a.Courses.physics611]
 cfTitle = "Particle Physics"
 cfNum = "physics611"
@@ -487,44 +487,6 @@ cfKindShort = "Lect. + ex."
 cfSemester = "WT"
 cfLecturer = "Profs. of experimental physics"
 cfMail = "cmatter@uni-bonn.de"
-cfOrder = "0"
-
-[physics61a.Courses.physics614]
-cfTitle = "Laser Physics and Nonlinear Optics"
-cfNum = "physics614"
-cfCP = "6"
-cfWorkload = "3+1"
-cfKind = "Lecture with exercises"
-cfCategory = "Elective"
-cfLanguage = "English"
-cfRequirements = ""
-cfPreparation = ""
-cfFormalities = "Requirements for the examination (written or oral): successful work with the exercises"
-cfLength = "1 semester"
-cfGoals = '''To make the students understand laser physics and nonlinear optics and enable them to practically apply their knowledge in research and development.
-
-Pivotal experiments will be shown during the lecture. The acquired knowledge will be dealt with in depth in the exercise groups. An additional offer: interested students may build and investigate a nitrogen laser device.
-'''
-cfContent = '''Laser physics: advanced geometric optics and wave optics (ABCDmatrix, Gauss rays, wave guides). Light-matter interaction (spontaneous/ excited processes, inversion, light intensification). Principle of the laser; mode of operation and properties of lasers (standing wave-/ring laser, mode condition, hole burning). Continuous wave laser (gas, solid states), pulsed laser (Q-switching, mode coupling), optical properties of semiconductors, semiconductor laser; dynamic properties of laser light (Schawlow-Townes line width, chaotic laser radiation). Petawatt laser, white light laser, free electron laser, laser application in telecommunications, metrology and material processing;
-
-Nonlinear Optics: Frequency doubling, sum-, difference frequency generation, parametric oscillators, phase matching (critical, non-critical, quasi), photorefraction, nonlinear Kerr effect, 4-wave mixing.
-'''
-cfLiterature = '''D. Meschede; Optik, Licht und Laser (Teubner, Wiesbaden 2. überarb. Aufl. 2005)
-
-F. K. Kneubühl; Laser (Teubner, Wiesbaden 6th edition 2005)
-
-J. Eichler, H.J. Eichler; Laser (Springer, Heidelberg 5th edition 2003)
-
-R. Boyd; Nonlinear Optics (Academic Press 2003)
-
-R. Menzel; Photonics (Springer, Berlin 2001)
-
-Y.-R. Shen; The principles of nonlinear optics (Wiley, New York (u.a.) 1984)
-'''
-cfKindShort = "Lect. + ex."
-cfSemester = "WT"
-cfLecturer = "Profs. of experimental physics"
-cfMail = "optics@uni-bonn.de"
 cfOrder = "0"
 
 [physics61a.Courses.physics618]
@@ -695,6 +657,52 @@ cfLecturer = "Profs. of experimental physics"
 cfMail = "optics@uni-bonn.de"
 cfOrder = "0"
 
+[physics61a.Courses.physics631]
+cfTitle = "Quantum Optics"
+cfNum = "physics631"
+cfCP = "6"
+cfWorkload = "3+1"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = ""
+cfFormalities = '''Examination written or oral (announced at the beginning of the module).
+
+Prerequisite for participation in the exam:  successful work within the exercises.
+'''
+cfLength = "1 semester"
+cfGoals = "Make the students understand quantum optics and enable them to practically apply their knowledge in research and development."
+cfContent = '''Quantization of the electromagnetic field, single-mode quantum optics
+
+Representations of the light field; Quasi-probabilities
+
+Coherence, correlation functions;
+
+Nonclassical light
+
+Interaction of quantized radiation and atoms;
+
+Introduction to quantum information
+'''
+cfLiterature = '''R. Loudon; The quantum theory of light (Oxford University Press 2000)
+
+G. J. Milburn, D. F. Walls; Quantum Optics (Springer 1994)
+
+C. Gerry, P. Knight; Introductory quantum optics (Cambridge University Press 2004)
+
+D. Meschede; Optics, Light and Lasers (Wiley-VCH, 3rd ed. 2017)
+
+M. O. Scully, M. S. Zubairy; Quantum Optics (Cambridge 1997)
+
+P. Meystre, M. Sargent; Elements of Quantum Optics (Springer 1999)
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "WT"
+cfLecturer = "Profs. of experimental physics"
+cfMail = "optics@uni-bonn.de"
+cfOrder = "0"
+
 
 [physics62a]
 mfDegree = "MSPHYSIK2"
@@ -714,7 +722,7 @@ mfParticipants = "ca. 100"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = "Note: The student must achieve at least 24 CP out of all 6 Specialization Modules"
 mfOrder = "611"
-CourseList = ["physics632", "physics633", "physics639", "physics631", "physics634", "MolPhys II", "physics640"]
+CourseList = ["physics632", "physics633", "physics639", "physics634", "MolPhys II", "physics642", "physics641"]
 [physics62a.Courses.physics632]
 cfTitle = "Physics of Hadrons"
 cfNum = "physics632"
@@ -834,53 +842,6 @@ cfLecturer = "Profs. of experimental physics"
 cfMail = "particle@uni-bonn.de"
 cfOrder = "0"
 
-[physics62a.Courses.physics631]
-cfTitle = "Quantum Optics"
-cfNum = "physics631"
-cfCP = "6"
-cfWorkload = "3+1"
-cfKind = "Lecture with exercises"
-cfCategory = "Elective"
-cfLanguage = "English"
-cfRequirements = ""
-cfPreparation = ""
-cfFormalities = "Requirements for the examination (written or oral): successful work with the exercises"
-cfLength = "1 semester"
-cfGoals = "Make the students understand quantum optics and enable them to practically apply their knowledge in research and development."
-cfContent = '''Bloch Vector, Bloch equations,
-
-Quantization of the electromagnetic field; representations; 
-
-coherence, correlation functions; single-mode quantum optics; squeezing;
-
-interaction of quantized radiation and atoms; 
-
-two & three level atoms; artificial atoms;
-
-quantum information
-
-Laser cooling; quantum gases
-'''
-cfLiterature = '''R. Loudon; The quantum theory of light  (Oxford University Press 2000)
-
-G. J. Milburn, D. F. Walls; Quantum Optics (Springer 1994)
-
-D. Meschede; Optik, Licht und Laser (Teubner, Wiesbaden 2nd edition. 2005)
-
-M. O. Scully, M. S. Zubairy; Quantum Optics (Cambridge 1997)
-
-P. Meystre, M. Sargent; Elements of Quantum Optics (Springer 1999)
-
-U. Leonhardt; Measuring the quantum state of light (Cambridge University Press,Cambridge 1997) 
-
-W. Vogel, D.-G. Welsch; Quantum Optics  (Wiley VCH, 3rd edition 2006)
-'''
-cfKindShort = "Lect. + ex."
-cfSemester = "ST"
-cfLecturer = "Profs. of experimental physics"
-cfMail = "optics@uni-bonn.de"
-cfOrder = "0"
-
 [physics62a.Courses.physics634]
 cfTitle = "Magnetism/Superconductivity"
 cfNum = "physics634"
@@ -968,9 +929,53 @@ cfLecturer = "Stephan Schlemmer, Thomas Giesen"
 cfMail = "schlemmer@ph1.uni-koeln.de, giesen@ph1.uni-koeln.de"
 cfOrder = "0"
 
-[physics62a.Courses.physics640]
-cfTitle = "Photonic Devices"
-cfNum = "physics640"
+[physics62a.Courses.physics642]
+cfTitle = "Quantum Technology"
+cfNum = "physics642"
+cfCP = "6"
+cfWorkload = "3+1"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Quantum mechanics,"
+cfFormalities = '''Examination written or oral (announced at the beginning of the module).
+
+Prerequisite for participation in the exam:  successful work within the exercises.
+'''
+cfLength = "1 semester"
+cfGoals = "The aim of the course is to introduce the students to modern applications of quantum physics. Both fundamental concepts of quantum technology as well as platforms for the implementation will be discussed."
+cfContent = '''Basics of quantum information: Qubits, entanglement, EPR-tests
+
+Quantum communication: Cryptography, teleportation
+
+Quantum computing: circuit computation, paradigms, exotic computation
+
+Quantum simulation
+
+Quantum-enhanced metrology
+
+Selected platforms: Ultracold atoms, single emitters, photonics
+'''
+cfLiterature = '''S. M Barnett, Quantum information (Oxford University Press 2012)
+
+M.A. Nielsen, I.L. Chuang, Quantum computation and quantum information (Cambridge 2010)
+
+E. Göbel, U. Siegner, Quantum Metrology (Wiley VCH,2015)
+
+W. Nawrocki, Introduction to Quantum Metrology (Springer 2019)
+
+M. Lewenstein, A. Sanpera, V. Ahufinger, Ultracold atoms in optical lattices Simulating quantum many-body systems (Oxford University Press 2012)
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "ST"
+cfLecturer = "Profs. of experimental physics"
+cfMail = "optics@uni-bonn.de"
+cfOrder = "0"
+
+[physics62a.Courses.physics641]
+cfTitle = "Photonics"
+cfNum = "physics641"
 cfCP = "6"
 cfWorkload = "3+1"
 cfKind = "Lecture with exercises"
@@ -978,25 +983,23 @@ cfCategory = "Elective"
 cfLanguage = "English"
 cfRequirements = ""
 cfPreparation = ""
-cfFormalities = "Requirements for the examination (written or oral): successful work within the exercises"
+cfFormalities = '''Examination written or oral (announced at the beginning of the module).
+
+Prerequisite for participation in the exam:  successful work within the exercises.
+'''
 cfLength = "1 semester"
-cfGoals = '''To make the students understand physical and technological foundations of photonics and enable them to
+cfGoals = "The lecture conveys the physical and technological foundations of laser-based photonics, and enables the students to practically apply their knowledge in research and development."
+cfContent = '''Foundations: Advanced geometric and wave optics, Fourier optics;
 
-practically apply their knowledge in research and development.
+Active and passive devices (Acoustooptics, electrooptics, detectors, imaging)
+
+Advanced optics: Waveguides, Fibers; Photonic Crystals; Metamaterials; Resonators
+
+Laser physics: Light-matter-interaction, principles, operation modes and properties
+
+Nonlinear optics: Second- and third order processes, parametric oscillators, phase matching
 '''
-cfContent = '''Optics: Rays, Beams, Waves; Fourieroptics;
-
-Light sources; Detectors; Imaging devices
-
-Waveguides, Fibers; Photonic Crystals; Metamaterials;
-
-Optical amplification; Acoustooptics, electrooptics;
-
-Photonic circuits, optical communication
-
-Applications
-'''
-cfLiterature = '''D. Meschede; Optik, Licht und Laser (Teubner, Wiesbaden 2. überarb. Aufl. 2005)
+cfLiterature = '''D. Meschede; Optics, Light and Lasers (Wiley-VCH, 3rd ed. 2017)
 
 A. Yariv; Photonics: Optical Electronics in Modern Communications (Oxford Univ. Press 6th edition 2006)
 
@@ -1430,7 +1433,14 @@ The students shall learn to explore a specific scientific topic with the help of
 mfFormalities = "regular participation and active contribution"
 mfLength = "1 semester"
 mfParticipants = "20 per seminar"
-mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
+mfSignup = '''s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de
+
+
+
+Useable for:
+
+Masterstudiengang Physik, Pflicht, Semester: 1-2
+'''
 mfNotes = ""
 mfOrder = "651"
 CourseList = ["Seminars on Current Topics in Experimental Physics"]
@@ -1474,7 +1484,14 @@ The students shall learn to explore a specific scientific topic with the help of
 mfFormalities = "regular participation and active contribution"
 mfLength = "1 semester"
 mfParticipants = "20 per seminar"
-mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
+mfSignup = '''s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de
+
+
+
+Useable for:
+
+Masterstudiengang Physik, Pflicht, Semester: 1-2
+'''
 mfNotes = ""
 mfOrder = "652"
 CourseList = ["Seminars on Current Topics in Applied Physics"]
@@ -1515,7 +1532,14 @@ mfGoals = "The students shall learn to explore a specific scientific topic with 
 mfFormalities = "regular participation and active contribution"
 mfLength = "1 semester"
 mfParticipants = "20 per seminar"
-mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
+mfSignup = '''s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de
+
+
+
+Useable for:
+
+Masterstudiengang Physik, Pflicht, Semester: 1-2
+'''
 mfNotes = ""
 mfOrder = "653"
 CourseList = ["Seminars on Current Topics in Theoretical Physics"]
@@ -1559,7 +1583,7 @@ mfParticipants = "ca. 100"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = "Note: The student must achieve at least 18 CP out of all 4 Elective Advanced Modules"
 mfOrder = "710"
-CourseList = ["physics711", "physics712", "physics713", "physics714", "physics715", "physics716", "physics717", "physics731", "physics732", "physics734", "physics735", "physics736", "physics737", "physics738", "physics739", "physics719", "physics740", "physics720", "physics721", "physics741", "physics799", "physics742", "physics722", "physics718", "physics723", "see catalogue", "Also possible classes from M.Sc. in Astrophysics"]
+CourseList = ["physics711", "physics712", "physics713", "physics714", "physics715", "physics716", "physics717", "physics731", "physics732", "physics734", "physics735", "physics736", "physics737", "physics738", "physics739", "physics740", "physics720", "physics721", "physics741", "physics799", "physics742", "physics722", "physics718", "physics723", "physics719", "physics743", "physics724", "see catalogue", "Also possible classes from M.Sc. in Astrophysics"]
 [physics70a.Courses.physics711]
 cfTitle = "Particle Astrophysics and Cosmology (E)"
 cfNum = "physics711"
@@ -1929,8 +1953,8 @@ cfOrder = "0"
 [physics70a.Courses.physics737]
 cfTitle = "Intensive Week: Advanced Topics in Photonics and Quantum Optics (E)"
 cfNum = "physics737"
-cfCP = "4"
-cfWorkload = "3"
+cfCP = "3"
+cfWorkload = "2"
 cfKind = "Combined lecture, seminar, lab course"
 cfCategory = "Elective"
 cfLanguage = "English"
@@ -1987,27 +2011,6 @@ cfKindShort = ""
 cfSemester = "WT/ST"
 cfLecturer = "Profs. of experimental physics"
 cfMail = "optics@uni-bonn.de"
-cfOrder = "0"
-
-[physics70a.Courses.physics719]
-cfTitle = "Intensive Week: Advanced Topics in High Energy Physics (E)"
-cfNum = "physics719"
-cfCP = "4"
-cfWorkload = "3"
-cfKind = "Combined lecture, seminar, lab course"
-cfCategory = "Elective"
-cfLanguage = "English"
-cfRequirements = ""
-cfPreparation = "Fundamentals of particle physics"
-cfFormalities = "Seminar talk"
-cfLength = "1 - 2 weeks"
-cfGoals = "This course is about an advanced, current topic in particle physics. The students will gain insights into recent developments in particle physics and participate in lectures, seminars talks and laboratory projects."
-cfContent = "As announced in the course catalogue. The main topic will vary from semester to semester."
-cfLiterature = "Will be given in the lecture."
-cfKindShort = ""
-cfSemester = "WT/ST"
-cfLecturer = "Profs. of experimental physics"
-cfMail = "particle@uni-bonn.de"
 cfOrder = "0"
 
 [physics70a.Courses.physics740]
@@ -2071,8 +2074,8 @@ cfOrder = "0"
 [physics70a.Courses.physics721]
 cfTitle = "Intensive Week: Advanced Topics in Hadron Physics (E)"
 cfNum = "physics721"
-cfCP = "4"
-cfWorkload = "3"
+cfCP = "3"
+cfWorkload = "2"
 cfKind = "Combined lecture, seminar, lab course"
 cfCategory = "Elective"
 cfLanguage = "English"
@@ -2135,14 +2138,14 @@ cfMail = "optics@uni-bonn.de"
 cfOrder = "0"
 
 [physics70a.Courses.physics799]
-cfTitle = "Internships in the Research Groups"
+cfTitle = "Research Project"
 cfNum = "physics799"
 cfCP = "4"
 cfWorkload = ""
-cfKind = "Research Internship"
+cfKind = "Research Project"
 cfCategory = "Elective"
 cfLanguage = "English"
-cfRequirements = "Students are asked to contact one of the BCGS lecturers prior to the start of their internship. Lecturers provide help if needed to find a suitable research group and topic. Not all groups may have internships available at all times, thus participation may be limited."
+cfRequirements = "Students are asked to contact one of the BCGS lecturers prior to the start of their research project. Lecturers provide help if needed to find a suitable research group and topic. Not all groups may have projects available at all times, thus participation may be limited."
 cfPreparation = "A specialization lecture from the research field in question or equivalent preparation."
 cfFormalities = "A written report or, alternatively, a presentation in a meeting of the research group."
 cfLength = "4-6 weeks"
@@ -2158,7 +2161,7 @@ cfContent = '''One of the following possible items:
 - numerical or analytical calculations in a theory group.
 '''
 cfLiterature = "provided by the supervisor within the research group."
-cfKindShort = "internship"
+cfKindShort = "project"
 cfSemester = "WT/ST"
 cfLecturer = "Profs. of physics"
 cfMail = ""
@@ -2330,6 +2333,93 @@ cfLecturer = "Profs. of experimental physics"
 cfMail = "optics@uni-bonn.de"
 cfOrder = "0"
 
+[physics70a.Courses.physics719]
+cfTitle = "Intensive Week: Advanced Topics in High Energy Physics (E)"
+cfNum = "physics719"
+cfCP = "3"
+cfWorkload = "2"
+cfKind = "Combined lecture, seminar, lab course"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Fundamentals of particle physics"
+cfFormalities = "Seminar talk"
+cfLength = "1 - 2 weeks"
+cfGoals = "This course is about an advanced, current topic in particle physics. The students will gain insights into recent developments in particle physics and participate in lectures, seminars talks and laboratory projects."
+cfContent = "As announced in the course catalogue. The main topic will vary from semester to semester."
+cfLiterature = "Will be given in the lecture."
+cfKindShort = ""
+cfSemester = "WT/ST"
+cfLecturer = "Profs. of experimental physics"
+cfMail = "particle@uni-bonn.de"
+cfOrder = "0"
+
+[physics70a.Courses.physics743]
+cfTitle = "Platforms for Quantum Technologies (E)"
+cfNum = "physics743"
+cfCP = "5"
+cfWorkload = "2 weeks fulltime"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Major courses of the 1st MSc term, for example, \"Advanced Atomic, Molecular and Optical Physics\", \"Quantum Optics\", \"Advanced Quantum Theory\", \"Theoretical Condensed Matter Physics\""
+cfFormalities = "written exam"
+cfLength = "2 weeks"
+cfGoals = "Students receive an introduction into quantum technologies both theoretically and experimentally. Focus is on the theoretical foundations of quantum information processing, and experimental platforms primarily used in Bonn (Atomic, molecular and optical systems), Cologne (topological materials) and Aachen (spin & superconducting architectures) in the context of the Excellence Cluster ML4Q."
+cfContent = '''1. Basics of quantum information processing 
+
+2. Atomic, molecular and optical platforms, quantum simulation 
+
+3. Solid-state platforms. Focus on quantum computation. Spin qubits, superconducting qubits; 
+
+4. Topological platforms, Topological materials, Topological architectures
+'''
+cfLiterature = '''Nielsen & Chuang \"Quantum information processing\"
+
+Pethick/Smith \"Bose-Einstein condensation\"
+
+Lecture notes will be distributed for selected topics
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "WT/ST"
+cfLecturer = "Profs. of experimental physics"
+cfMail = "exphysik@uni-bonn.de"
+cfOrder = "0"
+
+[physics70a.Courses.physics724]
+cfTitle = "Advanced Methods of Data Analysis (E)"
+cfNum = "physics724"
+cfCP = "4"
+cfWorkload = "2+1"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = "The course builds on the knowledge taught in physics716 Statistical Methods of Data Analysis and is designed as a follow-up course. Participants need to have a working knowledge of the basics of statistical data analysis, including parameter estimation and statistical tests."
+cfPreparation = "Students should have a basic knowledge of either C++ or python programming languages. There will be opportunity during the course to develop programming skills through applications of data analysis."
+cfFormalities = "The examination can be done either through a written exam or by written term papers as communicated at the beginning of the course."
+cfLength = "1 semester"
+cfGoals = "This course teaches advanced techniques of statistical data analysis. Its goal is to enable the participants to contribute to state of the art data analysis projects, for example during their master thesis, and to enable them to conduct their own research into statistical data analysis methods."
+cfContent = '''Parametric likelihood fits, constraint optimisation, state space models, non-parametric density estimation, unfolding, model validation, introduction to machine learning, classification, adaptive basis function models, ensemble learning, deep generative models
+
+
+
+Examples from high energy and hadronic physics.
+'''
+cfLiterature = '''Elements of statistical learning, 2nd Edition, Hastie, Tibshirani & Friedman, Springer 2017
+
+Data Analysis in High Energy Physics, Behnke et Al. , Wiley-VCH 2013
+
+Statistical Analysis Techniques in Particle Physics, Narsky & Porter, Wiley-VCH 2013
+
+Machine Learning, A Probabilistic Perspective, Murphy, MIT Press 2012
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "WT/ST"
+cfLecturer = "Profs. of experimental physics"
+cfMail = "particle@uni-bonn.de"
+cfOrder = "0"
+
 [physics70a.Courses."see catalogue"]
 cfTitle = "Selected courses from catalogue  type \"E\" (Experimental) or \"E/A\" (E/Applied)"
 cfNum = "see catalogue"
@@ -2438,14 +2528,14 @@ cfMail = "optics@uni-bonn.de"
 cfOrder = "0"
 
 [physics70b.Courses.physics799]
-cfTitle = "Internships in the Research Groups"
+cfTitle = "Research Project"
 cfNum = "physics799"
 cfCP = "4"
 cfWorkload = ""
-cfKind = "Research Internship"
+cfKind = "Research Project"
 cfCategory = "Elective"
 cfLanguage = "English"
-cfRequirements = "Students are asked to contact one of the BCGS lecturers prior to the start of their internship. Lecturers provide help if needed to find a suitable research group and topic. Not all groups may have internships available at all times, thus participation may be limited."
+cfRequirements = "Students are asked to contact one of the BCGS lecturers prior to the start of their research project. Lecturers provide help if needed to find a suitable research group and topic. Not all groups may have projects available at all times, thus participation may be limited."
 cfPreparation = "A specialization lecture from the research field in question or equivalent preparation."
 cfFormalities = "A written report or, alternatively, a presentation in a meeting of the research group."
 cfLength = "4-6 weeks"
@@ -2461,7 +2551,7 @@ cfContent = '''One of the following possible items:
 - numerical or analytical calculations in a theory group.
 '''
 cfLiterature = "provided by the supervisor within the research group."
-cfKindShort = "internship"
+cfKindShort = "project"
 cfSemester = "WT/ST"
 cfLecturer = "Profs. of physics"
 cfMail = ""
@@ -3113,7 +3203,7 @@ mfParticipants = "ca. 100"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = "Note: The student must achieve at least 18 CP out of all 4 Elective Advanced Modules"
 mfOrder = "730"
-CourseList = ["physics762", "physics764", "physics765", "physics767", "physics799", "physics768", "physics769", "physics742", "physics7501", "physics7502", "physics7503", "physics7504", "physics7505", "physics7506", "see catalogue", "Also possible classes from M.Sc. in  Astrophysics", "physics751", "physics752", "physics753", "physics754", "physics755", "physics756", "physics757", "physics758", "physics759", "physics760", "physics761", "physics763", "physics766"]
+CourseList = ["physics762", "physics764", "physics765", "physics767", "physics799", "physics768", "physics769", "physics742", "physics7501", "physics7502", "physics7503", "physics7504", "physics7505", "physics7506", "physics7507", "physics7508", "physics7509", "see catalogue", "Also possible classes from M.Sc. in  Astrophysics", "physics751", "physics752", "physics753", "physics754", "physics755", "physics756", "physics757", "physics758", "physics759", "physics760", "physics761", "physics763", "physics766"]
 [physics70c.Courses.physics762]
 cfTitle = "Transport in mesoscopic systems (T)"
 cfNum = "physics762"
@@ -3276,14 +3366,14 @@ cfMail = "theophys@uni-bonn.de"
 cfOrder = "0"
 
 [physics70c.Courses.physics799]
-cfTitle = "Internships in the Research Groups"
+cfTitle = "Research Project"
 cfNum = "physics799"
 cfCP = "4"
 cfWorkload = ""
-cfKind = "Research Internship"
+cfKind = "Research Project"
 cfCategory = "Elective"
 cfLanguage = "English"
-cfRequirements = "Students are asked to contact one of the BCGS lecturers prior to the start of their internship. Lecturers provide help if needed to find a suitable research group and topic. Not all groups may have internships available at all times, thus participation may be limited."
+cfRequirements = "Students are asked to contact one of the BCGS lecturers prior to the start of their research project. Lecturers provide help if needed to find a suitable research group and topic. Not all groups may have projects available at all times, thus participation may be limited."
 cfPreparation = "A specialization lecture from the research field in question or equivalent preparation."
 cfFormalities = "A written report or, alternatively, a presentation in a meeting of the research group."
 cfLength = "4-6 weeks"
@@ -3299,7 +3389,7 @@ cfContent = '''One of the following possible items:
 - numerical or analytical calculations in a theory group.
 '''
 cfLiterature = "provided by the supervisor within the research group."
-cfKindShort = "internship"
+cfKindShort = "project"
 cfSemester = "WT/ST"
 cfLecturer = "Profs. of physics"
 cfMail = ""
@@ -3628,6 +3718,91 @@ Cambridge Monographs on Particle physics, Nuclear Physics and Cosmology 2003.
 '''
 cfKindShort = "Lecture"
 cfSemester = "WT"
+cfLecturer = "Profs. of theoretical physics"
+cfMail = "theophys@uni-bonn.de"
+cfOrder = "0"
+
+[physics70c.Courses.physics7507]
+cfTitle = "Theory of Quantum Magnetism (T)"
+cfNum = "physics7507"
+cfCP = "4"
+cfWorkload = "2+1"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Quantum mechanics, Thermodynamics and Statistics, Quantum Field Theory"
+cfFormalities = '''(1) form of examination: written or oral 
+
+(2) requirement for participation in examination: successful participation in exercises
+'''
+cfLength = "1 semester"
+cfGoals = "The goal of the course is to introduce students to advanced concepts in the theory of magnetism."
+cfContent = "Phenomenological theory of magnetism, spin exchange, ferro and anti-ferro magnetism, classically frustrated systems (Kagome lattice). Representations of spin algebras: Dyson-Maleev, Holstein, Primakov, Schwinger bosons, spin coherent states, spin path integral, non-linear sigma models, quantum phase transition, Bereshinski-Kosterlitz-Thouless transition, Haldane gap, frustrated magnets, valence bond states, spin liquids, quantum Heisenberg model (two dimensional, Kagome, pyrochlore lattice) Exactly solvable models (transfer matrix) Ising model. Exactly solvable models (Bethe Ansatz): XXZ model, Kondo model. Open problems in quantum magnetism."
+cfLiterature = "Will be announced in the first lecture"
+cfKindShort = "Lect. + ex."
+cfSemester = "ST"
+cfLecturer = "Profs. of theoretical physics"
+cfMail = "theophys@uni-bonn.de"
+cfOrder = "0"
+
+[physics70c.Courses.physics7508]
+cfTitle = "Quantum Computing (T)"
+cfNum = "physics7508"
+cfCP = "7"
+cfWorkload = "3+2"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Theoretical courses at the Bachelor degree level"
+cfFormalities = "written / oral examination"
+cfLength = "1 semester"
+cfGoals = "Understand the theory of quantum computing and apply it to existing hardware."
+cfContent = '''- Quantum circuits
+
+- Quantum algorithms
+
+- Quantum computers
+
+- Quantum noise and quantum operations
+
+- Quantum error correction
+'''
+cfLiterature = "M. A. Nielsen and I. L. Chuang, Quantum Computation and Quantum Information, Cambridge"
+cfKindShort = "Lect. + ex."
+cfSemester = "WT/ST"
+cfLecturer = "Profs. of theoretical physics"
+cfMail = "theophys@uni-bonn.de"
+cfOrder = "0"
+
+[physics70c.Courses.physics7509]
+cfTitle = "Advanced Topics in Particle and Astroparticle Physics (T)"
+cfNum = "physics7509"
+cfCP = "7"
+cfWorkload = "3+2"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "physics615 and physics711 strongly recommended, a course on General Relativity (e.g. physics754) would also be helpful."
+cfFormalities = "Biweekly Homework Sheets + Final Written Exam"
+cfLength = "1 semester"
+cfGoals = "To gain knowledge in Cosmological Perturbations, Axion physics, Dark Messenger physics/dark photons."
+cfContent = '''1) 	Cosmological perturbations and effect on the CMB
+
+2) 	Axions: Theory and Detection
+
+3)	 Dark Photons: Theory and Detection
+'''
+cfLiterature = '''1)	Introduction to the Theory of the Early Universe, Vol. II (Cosmological perturbations and Inflationary Theory) by Gorbunov and Rubakov [World Scientic]on, Modern Cosmoless (Elsevier) 2 
+
+2)	Modern Cosmology, Scott Dodelson (1st edition, 2003)
+
+3)	Various reviews on axions and dark photons.
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "WT/ST"
 cfLecturer = "Profs. of theoretical physics"
 cfMail = "theophys@uni-bonn.de"
 cfOrder = "0"
@@ -5397,7 +5572,14 @@ mfGoals = "The student shall demonstrate to have understood the scientific quest
 mfFormalities = "none"
 mfLength = "1 semester"
 mfParticipants = "ca. 100"
-mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
+mfSignup = '''s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de
+
+
+
+Useable for:
+
+Masterstudiengang Physik, Pflicht, Semester: 3
+'''
 mfNotes = ""
 mfOrder = "910"
 CourseList = ["physics911"]
@@ -5438,7 +5620,14 @@ mfGoals = "The student shall demonstrate to have understood the methods to be us
 mfFormalities = "none"
 mfLength = "1 semester"
 mfParticipants = "ca. 100"
-mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
+mfSignup = '''s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de
+
+
+
+Useable for:
+
+Masterstudiengang Physik, Pflicht, Semester: 3
+'''
 mfNotes = ""
 mfOrder = "920"
 CourseList = ["physics921"]
@@ -5479,7 +5668,14 @@ mfGoals = "The student shall demonstrate to be able to do research"
 mfFormalities = "Oral presentation"
 mfLength = "1 semester"
 mfParticipants = "ca. 100"
-mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
+mfSignup = '''s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de
+
+
+
+Useable for:
+
+Masterstudiengang Physik, Pflicht, Semester: 4
+'''
 mfNotes = ""
 mfOrder = "930"
 CourseList = ["physics931"]

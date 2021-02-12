@@ -1,9 +1,9 @@
 +++
 weight = 0
-title = "physics631"
+title = "physics7509"
 degree = "msphysik2"
-parent = "physics62a"
-tags = ["msphysik2", "physics631", "physics62a"]
+parent = "physics70c"
+tags = ["msphysik2", "physics7509", "physics70c"]
 categories = ["course"]
 bookCollapseSection = false
 +++
