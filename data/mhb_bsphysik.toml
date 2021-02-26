@@ -129,7 +129,7 @@ mfNotes = '''* Die Leistungspunkte müssen in einem Fach erworben werden
 ** Wird für B.Sc. als 8 LP angerechnet
 '''
 mfOrder = "120"
-CourseList = ["astro121", "astro122", "astro123", "astro121-123", "siehe Liste"]
+CourseList = ["astro121", "astro122", "astro123", "siehe Liste"]
 [physik120.Courses.astro121]
 cfTitle = "Einführung in die Astronomie"
 cfNum = "astro121"
@@ -209,27 +209,6 @@ cfSemester = "SS"
 cfLecturer = "Dozentinnen und Dozenten der Astronomie"
 cfMail = "astro@uni-bonn.de"
 cfOrder = "13"
-
-[physik120.Courses.astro121-123]
-cfTitle = "Veranstaltungen in Astronomie"
-cfNum = "astro121-123"
-cfCP = "4+4"
-cfWorkload = ""
-cfKind = ""
-cfCategory = ""
-cfLanguage = ""
-cfRequirements = ""
-cfPreparation = ""
-cfFormalities = ""
-cfLength = ""
-cfGoals = ""
-cfContent = ""
-cfLiterature = ""
-cfKindShort = "s. Katalog"
-cfSemester = "WS+SS"
-cfLecturer = ""
-cfMail = ""
-cfOrder = "19"
 
 [physik120.Courses."siehe Liste"]
 cfTitle = "Veranstaltungen in Philosophie"
