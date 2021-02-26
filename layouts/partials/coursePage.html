@@ -55,6 +55,8 @@ Generates the page for a single course (the child of a module).
   {{ end  }}
 
 
-  <a href={{printf "%s/pdfs/%s.pdf" $.Site.Params.baseURL $dict.cfNum}}>PDF version of this page.</a>
+  <pdfLink>
+    <a href={{printf "/pdfs/%s.pdf" $dict.cfNum}}>PDF version of this page.</a>
+  </pdfLink>
 
 </article>
