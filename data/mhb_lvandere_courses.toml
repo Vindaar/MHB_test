@@ -1,0 +1,681 @@
+CourseList = ["astro081", "astro082", "physik011", "physik012", "astro121", "astro122", "astro123", "physik013", "physik014", "physik021", "physik022", "physik023", "physik024", "physik025", "physik026", "physik041", "physik051", "astro811", "astro822"]
+[astro081]
+cfTitle = "Astronomie für Einsteiger I"
+cfNum = "astro081"
+cfCP = "1"
+cfWorkload = "1"
+cfKind = "Vorlesung"
+cfCategory = "Wahlfach"
+cfLanguage = "deutsch"
+cfRequirements = ""
+cfPreparation = "Die Vorlesung versteht sich als Anfängervorlesung, ist aber gedacht für alle, die sich für Astronomie interessieren, aber bisher noch keine Vorkenntnisse haben."
+cfFormalities = "Mündliche Prüfung."
+cfLength = "1 Semester"
+cfGoals = "Den Studierenden wird ein grundlegendes astronomisches Weltbild vermittelt. Sie werden in die Lage versetzt, einfache astronomische Zusammenhänge zu verstehen und zu beschreiben."
+cfContent = '''Astronomische Beobachtung am Himmel, Sternbilder, das Planetensystem, Kometen und Asteroiden; die Milchstrasse; Lebensweg eines Sterns; Galaxien und Quasare, Schwarze Löcher.
+
+
+
+Mit Exkursion zum Observatorium Hoher List, die Aussenstelle der Sternwarte.
+'''
+cfLiterature = '''Himmelsjahr, von H.U. Keller (Kosmos)
+
+Astronomie für Dummies, von S.P. Maran (Wiley VCH) 2. Auflage ISBN 3826631277
+
+Atlas für Himmelsbeobachter, von E. Karkoschka (Kosmos) ISBN 3-440-08826-X.
+'''
+cfKindShort = "Vorlesung"
+cfSemester = "WS"
+cfLecturer = "Dozentinnen und Dozenten der Astronomie"
+cfMail = "astro@uni-bonn.de"
+cfOrder = 81.0
+
+
+[astro082]
+cfTitle = "Astronomie für Einsteiger II"
+cfNum = "astro082"
+cfCP = "1"
+cfWorkload = "1"
+cfKind = "Vorlesung"
+cfCategory = "Wahlfach"
+cfLanguage = "deutsch"
+cfRequirements = ""
+cfPreparation = "Die Vorlesung versteht sich als Anfängervorlesung, ist aber gedacht für alle die sich für Astronomie interessieren aber die bisher noch keine weiteren Vorkenntnisse haben, als aus der Vorlesung \"Astronomie für Einsteiger I\"."
+cfFormalities = "Mündliche Prüfung."
+cfLength = "1 Semester"
+cfGoals = "Die Studierenden lernen grundlegende astronomische Messverfahren kennen. Sie werden in die Lage versetzt, einfache astronomische Zusammenhänge zu verstehen und zu beschreiben."
+cfContent = "Helligkeit der Himmelsobjekte, Farben, Bewegungen, Geschwindigkeiten, Entfernungen, Variabilität, Teleskope und Satelliten."
+cfLiterature = '''Himmelsjahr, von H.U. Keller (Kosmos)
+
+Astronomie für Dummies, von S.P. Maran (Wiley VCH) 2. Auflage ISBN 3826631277
+
+Atlas für Himmelsbeobachter, von E. Karkoschka (Kosmos) ISBN 3-440-08826-X.
+'''
+cfKindShort = "Vorlesung"
+cfSemester = "SS"
+cfLecturer = "Dozentinnen und Dozenten der Astronomie"
+cfMail = "astro@uni-bonn.de"
+cfOrder = 82.0
+
+
+[physik011]
+cfTitle = "Physik für Naturwissenschaftler I"
+cfNum = "physik011"
+cfCP = "*"
+cfWorkload = "4+1"
+cfKind = "Vorlesung mit Übungen"
+cfCategory = "fachspezifisch"
+cfLanguage = "deutsch"
+cfRequirements = ""
+cfPreparation = '''nützlich: Vertrautheit mit mathematischen Methoden der SEK II ( Vektorrechnung, trigonomische Funktionen, Differentiation, Integration )
+
+nützlich: Vorkurs Mathematik für Naturwissenschaftler
+'''
+cfFormalities = "Klausur"
+cfLength = "1 Semester"
+cfGoals = '''Erarbeitung von Physikalischen Grundkenntnissen und Ihre Anwendung auf die rechnerische oder phänomenologische Lösung von naturwissenschaftlichen Problemstellungen.
+
+Vorbereitung auf die Durchführung eigener praktischer Experimente im physikalischen Praktikum.
+'''
+cfContent = "Grundlagen (Größen, Einheiten, Statistik und Fehlerrechnung), Bewegung in einer Dimension (Geschwindigkeit, Beschleunigung, diffenzieren, integrieren), Bewegung in zwei Dimensionen (Vektoren, Wurfbahnen), Newton'sche Gesetze (Kraftgesetze, Bewegungsgleichungen, Lösung in einfachen Fällen), Erhaltungssätze (Arbeit, Energie, Impuls, Stoßprozesse), Rotationen und Kreisbewegungen (Vektorprodukt, Drehmoment, Drehimpuls,Trägheitsmoment),Gravitation (Gravitationsgesetz, Kepler'sche Gesetze), Rotierende Bezugssysteme (Zentrifugalkraft, Corioliskraft), Schwingungen (einfach, gedämpft, erzwungen, Resonanz), Elastische Eigenschaften von Festkörpern (Kompressionsmodul, Schermodul), Wellen (mechanisch, akustisch), Fluide (Druck, Auftrieb, Strömungen, Bernoulli)."
+cfLiterature = '''W. Bauer, W. Benenson G. Westfall : CliXX Physik CD-Rom (Harri Deutsch, Frankfurt am Main 2004)
+
+E.W. Otten: Repetitorium Experimentalphysik (Springer, Heidelberg 2. Aufl. 2002)
+
+Tipler, Dransfeld-Kienle, Orear, Metzler (Physik , Oberstufe)
+'''
+cfKindShort = "Vorl. + Üb."
+cfSemester = "WS"
+cfLecturer = "Dozentinnen und Dozenten der Experimentalphysik"
+cfMail = "exphysik@uni-bonn.de"
+cfOrder = 110.0
+
+
+[physik012]
+cfTitle = "Physik für Naturwissenschaftler II"
+cfNum = "physik012"
+cfCP = "*"
+cfWorkload = "4+1"
+cfKind = "Vorlesung mit Übungen"
+cfCategory = "fachspezifisch"
+cfLanguage = "deutsch"
+cfRequirements = ""
+cfPreparation = '''nützlich: Vertrautheit mit mathematischen Methoden der SEK II ( Vektorrechnung, trigon. Funktionen, Differentiation, Integration )
+
+nützlich: Vorkurs Mathematik für Naturwissenschaftler
+
+Empfehlung: Kombination der Vorlesung mit den begleitenden Übungen in Gruppen, zur Lösung von naturwissenschaftlichen Problemstellungen und Vorbereitung auf die Klausur.
+'''
+cfFormalities = "zweistündige Klausur am Ende des Semesters."
+cfLength = "1 Semester"
+cfGoals = '''Erarbeitung von Physikalischen Grundkenntnissen und Ihre Anwendung auf die rechnerische oder phänomenologische Lösung von naturwissenschaftlichen Problemstellungen.
+
+Vorbereitung auf die Durchführung eigener praktischer Experimente im physikalischen Praktikum.
+'''
+cfContent = "Wärmelehre (Temperatur, Wärme, Thermodynamik, Zustandsänderungen, Kreisprozesse) , Elektrostatik (Ladung, Coulomb-Gesetz, elektrisches Feld, Dipol, Kondensator, Kapazität, Dielektrika) Elektrische Leitung (Leitungsmechanismen, Stromdichte, Ladungserhaltung, Ohm'sches Gesetz, Stromkreise) Magnetismus (Ströme als Ursache, Felder, magn. Dipol, Spule, Materie in magnetischen Feldern) Veränderliche Ströme (Induktion, Transformator, Wechselstromkreis, Schwingkreis) Elektromagnetische Wellen (Hertz'scher Dipol, Polarisation, Wärmestrahlung) Ursprünge der Quantentheorie (Photonen, Atomaufbau, Spektrallinien, Kernspinresonanz), Kern-und Teilchenphysik (Kernzerfälle, Aufbau der Materie, fundamentale Wechselwirkungen), Optik (Wellenoptik und Photonen, Interferenz an Spalt und Gitter, Auflösungsvermögen, Strahlenoptik, Linsen und optische Instrumente)."
+cfLiterature = '''W. Bauer, W. Benenson G. Westfall : CliXX Physik CD-Rom (Harri Deutsch, Frankfurt am Main 2004)
+
+E.W. Otten: Repetitorium Experimentalphysik (Springer, Heidelberg 2. Aufl. 2002)
+
+Tipler, Dransfeld-Kienle, Orear, Metzler (Physik, Oberstufe)
+'''
+cfKindShort = "Vorl. + Üb."
+cfSemester = "SS"
+cfLecturer = "Dozentinnen und Dozenten der Experimentalphysik"
+cfMail = "exphysik@uni-bonn.de"
+cfOrder = 120.0
+
+
+[astro121]
+cfTitle = "Einführung in die Astronomie"
+cfNum = "astro121"
+cfCP = "4"
+cfWorkload = "2+1"
+cfKind = "Vorlesung mit Übungen"
+cfCategory = "Wahlfach"
+cfLanguage = "deutsch"
+cfRequirements = ""
+cfPreparation = "Gymnasium Mathematik und Physik."
+cfFormalities = "Multiple choice Klausur."
+cfLength = "1 Semester"
+cfGoals = "Die Studierenden werden an die stellare Astronomie herangeführt. Sie lernen die Probleme der Entfernungsbestimmung in der Astronomie kennen und erwerben Kenntnisse über Sterne und Sternentwicklung, einschließlich Phänomene in den Endphasen, wie Planetarische Nebel, Supernovaexplosionen und Schwarze Löcher. Man wird in die Lage versetzt, die Grundlagen der stellaren Astronomie einem Laien zu erklären"
+cfContent = "Teleskope, Instrumente, Detektoren; Himmelsmechanik; Himmel, Planetensystem, Kometen, Meteore; Sonne und Erdklima;Planck-Funktion, Photometrie, Sterne, Entfernungsbestimmung der Sterne, Hertzsprung-Russell-Diagramm; Sternatmosphäre; Sternaufbau und Sternentwicklung, Kernfusionsprozesse; Variable Sterne; Doppelsterne; Sternhaufen und Altersbestimmung; Endstadien der Sterne; Messgeräte der anderen Wellenlängenbereiche; Interstellares Medium, ionisiertes Gas, neutrales Gas und Molekülwolken mit Sternentstehung, heiße Phase"
+cfLiterature = "Skriptum zur Vorlesung; Astronomie (PAETEC Verlag, ISBN 3-89517-798-9)"
+cfKindShort = "Vorl. + Üb."
+cfSemester = "WS"
+cfLecturer = "Dozentinnen und Dozenten der Astronomie"
+cfMail = "astro@uni-bonn.de"
+cfOrder = 121.0
+
+
+[astro122]
+cfTitle = "Einführung in die extragalaktische Astronomie"
+cfNum = "astro122"
+cfCP = "4"
+cfWorkload = "2+1"
+cfKind = "Vorlesung mit Übungen"
+cfCategory = "Wahlfach"
+cfLanguage = "deutsch"
+cfRequirements = ""
+cfPreparation = "Gymnasium Mathematik und Physik, Einführung in die Astronomie"
+cfFormalities = "Multiple choice Klausur"
+cfLength = "1 Semester"
+cfGoals = "Studierende sollen die extragalaktische Astronomie in ihrer Breite kennen lernen, werden an die Schwerpunkte der aktuellen Forschung herangeführt und sollen in die Lage versetzt werden, astrophysikalische Zusammenhänge auch für Laien verständlich darzustellen. Durch die Diskussion der Dunklen Materie und der Dunklen Energie werden auch zentrale Fragen der fundamentalen Physik angesprochen"
+cfContent = "Struktur der Galaxis: Scheibe, Bulge, Halo; Rotation der Galaxis, Entfernung zum Zentrum; Dunkle Materie; Spiralgalaxien und ihre Strukturen; Elliptische Galaxien und ihre stellare Populationen; Aktive Galaxien; Quasare; Galaxienhaufen, großskalige Strukturen im Universum; Gravitationslinsen; Bestimmung des Anteils an Dunkler Materie; Kosmologie, Expansion des Universums, Bestimmung der Entfernungen weit entfernter Objekte; Urknall, Kosmische Hintergrundstrahlung, kosmologische Parameter"
+cfLiterature = '''Skriptum zur Vorlesung
+
+P. Schneider, Einführung in die Extragalaktische Astronomie und Kosmologie (Springer Verlag, Heidelberg 2005)
+'''
+cfKindShort = "Vorl. + Üb."
+cfSemester = "SS"
+cfLecturer = "Dozentinnen und Dozenten der Astronomie"
+cfMail = "astro@uni-bonn.de"
+cfOrder = 122.0
+
+
+[astro123]
+cfTitle = "Einführung in die Radioastronomie"
+cfNum = "astro123"
+cfCP = "4"
+cfWorkload = "2+1"
+cfKind = "Vorlesung mit Übungen und Praktikum"
+cfCategory = "Wahlpflicht"
+cfLanguage = "deutsch"
+cfRequirements = ""
+cfPreparation = "Einführung in die Astronomie I + II (astro121, 122),  Physik I-III (Physik 110, 210, 310)"
+cfFormalities = "Voraussetzung zur Teilnahme an der Prüfung (mündliche Prüfung oder Klausur): erfolgreiche Teilnahme an den Übungen"
+cfLength = "1 Semester"
+cfGoals = "Verständnis der Grundlagen der radioastronomischen Beobachtungstechnik und der wesentlichen astrophysikalischen Prozesse"
+cfContent = '''Vorlesung:
+
+Radioastronomische Empfangstechnik (Teleskope, Empfänger und Detektoren), atmosphärische Fenster, Strahlungstransport, Radiometergleichung, statistische Prozesse in der Signalerkennung, interstellares Medium, HI 21-cm Linienstrahlung, Sternentstehung in Molekülwolken, kontinuierliche Strahlungsprozesse, Maser, Radiogalaxien, Entwicklung der Galaxien im Universum, Pulsare, Physik in starken Gravitationsfeldern, Epoche der Re-Ionisation, frühes Universum, Zukunftsprojekte der Radioastronomie
+
+
+
+Ergänzendes, optionales Praktikum (1 bis 2 tägig am Observatorium):
+
+Eichung eines radioastronomischen Empfängers, Messung der HI 21-cm Linienstrahlung, Ableitung der Spiralstruktur der Milchstraße, Messung der kontinuierlichen Strahlung der Milchstraße, Messung und Analyse eines Pulsarsignals
+'''
+cfLiterature = '''Folien der Vorlesung werden zur Verfügung gestellt.
+
+
+
+On-line material: http://www.cv.nrao.edu/course/astr534/ERA.shtml
+'''
+cfKindShort = "Vorl. + Üb. + Pr."
+cfSemester = "SS"
+cfLecturer = "Dozentinnen und Dozenten der Astronomie"
+cfMail = "astro@uni-bonn.de"
+cfOrder = 123.0
+
+
+[physik013]
+cfTitle = "Physikalisches Anfängerpraktikum für Naturwissenschaftler"
+cfNum = "physik013"
+cfCP = "*"
+cfWorkload = "4"
+cfKind = "Praktikum"
+cfCategory = "fachspezifisch"
+cfLanguage = "deutsch"
+cfRequirements = '''Erdwissenschaften: bestandene Klausur physik021, Chemie: bestandene Klausur physik012
+
+Andere Fächer: siehe jeweilige Bachelor-Prüfungsordnung
+'''
+cfPreparation = '''Erdwissenschaften: physik021, Chemie: physik011 und physik012
+
+Andere Fächer: siehe jeweilige Bachelor-Prüfungsordnung
+'''
+cfFormalities = "Studienmodalität: Vorbereiten auf physikalische Grundlagen, Durchführen und Auswerten von Experimenten in kleinen Gruppen. Prüfungsmodalität: mündliche Abschlussprüfung"
+cfLength = "1 Semester"
+cfGoals = "Praktische Erfahrungen zum zielgerichteten Experimentieren und Auswerten"
+cfContent = '''10 Versuche im Praktikum zur Mechanik, Wärmelehre, Elektromagnetismus und Optik
+
+Auswahl: Einführungsversuch \"Was ist ein Praktikum\", Elastizitätskonstanten, Biegung und Knickung, Schwingungen, freie und erzwungene Schwingungen, Trägheitsmoment und physisches Pendel, spezifische Wärmekapazität, Adiabatenkoeffizient, statistische Schwankungen. Gleichströme, Spannungsquellen, Widerstände, elektrolytischer Trog, Fadenstrahlrohr, Linsen und optische Instrumente, Beugung und Interferenz. 2 begleitende Seminare inkl. Einführungsversuch
+'''
+cfLiterature = '''W. Walcher; Praktikum der Physik (Teubner, Wiesbaden 8. Aufl. 2004)
+
+D. Geschke; Physikalisches Praktikum (Teubner, Wiesbaden 12. Aufl. 2001)
+
+V. Blobel; Statistische und numerische Methoden der Datenanalyse (Teubner, Wiesbaden 1. Aufl. 1999),
+
+E.W. Otten: Repetitorium Experimentalphysik (Springer, Heidelberg 2. Aufl. 2002)
+
+Tipler, Dransfeld-Kienle, Orear, Metzler (Physik , Oberstufe); Mills: Arbeitsbuch zu Tipler/Mosca Physik
+'''
+cfKindShort = "Praktikum"
+cfSemester = "WS/SS"
+cfLecturer = "Dozentinnen und Dozenten der Experimentalphysik"
+cfMail = "exphysik@uni-bonn.de"
+cfOrder = 130.0
+
+
+[physik014]
+cfTitle = "Praktische Übungen in Physik für Geodäten"
+cfNum = "physik014"
+cfCP = "5"
+cfWorkload = "4"
+cfKind = "Praktikum"
+cfCategory = "fachspezifisch"
+cfLanguage = "deutsch"
+cfRequirements = "Teilnahme an Klausur zu physik021"
+cfPreparation = "physik021"
+cfFormalities = '''Studienmodalität: Vorbereiten auf physikalische Grundlagen, Durchführen und Auswerten von Experimenten in kleinen Gruppen
+
+Prüfungsmodalität: mündliche Abschlussprüfung
+'''
+cfLength = "1 Semester"
+cfGoals = "Praktische Erfahrungen zum zielgerichteten Experimentieren und Auswerten"
+cfContent = '''8 Versuche im Praktikum zur Mechanik, Elektromagnetismus und Optik
+
+
+
+Einführungsversuch \"Was ist ein Praktikum\"; Auswahl: Schwingungen, freie und erzwungene Schwingungen, Trägheitsmoment und physisches Pendel, statistische Schwankungen, RC-Glieder und Schwingkreise, Gleichströme, Spannungsquellen, Widerstände, Linsen und optische Instrumente, Beugung und Interferenz.
+
+
+
+1 begleitendes Seminar inkl. Einführungsversuch
+'''
+cfLiterature = '''W. Walcher; Praktikum der Physik (Teubner, Wiesbaden 8. Aufl. 2004)
+
+D. Geschke; Physikalisches Praktikum (Teubner, Wiesbaden 12. Aufl. 2001)
+
+V. Blobel; Statistische und numerische Methoden der Datenanalyse (Teubner, Wiesbaden 1. Aufl. 1999),
+
+E.W. Otten: Repetitorium Experimentalphysik (Springer, Heidelberg 2. Aufl. 2002)
+
+Tipler, Dransfeld-Kienle, Orear, Metzler (Physik, Oberstufe)
+
+Mills: Arbeitsbuch zu Tipler/Mosca Physik
+'''
+cfKindShort = "Praktikum"
+cfSemester = "WS/SS"
+cfLecturer = "Dozentinnen und Dozenten der Experimentalphysik"
+cfMail = "exphysik@uni-bonn.de"
+cfOrder = 140.0
+
+
+[physik021]
+cfTitle = "Physik für Mediziner, Pharmazeuten und Geodäten"
+cfNum = "physik021"
+cfCP = "*"
+cfWorkload = "3+1"
+cfKind = "Vorlesung mit Übungen"
+cfCategory = "fachspezifisch"
+cfLanguage = "deutsch"
+cfRequirements = ""
+cfPreparation = "Mathematische Grundkenntnisse"
+cfFormalities = "Abschlussklausur, falls in der Prüfungsordnung vorgesehen"
+cfLength = "1 Semester"
+cfGoals = '''Studierenden anderer Studiengänge soll grundlegendes Wissen der Physik vermittelt werden.
+
+Vorbereitung für ein Physikalisches Praktikum.
+'''
+cfContent = '''Sehr kompakte Einführung in die Experimentalphysik:
+
+
+
+- Physikalische Größen und Einheiten
+
+- Mechanik: Statik und Kinematik starrer Körper
+
+- Kondensierte Materie: Aggregatzustände, Verformungen
+
+- Flüssigkeiten und Gase: Hydrostatik, Grenzflächen, Hydrodynamik, Reale/ideale Gase,
+
+Wärme und Temperatur
+
+- Elektrizität und Magnetismus: Widerstand und Ohmsches Gesetz, Kapazität, Wechselspannung,
+
+Elektrisches Feld, Materie im elektrischen Feld, Magnetostatik, Elektromagnetismus
+
+- Schwingungen und Wellen: mechanisch / elektromagnetisch, Wellen-ausbreitung und -überlagerung
+
+- Optik: Geometrische Optik, Optische Instrumente, Wellenoptik, Elektronenoptik, Röntgenstrahlen
+
+- Atomphysik: Aufbau des Atoms, Bohr'sches Atommodell, Absorption und Strahlung
+
+- Kern und Elementarteilchenphysik: Aufbau und Bindungsenergie der Kerne, radioaktiver Zerfall
+'''
+cfLiterature = '''U. Harten, \"Physik für Mediziner\"
+
+H. A. Stuart, G. Klages, \"Kurzes Lehrbuch der Physik\"
+'''
+cfKindShort = "Vorl. + Üb."
+cfSemester = "WS/SS"
+cfLecturer = "Dozentinnen und Dozenten der Experimentalphysik"
+cfMail = "exphysik@uni-bonn.de"
+cfOrder = 210.0
+
+
+[physik022]
+cfTitle = "Praktische Übungen in Physik für Biologen"
+cfNum = "physik022"
+cfCP = "4"
+cfWorkload = "4"
+cfKind = "Praktikum"
+cfCategory = "fachspezifisch"
+cfLanguage = "deutsch"
+cfRequirements = ""
+cfPreparation = "physik011, physik 012 und/oder physik021"
+cfFormalities = "Mitten- und Abschlussklausur; Beurteilung durch Tutor"
+cfLength = "1 Semester"
+cfGoals = "Praktisches Erfahren physikalischer Zusammenhänge. Einführung in Messmethoden, Datenauswertung und Fehlerbehandlung."
+cfContent = '''10 Physikalische Versuche:
+
+1: Masse- und Dichtebestimmung; 2: Messung der Zähigkeit von Flüssigkeiten; 3: Gasgesetze/spezifische Wärmekapazität; 4: Ultraschall; 5: Linsen/Mikroskop; 6: Ohmsche Widerstände; 7: Beugung am Gitter/Prismenspektroskop; 8: Wechselstromwiderstände und Schwingkreis; 9: Röntgenstrahlen; 10: Radioaktivität.
+'''
+cfLiterature = '''Praktikumsdokumentation und Assistentenanleitung des HIKSP
+
+U. Harten; Physik für Mediziner (Springer, Heidelberg 11 Aufl. 2005)
+
+W. Seibt; Physik für Mediziner (Thieme Vlg., 5. Aufl. 2003)
+
+A. Trautwein, U. Kreibig, J. Hüttermann; Physik für Mediziner, Biologen, Pharmazeuten (de Gruyter, Berlin 6. Aufl. 2004)
+
+V. Harms, Übungsbuch Physik für Mediziner und Pharmazeuten (Harms Vlg., Kiel 7. Aufl. 2004)
+
+W. Walcher, D. Kamke; Physik für Mediziner (Teubner, Wiesbaden 1994)
+
+H. Jahrreiß, W. Neuwirth; Einführung in die Physik (Dt. Ärzte-Verlag, 1993)
+
+W. Hellenthal; Physik und ihre Anwendung in der Praxis für Pharmazeuten, Mediziner und Biologen (Urban und Fischer, München 4. Aufl. 1988)
+
+A. Scharmann; Arbeitsbuch Physik für Mediziner und Biologen (Urban und Fischer, München 1981)
+'''
+cfKindShort = "Praktikum"
+cfSemester = "WS/SS"
+cfLecturer = "Dozentinnen und Dozenten der Experimentalphysik"
+cfMail = "exphysik@uni-bonn.de"
+cfOrder = 220.0
+
+
+[physik023]
+cfTitle = "Praktische Übungen in Physik für Molekulare Biomediziner"
+cfNum = "physik023"
+cfCP = "3-4"
+cfWorkload = "4"
+cfKind = "Praktikum"
+cfCategory = "fachspezifisch"
+cfLanguage = "deutsch"
+cfRequirements = ""
+cfPreparation = "Die Vorlesungen \"Physik für Naturwissenschaftler I und II \" sollten zuvor gehört worden sein und die zugehörigen Übungen sollten erfolgreich absolviert worden sein"
+cfFormalities = "Mitten- und Abschlussklausur; Beurteilung durch Tutor."
+cfLength = "1 Semester"
+cfGoals = "Praktisches Erfahren physikalischer Zusammenhänge. Einführung in Meßmethoden, Datenauswertung und Fehlerbehandlung."
+cfContent = '''10 Physikalische Versuche:
+
+1: Masse- und Dichtebestimmung; 2: Messung der Zähigkeit von Flüssigkeiten; 3: Gasgesetze/spezifische Wärmekapazität; 4: Ultraschall; 5: Linsen/Mikroskop; 6: Ohmsche Widerstände; 7: Beugung am Gitter/Prismenspektroskop; 8: Wechselstromwiderstände und Schwingkreis; 9: Röntgenstrahlen; 10: Radioaktivität.
+'''
+cfLiterature = '''Praktikumsdokumentation und Assistentenanleitung des HIKSP
+
+U. Harten; Physik für Mediziner (Springer, Heidelberg 11 Aufl. 2005)
+
+W. Seibt; Physik für Mediziner (Thieme Vlg., 5. Aufl. 2003)
+
+A. Trautwein, U. Kreibig, J. Hüttermann; Physik für Mediziner, Biologen, Pharmazeuten (de Gruyter, Berlin 6. Aufl. 2004)
+
+V. Harms, Übungsbuch Physik für Mediziner und Pharmazeuten (Harms Vlg., Kiel 7. Aufl. 2004)
+
+W. Walcher, D. Kamke; Physik für Mediziner (Teubner, Wiesbaden 1994)
+
+H. Jahrreiß, W. Neuwirth; Einführung in die Physik (Dt. Ärzte-Verlag, 1993)
+
+W. Hellenthal; Physik und ihre Anwendung in der Praxis für Pharmazeuten, Mediziner und Biologen (Urban und Fischer, München 4. Aufl. 1988)
+
+A. Scharmann; Arbeitsbuch Physik für Mediziner und Biologen (Urban und Fischer, München 1981)
+'''
+cfKindShort = "Praktikum"
+cfSemester = "WS/SS"
+cfLecturer = "Dozentinnen und Dozenten der Experimentalphysik"
+cfMail = "exphysik@uni-bonn.de"
+cfOrder = 230.0
+
+
+[physik024]
+cfTitle = "Praktische Übungen in Physik für Mediziner"
+cfNum = "physik024"
+cfCP = "4"
+cfWorkload = "4"
+cfKind = "Praktikum"
+cfCategory = "fachspezifisch"
+cfLanguage = "deutsch"
+cfRequirements = ""
+cfPreparation = "Die Vorlesung \"Physik für Mediziner, Pharmazeuten und Geodäten\" sollte zuvor gehört worden sein"
+cfFormalities = "Mitten- und Abschlussklausur; Beurteilung durch Tutor."
+cfLength = "1 Semester"
+cfGoals = "Praktisches Erfahren physikalischer Zusammenhänge. Einführung in Meßmethoden, Datenauswertung und Fehlerbehandlung."
+cfContent = '''10 Physikalische Versuche:
+
+1: Masse- und Dichtebestimmung; 2: Messung der Zähigkeit von Flüssigkeiten; 3: Gasgesetze/spezifische Wärmekapazität; 4: Ultraschall; 5: Linsen/Mikroskop; 6: Ohmsche Widerstände; 7: Beugung am Gitter/Prismenspektroskop; 8: Wechselstromwiderstände und Schwingkreis; 9: Röntgenstrahlen; 10: Radioaktivität.
+'''
+cfLiterature = '''Praktikumsdokumentation und Assistentenanleitung des HIKSP
+
+U. Harten; Physik für Mediziner (Springer, Heidelberg 11 Aufl. 2005)
+
+W. Seibt; Physik für Mediziner (Thieme Vlg., 5. Aufl. 2003)
+
+A. Trautwein, U. Kreibig, J. Hüttermann; Physik für Mediziner, Biologen, Pharmazeuten (de Gruyter, Berlin 6. Aufl. 2004)
+
+V. Harms, Übungsbuch Physik für Mediziner und Pharmazeuten (Harms Vlg., Kiel 7. Aufl. 2004)
+
+W. Walcher, D. Kamke; Physik für Mediziner (Teubner, Wiesbaden 1994)
+
+H. Jahrreiß, W. Neuwirth; Einführung in die Physik (Dt. Ärzte-Verlag, 1993)
+
+W. Hellenthal; Physik und ihre Anwendung in der Praxis für Pharmazeuten, Mediziner und Biologen (Urban und Fischer, München 4. Aufl. 1988)
+
+A. Scharmann; Arbeitsbuch Physik für Mediziner und Biologen (Urban und Fischer, München 1981)
+'''
+cfKindShort = "Praktikum"
+cfSemester = "WS/SS"
+cfLecturer = "Dozentinnen und Dozenten der Experimentalphysik"
+cfMail = "exphysik@uni-bonn.de"
+cfOrder = 240.0
+
+
+[physik025]
+cfTitle = "Praktische Übungen in Physik für Zahnmediziner"
+cfNum = "physik025"
+cfCP = "4"
+cfWorkload = "4"
+cfKind = "Praktikum"
+cfCategory = "fachspezifisch"
+cfLanguage = "deutsch"
+cfRequirements = ""
+cfPreparation = "Die Vorlesung \"Physik für Mediziner, Pharmazeuten und Geodäten\" sollte zuvor gehört worden sein"
+cfFormalities = "Mitten- und Abschlussklausur; Beurteilung durch Tutor."
+cfLength = "1 Semester"
+cfGoals = "Praktisches Erfahren physikalischer Zusammenhänge. Einführung in Meßmethoden, Datenauswertung und Fehlerbehandlung."
+cfContent = '''10 Physikalische Versuche:
+
+1: Masse- und Dichtebestimmung; 2: Messung der Zähigkeit von Flüssigkeiten; 3: Gasgesetze/spezifische Wärmekapazität; 4: Ultraschall; 5: Linsen/Mikroskop; 6: Ohmsche Widerstände; 7: Beugung am Gitter/Prismenspektroskop; 8: Wechselstromwiderstände und Schwingkreis; 9: Röntgenstrahlen; 10: Radioaktivität.
+'''
+cfLiterature = '''Praktikumsdokumentation und Assistentenanleitung des HIKSP
+
+U. Harten; Physik für Mediziner (Springer, Heidelberg 11 Aufl. 2005)
+
+W. Seibt; Physik für Mediziner (Thieme Vlg., 5. Aufl. 2003)
+
+A. Trautwein, U. Kreibig, J. Hüttermann; Physik für Mediziner, Biologen, Pharmazeuten (de Gruyter, Berlin 6. Aufl. 2004)
+
+V. Harms, Übungsbuch Physik für Mediziner und Pharmazeuten (Harms Vlg., Kiel 7. Aufl. 2004)
+
+W. Walcher, D. Kamke; Physik für Mediziner (Teubner, Wiesbaden 1994)
+
+H. Jahrreiß, W. Neuwirth; Einführung in die Physik (Dt. Ärzte-Verlag, 1993)
+
+W. Hellenthal; Physik und ihre Anwendung in der Praxis für Pharmazeuten, Mediziner und Biologen (Urban und Fischer, München 4. Aufl. 1988)
+
+A. Scharmann; Arbeitsbuch Physik für Mediziner und Biologen (Urban und Fischer, München 1981)
+'''
+cfKindShort = "Praktikum"
+cfSemester = "WS/SS"
+cfLecturer = "Dozentinnen und Dozenten der Experimentalphysik"
+cfMail = "exphysik@uni-bonn.de"
+cfOrder = 250.0
+
+
+[physik026]
+cfTitle = "Praktische Übungen in Physik für Pharmazeuten"
+cfNum = "physik026"
+cfCP = "4"
+cfWorkload = "4"
+cfKind = "Praktikum"
+cfCategory = "fachspezifisch"
+cfLanguage = "deutsch"
+cfRequirements = ""
+cfPreparation = "Die Vorlesung \"Physik für Mediziner, Pharmazeuten und Geodäten\" sollte zuvor gehört worden sein"
+cfFormalities = "Mitten- und Abschlussklausur; Beurteilung durch Tutor."
+cfLength = "1 Semester"
+cfGoals = "Praktisches Erfahren physikalischer Zusammenhänge. Einführung in Meßmethoden, Datenauswertung und Fehlerbehandlung."
+cfContent = '''10 Physikalische Versuche:
+
+1: Masse- und Dichtebestimmung; 2: Messung der Zähigkeit von Flüssigkeiten; 3: Gasgesetze/spezifische Wärmekapazität; 4: Ultraschall; 5: Linsen/Mikroskop; 6: Ohmsche Widerstände; 8: Beugung am Gitter/Prismenspektroskop; 9: Wechselstromwiderstände und Schwingkreis; 11: Röntgenstrahlen; 12: Radioaktivität.
+'''
+cfLiterature = '''Praktikumsdokumentation und Assistentenanleitung des HIKSP
+
+U. Harten; Physik für Mediziner (Springer, Heidelberg 11 Aufl. 2005)
+
+W. Seibt; Physik für Mediziner (Thieme Vlg., 5. Aufl. 2003)
+
+A. Trautwein, U. Kreibig, J. Hüttermann; Physik für Mediziner, Biologen, Pharmazeuten (de Gruyter, Berlin 6. Aufl. 2004)
+
+V. Harms, Übungsbuch Physik für Mediziner und Pharmazeuten (Harms Vlg., Kiel 7. Aufl. 2004)
+
+W. Walcher, D. Kamke; Physik für Mediziner (Teubner, Wiesbaden 1994)
+
+H. Jahrreiß, W. Neuwirth; Einführung in die Physik (Dt. Ärzte-Verlag, 1993)
+
+W. Hellenthal; Physik und ihre Anwendung in der Praxis für Pharmazeuten, Mediziner und Biologen (Urban und Fischer, München 4. Aufl. 1988)
+
+A. Scharmann; Arbeitsbuch Physik für Mediziner und Biologen (Urban und Fischer, München 1981)
+'''
+cfKindShort = "Praktikum"
+cfSemester = "WS/SS"
+cfLecturer = "Dozentinnen und Dozenten der Experimentalphysik"
+cfMail = "exphysik@uni-bonn.de"
+cfOrder = 260.0
+
+
+[physik041]
+cfTitle = "Physik für Ernährungs- und Lebensmittelwissenschaften, Agrarwissenschaften"
+cfNum = "physik041"
+cfCP = "6"
+cfWorkload = "3+1"
+cfKind = "Vorlesung mit Übungen"
+cfCategory = "fachspezifisch"
+cfLanguage = "deutsch"
+cfRequirements = ""
+cfPreparation = "Mathematische Grundkenntnisse"
+cfFormalities = "Abschlussklausur"
+cfLength = "1 Semester"
+cfGoals = '''Studierenden anderer Studiengänge soll grundlegendes Wissen der Physik vermittelt werden.
+
+Vorbereitung für ein Physikalisches Praktikum.
+'''
+cfContent = '''Sehr kompakte Einführung in die Experimentalphysik:
+
+
+
+- Physikalische Größen und Einheiten
+
+- Mechanik: Statik und Kinematik starrer Körper
+
+- Kondensierte Materie: Aggregatzustände, Verformungen
+
+- Flüssigkeiten und Gase: Hydrostatik, Grenzflächen, Hydrodynamik, Reale/ideale Gase,
+
+Wärme und Temperatur
+
+- Elektrizität und Magnetismus: Widerstand und Ohmsches Gesetz, Kapazität, Wechselspannung,
+
+Elektrisches Feld, Materie im elektrischen Feld, Magnetostatik, Elektromagnetismus
+
+- Schwingungen und Wellen: mechanisch / elektromagnetisch, Wellen-ausbreitung und -überlagerung
+
+- Optik: Geometrische Optik, Optische Instrumente, Wellenoptik, Elektronenoptik, Röntgenstrahlen
+
+- Atomphysik: Aufbau des Atoms, Bohr'sches Atommodell, Absorption und Strahlung
+
+- Kern und Elementarteilchenphysik: Aufbau und Bindungsenergie der Kerne, radioaktiver Zerfall
+'''
+cfLiterature = '''U. Harten, \"Physik für Mediziner\"
+
+H. A. Stuart, G. Klages, \"Kurzes Lehrbuch der Physik\"
+'''
+cfKindShort = "Vorl. + Üb."
+cfSemester = "SS"
+cfLecturer = "Dozentinnen und Dozenten der Experimentalphysik"
+cfMail = "exphysik@uni-bonn.de"
+cfOrder = 410.0
+
+
+[physik051]
+cfTitle = "Physikalische Anwendungen in der Medizin"
+cfNum = "physik051"
+cfCP = "*"
+cfWorkload = "2"
+cfKind = "Vorlesung"
+cfCategory = "Wahlfach"
+cfLanguage = "deutsch"
+cfRequirements = ""
+cfPreparation = "physik021: Physik für Mediziner oder vergleichbare Grundlagenkenntnisse"
+cfFormalities = "benotete Leistungsüberprüfung"
+cfLength = "1 Semester"
+cfGoals = "Verständnis der physikalischen Grundlagen medizinischer Geräte und Verfahren, physikalische Grenzen von Analyseverfahren, Auflösung, Genauigkeiten."
+cfContent = "Einordnung physikalischer Verfahren in der Medizin: Mechanisch, optisch, elektromagnetisch, Strahlungsbasiert, in Bildgebung, anatomischer und funktionaler Diagnose, Therapie; physikalische Grundlagen, Auflösung verschiedener Verfahren, Anwendungsgebiete und Grenzen, Apparate."
+cfLiterature = "Werden in der Vorlesung bekannt gegeben"
+cfKindShort = "Vorlesung"
+cfSemester = "WS/SS"
+cfLecturer = "K.-T. Brinkmann"
+cfMail = "Brinkmann@hiskp.uni-bonn.de"
+cfOrder = 510.0
+
+
+[astro811]
+cfTitle = "Stars and Stellar Evolution  or specific: Stellar Structure and Evolution"
+cfNum = "astro811"
+cfCP = "6"
+cfWorkload = "3+1"
+cfKind = "Lecture with exercises"
+cfCategory = "Required"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = ""
+cfFormalities = "Requirements for the examination (written or oral): successful work with the exercises"
+cfLength = "1 semester"
+cfGoals = "Students will acquire sufficient knowledge to understand stars and their evolution. Study of radiation transport, energy production, nucleosynthesis and the various end phases of stellar evolution shall lead to appreciation for the effects these processes have on the structure and evolution of galaxies and of the universe"
+cfContent = "Historical introduction, measuring quantities, the HRD. Continuum and line radiation (emission and absorption) and effects on the stellar spectral energy distribution. Basic equations of stellar structure. Nuclear fusion. Making stellar models. Star formation and protostars. Brown Dwarfs. Evolution from the main-sequence state to the red giant phase. Evolution of lower mass stars: the RG, AGB, HB, OH/IR, pAGB, WD phases. Stellar pulsation. Evolution of higher mass stars: supergiants, mass loss, Wolf-Rayet stars, P-Cyg stars. Degenerate stars: White Dwarfs, Neutron Stars, Black Holes. Supernovae and their mechanisms. Binary stars and their diverse evolution (massive X-ray binaries, low-mass X-ray binaries, Cataclysmic variables, etc.). Luminosity and mass functions, isochrones. Stars and their influence on evolution in the universe"
+cfLiterature = "Lecture notes on \"Stars and Stellar Evolution\" (de Boer & Seggewiss)"
+cfKindShort = "Lect. + ex."
+cfSemester = "WT"
+cfLecturer = "Profs. of astronomy"
+cfMail = "astro@uni-bonn.de"
+cfOrder = 811.0
+
+
+[astro822]
+cfTitle = "Physics of the Interstellar Medium"
+cfNum = "astro822"
+cfCP = "6"
+cfWorkload = "3+1"
+cfKind = "Lecture with exercises"
+cfCategory = "Required"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Introductory astronomy"
+cfFormalities = "Requirements for the examination (written or oral): successful work with the exercises"
+cfLength = "1 semester"
+cfGoals = "The student shall acquire a good understanding of the physics and of the phases of the ISM. The importance for star formation and the effects on the structure and evolution of galaxies is discussed."
+cfContent = "Constitutens of the interstellar medium, physical processes, radiative transfer, recombination, HI 21cm line, absorption lines, Stroemgren spheres, HII regions, interstellar dust, molecular gas and clouds, shocks, photodissociation regions, energy balances, the multi-phase ISM, gravitational stability and star formation."
+cfLiterature = '''B. Draine; The Physics of the Interstellar and Intergalactic Medium (Princeton Univ. Press 2010)
+
+J. Lequeux; The Interstellar Medium (Springer 2005)
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "ST"
+cfLecturer = "Profs. of astronomy"
+cfMail = "astro@uni-bonn.de"
+cfOrder = 822.0
+
+

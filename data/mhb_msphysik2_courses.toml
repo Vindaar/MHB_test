@@ -1,0 +1,4425 @@
+CourseList = ["physics606", "physics601", "GR I", "physics911", "physics921", "physics931", "physics751", "GR II", "physics754", "QFT I", "physics755", "QFT II", "physics760", "GiP", "Topology", "physics7501", "Nucl. physics II", "Detectors", "Particles", "ExpNuclPhys", "CondMatter II", "Semicond. Phys.", "Supercond", "Magnetism", "Meth CondMatt", "Surfaces", "Neutron Scatt.", "Optical Spectr.", "Astrochemistry", "FundMolSym", "PhysBio", "SoftMatter", "StatPhysNE", "Disorder", "Nonequilibrium", "Probability", "physics712", "physics713", "physics714", "physics718", "physics723", "physics731", "physics732", "physics734", "physics736", "physics739", "physics740", "physics741", "physics742", "physics752", "physics753", "physics756", "physics757", "physics758", "physics759", "physics761", "physics762", "physics763", "physics764", "physics765", "physics766", "physics767", "physics768", "physics769", "physics771", "physics772", "physics773", "physics774", "physics775", "physics776", "physics611", "physics612", "physics618", "physics632", "physics633", "physics639", "physics613", "physics615", "physics616", "physics617", "TheoSolidSt", "physics636", "physics637", "physics638", "physics620", "physics631", "CondMatter I", "MolPhys I", "physics634", "physics641", "physics642", "MolPhys II", "physics711", "physics715", "physics716", "physics717", "physics719", "physics720", "physics721", "physics722", "physics724", "physics735", "physics737", "physics738", "physics743", "physics7502", "physics7503", "physics7504", "physics7505", "physics7506", "physics7507", "physics7508", "physics7509", "physics799"]
+[physics606]
+cfTitle = "Advanced Quantum Theory"
+cfNum = "physics606"
+cfCP = "7"
+cfWorkload = "3+2"
+cfKind = "Lecture with exercises"
+cfCategory = "Required"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Theoretical courses at the Bachelor degree level"
+cfFormalities = "Requirements for the module examination (written examination): successful work with exercises"
+cfLength = "1 semester"
+cfGoals = "Ability to solve problems in relativistic quantum mechanics, scattering theory and many-particle theory"
+cfContent = '''Born approximation, partial waves, resonances
+
+advanced scattering theory: S-matrix, Lippman-Schwinger equation
+
+relativistic wave equations: Klein-Gordon equation, Dirac equation
+
+representations of the Lorentz group
+
+many body theory
+
+second quantization
+
+basics of quantum field theory
+
+path integral formalism
+
+Greens functions, propagator theory
+'''
+cfLiterature = '''L. D. Landau, E.M. Lifschitz; Course of Theoretical Physics Vol.3 Quantum Mechanics (Butterworth-Heinemann 1997)
+
+J. J. Sakurai, Modern Quantum Mechanics (Addison-Wesley 1995)
+
+F. Schwabl, Advanced Quantum Mechanics. (Springer, Heidelberg 3rd Ed. 2005)
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "WT"
+cfLecturer = "Profs. of theoretical physics"
+cfMail = "theophys@uni-bonn.de"
+cfOrder = 10.0
+
+
+[physics601]
+cfTitle = "Advanced Laboratory Course"
+cfNum = "physics601"
+cfCP = "7"
+cfWorkload = "3+2"
+cfKind = "Laboratory"
+cfCategory = "Required"
+cfLanguage = "English"
+cfRequirements = "Requirement for experiment 12 is astro800 Introduction to Astrophysics or an equivalent basic knowledge in astrophysics."
+cfPreparation = "Recommended for experiment 13 is lecture astro841 Radio Astronomy: Tools, Applications, Impacts"
+cfFormalities = "Experiments are selected from the catalogue of laboratory set-ups offered. 9 cumulative lab-units (LU) are required. One of the experiments 1-3 is compulsory for physics students. The experiments 12-14 are compulsory for astrophysics students. Requirements for the module examination (written report for every laboratory): successful completion of the experiment and initial oral questioning"
+cfLength = "1 semester"
+cfGoals = "The student shall gain insight in the intricate workings of physics in relevant advanced experiments. The student gains experience in the setting up of a proper experimental environment and experiences the intricacies of forefront experimental research and presenting his/her results."
+cfContent = '''Advanced experiments are carried out. Experimenting time in units of 8 hrs, preparation time and report writing each ~15 hrs. Further details are listed in the catalogue of laboratories. The experiments are chosen among those being offered and after consultation with the head of the course.
+
+In the accompanying seminar the students report about one experiment. This experiment will be selected after consultation with the head of the course.
+'''
+cfLiterature = "Hand outs and literature will be distributed with the registration for an experiment"
+cfKindShort = "Laboratory"
+cfSemester = "WT/ST"
+cfLecturer = "Profs. of experimental physics and astronomy"
+cfMail = "exphysik@uni-bonn.de"
+cfOrder = 10.0
+
+
+["GR I"]
+cfTitle = "Relativity and Cosmology I (T)"
+cfNum = "GR I"
+cfCP = "8"
+cfWorkload = "4+2"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Training in theoretical physics at the B.Sc. level"
+cfFormalities = "Written or oral examination"
+cfLength = "1 semester"
+cfGoals = "Introduction into Einstein's theory of general relativity and its major applications"
+cfContent = '''Gravity as a manifestation of geometry
+
+Introduction to differential geometry
+
+Einstein field equations
+
+The Schwarzschild solution 
+
+Experimental tests
+
+Gravitational waves
+'''
+cfLiterature = '''T. Padmanabhan, Gravitation: Foundation and Frontiers
+
+J. B. Hartle,  Gravity: An introduction to Einstein's general relativity
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "WT"
+cfLecturer = "C. Kiefer"
+cfMail = "kiefer@thp.uni-koeln.de"
+cfOrder = 10.0
+
+
+[physics911]
+cfTitle = "Scientific Exploration of the Master Thesis Topic"
+cfNum = "physics911"
+cfCP = "15"
+cfWorkload = ""
+cfKind = ""
+cfCategory = ""
+cfLanguage = ""
+cfRequirements = ""
+cfPreparation = ""
+cfFormalities = ""
+cfLength = ""
+cfGoals = ""
+cfContent = ""
+cfLiterature = ""
+cfKindShort = ""
+cfSemester = "WT"
+cfLecturer = ""
+cfMail = ""
+cfOrder = 10.0
+
+
+[physics921]
+cfTitle = "Methods and Project Planning"
+cfNum = "physics921"
+cfCP = "15"
+cfWorkload = ""
+cfKind = ""
+cfCategory = ""
+cfLanguage = ""
+cfRequirements = ""
+cfPreparation = ""
+cfFormalities = ""
+cfLength = ""
+cfGoals = ""
+cfContent = ""
+cfLiterature = ""
+cfKindShort = ""
+cfSemester = "WT"
+cfLecturer = ""
+cfMail = ""
+cfOrder = 10.0
+
+
+[physics931]
+cfTitle = "Master Thesis"
+cfNum = "physics931"
+cfCP = "30"
+cfWorkload = ""
+cfKind = ""
+cfCategory = ""
+cfLanguage = ""
+cfRequirements = ""
+cfPreparation = ""
+cfFormalities = ""
+cfLength = ""
+cfGoals = ""
+cfContent = ""
+cfLiterature = ""
+cfKindShort = ""
+cfSemester = "ST"
+cfLecturer = ""
+cfMail = ""
+cfOrder = 10.0
+
+
+[physics751]
+cfTitle = "Group Theory (T)"
+cfNum = "physics751"
+cfCP = "7"
+cfWorkload = "3+2"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "physik421 (Quantum Mechanics)"
+cfFormalities = "Requirements for the examination (written): successful work with the"
+cfLength = "1 semester"
+cfGoals = "Acquisition of mathematical foundations of group theory with regard to applications in theoretical physics"
+cfContent = '''Mathematical foundations:
+
+Finite groups, Lie groups and Lie algebras, highest weight representations, classification of simple Lie algebras, Dynkin diagrams, tensor products and Young tableaux, spinors, Clifford algebras, Lie super algebras
+'''
+cfLiterature = '''B. G. Wybourne; Classical Groups for Physicists (J. Wiley & Sons 1974)
+
+H. Georgi; Lie Algebras in Particle Physics (Perseus Books 2. Aufl. 1999)
+
+W. Fulton, J. Harris; Representation Theory (Springer, New York 1991)
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "WT"
+cfLecturer = "Profs. of theoretical physics"
+cfMail = "theophys@uni-bonn.de"
+cfOrder = 20.0
+
+
+["GR II"]
+cfTitle = "Relativity and Cosmology II (T)"
+cfNum = "GR II"
+cfCP = "8"
+cfWorkload = "4+2"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Training in theoretical physics at the B.Sc. level"
+cfFormalities = "Written or oral examination"
+cfLength = "1 semester"
+cfGoals = "Application of Einstein's theory of general relativity to black holes and cosmology"
+cfContent = '''Black holes
+
+Introduction to cosmology
+
+The early Universe
+'''
+cfLiterature = '''V. Mukhanov,  Physical Foundations of Cosmology
+
+T. Padmanabhan, Gravitation: Foundation and Frontiers
+
+J. B. Hartle,  Gravity: An introduction to Einstein's general relativity
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "ST"
+cfLecturer = "C. Kiefer"
+cfMail = "kiefer@thp.uni-koeln.de"
+cfOrder = 20.0
+
+
+[physics754]
+cfTitle = "General Relativity and Cosmology (T)"
+cfNum = "physics754"
+cfCP = "7"
+cfWorkload = "3+2"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = '''physik221 and physik321 (Theoretical Physics I and II)
+
+Differential geometry
+'''
+cfFormalities = "Requirements for the examination (written): successful work with the exercises"
+cfLength = "1 semester"
+cfGoals = "Understanding the general theory of relativity and its cosmological implications"
+cfContent = '''Relativity principle
+
+Gravitation in relativistic mechanics
+
+Curvilineal coordinates
+
+Curvature and energy-momentum tensor
+
+Einstein-Hilbert action and the equations of the gravitational field
+
+Black holes
+
+Gravitational waves
+
+Time evolution of the universe
+
+Friedmann-Robertson-Walker solutions
+'''
+cfLiterature = '''S.Weinberg; Gravitation and Cosmology (J. Wiley & Sons 1972)
+
+R. Sexl: Gravitation und Kosmologie, Eine Einführung in die Allgemeine Relativitätstheorie (Spektrum Akadem. Verlag 5. Aufl 2002)
+
+L.D. Landau, E.M. Lifschitz; Course of Theoretical Physics Vol.2: Classical field theory (Butterworth-Heinemann 1995), also available in German from publisher Harry Deutsch
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "ST"
+cfLecturer = "Profs. of theoretical physics"
+cfMail = "theophys@uni-bonn.de"
+cfOrder = 30.0
+
+
+["QFT I"]
+cfTitle = "Quantum Field Theory I (T)"
+cfNum = "QFT I"
+cfCP = "8"
+cfWorkload = "4+2"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Training in theoretical physics at the B.Sc. level"
+cfFormalities = "Written or oral examination"
+cfLength = "1 semester"
+cfGoals = "Methods of quantum field theory are in use in almost all areas of modern physics. Strongly oriented towards applications, this course offers an introduction based on examples and phenomena taken from the area of solid state physics."
+cfContent = '''Second quantization and applications
+
+Functional integrals
+
+Perturbation theory
+
+Mean-field methods
+'''
+cfLiterature = "A. Altland and B.D. Simons, Condensed Matter Field Theory (Cambridge University Press, Cambridge, second edition: 2010)"
+cfKindShort = "Lect. + ex."
+cfSemester = "ST"
+cfLecturer = "A. Altland, A. Rosch, M. Zirnbauer"
+cfMail = "alexal@thp.uni-koeln.de"
+cfOrder = 30.0
+
+
+[physics755]
+cfTitle = "Quantum Field Theory (T)"
+cfNum = "physics755"
+cfCP = "7"
+cfWorkload = "3+2"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Advanced quantum theory (physics606)"
+cfFormalities = "Requirements for the examination (written): successful work with the exercises"
+cfLength = "1 semester"
+cfGoals = "Understanding quantum field theoretical methods, ability to compute processes in quantum electrodynamics (QED) and many particle systems"
+cfContent = '''Classical field theory
+
+Quantization of free fields
+
+Path integral formalism
+
+Perturbation theory
+
+Methods of regularization: Pauli-Villars, dimensional
+
+Renormalizability
+
+Computation of Feynman diagrams
+
+Transition amplitudes in QED
+
+Applications in many particle systems
+'''
+cfLiterature = '''N. N. Bogoliubov, D.V. Shirkov; Introduction to the theory of quantized fields (J. Wiley & Sons 1959)
+
+M. Kaku, Quantum Field Theory (Oxford University Press 1993) 
+
+M. E. Peskin, D.V. Schroeder; An Introduction to Quantum Field Theory (Harper Collins Publ. 1995)
+
+L. H. Ryder; Quantum Field Theory (Cambridge University Press 1996) 
+
+S. Weinberg; The Quantum Theory of Fields (Cambridge University Press 1995)
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "ST"
+cfLecturer = "Profs. of theoretical physics"
+cfMail = "theophys@uni-bonn.de"
+cfOrder = 40.0
+
+
+["QFT II"]
+cfTitle = "Quantum Field Theory II (T)"
+cfNum = "QFT II"
+cfCP = "8"
+cfWorkload = "4+2"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Quantum Field Theory I"
+cfFormalities = "Written or oral examination"
+cfLength = "1 semester"
+cfGoals = "Quantum field theory is one of the main tools of modern physics with many applications ranging from high-energy physics to solid state physics. A central topic of this course is the concept of spontaneous symmetry breaking and its relevance for phenomena like superconductivity, magnetism or mass generation in particle physics."
+cfContent = '''Correlation functions: formalism, and their role as a bridge between theory and experiment
+
+Renormalization
+
+Topological concepts
+'''
+cfLiterature = "A. Altland and B.D. Simons, Condensed Matter Field Theory (Cambridge University Press, Cambridge, second edition: 2010)"
+cfKindShort = "Lect. + ex."
+cfSemester = "ST"
+cfLecturer = "A. Altland, A. Rosch, M. Zirnbauer"
+cfMail = "alexal@thp.uni-koeln.de"
+cfOrder = 40.0
+
+
+[physics760]
+cfTitle = "Computational Physics (T)"
+cfNum = "physics760"
+cfCP = "7"
+cfWorkload = "2+2+1"
+cfKind = "Lecture with exercises and project work"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = "Knowledge of a modern programming language (like C, C++)"
+cfPreparation = "Theoretical courses at the Bachelor degree level"
+cfFormalities = '''successful participation in exercises,
+
+presentation of an independently completed project
+'''
+cfLength = "1 semester"
+cfGoals = "ability to apply modern computational methods for solving physics problems"
+cfContent = '''Statistical Models, Likelihood, Bayesian and Bootstrap Methods
+
+Random Variable Generation
+
+Stochastic Processes
+
+Monte-Carlo methods
+
+Markov-Chain Monte-Carlo
+'''
+cfLiterature = '''W.H. Press et al.: Numerical Recipes in C (Cambridge University Press)
+
+  http://library.lanl.gov/numerical/index.html
+
+C.P. Robert and G. Casella: Monte Carlo Statistical Methods (Springer 2004)
+
+Tao Pang: An Introduction to Computational Physics (Cambridge University Press)
+
+Vesely, Franz J.: Computational Physics: An Introduction (Springer)
+
+Binder, Kurt and Heermann, Dieter W.: Monte Carlo Simulation in Statistical Physics (Springer)
+
+Fehske, H.; Schneider, R.; Weisse, A.: Computational Many-Particle Physics (Springer)
+'''
+cfKindShort = "Lect. + ex. + proj."
+cfSemester = "WT/ST"
+cfLecturer = "Profs. of theoretical physics"
+cfMail = "theophys@uni-bonn.de"
+cfOrder = 50.0
+
+
+[GiP]
+cfTitle = "Geometry in Physics (T)"
+cfNum = "GiP"
+cfCP = "8"
+cfWorkload = "4+2"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Training in theoretical physics at the B.Sc. level"
+cfFormalities = "Written or oral examination"
+cfLength = "1 semester"
+cfGoals = "The course introduces the background in differential geometry necessary to understand the geometrically oriented languages of modern theoretical physics. Applications include the coordinate invariant formulation of electrodynamics, phase space and symplectic mechanics, and a brief introduction to the foundations of general relativity."
+cfContent = '''exterior calculus
+
+manifolds
+
+Lie groups
+
+fibre bundles
+'''
+cfLiterature = "M. Göckeler & T. Schücker, Differential geometry, gauge theory, and gravity, Cambridge University Press, 1987."
+cfKindShort = "Lect. + ex."
+cfSemester = "ST"
+cfLecturer = "A. Altland"
+cfMail = "alexal@thp.uni-koeln.de"
+cfOrder = 50.0
+
+
+[Topology]
+cfTitle = "Topology for Physicists (T)"
+cfNum = "Topology"
+cfCP = "6"
+cfWorkload = "3+1"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Bachelor of physics or mathematics; the basics of exterior calculus are assumed"
+cfFormalities = "Written or oral examination"
+cfLength = "1 semester"
+cfGoals = "This course gives an introduction to various topological concepts and results that play an important role in modern theoretical physics."
+cfContent = '''Elements of homotopy theory: homeomorphic spaces, homotopic maps, fundamental group, covering spaces, homotopy groups, long exact homotopy sequence of a fibration
+
+Homology and cohomology: Poincare lemma, Mayer-Vietoris sequence, Cech-deRham complex, Hurewicz isomorphism theorem, spectral sequences
+
+Vector bundles and characteristic classes: Euler form, Thom isomorphism, Chern classes
+
+Applications: Berry phase; Dirac monopole problem; visualization of closed differential forms by Poincare duality; cohomology of electrical conductance; supersymmetry and Morse theory; index theorems; homotopy classification of topological insulators
+'''
+cfLiterature = '''R. Bott and L.W. Tu: Differential forms in algebraic topology (Springer, 1982) 
+
+A.S. Schwarz, Topology for physicists (Springer, 1994)
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "ST"
+cfLecturer = "M. Zirnbauer"
+cfMail = "zirnbauer@uni-koeln.de"
+cfOrder = 60.0
+
+
+[physics7501]
+cfTitle = "Advanced Quantum Field Theory (T)"
+cfNum = "physics7501"
+cfCP = "7"
+cfWorkload = "3+2"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "3-year theoretical physics course with extended interest in theoretical physics and mathematics"
+cfFormalities = "Requirements for the module examination (written examination): successful work with exercises"
+cfLength = "1 semester"
+cfGoals = "Introduction to modern methods and developments in Theoretical Physics in regard to current research"
+cfContent = '''Selected Topics in Modern Theoretical Physics for example:
+
+Anomalies
+
+Solitons and Instantons
+
+Quantum Fluids
+
+Bosonization
+
+Renormalization Group
+
+Bethe Ansatz
+
+Elementary Supersymmetry
+
+Gauge Theories and Differential Forms
+
+Applications of Group Theory
+'''
+cfLiterature = '''M. Nakahara; Geometry, Topology and Physics (Institute of Physics Publishing, London 2nd Ed. 2003)
+
+R. Rajaraman; Solitons and Instantons, An Introduction to Solitons and Instantons in Quantum Field Theory (North Holland Personal Library, Amsterdam 3rd reprint 2003)
+
+A. M. Tsvelik; Quantum Field Theory in Condensed Matter Physics (Cambridge University Press 2nd Ed. 2003)
+
+A. Zee; Quantum Field Theory in a Nutshell (Princeton University Press 2003)
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "WT"
+cfLecturer = "Profs. of theoretical physics"
+cfMail = "theophys@uni-bonn.de"
+cfOrder = 60.0
+
+
+["Nucl. physics II"]
+cfTitle = "Nuclear physics II (E)"
+cfNum = "Nucl. physics II"
+cfCP = "5"
+cfWorkload = "3"
+cfKind = "Lecture"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Nuclear Physics I, Quantum Mechanics"
+cfFormalities = "Part of the obligatory  courses for area of specialisation Nuclear and Particle Physics, separate oral examination is possible exceptionally."
+cfLength = "1 semester"
+cfGoals = "Study of nuclear reactions, fission and fusion."
+cfContent = '''- Kinematics in nuclear reactions
+
+- Cross section
+
+- Rutherford scattering
+
+- Scattering in quantum mechanics
+
+- The Born approximation
+
+- Partial wave analysis
+
+- Inelastic scattering, resonances
+
+- Optical model
+
+- Direct, compound, spallation and fragmentation reactions
+
+- Neutron sources and detectors
+
+- Neutron cross sections
+
+- Fission
+
+- Nuclear reactors
+
+- Fusion
+
+- Solar fusion
+
+- Man-made thermonuclear fusion
+
+- Controlled thermonuclear fusion
+'''
+cfLiterature = '''A script for parts of the course will be distributed during the course.
+
+K.S. Krane, Introductory nuclear physics, chapters 11-14
+'''
+cfKindShort = "Lecture"
+cfSemester = "WT"
+cfLecturer = "Jan Jolie"
+cfMail = "jolie@ikp.uni-koeln.de"
+cfOrder = 70.0
+
+
+[Detectors]
+cfTitle = "Physics of Detectors (E/A)"
+cfNum = "Detectors"
+cfCP = "4"
+cfWorkload = "3"
+cfKind = "Lecture"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Nuclear Physics I, Quantum Mechanics"
+cfFormalities = "Part of the obligatory  courses for area of specialisation Nuclear and Particle Physics, separate oral examination is possible exceptionally."
+cfLength = "1 semester"
+cfGoals = "Study detection methods of experimental techniques in nuclear and particle physics."
+cfContent = '''- Interaction of electrons and charged heavy particles in matter
+
+- Coherent effects: Cherenkov and transition radiation 
+
+- Interaction of gamma-radiation in matter 
+
+- Detection of neutal particles: neutrons and neutrinos
+
+- Measurement of 4-momentum in particle physics
+
+- Ionisation detectors: Bragg chamber, avalanche detectors
+
+- Position sensitive detectors: drift chambers, time-procjection chamber
+
+- Anorganic and organic scintillators
+
+- Energy detection, calorimeter and shower detectors
+
+- Semiconductor detectors
+
+- Position sensitive Si detectors (strip-, pixel-detectors)
+
+- Ge detectors
+
+- Low background measurements
+
+- Lifetime measurements
+
+- Mössbauer Spectroscopy
+
+- Basic principles of analoge and digital signal processing
+'''
+cfLiterature = '''A script or slides of the course will be distributed during the course.
+
+R. Leo, Techniques for Nuclear and Particle Physics Experiments 
+
+K Kleinknecht, Detektoren für Teilchenstrahlung
+
+G.F. Knoll, Radiation Detection and Measurement
+'''
+cfKindShort = "Lecture"
+cfSemester = "ST"
+cfLecturer = "Peter Reiter"
+cfMail = "preiter@ikp.uni-koeln.de"
+cfOrder = 80.0
+
+
+[Particles]
+cfTitle = "Particle physics (E)"
+cfNum = "Particles"
+cfCP = "4"
+cfWorkload = "3"
+cfKind = "Lecture"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Quantum Mechanics"
+cfFormalities = "Part of the obligatory  courses for area of specialisation Nuclear and Particle Physics, separate oral examination is possible exceptionally."
+cfLength = "1 semester"
+cfGoals = "Introduction into particle physics, accelerators and detectors"
+cfContent = '''- Relativistic kinematics
+
+- Interaction of radiation with matter
+
+- Particle accelerators
+
+- Targets and detectors
+
+- Symmetries in particle physics
+
+- QED
+
+- Weak interaction, neutrinos
+
+- Quark model
+
+- QCD
+
+- Standard model
+
+- Cosmology
+'''
+cfLiterature = '''A script for course will be available on-line
+
+
+
+D.H. Perkins: Introduction to High Energy Physics, Cambridge University Press, ISBN 0521621968 
+
+H. Frauenfelder, E.M. Henley: Subatomic Physics, Prentice Hall, ISBN 0138594309 
+
+F. Halzen: A.D. Martin: Quarks and Leptons, John Wiley and Sons, ISBN 0471887412
+
+D. Griffiths: Introduction to Elementary Particles, John Wiley and Sons ISBN: 0471603864
+
+B. Povh, K. Rith, C. Scholz, F. Zetsche: Teilchen und Kerne, Springer-Verlag, ISBN 3540659285 
+
+C. Berger: Elementarteilchenphysik, Springer-Verlag, ISBN 3-540-41515-7
+'''
+cfKindShort = "Lecture"
+cfSemester = "ST"
+cfLecturer = "M. Büscher, D. Gotta, S. Schadmand, H. Ströher"
+cfMail = "m.buescher@fz-juelich.de"
+cfOrder = 90.0
+
+
+[ExpNuclPhys]
+cfTitle = "Groundbreaking experiments in nuclear physics (E)"
+cfNum = "ExpNuclPhys"
+cfCP = "3"
+cfWorkload = "2"
+cfKind = "Lecture"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Basic knowledge in Nuclear Physics"
+cfFormalities = "Part of courses for area of specialisation Nuclear and Particle Physics, separate oral examination is possible exceptionally."
+cfLength = "1 semester"
+cfGoals = "Study of original publications of fundamental experiments in nuclear physics. The students should participate actively in the course."
+cfContent = '''- Discovery of radioactivity
+
+- Rutherford and his many discoveries using alpha sources
+
+- The discovery of the neutron  and deuteron
+
+- Determination of magnetic moments
+
+- Hofstadters electron scattering experiments
+
+- The use of cosmic rays to discover mesons
+
+- Fermi work in neutron physics
+
+- Properties of neutrinos
+
+- Mößbauereffekt
+'''
+cfLiterature = "Will be distributed during the course."
+cfKindShort = "Lecture"
+cfSemester = "ST"
+cfLecturer = "Jan Jolie"
+cfMail = "jolie@ikp.uni-koeln.de"
+cfOrder = 100.0
+
+
+["CondMatter II"]
+cfTitle = "Condensed Matter Physics II (E)"
+cfNum = "CondMatter II"
+cfCP = "4"
+cfWorkload = "3"
+cfKind = "Lecture"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Basic knowledge in condensed matter physics and quantum mechanics"
+cfFormalities = "Oral examination"
+cfLength = "2 semesters"
+cfGoals = "Advanced topics in condensed matter physics with examples of current research."
+cfContent = '''The entire course (Condensed Matter I & II, given in 2 semesters) covers the following topics: 
+
+Crystal structure and binding
+
+Reciprocal space
+
+Lattice dynamics and thermal properties
+
+Electronic structure (free-electron gas, Fermi surface, band structure)
+
+Semiconductors and metals
+
+Transport properties
+
+Dielectric function and screening
+
+Superconductivity
+
+Magnetism
+'''
+cfLiterature = '''Skriptum (available during the course)
+
+Ashcroft/Mermin: Solid State Physics 
+
+Kittel: Introduction to Solid State Physics
+
+Ibach/Lüth: Festkörperphysik
+'''
+cfKindShort = "Lecture"
+cfSemester = "ST"
+cfLecturer = "Braden, Grüninger, Michely, Hemberger, Lorenz"
+cfMail = "grueninger@ph2.uni-koeln.de"
+cfOrder = 110.0
+
+
+["Semicond. Phys."]
+cfTitle = "Semiconductor Physics and Nanoscience (E/A)"
+cfNum = "Semicond. Phys."
+cfCP = "3"
+cfWorkload = "2"
+cfKind = "Lecture"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Basic knowledge in condensed matter physics"
+cfFormalities = "No examination"
+cfLength = "1 semester"
+cfGoals = '''Understanding of theoretical and experimental concepts of semiconductor physics, nanotechnology as well as aspects of future information technology.
+
+Knowledge of basic fields and important applications of information technology.
+'''
+cfContent = '''Semiconducting material and nanostructures represent the backbone of modern electronics and information technology. At the same time they are fundamental to the research of problems of modern solid state physics, information technology and biophysics. This lecture will provide an introduction to semiconductor physics and its applications.
+
+Topics covered are
+
+introduction to semiconductor physics, crystalline structure, band structure, electronic and optical properties, 
+
+heterostructures, junction and interfaces,
+
+basic semiconductor device concepts,  
+
+up to date techniques and strategies of information technology ranging from nowadays preparation technologies and nanoscience to concepts of molecular electronic and bioelectronics.
+'''
+cfLiterature = '''Skriptum (available during the course)
+
+Bergmann/Schäfer, Experimentalphysik (Band 6: Festkörper)
+
+Ibach/Lüth, Festkörperphysik
+'''
+cfKindShort = "Lecture"
+cfSemester = "ST"
+cfLecturer = "Roger Wördenweber"
+cfMail = "r.woerdenweber@fz-juelich.de"
+cfOrder = 120.0
+
+
+[Supercond]
+cfTitle = "Superconductivity (E/A)"
+cfNum = "Supercond"
+cfCP = "3"
+cfWorkload = "2"
+cfKind = "Lecture"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Basic knowledge in condensed matter physics"
+cfFormalities = "Oral examination"
+cfLength = "1 semester"
+cfGoals = "Understanding of the fundamental aspects of superconductivity."
+cfContent = '''The lecture provides an overview of the fundamental aspects of superconductivity, theoretical description and technological applications, including the following topics: 
+
+
+
+Basic experimental facts and critical parameters
+
+Phenomenological description: London equations 
+
+Ginzburg-Landau theory
+
+Magnetic flux quantization 
+
+Type I and type II superconductors, characteristic length scales, vortices 
+
+Microscopic description: BSC theory
+
+Electron-phonon interaction, Cooper pairs
+
+Josephson effects
+
+Applications of superconductivity in science, transport, and medicine  
+
+Brief introduction to unconventional superconductivity with recent examples
+'''
+cfLiterature = '''J. F. Annett: Superconductivity, Superfluids and Condensates (2004)
+
+M. Tinkham: Introduction to Superconductivity (1996)
+
+V. V. Schmidt: The Physics of Superconductors (1997)
+
+J. R. Waldram: Superconductivity of Metals and Cuprates (1996)
+
+D. R. Tilley and J. Tilley: Superfluidity and Superconductivity (1990)
+'''
+cfKindShort = "Lecture"
+cfSemester = "ST"
+cfLecturer = "Mohsen Abd-Elmeguid"
+cfMail = "meguid@ph2.uni-koeln.de"
+cfOrder = 130.0
+
+
+[Magnetism]
+cfTitle = "Magnetism (E/A)"
+cfNum = "Magnetism"
+cfCP = "3"
+cfWorkload = "2"
+cfKind = "Lecture"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Basic knowledge in condensed matter physics"
+cfFormalities = "Oral examination"
+cfLength = "1 semester"
+cfGoals = "Understanding of magnetism in condensed matter systems"
+cfContent = '''The lecture introduces to the magnetism in condensed matter systems. Starting from basic concepts of the magnetic properties of free atoms it is aimed to illustrate the extremely rich field of collective magnetism that arises from the mutual interaction of an extremely large number of interacting particles. 
+
+Topics covered are
+
+Magnetism of free atoms 
+
+Magnetism of ions in the crystal electric field
+
+Magnetic interactions and ordering phenomena
+
+Magnetic ground states and excitations
+
+Itinerant magnetism
+
+Magnetic frustration and low dimensionality
+
+Magnetic order vs. competing ordering phenomena
+'''
+cfLiterature = '''Skriptum (available during the course)
+
+S. Blundell, Magnetism in Condensed Matter
+
+Ashcroft/Mermin, Solid State Physics
+
+Kittel, Festkörperphysik
+'''
+cfKindShort = "Lecture"
+cfSemester = "WT"
+cfLecturer = "Thomas Lorenz"
+cfMail = "tl@ph2.uni-koeln.de"
+cfOrder = 140.0
+
+
+["Meth CondMatt"]
+cfTitle = "Experimental methods in condensed matter physics (E/A)"
+cfNum = "Meth CondMatt"
+cfCP = "3"
+cfWorkload = "2"
+cfKind = "Lecture"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Basic knowledge in condensed matter physics"
+cfFormalities = "Oral examination"
+cfLength = "1 semester"
+cfGoals = '''Understanding of experimental concepts in condensed matter science
+
+Knowledge of basic fields and important applications
+'''
+cfContent = '''The lecture introduces to modern experimental approaches in solid state physics. Basic concepts are illustrated with examples of physical problems investigated employing different methods. 
+
+Topics covered are
+
+Introduction on sample preparation
+
+X-ray powder diffraction
+
+Specific heat, Thermal expansion 
+
+Magnetization and magnetic susceptibility
+
+DC-Transport
+
+Dielectric spectroscopy
+
+Photo-emission spectroscopy
+
+Inelastic scattering (neutrons, light)
+
+THz spectroscopy / Optical spectroscopy
+
+Scanning probe microscopy/spectroscopy (AFM, STM)
+'''
+cfLiterature = '''Skriptum (available during the course)
+
+Bergmann/Schäfer, Experimentalphysik (Band 6: Festkörper)
+
+Ibach/Lüth, Festkörperphysik
+
+Ashcroft/Mermin, solid state physics
+'''
+cfKindShort = "Lecture"
+cfSemester = "WT"
+cfLecturer = "Hemberger, Abd-Elmeguid"
+cfMail = "hemberger@ph2.uni-koeln.de, meguid@ph2.uni-koeln.de"
+cfOrder = 150.0
+
+
+[Surfaces]
+cfTitle = "Physics of Surfaces and Nanostructures (E/A)"
+cfNum = "Surfaces"
+cfCP = "3"
+cfWorkload = "2"
+cfKind = "Lecture"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Basic knowledge of solid state physics"
+cfFormalities = "Oral examination"
+cfLength = "1 semester"
+cfGoals = '''Understanding of fundamental concepts in surface and nanostructure science
+
+Knowledge of basic fields and important applications
+'''
+cfContent = '''The lecture introduces to modern topics of surface and nanostructure
+
+physics. Basic concepts are illustrated with examples and the link to
+
+technical applications is emphazised. Topics covered are
+
+- surface structure and defects,
+
+- adsorption and heterogeneous catalysis,
+
+- surface thermodynamics and energetics
+
+- surface electronic structure and quantum dots,
+
+- magnetism at surfaces
+
+- epitaxy and thin film processes,
+
+- oxide films
+
+- ion beam processes at surfaces,
+
+- clusters,
+
+- graphene
+'''
+cfLiterature = '''Michely: Skriptum (available during the course)
+
+H. Ibach: Physics of Surfaces and Interfaces (Springer, Berlin 2006)
+
+K. Oura et al: Surface Science - an introduction (Springer, Berlin 2003)
+
+M. Prutton: Introduction to Surface Physics (Oxford University Press, 1994)
+
+H. Lüth: Solid Surfaces, Interfaces and Thin Films, (Springer, Berlin 2001)
+
+M. Henzler/ W. Göpel: Oberflächenphysik des Festkörpers (Teubner, Stuttgart 1994)
+'''
+cfKindShort = "Lecture"
+cfSemester = "WT"
+cfLecturer = "Thomas Michely"
+cfMail = "michely@ph2.uni-koeln.de"
+cfOrder = 160.0
+
+
+["Neutron Scatt."]
+cfTitle = "Introduction to neutron scattering (E/A)"
+cfNum = "Neutron Scatt."
+cfCP = "3"
+cfWorkload = "2"
+cfKind = "Lecture"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Basic knowledge in condensed matter physics"
+cfFormalities = "Oral examination"
+cfLength = "1 semester"
+cfGoals = "Understanding of the basic concepts and techniques of elastic and inelastic neutron scattering experiments."
+cfContent = '''The lecture introduces to the techniques of elastic and inelastic neutron scattering that can be used to determine the crystal or magnetic structure as well as the dispersion of nuclear or magnetic excitations. Topics covered are
+
+Crystal structures and reciprocal space
+
+Neutron powder diffraction
+
+Single-crystal diffraction 
+
+Structure refinements
+
+Inelastic neutron scattering
+
+Phonon dispersion
+
+Magnetic excitations
+
+Examples of current research (high-temperature superconductors, manganates with colossal magnetoresistivity, multiferroics)
+
+Polarized neutron scattering
+'''
+cfLiterature = '''Skriptum (available during the course)
+
+S. W. Lovesey, Theory of Neutron Scattering from Condensed Matter, Oxford (1981)
+
+G. E. Bacon, Neutron Diffraction, Oxford (1979)
+
+Shirane, Shapiro and, Tranquada, Neutr. Scattering with a triple-axis spectrometer, Cambridge (2002) 
+
+Izyumov, Ozerov, Magnetic Neutron Diffraction	Plenum (1970)
+
+Marshall and Lovesey, Theory of thermal neutron scattering,Oxford (1971)
+
+Squires,  Introduction to the theory of Thermal Neutron scattering, Cambridge (1978)
+'''
+cfKindShort = "Lecture"
+cfSemester = "ST"
+cfLecturer = "Markus Braden"
+cfMail = "braden@ph2.uni-koeln.de"
+cfOrder = 170.0
+
+
+["Optical Spectr."]
+cfTitle = "Optical Spectroscopy (E/A)"
+cfNum = "Optical Spectr."
+cfCP = "3"
+cfWorkload = "2"
+cfKind = "Lecture"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Basic knowledge in condensed matter physics"
+cfFormalities = "Oral examination"
+cfLength = "1 semester"
+cfGoals = "Understanding of the basic concepts and techniques of optical spectroscopy on solid-state samples."
+cfContent = '''Topics covered are:
+
+Electromagnetic waves in matter, dielectric function
+
+Electromagnetic response of metals and insulators, Drude-Lorentz model
+
+Kramers-Kronig relations
+
+THz spectroscopy (time domain and cw)
+
+Fourier-transform spectroscopy
+
+Ellipsometry
+
+Examples of current research (phonons, magnons, orbital excitations, superconductors, …)
+'''
+cfLiterature = '''Skriptum (available during the course)
+
+Dressel/Grüner: Electrodynamics of Solids: Optical Properties of Electrons in Matter (Cambridge, 2002) 
+
+Klingshirn: Semiconductor Optics (Springer, 1997)
+
+Kuzmany: Solid-State Spectroscopy: An Introduction (Springer, 2009)
+'''
+cfKindShort = "Lecture"
+cfSemester = "WT/ST"
+cfLecturer = "Markus Grüninger"
+cfMail = "grueninger@ph2.uni-koeln.de"
+cfOrder = 180.0
+
+
+[Astrochemistry]
+cfTitle = "Astrochemistry (E/A)"
+cfNum = "Astrochemistry"
+cfCP = "4"
+cfWorkload = "2"
+cfKind = "Lecture"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Atomic Physics, Molecular Physics and Quantum Mechanics at the level of the bachelor courses in physics, Molecular Physics I"
+cfFormalities = "Oral Examination"
+cfLength = "1 semester"
+cfGoals = "The lecture introduces to astrochemistry of various astrophysical environments. Fundamental processes, such as molecular collisions, fragmentations, and chemical reactions, are explained, and implications for astrophysical observations by means of high resolution spectroscopy are treated."
+cfContent = '''- Detection of Molecules in Space
+
+- Elementary Chemical Processes
+
+- Chemical Networks
+
+- Grain Formation (Condensation)
+
+- Properties of Grains and Ice
+
+- Grain Chemistry
+
+- Diffuse Clouds, Shocks, Dark Clouds, Star Forming Regions
+'''
+cfLiterature = '''A.Tielens \"The Physics and Chemistry of the Interstellar Medium\" Cambridge University Press, 2005 
+
+S. Kwok \"Physics and Chemistry of the Interstellar Medium\" University Science Books, 2006
+
+D. Rehder \"Chemistry in Space, From Interstellar Matter to the Origin of Life\" Wiley-VCCH, Weinheim, 2010
+
+J. Lequeux \"The interstellar Medium\" Spinger, 2004
+
+A. Shaw \"Astrochemistry\" Wiley, 2006
+
+D. Whittet \"Dust in the Galactic Environment\", Taylor and Francis, 2nd edition, 2002
+'''
+cfKindShort = "Lecture"
+cfSemester = "ST"
+cfLecturer = "Stephan Schlemmer, Thomas Giesen, Peter Schilke"
+cfMail = "schlemmer@ph1.uni-koeln.de, giesen@ph1.uni-koeln.de"
+cfOrder = 190.0
+
+
+[FundMolSym]
+cfTitle = "Fundamentals of Molecular Symmetry (E/A/T)"
+cfNum = "FundMolSym"
+cfCP = "4"
+cfWorkload = "2"
+cfKind = "Lecture"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Basic knowledge of quantum mechanics"
+cfFormalities = "Oral Examination"
+cfLength = "1 semester"
+cfGoals = "Understanding the fundamental concepts of representation theory and its application to describe the symmetry of molecules"
+cfContent = '''The lecture introduces to group theory with special emphasis on representations and their use to describe the symmetry of molecules in high-resolution spectroscopy and in molecular physics generally. The theory is accompanied by a series of \"prototypical\" examples Topics covered are
+
+- symmetry in general and symmetry of a molecule.
+
+- groups and point groups.
+
+- irreducible representations, characters.
+
+- vanishing integral rule
+
+- the Complete Nuclear Permutation-Inversion (CNPI) group.
+
+- the Molecular Symmetry (MS) group).
+
+- the molecular point group.
+
+- classification of molecular states: electronic, vibrational, rotational, and nuclear spin states
+
+- nuclear spin statistical weights
+
+- hyperfine structure
+
+- non-rigid molecules (inversion, internal rotation)
+'''
+cfLiterature = '''Jensen: Script (text of powerpoint presentation files; available during the course)
+
+P. Jensen and P. R. Bunker: The Symmetry of Molecules, in: \"Encyclopedia of Chemical Physics and Physical Chemistry\" (J. H. Moore and N. D. Spencer, Eds.), IOP Publishing, Bristol, 2001. 
+
+P. R. Bunker and Per Jensen: \"Molecular Symmetry and Spectroscopy, 2nd Edition,\" NRC Research Press, Ottawa, 1998 (ISBN 0-660-17519-3).
+
+P. R. Bunker and P. Jensen: \"Fundamentals of Molecular Symmetry\", IOP Publishing, Bristol, 2004 (ISBN 0-7503-0941-5).
+'''
+cfKindShort = "Lecture"
+cfSemester = "ST"
+cfLecturer = "Per Jensen"
+cfMail = "jensen@uni-wuppertal.de"
+cfOrder = 200.0
+
+
+[PhysBio]
+cfTitle = "Physical biology (T/A)"
+cfNum = "PhysBio"
+cfCP = "8"
+cfWorkload = "4+2"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Advanced statistical mechanics"
+cfFormalities = "Oral examination"
+cfLength = "1 semester"
+cfGoals = "Acquaintance with basic concepts of molecular and evolutionary biology;  understanding of statistical issues arising in the analysis of sequence data and the application of methods from statistical physics addressing them."
+cfContent = '''Statistics of the genome 
+
+Sequence analysis and sequence alignement
+
+Evolutionary theory and population genetics 
+
+Theory of bio-molecular networks
+'''
+cfLiterature = '''J.H. Gillespie, Population Genetics: A concise guide (Johns Hopkins University Press, 2004)
+
+R. Durbin, S.R. Eddy, A. Krogh, G. Mitchison,  Biological Sequence Analysis: Probabilistic Models of Proteins and Nucleic Acids (Cambridge University Press, 1998)
+
+F. Kepes, Biological Networks (World Scientific, Singapore 2007)
+
+D.J. Wilkinson, Stochastic Modelling for Systems Biology (Chapman&Hall, 2006)
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "ST"
+cfLecturer = "J. Berg, M. Lässig"
+cfMail = "berg@thp.uni-koeln.de, lassig@thp.uni-koeln.de"
+cfOrder = 210.0
+
+
+[SoftMatter]
+cfTitle = "Statistical physics of soft matter and biomolecules (T/A)"
+cfNum = "SoftMatter"
+cfCP = "8"
+cfWorkload = "4+2"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Advanced statistical mechanics"
+cfFormalities = "Oral examination"
+cfLength = "1 semester"
+cfGoals = "Understanding the molecular structure and mesoscopic properties of various types of soft matter systems, in particular with regard to their role in living cells."
+cfContent = '''Colloids, polymers and amphiphiles
+
+Biopolymers and proteins
+
+Membranes
+
+Physics of the cell
+'''
+cfLiterature = '''J. K. G. Dhont, An Introduction to Dynamics of Colloids (Elsevier, Amsterdam, 1996).
+
+M. Doi and S. F. Edwards, The Theory of Polymer Dynamics (Clarendon Press, Oxford, 1986).
+
+S. A. Safran, Statistical Thermodynamics of Surfaces, Interfaces, and Membranes (Addison-Wesley, Reading, MA, 1994).
+
+G. Gompper, U. B. Kaupp, J. K. G. Dhont, D. Richter, and R. G. Winkler, eds., Physics meets Biology — From Soft Matter to Cell Biology, vol. 19 of Matter and Materials (FZ Jülich, Jülich, 2004).
+
+D. H. Boal, Mechanics of the Cell (Cambridge University Press, Cambridge, 2002).
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "ST"
+cfLecturer = "G. Gompper"
+cfMail = "G.Gompper@fz-juelich.de"
+cfOrder = 220.0
+
+
+[StatPhysNE]
+cfTitle = "Statistical physics far from equilibrium (T)"
+cfNum = "StatPhysNE"
+cfCP = "8"
+cfWorkload = "4+2"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Advanced statistical mechanics"
+cfFormalities = "Oral examination"
+cfLength = "1 semester"
+cfGoals = "Understanding the generic behavior of fluctuation-dominated systems far from equilibrium, and acquaintance with the basic mathematical tools used for their description."
+cfContent = '''Stochastic methods
+
+Transport processes
+
+Scale-invariant growth
+
+Pattern formation far from equilibrium
+'''
+cfLiterature = '''P.L. Krapivsky, S. Redner and E. Ben-Naim: A kinetic view of statistical physics (Cambridge University Press, 2010) 
+
+M. Kardar, Statistical Physics of Fields (Cambridge University Press, 2007)
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "ST"
+cfLecturer = "J. Krug, M. Lässig"
+cfMail = "krug@thp.uni-koeln.de, lassig@thp.uni-koeln.de"
+cfOrder = 230.0
+
+
+[Disorder]
+cfTitle = "Disordered systems (T)"
+cfNum = "Disorder"
+cfCP = "8"
+cfWorkload = "4+2"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Advanced statistical mechanics"
+cfFormalities = "Oral examination"
+cfLength = "1 semester"
+cfGoals = "Understanding the novel types of behaviour that arise in systems with quenched disorder, as well as the specific mathematical challenges associated with their theoretical description."
+cfContent = '''Disorder average
+
+Replica methods
+
+Percolation
+
+Phase transitions in disordered systems
+
+Localization
+
+Glassy dynamics
+'''
+cfLiterature = '''D. Stauffer and A..Aharony,  Introduction to Percolation Theory (Taylor & Francis, London 1994)
+
+K.H. Fischer and  J.A. Hertz, Spin Glasses (Cambridge University Press, Cambridge 1991)
+
+K. Binder and W. Kob, Glassy Materials and Disordered Solids (World Scientific, Singapore 2005)
+
+T. Nattermann, lecture notes
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "ST"
+cfLecturer = "T. Nattermann"
+cfMail = "natter@thp.uni-koeln.de"
+cfOrder = 240.0
+
+
+[Nonequilibrium]
+cfTitle = "Nonequilibrium physics with interdisciplinary applications (T)"
+cfNum = "Nonequilibrium"
+cfCP = "4"
+cfWorkload = "2+1"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Statistical mechanics"
+cfFormalities = "Oral examination or term paper"
+cfLength = "1 semester"
+cfGoals = "Acquaintance with basic concepts of nonequilibrium physics; ability to apply the basic methods for the investigation of nonequilibrium problems; application of physics-based models to interdisciplinary problems."
+cfContent = '''Principles of nonequilibrium physics
+
+Stochastic systems and their desription (master equation, Fokker-Planck equation,..)
+
+Analytical and numerical methods
+
+Nonequilibrium phase transitions
+
+Applications to traffic, pedestrian dynamics, economic systems, biology, pattern formation,..
+'''
+cfLiterature = '''A. Schadschneider, D. Chowdhury, K. Nishinari: Stochastic Transport in Complex Systems (Elsevier, 2010)
+
+P.L. Krapivsky, S. Redner, E. Ben-Naim: A Kinetic View of Statistical Physics (Cambridge University Press, 2010)
+
+V. Privman (Ed.): Nonequilibrium Statistical Mechanics in One Dimension (Cambridge University Press, 1997)
+
+N.G.Van Kampen: Stochastic Processes in Physics and Chemistry (Elsevier, 1992)
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "ST"
+cfLecturer = "A. Schadschneider"
+cfMail = "as@thp.uni-koeln.de"
+cfOrder = 250.0
+
+
+[Probability]
+cfTitle = "Probability theory and stochastic processes for physicists (T)"
+cfNum = "Probability"
+cfCP = "4"
+cfWorkload = "3"
+cfKind = "Lecture"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Statistical mechanics on the bachelor level"
+cfFormalities = "Oral examination or term paper"
+cfLength = "1 semester"
+cfGoals = "Acquaintance with probabilistic concepts and stochastic methods commonly used in the theory of disordered systems and nonequilibrium phenomena, as well as in interdisciplinary applications of statistical physics."
+cfContent = '''Limit laws and extremal statistics
+
+Point processes
+
+Markov chains and birth-death processes
+
+Stochastic differential equations and path integrals
+
+Large deviations and rare events
+'''
+cfLiterature = '''D. Sornette: Critical Phenomena in Natural Sciences (Springer, 2004) 
+
+N.G.Van Kampen: Stochastic Processes in Physics and Chemistry (Elsevier, 1992)
+'''
+cfKindShort = "Lecture"
+cfSemester = "WT"
+cfLecturer = "J. Krug"
+cfMail = "krug@thp.uni-koeln.de"
+cfOrder = 260.0
+
+
+[physics712]
+cfTitle = "Advanced Electronics and Signal Processing (E/A)"
+cfNum = "physics712"
+cfCP = "6"
+cfWorkload = "3+1"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = '''Electronics laboratory of the B.Sc. in physics programme
+
+Recommended: module nuclear and particle physics of the B.Sc. programme
+'''
+cfFormalities = "Requirements for the examination (written): successful work with the exercises"
+cfLength = "1 semester"
+cfGoals = "Comprehension of the basics of electronics circuits for the processing of (detector) signals, mediation of the basics of experimental techniques regarding electronics and micro electronics as well as signal processing"
+cfContent = "The physics of electronic devices, junctions, transistors (BJT and FET), standard analog and digital circuits, amplifiers, elements of CMOS technologies, signal processing, ADC, DAC, noise sources and noise filtering, coupling of electronics to sensors/detectors, elements of chip design, VLSI electronics, readout techniques for detectors"
+cfLiterature = '''P. Horowitz, W. Hill; The Art of Electronics (Cambridge University Press 2. Aufl. 1989)
+
+S. Sze; The Physics of Semiconductor Devices (Wiley & Sons 1981)
+
+H. Spieler, Semiconductor detector system (Oxford University Press 2005))
+
+J. Krenz; Electronics Concepts (Cambridge University Press 2000)
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "ST"
+cfLecturer = "Profs. of experimental physics"
+cfMail = "particle@uni-bonn.de"
+cfOrder = 712.0
+
+
+[physics713]
+cfTitle = "Particle Detectors and Instrumentation (E/A)"
+cfNum = "physics713"
+cfCP = "6"
+cfWorkload = "3+1"
+cfKind = "Lecture with laboratory"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Completed B.Sc. in Physics, with experience in quantum mechanics, atomic- and nuclear physics"
+cfFormalities = "Requirements for the examination (written or oral): successful work with the exercises"
+cfLength = "1 semester"
+cfGoals = "Designing an experiment in photoproduction on pi-0, selection and building of appropriate detectors, set-up and implementation of an experiment at ELSA"
+cfContent = "Quark structure of mesons and baryons, nucleon excitation; electromagnetic probes, electron accelerators, photon beams, relativistic kinematics interaction of radiation with matter, detectors for photons, leptons and hadrons; laboratory course: setup of detectors and experiment at ELSA"
+cfLiterature = '''B. Povh, K. Rith, C. Scholz, F. Zetsche; Teilchen und Kerne (Springer, Heidelberg 6. Aufl. 2004)
+
+Perkins; Introduction to High Energy Physics (Cambridge University Press 4. Aufl. 2000)
+
+W. R. Leo; Techniques for Nuclear and Particle Detection (Springer, Heidelberg 2. Ed. 1994)
+
+K. Kleinknecht; Detektoren für Teilchenstrahlung (Teubner, Wiesbaden 4. überarb. Aufl. 2005)
+'''
+cfKindShort = "Lect. + lab."
+cfSemester = "ST"
+cfLecturer = "Profs. of experimental physics"
+cfMail = "particle@uni-bonn.de"
+cfOrder = 713.0
+
+
+[physics714]
+cfTitle = "Advanced Accelerator Physics (E/A)"
+cfNum = "physics714"
+cfCP = "6"
+cfWorkload = "3+1"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Accelerator Physics (physics612)"
+cfFormalities = "Requirements for the examination (written or oral): successful work with the exercises"
+cfLength = "1 semester"
+cfGoals = '''Understanding of the physics of synchrotron radiation and its influence on beam parameters
+
+Basic knowledge of collective phenomena in particle accelerators
+
+General knowledge of applications of particle accelerators (research, medicine, energy management)
+'''
+cfContent = '''Synchrotron radiation:
+
+radiation power, spatial distribution, spectrum, damping, equilibrium beam emittance, beam lifetime
+
+Space-charge effects:
+
+self-field and wall effects, beam-beam effects, space charge dominated beam transport, neutralization of beams by ionization of the residual gas
+
+Collective phenomena:
+
+wake fields, wake functions and coupling impedances, spectra of a stationary and oscillating bunches, bunch interaction with an impedance, Robinson instability
+
+Applications of particle accelerators:
+
+medical accelerators, neutrino facilities, free electron lasers, nuclear waste transmutation, etc.
+'''
+cfLiterature = '''F. Hinterberger; Physik der Teilchenbeschleuniger und Ionenoptik (Springer, Heidelberg 1997)
+
+H. Wiedemann; Particle Accelerator Physics (Springer, Heidelberg 2 Aufl. 1999)
+
+K. Wille; Physik der Teilchenbeschleuniger und Synchrotronstrahlungsquellen (Teubner, Wiesbaden
+
+2. Aufl. 1996)
+
+D. A. Edwards, M.J. Syphers; An Introduction to the Physics of High Energy Accelerators (Wiley & Sons 1993)
+
+A. Chao; Physics of Collective Beam Instabilities in High Energy Accelerators (Wiley & Sons 1993)
+
+Script of the Lecture Particle Accelerators (physics612)
+
+http://www-elsa.physik.uni-bonn.de/~hillert/Beschleunigerphysik/
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "ST/WT"
+cfLecturer = "Profs. of experimental physics"
+cfMail = "particle@uni-bonn.de"
+cfOrder = 714.0
+
+
+[physics718]
+cfTitle = "Programming in Physics and Astronomy with C++ or Python (E/A)"
+cfNum = "physics718"
+cfCP = "4"
+cfWorkload = "2+1"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Basic knowledge of programming and knowledge of simple C/C++ or Python constructs."
+cfFormalities = '''C/C++ part: Requirements for the examination (written or oral): successful work with the exercises.
+
+Python part: Requirements for examination: successful implementation of the scientific projects in Python during the semester.
+'''
+cfLength = "1 semester"
+cfGoals = '''C++ part: In-depth understanding of C++ and its applications in particle physics. Discussion of advanced features of C++ using examples from High Energy Physics. The course is intended for students with some background in C++ or for advanced students who wish to apply C++ in their graduate research.
+
+Python part: Effective and flexible program solving with the easy-to-learn, high level programming language Python. The course addresses master and PhD students with prior Python-programming knowledge as taught in the bachelor course physics131.
+'''
+cfContent = '''C++ part: - Basic ingredients of C++, - Object orientation: classes, inheritance, polymorphism, - How to solve physics problems with C++, - Standard Template Library, - C++ in data analysis, example: the ROOT library, - C++ and large scale calculations, - How to write and maintain complex programs, - Parallel computing and the Grid, - Debugging and profiling
+
+Python part: - In-depth introduction to Python based on prior programming experience, - Introduction to numpy arrays (primary Python data structure for scientific computing), - Introduction to scientific-Python modules (scipy, astropy), - Interactive work / development with Python (ipython), - Web interaction with Python (jupyter notebooks, web and database queries), - Plotting with Python (the matplotlib module)
+'''
+cfLiterature = '''Eckel: Thinking in C++, Prentice Hall 2000.
+
+Lippman, Lajoie, Moo: C++ Primer, Addison-Wesley 2000.
+
+Deitel and Deitel, C++ how to program, Prentice Hall 2007.
+
+Stroustrup, The C++ Programming Language, Addison-Wesley 2000.
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "ST"
+cfLecturer = "Profs. of experimental physics"
+cfMail = "particle@uni-bonn.de"
+cfOrder = 718.0
+
+
+[physics723]
+cfTitle = "Hands-on Seminar: Detector Construction (E/A)"
+cfNum = "physics723"
+cfCP = "3"
+cfWorkload = "2"
+cfKind = "Laboratory"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = "Basic knowledge of particle physics"
+cfPreparation = "physics618 is helpful but not mandatory"
+cfFormalities = "Credit points can be obtained after successful construction and operation of the detector and preparing a written and/or oral report on a specific task"
+cfLength = "1 semester"
+cfGoals = "Students will design, construct, assemble and operate a particle detector."
+cfContent = '''Students will construct, assemble and commission a particle detector. They will gain hands-on experience on detector construction. The students organize and execute the tasks of the project in personal responsibility. This includes many tasks common to more complex research or industrial projects. Topics include: 
+
+
+
+- order the needed detector components 
+
+- prepare CAD drawings
+
+- prepare PCB layout
+
+- develop electronic circuits
+
+- produce and assemble detector parts
+
+- vacuum technology
+
+- cooling technology
+
+- organize the work effort in personal responsibility
+
+- communicate with team members and technical staff
+'''
+cfLiterature = '''H. Kolanoski, N. Wermes, Teilchendetektoren, (Springer, Heidelberg, 2016)
+
+W. R. Leo; Techniques for Nuclear and Particle Detection (Springer, Heidelberg 2. Ed. 1994)
+
+K. Kleinknecht; Detektoren für Teilchenstrahlung (Teubner, Wiesbaden 4. überarb. Aufl. 2005)
+'''
+cfKindShort = ""
+cfSemester = "WT/ST"
+cfLecturer = "Profs. of experimental physics"
+cfMail = "optics@uni-bonn.de"
+cfOrder = 723.0
+
+
+[physics731]
+cfTitle = "Low Temperature Physics (E/A)"
+cfNum = "physics731"
+cfCP = "6"
+cfWorkload = "3+1"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Elementary thermodynamics; principles of quantum mechanics; introductory lecture on solid state physics"
+cfFormalities = "Requirements for the examination (written or oral): successful work with the exercises"
+cfLength = "1 semester"
+cfGoals = "Experimental methods at low (down to micro Kelvin) temperatures; methods of refrigeration; thermometry; solid state physics at low temperatures"
+cfContent = "Thermodynamics of different refrigeration processes, liquefaction of gases; methods to reach low (< 1 Kelvin) temperatures: evaporation cooling, He-3-He-4 dilution cooling, Pomeranchuk effect, adiabatic demagnetisation of atoms and nuclei; thermometry at low temperatures (e.g. helium, magnetic thermometry, noise thermometry, thermometry using radioactive nuclei); principles for the construction of  cryostats for low temperatures"
+cfLiterature = '''O.V. Lounasmaa; Experimental Principles and Methods Below 1K (Academic Press, London 1974)
+
+R.C. Richardson, E.N. Smith; Experimental Techniques in Condensed Matter Physics at Low Temperatures (Addison-Wesley 1988)
+
+F. Pobell, Matter and Methods at Low Temperatures (Springer-Verlag, Heidelberg 2. Aufl. 1996)
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "WT/ST"
+cfLecturer = "Profs. of experimental physics"
+cfMail = "cmatter@uni-bonn.de"
+cfOrder = 731.0
+
+
+[physics732]
+cfTitle = "Optics Lab (E/A)"
+cfNum = "physics732"
+cfCP = "4"
+cfWorkload = ""
+cfKind = "Laboratory"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = ""
+cfFormalities = "Credit points can be obtained after completion of a written report."
+cfLength = "4-6 weeks"
+cfGoals = '''The student learns to handle his/her own research project within one of the optics groups
+
+
+
+Available projects and contact information can be found at: http://www.iap.uni-bonn.de/opticslab/
+'''
+cfContent = '''Practical training/internship in a research group, which can have several aspects:
+
+- setting up a small experiment
+
+- testing and understanding the limits of experimental components
+
+- simulating experimental situations
+'''
+cfLiterature = "Will be given by the supervisor"
+cfKindShort = "Laboratory"
+cfSemester = "WT/ST"
+cfLecturer = "Profs. of experimental physics"
+cfMail = "optics@uni-bonn.de"
+cfOrder = 732.0
+
+
+[physics734]
+cfTitle = "Holography (E/A)"
+cfNum = "physics734"
+cfCP = "3"
+cfWorkload = "2"
+cfKind = "Lecture"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = ""
+cfFormalities = "Written or oral examination"
+cfLength = "1 semester"
+cfGoals = "The goal of the course is to provide in-depth knowledge and to provide practical abilities in the field of holography as an actual topic of applied optics"
+cfContent = "The course will cover the basic principle of holography, holographic recording materials, and applications of holography. In the first part the idea behind holography will be explained and different hologram types will be discussed (transmission and reflection holograms; thin and thick holograms; amplitude and phase holograms; white-light holograms; computer-generated holograms; printed holograms). A key issue is the holographic recording material, and several material classes will be introduced in the course (photographic emulsions; photochromic materials; photo-polymerization; photo-addressable polymers; photorefractive crystals; photosensitive inorganic glasses). In the third section several fascinating applications of holography will be discussed (art; security-features on credit cards, banknotes, and passports; laser technology; data storage; image processing; filters and switches for optical telecommunication networks; novelty filters; phase conjugation [\"time machine\"]; femtosecond holography; space-time conversion). Interested students can also participate in practical training. An experimental setup to fabricate own holograms is available"
+cfLiterature = '''Lecture notes;
+
+P. Hariharan; Optical Holography - Principles, Techniques, and Applications (Cambridge University Press, 2nd Edition, 1996)
+
+P. Hariharan; Basics of Holography (Cambridge University Press 2002)
+
+J. W. Goodman; Introduction to Fourier Optics (McGraw-Hill Education - Europe 2nd Ed. 2000)
+
+A. Yariv; Photonics (Oxford University Press 6th Ed. 2006)
+'''
+cfKindShort = "Lecture"
+cfSemester = "ST"
+cfLecturer = "Profs. of experimental physics"
+cfMail = "optics@uni-bonn.de"
+cfOrder = 734.0
+
+
+[physics736]
+cfTitle = "Crystal Optics (E/A)"
+cfNum = "physics736"
+cfCP = "6"
+cfWorkload = "3+1"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = ""
+cfFormalities = "Requirements for the examination (written or oral): successful work with the exercises"
+cfLength = "1 semester"
+cfGoals = "Because of their aesthetic nature crystals are termed \"flowers of mineral kingdom\". The aesthetic aspect is closely related to the symmetry of the crystals which in turn determines their optical properties. It is the purpose of this course to stimulate the understanding of these relations. The mathematical and tools for describing symmetry and an introduction to polarization optics will be given before the optical properties following from crystal symmetry are discussed. Particular emphasis will be put on the magneto-optical properties of crystals in magnetic internal or external fields. Advanced topics such as the determination of magnetic structures and interactions by nonlinear magneto-optics will conclude the course"
+cfContent = "Crystal classes and their symmetry; basic group theory; polarized light; optical properties in the absence of fields; electro-optical properties; magneto-optical properties: Faraday effect, Kerr effect, magneto-optical materials and devices, semiconductor magneto-optics, time-resolved magneto-optics, nonlinear magneto-optics"
+cfLiterature = '''R. R. Birss, Symmetry and Magnetism, North-Holland (1966)
+
+R. E. Newnham: Properties of Materials: Anisotropy, Symmetry, Structure, Oxford University (2005)
+
+A. K. Zvezdin, V. A. Kotov: Modern Magnetooptics & Magnetooptical Materials, Taylor/Francis (1997)
+
+Y. R. Shen: The Principles of Nonlinear Optics, Wiley (2002) 
+
+K. H. Bennemann: Nonlinear Optics in Metals, Oxford University (1999)
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "WT"
+cfLecturer = "Profs. of experimental physics"
+cfMail = "optics@uni-bonn.de"
+cfOrder = 736.0
+
+
+[physics739]
+cfTitle = "Lecture on Advanced Topics in Photonics (E/A)"
+cfNum = "physics739"
+cfCP = "4"
+cfWorkload = "2+1"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Optics"
+cfFormalities = "Requirements for the examination (written or oral): successful work within the exercises"
+cfLength = "1 semester"
+cfGoals = "The goal of the course is to introduce the students to a special field of research in photonics. New research results will be presented and their relevance is discussed."
+cfContent = "Will be given in the bulletin of lectures. The main theme will vary from term to term"
+cfLiterature = "Will be given in the lecture"
+cfKindShort = ""
+cfSemester = "WT/ST"
+cfLecturer = "Profs. of experimental physics"
+cfMail = "optics@uni-bonn.de"
+cfOrder = 739.0
+
+
+[physics740]
+cfTitle = "Hands-on Seminar: Experimental Optics and Atomic Physics (E/A)"
+cfNum = "physics740"
+cfCP = "3"
+cfWorkload = "2"
+cfKind = "Laboratory"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Fundamentals of optics and quantum mechanics"
+cfFormalities = "Credit points can be obtained after successful carrying out the experiments and preparing a written report on selected experiments"
+cfLength = "1 semester"
+cfGoals = "The students learn to handle optical setups and carry out optical experiments. This will prepare participants both for the successful completion of research projects in experimental quantum optics/photonics and tasks in the optics industry."
+cfContent = '''Practical training in the field of optics, where the students start their experiment basically from scratch (i.e. an empty optical table). The training involves the following topics:
+
+- diode lasers
+
+- optical resonators
+
+- acousto-optic modulators
+
+- spectroscopy
+
+- radiofrequency techniques
+'''
+cfLiterature = "Will be given by the supervisor"
+cfKindShort = ""
+cfSemester = "WT/ST"
+cfLecturer = "Profs. of experimental physics"
+cfMail = "optics@uni-bonn.de"
+cfOrder = 740.0
+
+
+[physics741]
+cfTitle = "Modern Spectroscopy (E/A)"
+cfNum = "physics741"
+cfCP = "4"
+cfWorkload = "2+1"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Fundamentals of Optics, Fundamentals of Quantum Mechanics"
+cfFormalities = "Requirements for the examination (oral or written): successful work with the exercises"
+cfLength = "1 semester"
+cfGoals = "The aim of the course is to introduce the students to both fundamental and advanced concepts of spectroscopy and enable them to practically apply their knowledge."
+cfContent = '''Spectroscopy phenomena - time and frequency domain;
+
+high resolution spectroscopy;
+
+pulsed spectroscopy; frequency combs;
+
+coherent spectroscopy; 
+
+nonlinear spectroscopy: Saturation, Raman spectroscopy, Ramsey spectroscopy.
+
+Applications of spectroscopic methods (e.g. Single molecule spectroscopy; spectroscopy at interfaces & surfaces, spectroscopy of cold atoms; atomic clocks; atom interferometry)
+'''
+cfLiterature = '''W. Demtröder; Laser spectroscopy (Springer 2002)
+
+S. Svanberg; Atomic and molecular spectroscopy basic aspects and practical applications (Springer 2001)
+
+A. Corney; Atomic and laser spectroscopy (Clarendon Press 1988)
+
+N. B. Colthup, L. H. Daly, S. E. Wiberley; Introduction to infrared and Raman spectroscopy (Academic
+
+Press 1990)
+
+P. Hannaford; Femtosecond laser spectroscopy (Springer New York 2005)
+
+C. Rulliere; Femtosecond laser pulses: principles and experiments (Springer Berlin 1998)
+'''
+cfKindShort = ""
+cfSemester = "WT/ST"
+cfLecturer = "Profs. of experimental physics"
+cfMail = "optics@uni-bonn.de"
+cfOrder = 741.0
+
+
+[physics742]
+cfTitle = "Ultracold Atomic Gases (E/T)"
+cfNum = "physics742"
+cfCP = "6"
+cfWorkload = "3+1"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Quantum Mechanics"
+cfFormalities = "Requirements for the examination (written or oral): successful work with the exercises"
+cfLength = "1 semester"
+cfGoals = "This lecture discusses both the experimental and theoretical concepts of ultra-cold atomic gases."
+cfContent = '''Almost hundred years ago, in 1924, A. Einstein and S.N. Bose predicted the existence of a new state of matter, the so-called Bose-Einstein condensate. It took 70 years to successfully realize this macroscopic quantum state in the lab using ultracold atomic gases (Nobel prize 2001). The main challenge was to achieve cooling to Nanokelvin temperatures, the coolest temperatures ever reached by mankind. Nowadays, ultracold gases are exciting systems to study a broad range of quantum phenomena. These phenomena range from the direct observation of quantum matter waves and superfluidity over the creation of artificial crystal structures as analogous to solids, to the realization of complex quantum phase transitions of interacting atoms, e.g. the formation of a bosonic Mott-insulator or the BCS superconducting state for Fermions. In this lecture we will discuss both the experimental and theoretical concepts of ultra-cold atomic gases.
+
+
+
+Outline: Introduction and revision of basic concepts, Fundamentals of atom-laser interaction
+
+Laser cooling & trapping, Bose-Einstein condensation of atomic gases. Dynamics of Bose-Einstein condensates
+
+Optical lattices: strongly interacting atomic gases and quantum phase transitions
+
+The crossover of Fermi-gases between a BCS superconducting state and a Bose-Einstein condensate of molecules.
+'''
+cfLiterature = "C. J. Pethick and H. Smith, Bose-Einstein Condensation in Dilute Gases (Cambridge University Press)"
+cfKindShort = "Lect. + ex."
+cfSemester = "WT"
+cfLecturer = "Profs. of experimental and theoretical physics"
+cfMail = "exphysik@uni-bonn.de"
+cfOrder = 742.0
+
+
+[physics752]
+cfTitle = "Superstring Theory (T)"
+cfNum = "physics752"
+cfCP = "7"
+cfWorkload = "3+2"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = '''Quantum Field Theory (physics755)
+
+Group Theory (physics751)
+
+Advanced Theoretical Physics (physics607) / Advanced Quantum Field Theory (physics7501)
+
+Theoretical Particle Physics (physics615)
+'''
+cfFormalities = "Requirements for the examination (written): successful work with the"
+cfLength = "1 semester"
+cfGoals = "Survey of modern string theory as a candidate of a unified theory in regard to current research"
+cfContent = '''Bosonic String Theory, Elementary Conformal Field Theory
+
+Kaluza-Klein Theory
+
+Crash Course in Supersymmetry
+
+Superstring Theory
+
+Heterotic String Theory
+
+Compactification, Duality, D-Branes
+
+M-Theory
+'''
+cfLiterature = '''D. Lüst, S. Theisen; Lectures on String Theory (Springer, New York 1989)
+
+S. Förste; Strings, Branes and Extra Dimensions, Fortsch. Phys. 50 (2002) 221, hep-th/0110055
+
+C. Johnson, D-Brane Primer (Cambridge University Press 2003)
+
+M. Green, J. Schwarz, E. Witten; Superstring Theory I & II (Cambridge University Press 1988)
+
+H.P. Nilles, Supersymmetry and phenomenology (Phys. Reps. 110 C (1984) 1)
+
+J. Polchinski; String Theory I & II (Cambridge University Press 2005)
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "WT"
+cfLecturer = "Profs. of theoretical physics"
+cfMail = "theophys@uni-bonn.de"
+cfOrder = 752.0
+
+
+[physics753]
+cfTitle = "Theoretical Particle Astrophysics (T)"
+cfNum = "physics753"
+cfCP = "7"
+cfWorkload = "3+2"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = '''General Relativity and Cosmology (physics754)
+
+Quantum Field Theory (physics755)
+
+Theoretical Particle Physics (physics615)
+'''
+cfFormalities = "Requirements for the examination (written): successful work with the exercises"
+cfLength = "1 semester"
+cfGoals = "Introduction to the current status at the interface of particle physics and cosmology"
+cfContent = '''Topics on the interface of cosmology and particle physics:
+
+Inflation and the cosmic microwave background;
+
+baryogenisis,
+
+Dark Matter,
+
+nucleosynthesis
+
+the cosmology and astrophysics of neutrinos
+'''
+cfLiterature = '''J. Peacock, Cosmological Physics (Cambridge University Press 1998)
+
+E. Kolb, M. Turner; The Early Universe (Addison Wesley 1990)
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "ST"
+cfLecturer = "Profs. of theoretical physics"
+cfMail = "theophys@uni-bonn.de"
+cfOrder = 753.0
+
+
+[physics756]
+cfTitle = "Critical Phenomena (T)"
+cfNum = "physics756"
+cfCP = "7"
+cfWorkload = "3+2"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = '''Advanced quantum theory (physics606)
+
+Theoretical condensed matter physics (physics617)
+'''
+cfFormalities = "Requirements for the examination (written): successful work with the exercises"
+cfLength = "1 semester"
+cfGoals = "Acquisition of important methods to treat critical phenomena"
+cfContent = '''Mean Field Approximation and its Improvements
+
+Critical Behaviour at Surfaces
+
+Statistics of Polymers
+
+Concept of a Tomonaga-Luttinger Fluid
+
+Random Systems
+
+Phase Transitions, Critical Exponents
+
+Scale Behaviour, Conformal Field Theory
+
+Special Topics of Nanoscopic Physics
+'''
+cfLiterature = '''J. Cardy, Scaling and Renormalization in Statistical Physics (Cambridge University Press, 1996)
+
+A. O. Gogolin, A. A. Nersesyan, A.N.Tsvelik; Bosonisation and strongly correlated systems (Cambridge University Press, 1998)
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "ST"
+cfLecturer = "Profs. of theoretical physics"
+cfMail = "theophys@uni-bonn.de"
+cfOrder = 756.0
+
+
+[physics757]
+cfTitle = "Effective Field Theory (T)"
+cfNum = "physics757"
+cfCP = "7"
+cfWorkload = "3+2"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = '''Advanced quantum theory (physics606)
+
+Quantum Field Theory (physics755)
+'''
+cfFormalities = "Requirements for the examination (written): successful work with the exercises"
+cfLength = "1 semester"
+cfGoals = "Understanding basic properties and construction of Effective Field Theories, ability to perform calculations in Effective Field Theories"
+cfContent = '''Scales in physical systems, naturalness
+
+Effective Quantum Field Theories
+
+Renormalization Group, Universality
+
+Construction of Effective Field Theories
+
+Applications: effective field theories for physics beyond the Standard Model, heavy quarks, chiral dynamics, low-energy nuclear physics, ultracold atoms
+'''
+cfLiterature = '''S. Weinberg; The Quantum Theory of Fields (Cambridge University Press 1995)
+
+J.F. Donoghue et al.; Dynamics of the Standard Model (Cambridge University Press 1994)
+
+A.V. Manohar, M.B. Wise; Heavy Quark Physics (Cambridge University Press 2007)
+
+P. Ramond, Journeys Beyond The Standard Model (Westview Press 2003)
+
+D.B. Kaplan, Effective Field Theories (arXiv:nucl-th/9506035)
+
+E. Braaten, H.-W. Hammer; Universality in Few-Body Systems with Large Scattering Length (Phys. Rep. 428 (2006) 259)
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "WT/ST"
+cfLecturer = "Profs. of theoretical physics"
+cfMail = "theophys@uni-bonn.de"
+cfOrder = 757.0
+
+
+[physics758]
+cfTitle = "Quantum Chromodynamics (T)"
+cfNum = "physics758"
+cfCP = "7"
+cfWorkload = "3+2"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = '''Advanced quantum theory (physics606)
+
+Quantum Field Theory (physics755)
+'''
+cfFormalities = "Requirements for the examination (written): successful work with the exercises"
+cfLength = "1 semester"
+cfGoals = '''Understanding basic properties of Quantum Chromodynamics, ability to compute
+
+strong interaction processes
+'''
+cfContent = '''Quantum Chromodynamics as a Quantum Field Theory
+
+Perturbative Quantum Chromodynamics
+
+Topological objects: instantons etc.
+
+Large N expansion
+
+Lattice Quantum Chromodynamics
+
+Effective Field Theories of Quantum Chromodynamics
+
+Flavor physics (light and heavy quarks)
+'''
+cfLiterature = '''S. Weinberg; The Quantum Theory of Fields (Cambridge University Press 1995)
+
+M.E. Peskin, D.V. Schroeder; An Introduction to Quantum Field Theory (Westview Press 1995)
+
+F.J. Yndurain; The Theory of Quark and Gluon Interactions (Springer 2006)
+
+J.F. Donoghue et al.; Dynamics of the Standard Model (Cambridge University Press 1994)
+
+E. Leader and E. Predazzi; An Introduction to Gauge Theories and Modern Particle Physics (Cambridge University Press 1996)
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "WT/ST"
+cfLecturer = "Profs. of theoretical physics"
+cfMail = "theophys@uni-bonn.de"
+cfOrder = 758.0
+
+
+[physics759]
+cfTitle = "Quantum Field Theory for Condensed Matter Physics (T)"
+cfNum = "physics759"
+cfCP = "5"
+cfWorkload = "2+1"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = "Quantum mechanics I (physik421)"
+cfPreparation = '''Quantum mechanics II (physics606), Thermodynamics and statistical physics (physik521)
+
+Can be heard in parallel to physics617: \"Theoretical Condensed Matter Physics\"
+'''
+cfFormalities = "Requirements for the examination (written or oral): attendance of and successful work with the exercises"
+cfLength = "1 semester"
+cfGoals = '''Knowledge of quantum field theory of interacting many-body systems at finite temperature
+
+Knowledge of quantum field theory for non-equilibrium systems
+
+Ability to construct and evaluate perturbation theory using Feynman diagram
+'''
+cfContent = '''Fock space and occupation number representation for bosons and fermions
+
+Green's functions: analytical properties and their relation to observable quantities
+
+Elementary linear response theory
+
+Equations of motion
+
+Perturbation theory in thermodynamic equilibrium: Feynman diagrams, Matsubara technique
+
+Perturbation theory away from equilibrium: Keldysh technique
+
+Infinite resummations of perturbation expansions
+
+Exemplary application to model system
+'''
+cfLiterature = '''W. Nolting, Grundkurs Theoretische Physik 7: Vielteilchen-Theorie (Springer, Heidelberg 2009)
+
+A. A. Abrikosov, L. P. Gorkov, I. E. Dzyaloshinskii, Methods of Quantum Field Theory in Statistical Physics (Dover, New York 1975 and later editions)
+
+Xiao-Gang Wen, Quantum Field Theory of Many-Body Systems, Oxford Graduate Texts (Oxford University Press, Oxford 2004)
+
+A. Altland and B. Simons, Condensed Matter Field Theory (Cambridge University Press, Cambridge 2006)
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "WT/ST"
+cfLecturer = "Profs. of theoretical physics"
+cfMail = "theophys@uni-bonn.de"
+cfOrder = 759.0
+
+
+[physics761]
+cfTitle = "Supersymmetry (T)"
+cfNum = "physics761"
+cfCP = "6"
+cfWorkload = "3+1"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = "Quantum Field Theory I"
+cfPreparation = ""
+cfFormalities = "Individual Oral Examinations"
+cfLength = "1 semester"
+cfGoals = "Teach the students the basics of supersymmetric field theory and how it can be tested at the LHC."
+cfContent = "Superfields; Supersymmetric Lagrangians; MSSM; Testing the MSSM at the LHC"
+cfLiterature = '''Theory and phenomenology of sparticles: An account of four-dimensional N=1 supersymmetry in high energy physics.
+
+M. Drees, (Bonn U.) , R. Godbole, (Bangalore, Indian Inst. Sci.) , P. Roy, (Tata Inst.) . 2004. 555pp. 
+
+Hackensack, USA: World Scientific (2004) 555 p. 
+
+
+
+Weak scale supersymmetry: From superfields to scattering events.
+
+H. Baer, (Florida State U.) , X. Tata, (Hawaii U.) . 2006. 537pp. 
+
+Cambridge, UK: Univ. Pr. (2006) 537 p.
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "WT/ST"
+cfLecturer = "Profs. of theoretical physics"
+cfMail = "theophys@uni-bonn.de"
+cfOrder = 761.0
+
+
+[physics762]
+cfTitle = "Transport in mesoscopic systems (T)"
+cfNum = "physics762"
+cfCP = "5"
+cfWorkload = "2+1"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = '''Classical mechanics
+
+Elementary thermodynamics and statistical physics (physik521)
+
+Advanced quantum theory (physics606)
+
+Introductory theoretical condensed matter physics (physics617)
+'''
+cfFormalities = "Requirements for the examination (written or oral); successful work with the exercises"
+cfLength = "1 semester"
+cfGoals = '''Understanding essential transport phenomena in solids and mesoscopic systems
+
+Acquisition of important methods for treating transport problems
+'''
+cfContent = '''Linear response theory
+
+Disordered and ballistic systems
+
+Semiclassical approximation
+
+Introduction to quantum chaos theory, chaos and integrability in classical and quantum mechanics
+
+Elements of random matrix theory
+
+Specific problems of mesoscopic transport (weak localization, universal conductance fluctuations, 
+
+shot noise, spin-dependent transport, etc.) 
+
+Quantum field theory away from thermodynamic equilibrium
+'''
+cfLiterature = '''K. Richter, Semiclassical Theory of Mesoscopic Quantum Systems, Springer, 2000 (http://www.physik.uni-regensburg.de/forschung/richter/richter/pages/research/springer-tracts-161.pdf)
+
+M. Brack, R. K. Bhaduri, Semiclassical Physics, Westview Press, 2003
+
+S. Datta, Electronic Transport in Mesoscopic Systems, Cambrige University Press, 1995
+
+M. C. Gutzwiller, Chaos in Classical and Quantum Mechanics, Springer, New York, 1990
+
+F. Haake, Quantum signatures of chaos, Springer, 2001
+
+M. L. Mehta, Random matrices, Elsevier, 2004
+
+J. Imry, Introduction to mesoscopic physics, Oxford University Press
+
+Th. Giamarchi, The physics of one-dimensional systems, Oxford University Press
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "WT/ST"
+cfLecturer = "Profs. of theoretical physics"
+cfMail = "theophys@uni-bonn.de"
+cfOrder = 762.0
+
+
+[physics763]
+cfTitle = "Advanced Topics in String Theory (T)"
+cfNum = "physics763"
+cfCP = "7"
+cfWorkload = "3+2"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = '''Quantum Field Theory (physics755)
+
+Group Theory (physics751)
+
+Advanced Theoretical Physics (physics607) / Advanced Quantum Field Theory (physics7501)
+
+Theoretical Particle Physics (physics615)
+
+Superstring Theory (physics752)
+'''
+cfFormalities = "active participation in exercises, written examination"
+cfLength = "1 semester"
+cfGoals = "Detailed discussion of modern string theory as a candidate of a unified theory in regard to current research"
+cfContent = '''Realistic compactifications
+
+Interactions
+
+Effective actions
+
+Heterotic strings in four dimensions
+
+Intersecting D-branes
+'''
+cfLiterature = '''D. Lüst, S. Theisen: Lectures on String Theory (Springer, New York 1989)
+
+S. Förste: Strings, Branes and Extra Dimensions, Fortsch. Phys. 50 (2002) 221, hep-th/0110055
+
+C. Johnson: D-Brane Primer (Cambridge University Press 2003)
+
+M. Green, J. Schwarz, E. Witten: Superstring Theory I & II (Cambridge University Press 1988)
+
+H.P. Nilles: Supersymmetry and Phenomenology (Phys. Reps. 110C (1984)1)
+
+J. Polchinski: String Theory I & II (Cambridge University Press 2005)
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "ST"
+cfLecturer = "Profs. of theoretical physics"
+cfMail = "theophys@uni-bonn.de"
+cfOrder = 763.0
+
+
+[physics764]
+cfTitle = "Advanced Topics in Field and String Theory (T)"
+cfNum = "physics764"
+cfCP = "7"
+cfWorkload = "3+2"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = "Prerequisite knowledge of Quantum Field Theory, Superstring Theory, and General Relativity is helpful."
+cfPreparation = '''Quantum Field Theory (physics755)
+
+Advanced Theoretical Physics (physics607) / Advanced Quantum Field Theory (physics7501)
+
+Superstring Theory (physics752)
+'''
+cfFormalities = "active participation in exercises, oral or written examination"
+cfLength = "1 semester"
+cfGoals = "An introduction into modern topics in Mathematical High Energy Physics in regard to current research areas"
+cfContent = '''String and Supergravity Theories in various dimensions
+
+Dualities in Field Theory and String Theory
+
+Topological Field Theories and Topological Strings
+
+Large N dualities and integrability
+'''
+cfLiterature = '''Selected review articles an arXiv.org [hep-th]
+
+J. Polchinski: String Theory I & II
+
+S. Weinberg: Quantum Theory of Fields
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "ST"
+cfLecturer = "Profs. of theoretical physics"
+cfMail = "theophys@uni-bonn.de"
+cfOrder = 764.0
+
+
+[physics765]
+cfTitle = "Advanced Topics in Quantum Field Theory (T)"
+cfNum = "physics765"
+cfCP = "7"
+cfWorkload = "3+2"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = "Prerequisite knowledge of Quantum Field Theory"
+cfPreparation = '''Quantum Field Theory (physics755)
+
+Advanced Theoretical Physics (physics607) / Advanced Quantum Field Theory (physics7501)
+'''
+cfFormalities = "active participation in exercises, oral or written examination"
+cfLength = "1 semester"
+cfGoals = "Covers advanced topics in Quantum Field Theory that are relevant for current developments in the field."
+cfContent = "TBA"
+cfLiterature = '''Selected articles on arXiv.org [hep-th]
+
+TBA
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "ST"
+cfLecturer = "Profs. of theoretical physics"
+cfMail = "theophys@uni-bonn.de"
+cfOrder = 765.0
+
+
+[physics766]
+cfTitle = "Physics of Higgs Bosons (T)"
+cfNum = "physics766"
+cfCP = "7"
+cfWorkload = "3+2"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Theoretical Particle Physics (physics615)"
+cfFormalities = '''Requirement for the examination (written or oral): successful participation
+
+in the exercises
+'''
+cfLength = "1 semester"
+cfGoals = '''Understanding the physics of electroweak symmetry breaking, and the interpretations of the recently
+
+discovered signals for the existence of a Higgs boson
+'''
+cfContent = '''Spontaneous symmetry breaking
+
+The Higgs mechanism
+
+The Higgs boson of the Standard Model
+
+Experimental situation
+
+Extended Higgs sectors
+
+Precision calculations
+'''
+cfLiterature = '''J. Gunion, H.E. Haber, G.L. Kane and S. Dawson: The Higgs Hunter's Guide (Frontiers of Physics, 2000)
+
+A. Djouadi: Anatomy of Electroweak Symmetry Breaking I (Phys. Rep. 457 (2008) 1, hep-ph/0503173)
+
+A. Djouadi: Anatomy of Electroweak Symmetry Breaking II (Phys. Rep. 459 (2008) 1, hep-ph/0504090)
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "WT"
+cfLecturer = "Profs. of theoretical physics"
+cfMail = "theophys@uni-bonn.de"
+cfOrder = 766.0
+
+
+[physics767]
+cfTitle = "Computational Methods in Condensed Matter Theory (T)"
+cfNum = "physics767"
+cfCP = "7"
+cfWorkload = "3+2"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = '''Quantum Field Theory (physics755) 
+
+Advanced Theoretical Physics (physics607) / Advanced Quantum Field Theory (physics7501) 
+
+Advanced Theoretical Condensed Matter Physics (physics638)
+'''
+cfFormalities = "Active participation in exercises,  written examination"
+cfLength = "1 semester"
+cfGoals = "Detailed discussion of computational tools in modern condensed matter theory"
+cfContent = '''Exact Diagonalization (ED)
+
+Quantum Monte Carlo (QMC)
+
+(Stochastic) Series expansion (SSE)
+
+Density Matrix Renormalization (DMRG)
+
+Dynamical Mean Field theory (DMFT)
+'''
+cfLiterature = "will be given in the lecture"
+cfKindShort = "Lect. + ex."
+cfSemester = "WT/ST"
+cfLecturer = "Profs. of theoretical physics"
+cfMail = "theophys@uni-bonn.de"
+cfOrder = 767.0
+
+
+[physics768]
+cfTitle = "General Relativity for Experimentalists (T)"
+cfNum = "physics768"
+cfCP = "7"
+cfWorkload = "3+2"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Theoretische Physik I & II, Analysis I & II"
+cfFormalities = "Weekly homework sets (50% required), Final exam"
+cfLength = "1 semester"
+cfGoals = "The students shall learn the basics of general relativity and be able to apply it to applications such as experimental tests of GR, GPS, astrophysical objects and simple issues in cosmology."
+cfContent = '''Review of special relativity
+
+Curved spacetime of GR
+
+Experimental tests of GR
+
+GPS
+
+Black holes
+
+Gravitational waves
+
+Introductory cosmology
+'''
+cfLiterature = '''GRAVITY, by James Hartle
+
+A FIRST COURSE IN GENERAL RELATIVITY, by Bernard Schutz
+
+EXPLORING BLACK HOLES, by Taylor and Wheeler
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "WT/ST"
+cfLecturer = "Profs. of theoretical physics"
+cfMail = "theophys@uni-bonn.de"
+cfOrder = 768.0
+
+
+[physics769]
+cfTitle = "Lattice QCD (T)"
+cfNum = "physics769"
+cfCP = "7"
+cfWorkload = "3+2"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Quantum Mechanics 1+2, Quantum Field Theory 1"
+cfFormalities = "Written / oral examination"
+cfLength = "1 semester"
+cfGoals = "To give an introduction to the quantum field theory on the lattice"
+cfContent = '''- Introduction: Quantum mechanics on the lattice
+
+- Numerical algorithms
+
+- Spin systems on the lattice: The Ising model
+
+- Scalar field theory on the lattice: Discretization; Perturbation theory; Continuum limit 
+
+- Gauge fields: Link variables; Plaquette action; Wilson loop and confinement 
+
+- Fermions on the lattice: Fermion doubling; Different formulations for lattice fermions; Axial anomaly; Chiral fermions
+
+- Use of Effective Field Theory methods: Extrapolation in the quark masses; Resonances in a finite volume
+'''
+cfLiterature = '''J. Smit, Introduction to quantum fields on a lattice: A robust mate, Cambridge Lect. Notes Phys. (2002)
+
+
+
+I. Montvay and G. Münster, Quantum Fields on a Lattice, Cambridge Monographs on Mathematical Physics, Cambridge University Press 1994
+
+
+
+C. Gattringer and Ch. Lang, Quantum Chromodynamics on the Lattice: An Introductory Presentation
+
+Series: Lecture Notes in Physics, Vol. 788 
+
+
+
+H.J. Rothe, Lattice Gauge Theories: An Introduction,  World Scientific, (2005)
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "ST/WT"
+cfLecturer = "Profs. of theoretical physics"
+cfMail = "theophys@uni-bonn.de"
+cfOrder = 769.0
+
+
+[physics771]
+cfTitle = "Environmental Physics & Energy Physics (A)"
+cfNum = "physics771"
+cfCP = "3"
+cfWorkload = "2"
+cfKind = "Lecture"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Physik I-V (physik110-physik510)"
+cfFormalities = "Active contributions during term and written examination"
+cfLength = "1 semester"
+cfGoals = "A deeper understanding of energy & environmental facts and problems from physics (and, if needed, nature or agricultural science) point of view"
+cfContent = "After introduction into related laws of nature and after a review of supply and use of various resources like energy a detailed description on each field of use, use-improvement strategies and constraints and consequences for environment and/or human health & welfare are given."
+cfLiterature = '''Diekmann, B., Heinloth, K.: Physikalische Grundlagen der Energieerzeugung, Teubner 1997
+
+Hensing, I., Pfaffenberger, W., Ströbele, W.: Energiewirtschaft, Oldenbourg1998
+
+Fricke, J., Borst, W., Energie, Oldenbourg 1986
+
+Bobin, J. L.,Huffer,E., Nifenecker,H., L’Energie de Demain ,EDP Sciences 2005
+
+Thorndyke, W., Energy and Environment, Addison Wesley 1976
+
+Schönwiese, C. D., Diekmann, B., Der Treibhauseffekt , DVA 1986 
+
+Boeker, E., von Grondelle, R., Physik und Umwelt, Vieweg, 1997
+'''
+cfKindShort = "Lecture"
+cfSemester = "WT"
+cfLecturer = "Profs. of experimental physics"
+cfMail = "exphysik@uni-bonn.de"
+cfOrder = 771.0
+
+
+[physics772]
+cfTitle = "Physics in Medicine: Fundamentals of Analyzing Biomedical Signals (A)"
+cfNum = "physics772"
+cfCP = "6"
+cfWorkload = "3+1"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Elementary thermodynamics; principles of quantum mechanics, principles of condensed matter"
+cfFormalities = "Requirements for the examination (written or oral): successful work with the exercises"
+cfLength = "1 semester"
+cfGoals = "Understanding of the principles of physics and the analysis of complex systems"
+cfContent = '''Introduction to the theory of nonlinear dynamical systems; selected phenomena (e.g. noise-induced transition, stochastic resonance, self-organized criticality); Nonlinear time series analysis: state-space reconstruction, dimensions, Lyapunov exponents, entropies, determinism, synchronization, interdependencies, surrogate concepts, measuring non-stationarity.
+
+Applications: nonlinear analysis of biomedical time series (EEG, MEG, EKG)
+'''
+cfLiterature = '''Lehnertz: Skriptum zur Vorlesung
+
+E. Ott; Chaos in dynamical systems (Cambridge University Press 2. Aufl. 2002)
+
+H. Kantz, T. Schreiber ; Nonlinear time series analysis. (Cambridge University Press 2:Aufl. 2004).
+
+A. Pikovsky, M. Rosenblum, J. Kurths; Synchronization: a universal concept in nonlinear sciences
+
+(Cambridge University Press 2003)
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "WT"
+cfLecturer = "Profs. of experimental physics"
+cfMail = "cmatter@uni-bonn.de"
+cfOrder = 772.0
+
+
+[physics773]
+cfTitle = "Physics in Medicine: Fundamentals of Medical Imaging (A)"
+cfNum = "physics773"
+cfCP = "6"
+cfWorkload = "3+1"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Lectures Experimental Physics I-III (physik111-physik311) respectively"
+cfFormalities = "Requirements for the examination (written or oral): successful work with the exercises"
+cfLength = "1 semester"
+cfGoals = "Understanding of the principles of physics of modern imaging techniques in medicine"
+cfContent = '''Introduction to physical imaging methods and medical imaging; Physical fundamentals of transmission computer tomography (Röntgen-CT), positron emission computer tomography (PET), magnetic resonance imaging (MRI) and functional MRI
+
+detectors, instrumentation, data acquisition, tracer, image reconstruction, BOLD effect; applications: analysis of structure and function.
+
+Neuromagnetic (MEG) and Neuroelectrical (EEG) Imaging; Basics of neuroelectromagnetic activity, source models
+
+instrumentation, detectors, SQUIDs; signal analysis, source imaging, inverse problems, applications
+'''
+cfLiterature = '''K. Lehnertz: Scriptum zur Vorlesung
+
+S. Webb; The Physics of Medical Imaging (Adam Hilger, Bristol 1988)
+
+O. Dössel; Bildgebende Verfahren in der Medizin (Springer, Heidelberg 2000)
+
+W. Buckel; Supraleitung (Wiley-VCH Weinheim 6. Aufl. 2004)
+
+E. Niedermeyer/F. H. Lopes da Silva; Electroencephalography (Urban & Schwarzenberg, 1982)
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "ST"
+cfLecturer = "Profs. of experimental physics"
+cfMail = "cmatter@uni-bonn.de"
+cfOrder = 773.0
+
+
+[physics774]
+cfTitle = "Electronics for Physicists (E/A)"
+cfNum = "physics774"
+cfCP = "6"
+cfWorkload = "3+1"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Electronics laboratory of the B.Sc. in physics programme"
+cfFormalities = "Requirements for the examination (written): successful work with the exercises"
+cfLength = "1 semester"
+cfGoals = "Comprehension of electronic components, methods to derive the dynamical performance of circuits and mediation that these methods are widely used in various fields of physics"
+cfContent = "Basics of electrical engineering, RF-electronics I: Telegraph equation, impedance matching for lumped circuits and electromagnetic fields, diodes, transistors, analogue and digital integrated circuits, system analysis via laplace transformation, basic circuits, circuit synthesis, closed loop circuits, oscillators, filters, RF-electronics II: low-noise oscillators and amplifiers"
+cfLiterature = '''P. Horrowitz, W. Hill; The Art of Electronics (Cambridge University Press)
+
+Murray R. Spiegel; Laplace Transformation (McGraw-Hill Book Company)
+
+A.J. Baden Fuller; Mikrowellen (Vieweg)
+
+Lutz v. Wangenheim; Aktive Filter (Hüthig)
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "ST"
+cfLecturer = "Profs. of experimental physics"
+cfMail = "exphysik@uni-bonn.de"
+cfOrder = 774.0
+
+
+[physics775]
+cfTitle = "Nuclear Reactor Physics (A)"
+cfNum = "physics775"
+cfCP = "3"
+cfWorkload = "2"
+cfKind = "Lecture"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Fundamental nuclear physics"
+cfFormalities = "Written or oral examination"
+cfLength = "1 semester"
+cfGoals = "Deeper understanding of nuclear power generation (fisson and fusion)"
+cfContent = '''Physics of nuclear fission and fusion, neutron flux in reactors, different reactor 
+
+types, safety aspects, nuclear waste problem, future aspects
+
+and
+
+Excursion to a nuclear power plant
+'''
+cfLiterature = '''H. Hübel: Reaktorphysik  (Vorlesungsskript, available during the lecture)
+
+M. Borlein: Kerntechnik, Vogel (2009)
+
+W. M. Stacey: Nuclear Reactor Physics, Wiley & Sons (2007)
+'''
+cfKindShort = "Lecture"
+cfSemester = "ST"
+cfLecturer = "Profs. of experimental physics"
+cfMail = "cmatter@uni-bonn.de"
+cfOrder = 775.0
+
+
+[physics776]
+cfTitle = "Physics in Medicine:  Physics of Magnetic Resonance Imaging (A)"
+cfNum = "physics776"
+cfCP = "6"
+cfWorkload = "3+1"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Lectures Experimental Physics I-III (physik111-physik311) respectively"
+cfFormalities = "Requirements for the examination (written or oral): successful work with the exercises"
+cfLength = "1 semester"
+cfGoals = "Understanding the principles of Magnetic Resonance Imaging Physics"
+cfContent = '''- Theory and origin of nuclear magnetic resonance (QM and semiclassical approach)
+
+- Spin dynamics, T1 and T2 relaxation, Bloch Equations and the Signal Equation
+
+- Gradient echoes and spin echoes and the difference between T2 and T2*
+
+- On- and off-resonant excitation and the slice selection process
+
+- Spatial encoding by means of gradient fields and the k-space formalism
+
+- Basic imaging sequences and their basic contrasts, basic imaging artifacts
+
+- Hardware components of an MRI scanner, accelerated imaging with multiple receiver
+
+- Computation of signal amplitudes in steady state sequences
+
+- The ultra-fast imaging sequence EPI and its application in functional MRI
+
+- Basics theory of diffusion MRI and its application in neuroimaging
+
+- Advanced topics: quantitative MRI, spectroscopic imaging, X-nuclei MRI
+'''
+cfLiterature = '''- T. Stöcker: Scriptum zur Vorlesung
+
+- E.M. Haacke et al, Magnetic Resonance Imaging: Physical Principles and Sequence Design, John Wiley 1999
+
+- M.T. Vlaardingerbroek, J.A. den Boer, Magnetic Resonance Imaging: Theory and Practice, Springer, 20
+
+- Z.P. Liang, P.C. Lauterbur, Principles of Magnetic Resonance Imaging: A Signal Processing Perspective, SPIE 1999
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "WT"
+cfLecturer = "Profs. of experimental physics"
+cfMail = "cmatter@uni-bonn.de"
+cfOrder = 776.0
+
+
+[physics611]
+cfTitle = "Particle Physics"
+cfNum = "physics611"
+cfCP = "6"
+cfWorkload = "3+1"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Introductory particle physics and quantum mechanics courses"
+cfFormalities = '''Requirements for the examination (written or oral): successful work with the
+
+exercises
+'''
+cfLength = "1 semester"
+cfGoals = "Understanding of the fundamentals of particle physics: properties of quarks and leptons and their interactions (electromagnetic, weak, strong), experiments that have led to this understanding, the Standard Model of particle physics and measurements that test this model, the structure of hadrons"
+cfContent = '''Basics: leptons and quarks, antiparticles, hadrons, forces / interactions, Feynman graphs,
+
+relativistic kinematics, two-body decay, Mandelstam variables, cross-section, lifetime
+
+Symmetries and Conservation Laws. Positronium, Quarkonium. Accelerators and Detectors 
+
+Electromagnetic interactions: (g-2) experiments, lepton-nucleon scattering
+
+Strong interactions: colour, gauge principle, experimental tests of QCD. Electroweak interactions and the Standard Model of particle physics: spontaneous symmetry breaking, Higgs mechanism, experimental tests of the Standard Model. Neutrino physics, neutrino oscillations; CP violation
+'''
+cfLiterature = '''F Halzen, A. Martin; Quarks and Leptons (J. Wiley, Weinheim 1. Aufl. 1984)
+
+C. Berger; Elementarteilchenphysik (Springer, Heidelberg 2. überarb. Aufl. 2006)
+
+Perkins; Introduction to High Energy Physics (Cambridge University Press 4. Aufl. 2000)
+
+D. Griffith; Introduction to Elementary Particle Physics (J. Wiley, Weinheim 1. Aufl. 1987)
+
+A. Seiden; Particle Physics : A Comprehensive Introduction (2005) 
+
+Martin & Shaw; Particle Physics, Wiley (2nd edition, 1997)
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "WT"
+cfLecturer = "Profs. of experimental physics"
+cfMail = "particle@uni-bonn.de"
+cfOrder = 6110.0
+
+
+[physics612]
+cfTitle = "Accelerator Physics"
+cfNum = "physics612"
+cfCP = "6"
+cfWorkload = "3+1"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = ""
+cfFormalities = "Requirements for the examination (written or oral): successful work with the exercises"
+cfLength = "1 semester"
+cfGoals = '''Understanding of the functional principle of different types of particle accelerators
+
+Layout and design of simple magneto-optic systems
+
+Basic knowledge of radio frequency engineering and technology
+
+Knowledge of linear beam dynamics in particle accelerators
+'''
+cfContent = '''Elementary overview of different types of particle accelerators: electrostatic and induction accelerators, RFQ, Alvarez, LINAC, Cyclotron, Synchrotron, Microtron
+
+Subsystems of particle accelerators: particle sources, RF systems, magnets, vacuum systems
+
+Linear beam optics: equations of motion, matrix formalism, particle beams and phase space
+
+Circular accelerators: periodic focusing systems, transverse beam dynamics, longitudinal beam dynamics
+
+Guided tours through the ELSA accelerator of the Physics Institute and excursions to other particle accelerators (COSY, MAMI, HERA, ...) complementing the lecture
+'''
+cfLiterature = '''F. Hinterberger; Physik der Teilchenbeschleuniger und Ionenoptik (Springer Heidelberg 1997)
+
+H. Wiedemann; Particle Accelerator Physics (Springer, Heidelberg 2. Aufl. 1999)
+
+K. Wille; Physik der Teilchenbeschleuniger und Synchrotronstrahlungsquellen (Teubner, Wiesbaden 2. Aufl. 1996)
+
+D. A. Edwards, M.J. Syphers; An Introduction to the Physics of High Energy Accelerators, Wiley & Sons 1993)
+
+Script of the Lecture \"Particle Accelerators\"
+
+http://www-elsa.physik.uni-bonn.de/~hillert/Beschleunigerphysik/
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "WT"
+cfLecturer = "Profs. of experimental physics"
+cfMail = "particle@uni-bonn.de"
+cfOrder = 6120.0
+
+
+[physics618]
+cfTitle = "Physics of Particle Detectors"
+cfNum = "physics618"
+cfCP = "6"
+cfWorkload = "3+1"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Useful: physik510"
+cfFormalities = "Requirements for the examination (written or oral): successful work with the exercises"
+cfLength = "1 semester"
+cfGoals = "Understanding the basics of the physics of particle detectors, their operation and readout"
+cfContent = "Physics of detectors and detection mechanisms, interactions of charged particles and photons with matter, ionization detectors, drift and diffusion, gas filled wire chambers, proportional and drift chambers, semiconductor detectors, microstrip detectors, pixel detectors, radiation damage, cerenkov detectors, transition radiation detectors, scintillation detectors (anorganic crystals and plastic scintillators), electromagnetic calorimeters, hadron calorimeters, readout techniques, VLSI readout and noise"
+cfLiterature = '''Wermes: Skriptum and web-based Teaching Module 
+
+K. Kleinknecht; Detectors for Particle Radiation (Cambridge University Press 2nd edition 1998)
+
+W.R. Leo; Techniques for Nuclear and Particle Detection (Springer, Heidelberg 2nd ed. 1994)
+
+H. Spieler, Semiconductor detector system (Oxford University Press 2005)
+
+L. Rossi, P. Fischer, T. Rohe, N. Wermes, Pixel Detectors: From Fundamentals to Applications (Springer 2006)
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "WT"
+cfLecturer = "Profs. of experimental physics"
+cfMail = "particle@uni-bonn.de"
+cfOrder = 6121.0
+
+
+[physics632]
+cfTitle = "Physics of Hadrons"
+cfNum = "physics632"
+cfCP = "6"
+cfWorkload = "3+1"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Completed B.Sc. in Physics, with experience in electrodynamics, quantum mechanics, atomic- and nuclear physics"
+cfFormalities = "Requirements for the examination (written or oral): successful work with the exercises"
+cfLength = "1 semester"
+cfGoals = "Understanding the many-body structure of hadrons, understanding structural examinations with electromagnetic probes, introduction into experimental phenomenology"
+cfContent = '''Structure Parameters of baryons and mesons; hadronic, electromagnetic and weak probes; size, form factors and structure functions; quarks, asymptotic freedom, confinement, resonances; symmetries and symmetry breaking, hadron masses;
+
+quark models, meson and baryon spectrum; baryon spectroscopy and exclusive reactions; missing resonances, exotic states
+'''
+cfLiterature = '''B. Povh, K. Rith C. Scholz, F. Zetsche; Teilchen und Kerne (Springer, Heidelberg 6. Aufl. 2004)
+
+Perkins; Introduction to High Energy Physics (Cambridge University Press 4. Aufl. 2000)
+
+K. Gottfried, F. Weisskopf; Concepts of Particle Physics (Oxford University Press 1986)
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "ST"
+cfLecturer = "Profs. of experimental physics"
+cfMail = "particle@uni-bonn.de"
+cfOrder = 6125.0
+
+
+[physics633]
+cfTitle = "High Energy Collider Physics"
+cfNum = "physics633"
+cfCP = "6"
+cfWorkload = "3+1"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "physics611 (Particle Physics)"
+cfFormalities = "Requirements for the examination (written): successful work with the exercises"
+cfLength = "1 semester"
+cfGoals = "In depth treatment of particle physics at high energy colliders with emphasis on LHC"
+cfContent = '''Kinematics of electron-proton and proton-(anti)proton collisions,
+
+Electron-positron, electron-hadron and hadron-hadron reactions, hard scattering processes, 
+
+Collider machines (LEP, Tevatron and LHC) and their detectors (calorimetry and tracking), 
+
+the Standard Model of particle physics in the nutshell, fundamental questions posed to the LHC, spontaneous symmetry breaking and experiment, 
+
+QCD and electroweak physics with high-energy hadron colliders,
+
+Physics of the top quark, top cross section and mass measurements, 
+
+Higgs Physics at the LHC (search strategies, mass measurement, couplings), 
+
+Supersymmetry and beyond the Standard Model physics at the LHC
+
+Determination of CKM matrix elements, CP violation in K and B systems,
+
+Neutrino oscillations
+'''
+cfLiterature = '''V. D. Barger, R. Phillips; Collider Physics (Addison-Wesley 1996)
+
+R. K. Ellis, W.J. Stirling, B.R. Webber; QCD and Collider Physics (Cambridge University Press 2003)
+
+D. Green; High PT Physics at Hadron Colliders (Cambridge University Press 2004)
+
+C. Berger; Elementarteilchenphysik (Springer, Heidelberg 2nd revised edition  2006)
+
+A. Seiden; Particle Physics A Comprehensive Introduction (Benjamin Cummings 2004)
+
+T. Morii, C.S. Lim; S.N. Mukherjee Physics of the Standard Model and Beyond (World Scientific 2004)
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "ST"
+cfLecturer = "Profs. of experimental physics"
+cfMail = "particle@uni-bonn.de"
+cfOrder = 6126.0
+
+
+[physics639]
+cfTitle = "Advanced Topics in High Energy Particle Physics"
+cfNum = "physics639"
+cfCP = "6"
+cfWorkload = "3+1"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "physics611 (Particle Physics)"
+cfFormalities = "Requirements for the examination (written): successful work with the exercises."
+cfLength = "1 semester"
+cfGoals = "To discuss advanced topics of high energy particle physics which are the subject of current research efforts and to deepen understanding of experimental techniques in particle physics."
+cfContent = '''Selected topics of current research in experimental particle physics. Topics will be updated according to progress in the field. For example:
+
+- LHC highlights
+
+- CP-violation experiments
+
+- Experimental challenges in particle and astroparticle physics
+
+- Current questions in neutrino physics
+'''
+cfLiterature = '''A. Seiden; Particle Physics: A Comprehensive Introduction (Cummings 2004)
+
+R.K. Ellis, B.R. Webber, W.J. Stirling; QCD and Collider Physics (Cambridge Monographs on Particle Physics 1996)
+
+C. Burgess, G. Moore; The Standard Model: A Primer (Cambridge University Press 2006)
+
+F. Halzen, A. Martin; Quarks and Leptons (J. Wiley, Weinheim 1998)
+
+C. Berger; Elementarteilchenphysik (Springer, Heidelberg, 2. überarb. Aufl. 2006)
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "ST"
+cfLecturer = "Profs. of experimental physics"
+cfMail = "particle@uni-bonn.de"
+cfOrder = 6127.0
+
+
+[physics613]
+cfTitle = "Condensed Matter Physics"
+cfNum = "physics613"
+cfCP = "6"
+cfWorkload = "3+1"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = ""
+cfFormalities = "Requirements for the examination (written or oral): successful work with the exercises"
+cfLength = "1 semester"
+cfGoals = "Understanding of the concepts of condensed matter physics"
+cfContent = '''Crystallographic structures: Bravais lattices, Millers indices, crystallographic defects, structural analysis; Chemical bonds: van der Waals bond, covalent bond, hybridisation, ionic bond, metallic bond, Hydrogen bridge bond;
+
+Lattice vibrations: acoustic and optical phonons, specific heat, phonon-phonon interaction; 
+
+Free electrons in the solid state: free electron gas, Drude model, Fermi distribution, specific heat of the electrons;
+
+Band structure: metals, semiconductors, insulators, effective masses, mobility of charge carrier, pn-transition, basic principles of diodes, bipolar and unipolar transistors;
+
+Superconductivity: basic phenomena, Cooper pairs, BSC-theory and its consequences; 
+
+Magnetic properties: diamagnetism, Langevin-theory of paramagnetism, Pauli-paramagnetism, spontaneous magnetic order, molecular field, Heisenberg-exchange; 
+
+Nuclear solid state physics: Hyperfine interaction, Mössbauer spectroscopy, perturbed angular correlation, positron annihilation, typical applications.
+'''
+cfLiterature = '''N. W. Ashcroft , N. D. Mermin , Solid State Physics ( Brooks Cole 1976)  ISBN-13: 978-0030839931
+
+N. W. Ashcroft , N. D. Mermin, Festkörphysik (Oldenbourg 2001) ISBN-13: 978-3486248340
+
+H. Ibach, H. Lüth, Solid-State Physics (Springer 2003) ISBN-13: 978-3540438700
+
+H. Ibach, H. Lüth, Festkörperphysik (Springer 2002) ISBN-13: 978-3540427384
+
+C. Kittel, Einführung in die Festkörperphysik (Oldenbourg 2006) ISBN-13: 978-3-486-57773-5
+
+W. Demtröder, Experimentalphysik, Bd. 3. Atome, Moleküle und Festkörper (Springer 2005) ISBN-13: 978-3540214731
+
+K. Kopitzki, P. Herzog Einführung in die Festkörperphysik (Vieweg+Teubner 2007) ISBN-13: 978-3835101449
+
+L. Bergmann, C. Schaefer, R. Kassing, Lehrbuch der Experimentalphysik 6.: Festkörper  (Gruyter 2005) ISBN-13: 978-3110174854
+
+W. Buckel, R. Kleiner, Supraleitung (Wiley-VCH 2004) ISBN-13: 978-3527403486
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "WT"
+cfLecturer = "Profs. of experimental physics"
+cfMail = "cmatter@uni-bonn.de"
+cfOrder = 6130.0
+
+
+[physics615]
+cfTitle = "Theoretical Particle Physics"
+cfNum = "physics615"
+cfCP = "7"
+cfWorkload = "3+2"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = '''Advanced quantum theory (physics606)
+
+Quantum field theory (physics755)
+
+Group theory (physics751)
+'''
+cfFormalities = "Requirements for the examination (written): successful work with the exercises"
+cfLength = "1 semester"
+cfGoals = "Introduction to the standard model of elementary particle physics and its extensions (unified theories)"
+cfContent = '''Classical field theory, gauge theories, Higgs mechanism;
+
+Standard model of strong and electroweak interactions;
+
+Supersymmetry and the supersymmetric extension of the standard model;
+
+Grand unified theories (GUTs);
+
+Neutrino physics;
+
+Cosmological aspects of particle physics (dark matter, inflation)
+'''
+cfLiterature = '''T. P. Cheng, L.F. Li: Gauge theories of elementary particle physics (Clarendon Press, Oxford 1984)
+
+M. E. Peskin, D.V. Schroeder; An introduction to quantum field theory (Addison Wesley, 1995)
+
+J. Wess; J. Bagger; Supersymmetry and supergravity (Princeton University Press 1992)
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "WT"
+cfLecturer = "Profs. of theoretical physics"
+cfMail = "theophys@uni-bonn.de"
+cfOrder = 6150.0
+
+
+[physics616]
+cfTitle = "Theoretical Hadron Physics"
+cfNum = "physics616"
+cfCP = "7"
+cfWorkload = "3+2"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = '''Advanced quantum theory (physics606)
+
+Quantum field theory (physics755)
+
+Group theory (physics751)
+'''
+cfFormalities = "Requirements for the examination (written): successful work with the exercises"
+cfLength = "1 semester"
+cfGoals = "Introduction to the theory of strong interaction, hadron structure and dynamics"
+cfContent = '''Meson and Baryon Spectra: Group theoretical Classification, Simple Quark Models
+
+Basics of Quantum Chromodynamics: Results in Perturbation Theory
+
+Effective Field Theory
+
+Bethe-Salpeter Equation
+'''
+cfLiterature = '''F. E. Close, An Introduction to Quarks and Partons (Academic Press 1980)
+
+F. Donoghue, E. Golowich, B.R. Holstein; Dynamics of the Standard Model (Cambridge University Press 1994)
+
+C. Itzykson, J.-B. Zuber; Quantum Field Theory (Dover Publications 2005)
+
+S. Weinberg; The Quantum Theory of Fields (Cambridge University Press 1995)
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "WT"
+cfLecturer = "Profs. of theoretical physics"
+cfMail = "theophys@uni-bonn.de"
+cfOrder = 6160.0
+
+
+[physics617]
+cfTitle = "Theoretical Condensed Matter Physics"
+cfNum = "physics617"
+cfCP = "7"
+cfWorkload = "3+2"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = '''Advanced Quantum Theory (physics606)
+
+Quantum Field Theory (physics755)
+
+Group theory (physics751)
+'''
+cfFormalities = "Requirements for the examination (written): successful work with the exercises"
+cfLength = "1 semester"
+cfGoals = "Introduction to the theoretical standard methods and understanding important phenomena in the Physics of Condensed Matter"
+cfContent = '''Crystalline Solids: Lattice structure, point groups, reciprocal lattice
+
+Elementary excitations of a crystal lattice: phonons
+
+Electrons in a lattice; Bloch theorem, band structure
+
+Fermi liquid theory
+
+Magnetism
+
+Symmetries and collective excitations in solids
+
+Superconductivity
+
+Integer and fractional quantum Hall effects
+'''
+cfLiterature = '''N. W. Ashcroft, N.D. Mermin, Solid State Physics (Saunders College 1976)
+
+P. M. Chaikin, T.C. Lubensky; Principles of Condensed Matter Physics (Cambridge University Press 1997)
+
+W. Nolting; Grundkurs Theoretische Physik Band 7: Vielteilchentheorie (Springer, Heidelberg 2002)
+
+Ch. Kittel; Quantentheorie der Festkörper (Oldenburg Verlag, München 3. Aufl. 1989)
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "WT"
+cfLecturer = "Profs. of theoretical physics"
+cfMail = "theophys@uni-bonn.de"
+cfOrder = 6170.0
+
+
+[TheoSolidSt]
+cfTitle = "Solid State Theory I"
+cfNum = "TheoSolidSt"
+cfCP = "6"
+cfWorkload = "3+1"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "training in theoretical physics at the B.Sc. level, experimental solid state physics"
+cfFormalities = "written or oral examination"
+cfLength = "1 semester"
+cfGoals = "this course gives an introduction to the physics of electrons and phonons in solids together with theoretical concepts and techniques as applied to these systems."
+cfContent = "The lecture investigates basic concepts to describe solids and their excitations. Various applications are discussed with emphasis on experimental and theoretical research directions of the physics department in Cologne."
+cfLiterature = "Ashcroft/ Mermin: \"Solid State Physics\""
+cfKindShort = "Lect. + ex."
+cfSemester = "WT"
+cfLecturer = "Achim Rosch"
+cfMail = "rosch@thp.uni-koeln.de"
+cfOrder = 6175.0
+
+
+[physics636]
+cfTitle = "Advanced Theoretical Particle Physics"
+cfNum = "physics636"
+cfCP = "7"
+cfWorkload = "3+2"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Theoretical Particle Physics (physics615)"
+cfFormalities = "Requirements for the examination (written): successful work with the"
+cfLength = "1 semester"
+cfGoals = "Survey of methods of theoretical high energy physics beyond the standard model, in particular supersymmetry and extra dimensions in regard to current research"
+cfContent = '''Introduction to supersymmetry and supergravity,
+
+Supersymmetric extension of the electroweak standard model,
+
+Supersymmetric grand unification,
+
+Theories of higher dimensional space-time,
+
+Unification in extra dimensions
+'''
+cfLiterature = '''J. Wess; J. Bagger; Supersymmetry and supergravity (Princeton University Press 1992)
+
+H. P. Nilles, Supersymmetry, Supergravity and Particle Physics, Physics Reports 110 C (1984) 1
+
+D. Bailin; A. Love; Supersymmetric Gauge Field Theory and String Theory (IOP Publishing Ltd. 1994)
+
+M. F. Sohnius; Introducing supersymmtry, (Phys.Res. 128 C (1985) 39)
+
+P. Freund; Introduction to Supersymmetry (Cambridge University Press 1995)
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "ST"
+cfLecturer = "Profs. of theoretical physics"
+cfMail = "theophys@uni-bonn.de"
+cfOrder = 6180.0
+
+
+[physics637]
+cfTitle = "Advanced Theoretical Hadron Physics"
+cfNum = "physics637"
+cfCP = "7"
+cfWorkload = "3+2"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "physics616 (Theoretical Hadron Physics)"
+cfFormalities = "Requirements for the examination (written): successful work with the exercises"
+cfLength = "1 semester"
+cfGoals = "Survey of methods of theoretical hadron physics in regard to current research"
+cfContent = '''Quantum Chromodynamics: Nonperturbative Results, Confinement
+
+Lattice Gauge Theory
+
+Chiral Perturbation Theory
+
+Effective Field Theory for Heavy Quarks
+'''
+cfLiterature = '''F. E. Close; An Introduction Quarks and Partons (Academic Press 1980)
+
+F. Donoghue, E. Golowich, B. R. Holstein, Dynamics of the Standard Model (Cambridge University Press 1994)
+
+C. Itzykson, J.-B. Zuber; Quantum Field Theory (Dover Publications 2006)
+
+A. V. Manohar, M. B. Wise; Heavy Quark Physics (Cambridge University Press 2000)
+
+S. Weinberg; The Quantum Theory of Fields (Cambridge University Press 1995)
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "ST"
+cfLecturer = "Profs. of theoretical physics"
+cfMail = "theophys@uni-bonn.de"
+cfOrder = 6190.0
+
+
+[physics638]
+cfTitle = "Advanced Theoretical Condensed Matter Physics"
+cfNum = "physics638"
+cfCP = "7"
+cfWorkload = "3+2"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "physics617 (Theoretical Condensed Matter Physics)"
+cfFormalities = "Requirements for the examination (written): successful work with the exercises"
+cfLength = "1 semester"
+cfGoals = "Survey of methods of theoretical condensed matter physics and their application to prominent examples in regard to current research"
+cfContent = '''Bosonic systems:
+
+Bose-Einstein condensation
+
+Photonics
+
+
+
+Quantum dynamics of many-electrons systems:
+
+Feynman diagram technique for many-particle systems at finite temperature
+
+Quantum magnetism, Kondo effect, Renormalization group techniques
+
+Disordered systems: Electrons in a random potential
+
+Superconductivity
+'''
+cfLiterature = '''A. A. Abrikosov, L.P. Gorkov; Methods of Quantum Field Theory in Statistical Physics (Dover, New York 1977)
+
+W. Nolting; Grundkurs Theoretische Physik Band 7: Vielteilchentheorie (Springer, Heidelberg 2002)
+
+A. C. Hewson, The Kondo Problem to Heavy Fermions (Cambridge University Press, 1997)
+
+C. Itzykson, J.-M. Drouffe; Statistical Field Theory (Cambridge University Press 1991)
+
+J. R. Schrieffer; Theory of Superconductivity (Benjamin/Cummings, Reading/Mass, 1983)
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "ST"
+cfLecturer = "Profs. of theoretical physics"
+cfMail = "theophys@uni-bonn.de"
+cfOrder = 6200.0
+
+
+[physics620]
+cfTitle = "Advanced Atomic, Molecular, and Optical Physics"
+cfNum = "physics620"
+cfCP = "6"
+cfWorkload = "3+1"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Fundamentals of Quantum Mechanics, Atomic Physics"
+cfFormalities = "Requirements for the examination (written or oral): successful work within the exercises"
+cfLength = "1 semester"
+cfGoals = "The aim of the course is to give the students a deeper insight to the field of atomic, molecular and optical (AMO) physics. Building on prior knowledge from the Bachelor courses it will cover advanced topics of atomic and molecular physics, as well as the interaction of light and matter."
+cfContent = '''Atomic physics: Atoms in external fields; QED corrections: Lamb-Shift; Interaction of light and matter: Lorentz oscillator, selection rules; magnetic resonance; Coherent control
+
+
+
+Molecular physics: Hydrogen Molecule; Vibrations and rotations of molecules; Hybridization of molecular orbitals; Feshbach Resonances; Photoassociation; Cold Molecules
+
+
+
+Bose Condensation; Matterwave Optics
+'''
+cfLiterature = '''C. J. Foot, Atomic Physics, Oxford University Press 2005
+
+H. Haken, The physics of atoms and quanta, Springer 1996
+
+S. Svanberg, Atomic and molecular spectroscopy basic aspects and practical applications, Springer 2001
+
+W. Demtröder, Molecular Physics, Wiley VCH 2005
+
+T. Buyana, Molecular physics, World Scientific 1997
+
+W. Demtröder, Atoms, Molecules and Photons, Springer 2010
+
+P, Meystre, Atom Optics, Springer 2010
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "WT"
+cfLecturer = "Profs. of experimental physics"
+cfMail = "optics@uni-bonn.de"
+cfOrder = 6200.0
+
+
+[physics631]
+cfTitle = "Quantum Optics"
+cfNum = "physics631"
+cfCP = "6"
+cfWorkload = "3+1"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = ""
+cfFormalities = '''Examination written or oral (announced at the beginning of the module).
+
+Prerequisite for participation in the exam:  successful work within the exercises.
+'''
+cfLength = "1 semester"
+cfGoals = "Make the students understand quantum optics and enable them to practically apply their knowledge in research and development."
+cfContent = '''Quantization of the electromagnetic field, single-mode quantum optics
+
+Representations of the light field; Quasi-probabilities
+
+Coherence, correlation functions;
+
+Nonclassical light
+
+Interaction of quantized radiation and atoms;
+
+Introduction to quantum information
+'''
+cfLiterature = '''R. Loudon; The quantum theory of light (Oxford University Press 2000)
+
+G. J. Milburn, D. F. Walls; Quantum Optics (Springer 1994)
+
+C. Gerry, P. Knight; Introductory quantum optics (Cambridge University Press 2004)
+
+D. Meschede; Optics, Light and Lasers (Wiley-VCH, 3rd ed. 2017)
+
+M. O. Scully, M. S. Zubairy; Quantum Optics (Cambridge 1997)
+
+P. Meystre, M. Sargent; Elements of Quantum Optics (Springer 1999)
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "WT"
+cfLecturer = "Profs. of experimental physics"
+cfMail = "optics@uni-bonn.de"
+cfOrder = 6310.0
+
+
+["CondMatter I"]
+cfTitle = "Condensed Matter Physics I"
+cfNum = "CondMatter I"
+cfCP = "6"
+cfWorkload = "3+1"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Basic knowledge in condensed matter physics and quantum mechanics"
+cfFormalities = "Oral or written examination"
+cfLength = "2 semesters"
+cfGoals = "Comprehensive introduction to the basic principles of solid state physics and to some experimental methods. Examples of current research will be discussed."
+cfContent = '''The entire course (Condensed Matter I & II, given in 2 semesters) covers the following topics: 
+
+Crystal structure and binding
+
+Reciprocal space
+
+Lattice dynamics and thermal properties
+
+Electronic structure (free-electron gas, Fermi surface, band structure)
+
+Semiconductors and metals
+
+Transport properties
+
+Dielectric function and screening
+
+Superconductivity
+
+Magnetism
+'''
+cfLiterature = '''Skriptum (available during the course)
+
+Ashcroft/Mermin: Solid State Physics 
+
+Kittel: Introduction to Solid State Physics
+
+Ibach/Lüth: Festkörperphysik
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "WT"
+cfLecturer = "Braden, Grüninger, Michely, Hemberger, Lorenz"
+cfMail = "grueninger@ph2.uni-koeln.de"
+cfOrder = 6320.0
+
+
+["MolPhys I"]
+cfTitle = "Molecular Physics I"
+cfNum = "MolPhys I"
+cfCP = "6"
+cfWorkload = "3+1"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Atomic Physics, Molecular Physics and Quantum Mechanics at the level of the bachelor courses in physics"
+cfFormalities = "Oral Examination"
+cfLength = "1 semester"
+cfGoals = '''In the first part of the core courses the students learn the main concepts of molecular physics: separation of electronic, vibrational and rotational motion. Simple molecular spectra can be analyzed on the basis of the problem class. Fundamental group theory is used to predict vibrational and rotational spectra of more complex molecules.
+
+
+
+This module prepares for topics of current research in molecular physics and provides the basis for the preparation of the master thesis.
+'''
+cfContent = '''- Basics of molecular spectroscopy, phenomenology, diatomic molecules
+
+- Born-Oppenheimer Approximation, separation of rotation and vibration 
+
+- Molecular Dipole moment and rotational transitions
+
+- Rotational spectra and the rigid rotor approach
+
+- Selection rules, parallel and perpendicular type spectra 
+
+- Nuclear spin statistics 
+
+- Hyperfine structure of molecular lines
+'''
+cfLiterature = '''Bernath, \"Spectra of Atoms and Molecules\", Oxford University Press)
+
+Townes Schawlow, \"Microwave Spectroscopy\" (Dover Publications)
+
+Gordy & Cook, Microwave Spectra\" (Wiley)
+
+Engelke, \"Aufbau der Moleküle\" (Teubner) 
+
+P. R. Bunker and Per Jensen: \"Molecular Symmetry and Spectroscopy, 2nd Edition\", ( NRC Research Press, Ottawa)
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "WT"
+cfLecturer = "Stephan Schlemmer, Thomas Giesen"
+cfMail = "schlemmer@ph1.uni-koeln.de, giesen@ph1.uni-koeln.de"
+cfOrder = 6330.0
+
+
+[physics634]
+cfTitle = "Magnetism/Superconductivity"
+cfNum = "physics634"
+cfCP = "6"
+cfWorkload = "3+1"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = ""
+cfFormalities = "Requirements for the examination (written): successful work with the exercises"
+cfLength = "1 semester"
+cfGoals = "To give an introduction to the standard theories of both fields as major example of collective phenomena in condensed-matter physics and comparison with experiments"
+cfContent = '''Magnetism:
+
+orbital and spin magnetism without interactions, exchange interactions, phase transitions, magnetic ordering and domains, magnetism in 1-3 dimensions, spin waves (magnons), itinerant magnetism, colossal magnetoresistance
+
+Superconductivity:
+
+macroscopic aspects, type I and type II superconductors, Ginzburg-Landau theory, BCS theory, Josephson effect, superfluidity, high-temperature superconductivity
+'''
+cfLiterature = '''L. P. Lévy: Magnetism and superconductivity (Springer; Heidelberg 2000)
+
+P. Mohn: Magnetism in the Solid State - An Introduction (Springer, Heidelberg 2005)
+
+J. Crangle: Solid State Magnetism, Van Nostrand Reinhold (Springer, New York 1991)
+
+C. N. R. Rao, B. Raveau: Colossal Magnetoresistance [...] of Manganese Oxides (World Scientific 2004)
+
+J. F. Annett: Superconductivity, super fluids and condensates (Oxford University Press 2004)
+
+A. Mourachkine: High-Temperature Superconductivity in Cuprates [...] (Springer/Kluwer, Berlin 2002)
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "ST"
+cfLecturer = "Profs. of experimental physics"
+cfMail = "cmatter@uni-bonn.de"
+cfOrder = 6340.0
+
+
+[physics641]
+cfTitle = "Photonics"
+cfNum = "physics641"
+cfCP = "6"
+cfWorkload = "3+1"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = ""
+cfFormalities = '''Examination written or oral (announced at the beginning of the module).
+
+Prerequisite for participation in the exam:  successful work within the exercises.
+'''
+cfLength = "1 semester"
+cfGoals = "The lecture conveys the physical and technological foundations of laser-based photonics, and enables the students to practically apply their knowledge in research and development."
+cfContent = '''Foundations: Advanced geometric and wave optics, Fourier optics;
+
+Active and passive devices (Acoustooptics, electrooptics, detectors, imaging)
+
+Advanced optics: Waveguides, Fibers; Photonic Crystals; Metamaterials; Resonators
+
+Laser physics: Light-matter-interaction, principles, operation modes and properties
+
+Nonlinear optics: Second- and third order processes, parametric oscillators, phase matching
+'''
+cfLiterature = '''D. Meschede; Optics, Light and Lasers (Wiley-VCH, 3rd ed. 2017)
+
+A. Yariv; Photonics: Optical Electronics in Modern Communications (Oxford Univ. Press 6th edition 2006)
+
+B. Saleh, M. Teich; Fundamentals of Photonics (John Wiley & Sons, New York, 1991)
+
+C. Yeh; Applied Photonics (Academic Press, 1994)
+
+R. Menzel; Photonics (Springer, Berlin 2001)
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "ST"
+cfLecturer = "Profs. of experimental physics"
+cfMail = "optics@uni-bonn.de"
+cfOrder = 6410.0
+
+
+[physics642]
+cfTitle = "Quantum Technology"
+cfNum = "physics642"
+cfCP = "6"
+cfWorkload = "3+1"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Quantum mechanics,"
+cfFormalities = '''Examination written or oral (announced at the beginning of the module).
+
+Prerequisite for participation in the exam:  successful work within the exercises.
+'''
+cfLength = "1 semester"
+cfGoals = "The aim of the course is to introduce the students to modern applications of quantum physics. Both fundamental concepts of quantum technology as well as platforms for the implementation will be discussed."
+cfContent = '''Basics of quantum information: Qubits, entanglement, EPR-tests
+
+Quantum communication: Cryptography, teleportation
+
+Quantum computing: circuit computation, paradigms, exotic computation
+
+Quantum simulation
+
+Quantum-enhanced metrology
+
+Selected platforms: Ultracold atoms, single emitters, photonics
+'''
+cfLiterature = '''S. M Barnett, Quantum information (Oxford University Press 2012)
+
+M.A. Nielsen, I.L. Chuang, Quantum computation and quantum information (Cambridge 2010)
+
+E. Göbel, U. Siegner, Quantum Metrology (Wiley VCH,2015)
+
+W. Nawrocki, Introduction to Quantum Metrology (Springer 2019)
+
+M. Lewenstein, A. Sanpera, V. Ahufinger, Ultracold atoms in optical lattices Simulating quantum many-body systems (Oxford University Press 2012)
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "ST"
+cfLecturer = "Profs. of experimental physics"
+cfMail = "optics@uni-bonn.de"
+cfOrder = 6420.0
+
+
+["MolPhys II"]
+cfTitle = "Molecular Physics II"
+cfNum = "MolPhys II"
+cfCP = "6"
+cfWorkload = "3+1"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Atomic Physics, Molecular Physics and Quantum Mechanics at the level of the bachelor courses in physics, Molecular Physics I"
+cfFormalities = "Oral Examination"
+cfLength = "1 semester"
+cfGoals = '''In the second part of the core courses more complex issues of molecular spectra are introduced. The students will be enabled to analyze spectra of complex molecules which are subject to couplings between electronic, vibrational and rotational motions. 
+
+In the special courses basic and advanced molecular physics are applied to atmospherical and astronomical environments.
+
+This module prepares for topics of current research in molecular physics and provides the basis for the preparation of the master thesis.
+'''
+cfContent = '''-  Vibrational modes of polyatomic molecules
+
+-  Fundamentals of point group symmetry
+
+-  Vibrational dipole moment and selection rules
+
+-  Characteristic ro-vibrational spectra of selected molecules
+
+-  Breakdown of Born-Oppenheimer Approximation
+
+-  Coupling of rotation and vibration
+
+-  Coupling of angular momenta in molecular physics
+'''
+cfLiterature = '''Bernath, \"Spectra of Atoms and Molecules\", Oxford University Press)
+
+Townes Schawlow, \"Microwave Spectroscopy\" (Dover Publications)
+
+Gordy & Cook, Microwave Spectra\" (Wiley)
+
+Engelke, \"Aufbau der Moleküle\" (Teubner) 
+
+P. R. Bunker and Per Jensen: \"Molecular Symmetry and Spectroscopy, 2nd Edition\", ( NRC Research Press, Ottawa)
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "ST"
+cfLecturer = "Stephan Schlemmer, Thomas Giesen"
+cfMail = "schlemmer@ph1.uni-koeln.de, giesen@ph1.uni-koeln.de"
+cfOrder = 6430.0
+
+
+[physics711]
+cfTitle = "Particle Astrophysics and Cosmology (E)"
+cfNum = "physics711"
+cfCP = "6"
+cfWorkload = "3+1"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "physics611 (Particle Physics), useful: Lectures Observational Astronomy"
+cfFormalities = "Requirements for the examination (written): successful work with the exercises"
+cfLength = "1 semester"
+cfGoals = "Basics of particle astrophysics and cosmology"
+cfContent = '''Observational Overview (distribution of galaxies, redshift, Hubble expansion,  CMB, cosmic distance latter, comoving distance, cosmic time, comoving distance and redshift, angular size and luminosity distance); Standard Cosmology (cosmological principle, expansion scale factor, curved space-time, horizons, Friedmann-Equations, cosmological constant, cosmic sum rule, present problems); Particle Physics relevant to cosmology (Fundamental Particles and their Interactions, quantum field theory and Lagrange formalism, Gauge Symmetry, spontaneous symmetry breaking and Higgs mechanism, parameters of the Standard Model, Running Coupling Constants, CP Violation and Baryon Asymmetry, Neutrinos); Thermodynamics in the Universe (Equilibrium Thermodynamics and freeze out, First Law and Entropy, Quantum Statistics, neutrino decoupling, reheating, photon decoupling); Nucleosynthesis (Helium abundance, Fusion processes, photon/baryon ratio)
+
+Dark Matter (Galaxy Rotation Curves, Clusters of Galaxies, Hot gas, Gravitational lensing, problems with Cold Dark Matter Models, Dark Matter Candidates); Inflation and Quintessence; Cosmic Microwave Background (origin, intensity spectrum, CMB anisotropies, Temperature correlations, power spectrum, cosmic variance, density and temperature fluctuations, causality and changing horizons, long and short wavelength modes, interpretation of the power spectrum)
+'''
+cfLiterature = '''A. Liddle; An Introduction to Modern Cosmology (Wiley & Sons 2. Ed. 2003)
+
+E. Kolb, M. Turner; The Early Universe (Addison Wesley 1990)
+
+J. Peacock; Cosmological Physics (Cambridge University Press 1999)
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "WT"
+cfLecturer = "Profs. of experimental physics and astronomy"
+cfMail = "particle@uni-bonn.de"
+cfOrder = 7110.0
+
+
+[physics715]
+cfTitle = "Experiments on the Structure of Hadrons (E)"
+cfNum = "physics715"
+cfCP = "4"
+cfWorkload = "2+1"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Completed B.Sc. in Physics, with experience in quantum mechanics, atomic- and nuclear physics"
+cfFormalities = "Requirements for the examination (written or oral): successful work with the exercises"
+cfLength = "1 semester"
+cfGoals = "Understanding the structure of the nucleon, understanding experiments on baryon-spectroscopy, methods of identifying resonance contributions, introduction into current issues in meson-photoproduction"
+cfContent = "Discoveries in hadron physics, quarks, asymptotic freedom and confinement; multiplets, symmetries, mass generation; quark models, baryon spectroscopy, formation and decay of resonances, meson photoproduction; hadronic molecules and exotic states"
+cfLiterature = '''Perkins, Introduction to High Energy Physics (Cambridge University Press 4. Aufl. 2000)
+
+K. Gottfried, F. Weisskopf; Concepts of Particle Physics (Oxford University Press 1986)
+
+A. Thomas, W. Weise, The Structure of the Nucleon (Wiley-VCH, Weinheim, 2001)
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "WT"
+cfLecturer = "Profs. of experimental physics"
+cfMail = "particle@uni-bonn.de"
+cfOrder = 7150.0
+
+
+[physics716]
+cfTitle = "Statistical Methods of Data Analysis (E)"
+cfNum = "physics716"
+cfCP = "4"
+cfWorkload = "2+1"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = ""
+cfFormalities = "Requirements for the examination (written): successful work with the exercises"
+cfLength = "1 semester"
+cfGoals = "Provide a foundation in statistical methods and give some concrete examples of how the methods are applied to data analysis in particle physics experiments"
+cfContent = "Fundamental concepts of statistics, probability distributions, Monte Carlo methods, fitting of data, statistical and systematic errors, error propagation, upper limits, hypothesis testing, unfolding"
+cfLiterature = '''R. Barlow: A Guide to the Use of Statistical Methods in the Physical Sciences; J. Wiley Ltd.  Wichester 1993
+
+S. Brandt: Datenanalyse (Spektrum Akademischer Verlag, Heidelberg 4. Aufl. 1999)
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "ST"
+cfLecturer = "Profs. of experimental physics"
+cfMail = "particle@uni-bonn.de"
+cfOrder = 7160.0
+
+
+[physics717]
+cfTitle = "High Energy Physics Lab (E)"
+cfNum = "physics717"
+cfCP = "4"
+cfWorkload = ""
+cfKind = "Laboratory"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Recommended: B.Sc. in physics, physics611 (Particle Physics) or physics618 (Physics of Particle Detectors)"
+cfFormalities = "Credit points can be obtained after completion of a written report or, alternatively, a presentation in a meeting of the research group."
+cfLength = "4-6 weeks"
+cfGoals = "This is a research internship in one of the high energy physics research groups which prepare and carry out experiments at external accelerators. The students deepen their understanding of particle and/or detector physics by conducting their own small research project as a part-time member of one of the research groups. The students learn methods of scientific research in particle physics data analysis, in detector development for future colliders or in biomedical imaging (X-FEL) and present their work at the end of the project in a group meeting."
+cfContent = '''Several different topics are offered among which the students can choose. Available projects can be found at http://heplab.physik.uni-bonn.de. For example:
+
+- Analysis of data from one of the large high energy physics experiments (ATLAS, DØ, ZEUS)
+
+- Investigation of low-noise semiconductor detectors using cosmic rays, laser beams or X-ray tubes
+
+- Study of particle physics processes using simulated events
+
+- Signal extraction and data mining with advanced statistical methods (likelihoods, neural nets or boosted
+
+decision trees)
+'''
+cfLiterature = "Will be provided by the supervisor"
+cfKindShort = "Laboratory"
+cfSemester = "WT/ST"
+cfLecturer = "Profs. of experimental physics"
+cfMail = "particle@uni-bonn.de"
+cfOrder = 7170.0
+
+
+[physics719]
+cfTitle = "Intensive Week: Advanced Topics in High Energy Physics (E)"
+cfNum = "physics719"
+cfCP = "3"
+cfWorkload = "2"
+cfKind = "Combined lecture, seminar, lab course"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Fundamentals of particle physics"
+cfFormalities = "Seminar talk"
+cfLength = "1 - 2 weeks"
+cfGoals = "This course is about an advanced, current topic in particle physics. The students will gain insights into recent developments in particle physics and participate in lectures, seminars talks and laboratory projects."
+cfContent = "As announced in the course catalogue. The main topic will vary from semester to semester."
+cfLiterature = "Will be given in the lecture."
+cfKindShort = ""
+cfSemester = "WT/ST"
+cfLecturer = "Profs. of experimental physics"
+cfMail = "particle@uni-bonn.de"
+cfOrder = 7190.0
+
+
+[physics720]
+cfTitle = "Physics with Antiprotons (E)"
+cfNum = "physics720"
+cfCP = "3"
+cfWorkload = "2"
+cfKind = "Lecture"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Completed B.Sc. in Physics, with experience in quantum mechanics, atomic- and nuclear physics"
+cfFormalities = "Written or oral examination"
+cfLength = "1 semester"
+cfGoals = "Insight in current research topics with antiprotons, understanding experimental methods in particle and nuclear physics, understanding interrelations between different fields of physics such as hadron physics, (astro-)particle physics, atomic physics"
+cfContent = "Matter-antimatter asymmetry, test of the standard model, anti-hydrogen, anti-protonic atoms, antiproton beams, key issues in hadron physics with antiprotons, planned research facilities (FAIR) and experiments (PANDA)"
+cfLiterature = '''B. Povh, K. Rith, C. Scholz, F. Zetsche; Teilchen und Kerne (Springer, Heidelberg 8. Aufl. 2009)
+
+D.H. Perkins; Introduction to High Energy Physics (Cambridge University Press 4. Aufl. 2000)
+
+further literature will be given in the lecture
+'''
+cfKindShort = "Lecture"
+cfSemester = "WT"
+cfLecturer = "Profs. of experimental physics"
+cfMail = "particle@uni-bonn.de"
+cfOrder = 7200.0
+
+
+[physics721]
+cfTitle = "Intensive Week: Advanced Topics in Hadron Physics (E)"
+cfNum = "physics721"
+cfCP = "4"
+cfWorkload = "3"
+cfKind = "Combined lecture, seminar, lab course"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Fundamentals of hadron physics"
+cfFormalities = "Presentation, working group participation"
+cfLength = "1 - 2 weeks"
+cfGoals = "This course will convey recent topics in hadron physics. Guided by lectures, original publications and tutors, the students will prepare a proposal for a planned or recent experiment. The class will not only focus on the experimental aspects, but also on the theoretical motivation for the experiment."
+cfContent = "As announced in the course catalogue. The main topics will vary from semester to semester."
+cfLiterature = "Will be given in the lecture"
+cfKindShort = ""
+cfSemester = "WT/ST"
+cfLecturer = "Profs. of experimental and theoretical physics"
+cfMail = "particle@uni-bonn.de"
+cfOrder = 7210.0
+
+
+[physics722]
+cfTitle = "Advanced Gaseous Detectors - Theory and Practice (E)"
+cfNum = "physics722"
+cfCP = "6"
+cfWorkload = "3+1"
+cfKind = "Lecture with laboratory"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Completed B.Sc. in physics, with experience in electrodynamics, quantum mechanics, nuclear and particle physics, physics618 (Physics of Particle Detectors)"
+cfFormalities = "Requirements for the examination (written or oral): submission of report"
+cfLength = "1 semester"
+cfGoals = '''- Design, construction, commissioning and characterization of a modern gaseous particle detector
+
+- Simulations: GARFIELD, GEANT, FE-Methods, etc.
+
+- Signals, Readout electronics and Data Acquisition
+
+- Data analysis: pattern recognition methods, track fitting
+
+- Scientific writing: report
+'''
+cfContent = '''- Signal formation in detectors
+
+- Microscopic processes in gaseous detectors
+
+- Readout electronics 
+
+- Tools for detector design and simulation
+
+- Performance criteria
+
+- Laboratory course: commissioning of detector with sources, beam test at accelerator
+
+- Track reconstruction
+'''
+cfLiterature = '''http://root.cern.ch
+
+http://garfieldpp.web.cern.ch/garfieldpp/
+
+Blum, Rolandi, Riegler: Particle Detection with Drift Chambers
+
+Spieler: Semiconductor Detector Systems
+'''
+cfKindShort = ""
+cfSemester = "ST"
+cfLecturer = "Profs. of experimental physics"
+cfMail = "exphysik@uni-bonn.de"
+cfOrder = 7220.0
+
+
+[physics724]
+cfTitle = "Advanced Methods of Data Analysis (E)"
+cfNum = "physics724"
+cfCP = "4"
+cfWorkload = "2+1"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = "The course builds on the knowledge taught in physics716 Statistical Methods of Data Analysis and is designed as a follow-up course. Participants need to have a working knowledge of the basics of statistical data analysis, including parameter estimation and statistical tests."
+cfPreparation = "Students should have a basic knowledge of either C++ or python programming languages. There will be opportunity during the course to develop programming skills through applications of data analysis."
+cfFormalities = "The examination can be done either through a written exam or by written term papers as communicated at the beginning of the course."
+cfLength = "1 semester"
+cfGoals = "This course teaches advanced techniques of statistical data analysis. Its goal is to enable the participants to contribute to state of the art data analysis projects, for example during their master thesis, and to enable them to conduct their own research into statistical data analysis methods."
+cfContent = '''Parametric likelihood fits, constraint optimisation, state space models, non-parametric density estimation, unfolding, model validation, introduction to machine learning, classification, adaptive basis function models, ensemble learning, deep generative models
+
+
+
+Examples from high energy and hadronic physics.
+'''
+cfLiterature = '''Elements of statistical learning, 2nd Edition, Hastie, Tibshirani & Friedman, Springer 2017
+
+Data Analysis in High Energy Physics, Behnke et Al. , Wiley-VCH 2013
+
+Statistical Analysis Techniques in Particle Physics, Narsky & Porter, Wiley-VCH 2013
+
+Machine Learning, A Probabilistic Perspective, Murphy, MIT Press 2012
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "WT/ST"
+cfLecturer = "Profs. of experimental physics"
+cfMail = "particle@uni-bonn.de"
+cfOrder = 7240.0
+
+
+[physics735]
+cfTitle = "Laser Cooling and Matter Waves (E)"
+cfNum = "physics735"
+cfCP = "3"
+cfWorkload = "2"
+cfKind = "Lecture"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Basic thermodynamics: fundamentals of quantum mechanics, fundamentals of solid state physics"
+cfFormalities = "Written or oral examination"
+cfLength = "1 semester"
+cfGoals = "The in-depth lecture shows, in theory and experiments, the fundamentals of laser cooling. The application of laser cooling in atom optics, in particular for the preparation of atomic matter waves, is shown. New results in research with degenerated quantum gases enable us to gain insight into atomic many particle physics"
+cfContent = "Outline: Light-matter interaction; mechanic effects of light; Doppler cooling; polarization gradient cooling, magneto-optical traps; optical molasses; cold atomic gases; atom interferometry; Bose-Einstein condensation of atoms; atom lasers; Mott insulator phase transitions; mixtures of quantum gases; fermionic degenerate gases"
+cfLiterature = "P. v. d. Straten, H. Metcalf; Laser Cooling (Springer, Heidelberg 1999)"
+cfKindShort = "Lecture"
+cfSemester = "WT/ST"
+cfLecturer = "Profs. of experimental physics"
+cfMail = "optics@uni-bonn.de"
+cfOrder = 7350.0
+
+
+[physics737]
+cfTitle = "Intensive Week: Advanced Topics in Photonics and Quantum Optics (E)"
+cfNum = "physics737"
+cfCP = "4"
+cfWorkload = "3"
+cfKind = "Combined lecture, seminar, lab course"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Fundamentals of optics, fundamentals of quantum mechanics"
+cfFormalities = "Seminar or oral examination"
+cfLength = "1 - 2 weeks"
+cfGoals = "The intensive course will convey the basics of a recent topic in photonics or quantum optics in theory and experiments. Guided by a combination of lectures, seminar talks (based on original publications) and practical training, the participants will gain insight into recent developments in photonics/quantum optics."
+cfContent = "Will be given in the bulletin of lectures. The main theme will vary from term to term"
+cfLiterature = "Will be given in the lecture"
+cfKindShort = "Lect. + lab. + sem."
+cfSemester = "WT/ST"
+cfLecturer = "Profs. of experimental physics"
+cfMail = "optics@uni-bonn.de"
+cfOrder = 7370.0
+
+
+[physics738]
+cfTitle = "Lecture on Advanced Topics in Quantum Optics (E)"
+cfNum = "physics738"
+cfCP = "4"
+cfWorkload = "2+1"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Fundamentals of Quantum Mechanics, Atomic Physics"
+cfFormalities = "Requirements for the examination (written or oral): successful work within the exercises"
+cfLength = "1 semester"
+cfGoals = "The goal of the course is to introduce the students to a special field of research in  quantum optics. New research results will be presented and their relevance is discussed."
+cfContent = "Will be given in the bulletin of lectures. The main theme will vary from term to term"
+cfLiterature = "Will be given in the lecture"
+cfKindShort = "Lect. + ex."
+cfSemester = "WT/ST"
+cfLecturer = "Profs. of experimental physics"
+cfMail = "optics@uni-bonn.de"
+cfOrder = 7380.0
+
+
+[physics743]
+cfTitle = "Platforms for Quantum Technologies (E)"
+cfNum = "physics743"
+cfCP = "5"
+cfWorkload = "2 weeks fulltime"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Major courses of the 1st MSc term, for example, \"Advanced Atomic, Molecular and Optical Physics\", \"Quantum Optics\", \"Advanced Quantum Theory\", \"Theoretical Condensed Matter Physics\""
+cfFormalities = "written exam"
+cfLength = "2 weeks"
+cfGoals = "Students receive an introduction into quantum technologies both theoretically and experimentally. Focus is on the theoretical foundations of quantum information processing, and experimental platforms primarily used in Bonn (Atomic, molecular and optical systems), Cologne (topological materials) and Aachen (spin & superconducting architectures) in the context of the Excellence Cluster ML4Q."
+cfContent = '''1. Basics of quantum information processing 
+
+2. Atomic, molecular and optical platforms, quantum simulation 
+
+3. Solid-state platforms. Focus on quantum computation. Spin qubits, superconducting qubits; 
+
+4. Topological platforms, Topological materials, Topological architectures
+'''
+cfLiterature = '''Nielsen & Chuang \"Quantum information processing\"
+
+Pethick/Smith \"Bose-Einstein condensation\"
+
+Lecture notes will be distributed for selected topics
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "WT/ST"
+cfLecturer = "Profs. of experimental physics"
+cfMail = "exphysik@uni-bonn.de"
+cfOrder = 7430.0
+
+
+[physics7502]
+cfTitle = "Random Walks and Diffusion (T)"
+cfNum = "physics7502"
+cfCP = "3"
+cfWorkload = "1+1"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Quantum mechanics and Thermodynamics"
+cfFormalities = "Requirements for the (written or oral) examination: Successful work within the exercises"
+cfLength = "1 semester"
+cfGoals = "The aim of the course is to introduce the student to random processes and their application to diffusion phenomena"
+cfContent = "Basics of probability theory, Master equation and Langevin equation, Law of large numbers and Central Limit Theorem, First passage problems, Large scale dynamics, Dynamical scaling."
+cfLiterature = "Will be announced in the first lecture"
+cfKindShort = "Lect. + ex."
+cfSemester = "ST"
+cfLecturer = "Profs. of theoretical physics"
+cfMail = "theophys@uni-bonn.de"
+cfOrder = 7502.0
+
+
+[physics7503]
+cfTitle = "Selected Topics in Modern Condensed Matter Theory (T)"
+cfNum = "physics7503"
+cfCP = "7"
+cfWorkload = "3+2"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = '''+ Introductory Condensed Matter Theory
+
++ Quantum Mechanics 
+
++ Statistical Physics
+'''
+cfFormalities = "oral or written examination"
+cfLength = "1 semester"
+cfGoals = '''Knowledge of topics of contemporary condensed matter research 
+
+Knowledge of theoretical methods of condensed matter physics
+'''
+cfContent = '''Covers topics and methods of contemporary research, such as 
+
++ Feynman diagram technique 
+
++ Phase transitions and critical phenomena 
+
++ Topological aspects of phenomena in condensed matter physic
+'''
+cfLiterature = '''R. D. Mattuck, A Guide to Feynman Diagrams in the Many-Body Problem 
+
+N. Goldenfeld, Lectures on Phase Transitions and the Renormalization Group 
+
+B. A. Bernevig, Topological Insulators and Topological Superconductors
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "WT"
+cfLecturer = "Profs. of theoretical physics"
+cfMail = "theophys@uni-bonn.de"
+cfOrder = 7503.0
+
+
+[physics7504]
+cfTitle = "Theory of Superconductivity and Superfluidity (T)"
+cfNum = "physics7504"
+cfCP = "5"
+cfWorkload = "2+1"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Quantum Mechanics, Thermodynamics and Statistics, Quantum Field Theory"
+cfFormalities = "Requirements for the (written or oral) examination: Successful participation in the exercises"
+cfLength = "1 semester"
+cfGoals = "The goal of the course is to introduce students to the theory of superconductivity and superfluidity."
+cfContent = "Phenomenological theory of basic superconductivity, type I and type II superconductivity, vortices and their dynamics, Meissner-Ochsenfeld Effekt, microscopic theory of superconductivity: Gor’kov equation, BCS theory, Migdal theorem, strong coupling theory of superconductivity: Eliashberg equation, Andreev scattering, Josephson effect, Anderson theorem: impurity scattering, Collective excitations in superconductors and superfluids,  Anderson (Higgs) mechanism for the mass generation.  Superfluidity in 3He, superconductivity in heavy fermion compounds,  high temperature superconductivity and open questions."
+cfLiterature = "Will be announced in the first lecture"
+cfKindShort = "Lect. + ex."
+cfSemester = "WT/ST"
+cfLecturer = "Profs. of theoretical physics"
+cfMail = "theophys@uni-bonn.de"
+cfOrder = 7504.0
+
+
+[physics7505]
+cfTitle = "High performance computing: Modern computer architectures and applications in the physical science (T)"
+cfNum = "physics7505"
+cfCP = "3"
+cfWorkload = "2"
+cfKind = "Lecture"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = "Knowledge of a modern programming language like C/C++"
+cfPreparation = ""
+cfFormalities = "oral examination"
+cfLength = "1 semester"
+cfGoals = "Understanding principles of modern computer architectures and their usage and programming for scientific problems"
+cfContent = '''Computer architectures and system components (CPU, memory, network)
+
+Software environment
+
+Parallel architectures and parallel programming paradigms (MPI, OpenMP/threads)
+
+High Performance Computing
+'''
+cfLiterature = '''John L. Hennessy, David A. Patterson: Computer Architecture - A Quantitative Approach. Morgan Kaufmann Publishers, 2012
+
+David A. Patterson, John L. Hennessy: Computer Organization and Design - The Hardware / Software Interface. Morgan Kaufmann Publishers, 2013
+
+W.H. Press et al.: Numerical Recipes in C (Cambridge University Press)
+
+Message Passing Interface Forum: MPI: A Message-Passing Interface Standard, Version 3.1
+
+OpenMP Application Programming Interface, Version 4.5, November 2015
+'''
+cfKindShort = "Lecture"
+cfSemester = "WT/ST"
+cfLecturer = "Profs. of theoretical physics"
+cfMail = "theophys@uni-bonn.de"
+cfOrder = 7505.0
+
+
+[physics7506]
+cfTitle = "Quark Distributions Functions (T)"
+cfNum = "physics7506"
+cfCP = "3"
+cfWorkload = "2"
+cfKind = "Lecture"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Quantum Field Theory (physics755 or equivalent)"
+cfFormalities = "oral examination"
+cfLength = "1 semester"
+cfGoals = "By the end of the course, the student should be able to understand the formal parton model, renormalization of parton distributions, and current attempts to compute them on the lattice."
+cfContent = "Deep Inelastic Scattering; The Operator Product Expansion; Basics of the parton model; The formal parton model; Quark distributions and quasi-quark distributions; One loop corrections and renormalization; Lattice attempts to compute PDF"
+cfLiterature = '''Elliot Leader, Enrico Predazzi: An introduction to gauge theories and modern particle physics.
+
+Cambridge Monographs on Particle physics, Nuclear Physics and Cosmology 1996.
+
+
+
+John Collins: Foundations of Perturbative QCD.
+
+Cambridge Monographs on Particle physics, Nuclear Physics and Cosmology 2011.
+
+
+
+Anthony W. Thomas, Wolfram Weise: The Structure of the Nucleon. Wiley-VCH Verlag Berlin 2001.
+
+
+
+R. K. Ellis, W. J. Stirling, B. R. Webber: QCD and Collider Physics.
+
+Cambridge Monographs on Particle physics, Nuclear Physics and Cosmology 2003.
+'''
+cfKindShort = "Lecture"
+cfSemester = "WT"
+cfLecturer = "Profs. of theoretical physics"
+cfMail = "theophys@uni-bonn.de"
+cfOrder = 7506.0
+
+
+[physics7507]
+cfTitle = "Theory of Quantum Magnetism (T)"
+cfNum = "physics7507"
+cfCP = "4"
+cfWorkload = "2+1"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Quantum mechanics, Thermodynamics and Statistics, Quantum Field Theory"
+cfFormalities = '''(1) form of examination: written or oral 
+
+(2) requirement for participation in examination: successful participation in exercises
+'''
+cfLength = "1 semester"
+cfGoals = "The goal of the course is to introduce students to advanced concepts in the theory of magnetism."
+cfContent = "Phenomenological theory of magnetism, spin exchange, ferro and anti-ferro magnetism, classically frustrated systems (Kagome lattice). Representations of spin algebras: Dyson-Maleev, Holstein, Primakov, Schwinger bosons, spin coherent states, spin path integral, non-linear sigma models, quantum phase transition, Bereshinski-Kosterlitz-Thouless transition, Haldane gap, frustrated magnets, valence bond states, spin liquids, quantum Heisenberg model (two dimensional, Kagome, pyrochlore lattice) Exactly solvable models (transfer matrix) Ising model. Exactly solvable models (Bethe Ansatz): XXZ model, Kondo model. Open problems in quantum magnetism."
+cfLiterature = "Will be announced in the first lecture"
+cfKindShort = "Lect. + ex."
+cfSemester = "ST"
+cfLecturer = "Profs. of theoretical physics"
+cfMail = "theophys@uni-bonn.de"
+cfOrder = 7507.0
+
+
+[physics7508]
+cfTitle = "Quantum Computing (T)"
+cfNum = "physics7508"
+cfCP = "7"
+cfWorkload = "3+2"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "Theoretical courses at the Bachelor degree level"
+cfFormalities = "written / oral examination"
+cfLength = "1 semester"
+cfGoals = "Understand the theory of quantum computing and apply it to existing hardware."
+cfContent = '''- Quantum circuits
+
+- Quantum algorithms
+
+- Quantum computers
+
+- Quantum noise and quantum operations
+
+- Quantum error correction
+'''
+cfLiterature = "M. A. Nielsen and I. L. Chuang, Quantum Computation and Quantum Information, Cambridge"
+cfKindShort = "Lect. + ex."
+cfSemester = "WT/ST"
+cfLecturer = "Profs. of theoretical physics"
+cfMail = "theophys@uni-bonn.de"
+cfOrder = 7508.0
+
+
+[physics7509]
+cfTitle = "Advanced Topics in Particle and Astroparticle Physics (T)"
+cfNum = "physics7509"
+cfCP = "7"
+cfWorkload = "3+2"
+cfKind = "Lecture with exercises"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = ""
+cfPreparation = "physics615 and physics711 strongly recommended, a course on General Relativity (e.g. physics754) would also be helpful."
+cfFormalities = "Biweekly Homework Sheets + Final Written Exam"
+cfLength = "1 semester"
+cfGoals = "To gain knowledge in Cosmological Perturbations, Axion physics, Dark Messenger physics/dark photons."
+cfContent = '''1) 	Cosmological perturbations and effect on the CMB
+
+2) 	Axions: Theory and Detection
+
+3)	 Dark Photons: Theory and Detection
+'''
+cfLiterature = '''1)	Introduction to the Theory of the Early Universe, Vol. II (Cosmological perturbations and Inflationary Theory) by Gorbunov and Rubakov [World Scientic]on, Modern Cosmoless (Elsevier) 2 
+
+2)	Modern Cosmology, Scott Dodelson (1st edition, 2003)
+
+3)	Various reviews on axions and dark photons.
+'''
+cfKindShort = "Lect. + ex."
+cfSemester = "WT/ST"
+cfLecturer = "Profs. of theoretical physics"
+cfMail = "theophys@uni-bonn.de"
+cfOrder = 7509.0
+
+
+[physics799]
+cfTitle = "Internships in the Research Groups"
+cfNum = "physics799"
+cfCP = "4"
+cfWorkload = ""
+cfKind = "Research Internship"
+cfCategory = "Elective"
+cfLanguage = "English"
+cfRequirements = "Students are asked to contact one of the BCGS lecturers prior to the start of their internship. Lecturers provide help if needed to find a suitable research group and topic. Not all groups may have internships available at all times, thus participation may be limited."
+cfPreparation = "A specialization lecture from the research field in question or equivalent preparation."
+cfFormalities = "A written report or, alternatively, a presentation in a meeting of the research group."
+cfLength = "4-6 weeks"
+cfGoals = "Students conduct their own small research project as a part-time member of one of the research groups in Bonn. The students learn methods of scientific research and apply them to their project."
+cfContent = '''One of the following possible items:
+
+- setting up a small experiment,
+
+- analyzing data from an existing experiment,
+
+- simulating experimental situations,
+
+- numerical or analytical calculations in a theory group.
+'''
+cfLiterature = "provided by the supervisor within the research group."
+cfKindShort = "internship"
+cfSemester = "WT/ST"
+cfLecturer = "Profs. of physics"
+cfMail = ""
+cfOrder = 7990.0
+
+

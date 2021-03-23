@@ -1,7 +1,7 @@
 Degree = "BSPHYSIK2"
 [ModuleFields]
 mfDegree = "Studiengang"
-mfDegreeLang = ""
+mfDegreeLong = ""
 mfTitle = "Modul"
 mfNum = "Modul-Nr."
 mfModules = "Module"
