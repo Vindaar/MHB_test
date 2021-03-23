@@ -1,0 +1,6 @@
+{{ $arg := .Module }}
+{{ $result := false }}
+{{ if (eq $arg "module") }}
+  {{ $result = true }}
+{{ end }}
+{{ return $result }}

@@ -10,11 +10,16 @@ order in the TOML file under `CourseList` actually is the desired order!
 
 {{ $result := slice }}
 {{ $map := .Map }}
-{{ range $idx, $course := $map.CourseList }}
+{{ $courseDegreeMap := .CourseDegreeMap }}
+{{ $data := .Data }}
+{{ range $idx, $course := $map.CourseList }} {{/* remains the same  */}}
+  {{ $degree := partial "determineDegree.html" (dict "Map" $courseDegreeMap "Course" $course)}}
+  {{ $fname := (printf "mhb_%s_courses" (lower $degree)) }}
+  {{ $fileCourses := (index $data $fname) }}
+  {{ $courseMap := (index $fileCourses $course) }}
   {{/* Add the "Nr." field manually */}}
   {{ $row := slice (add $idx 1) }}
   {{ range $el := $.Fields }}
-    {{ $courseMap := (index $map.Courses $course) }}
     {{ $row = $row | append (index $courseMap $el) }}
   {{ end }}
   {{ $result = $result | append (slice $row) }}

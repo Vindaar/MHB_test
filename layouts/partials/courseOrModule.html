@@ -1,0 +1,17 @@
+{{ printf "%s" .Page.Params.Categories }}
+{{ $cat := .Page.Params.Categories }}
+{{ $result := false }}
+{{ if (eq $cat nil) }}
+  {{ $result = false }}
+{{ else if (eq (len $cat) 1)  }}
+  {{/* check first entry */}}
+  {{ $el := (index $cat 0) }}
+  {{ if (eq $el "module") }}
+    {{ $result = true }}
+  {{ else if (eq $el "course") }}
+    {{ $result = true }}
+  {{ else }}
+    {{ $result = false }}
+  {{ end }}
+{{ end }}
+{{ return $result }}

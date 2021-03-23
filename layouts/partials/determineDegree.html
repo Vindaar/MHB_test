@@ -1,0 +1,20 @@
+{{/*
+*/}}
+
+{{ $map := .Map }}
+{{ $course := .Course }}
+
+{{ $result := "" }}
+{{ $elements := (index $map "Degrees") }}
+{{ range $idx, $degree := $elements }}
+  {{ $degreeSlice := (index $map $degree) }}
+  {{ range $idx2, $courseLocal := $degreeSlice }}
+    {{ if (eq $courseLocal $course) }}
+      {{ $result = $degree }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ if (eq $result "") }}
+  {{ errorf "Did not find a corresponding degree for course %s" $course}}
+{{ end }}
+{{ return $result }}

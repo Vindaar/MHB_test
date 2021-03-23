@@ -1,0 +1,119 @@
+{{ $bookSection := default "docs" .Site.Params.BookSection  }}
+{{ if eq $bookSection "*" }}
+  {{ $bookSection = "/" }}{{/* Backward compatibility */}}
+{{ end }}
+
+{{ printf "this is wrong no? %s" (path.Base .Page) }}
+
+{{ .Page.Scratch.Set "hahaha" (path.Base .Page) }}
+{{ $realPath := (path.Base .Page.Permalink) }}
+
+{{ with .Site.GetPage $bookSection }}
+  {{ template "book-section-children" (dict "Section" . "CurrentPage" $ "Site" .Site "CurrentFile" $realPath) }}
+{{ end }}
+
+{{ define "book-section-children" }}{{/* (dict "Section" .Section "CurrentPage" .CurrentPage) */}}
+  <ul>
+    {{ range (where .Section.Pages "Params.bookhidden" "ne" true) }}
+
+      {{ $courseModule := partial "getCourseModuleString.html" . }}
+      {{ $currentModulePath := .Page.Permalink }}
+      {{ if (partial "isModule" (dict "Module" $courseModule)) }}
+        <li {{- if .Params.BookFlatSection }} class="book-section-flat" {{ end -}}>
+          {{/* call book-page-link manually for each course */}}
+
+          {{/* TODO: merge this into a partial */}}
+          {{ $degree := .Page.Params.Degree }}
+          {{ $module := .Page.Params.Title }}
+
+          {{ $fileData := printf "mhb_%s" $degree }}
+
+          {{ $data := (index .Site.Data $fileData) }}
+          {{ $thisModule := (index $data $module) }}
+          {{ $courses := (index $thisModule "CourseList") }}
+
+          {{ $basename := path.Dir .Permalink }}
+
+          {{ $courseInThisModule := (in $courses (path.Base $.CurrentFile)) }}
+          {{/* generate the module entry  */}}
+          {{ template "book-page-link" (dict "Page" . "CurrentPage" $.CurrentPage "InChildCourse" $courseInThisModule) }}
+          <ul>
+            {{ $ParentPage := .Page }}
+            {{ range $course := $courses }}
+              {{ $current := eq $course (path.Base $.CurrentFile) }}
+              {{ $ancestor := true }}
+              {{ $collapse := false }}
+              {{ $link := printf "//%s/../%s/%s" $basename "courses" $course }}
+              {{ $md5hash := md5 $link }}
+              {{ $hasContent := true }}
+              {{ $title := $course }}
+              {{ $isCourse := true }}
+              {{ $PageDict := (dict "Current" $current "Ancestor" $ancestor "Collapse" $collapse "Md5" $md5hash "HasContent" $hasContent "Title" $title "IsCourse" $isCourse "Link" $link) }}
+              <li>
+                {{ template "book-page-link" (dict "Page" $PageDict "CurrentPage" $ParentPage ) }}
+              </li>
+            {{ end }}
+          </ul>
+        </li>
+      {{ else if (partial "isCourse" (dict "Course" $courseModule)) }}
+        {{/* if it's a course? */}}
+        {{/* do nothing */}}
+      {{ else if .IsSection }}
+        <li {{- if .Params.BookFlatSection }} class="book-section-flat" {{ end -}}>
+          {{ template "book-page-link" (dict "Page" . "CurrentPage" $.CurrentPage) }}
+          {{ template "book-section-children" (dict "Section" . "CurrentPage" $.CurrentPage "Site" .Site "CurrentFile" $.CurrentFile) }}
+        </li>
+      {{ else if and .IsPage .Content }}
+        <li>
+          {{ template "book-page-link" (dict "Page" . "CurrentPage" $.CurrentPage) }}
+        </li>
+      {{ end }}
+    {{ end }}
+  </ul>
+{{ end }}
+
+{{ define "book-page-link" }}{{/* (dict "Page" .Page "CurrentPage" .CurrentPage) */}}
+
+  {{/* errorf "is a map ? %s for %s" (reflect.IsMap .Page) .Page.Permalink */}}
+  {{ $current := false }}
+  {{ $ancestor := false }}
+  {{ $collapse := false }}
+  {{ $md5hash := "" }}
+  {{ $hasContent := false }}
+  {{ $link := "" }}
+  {{ $title := "" }}
+  {{ $isCourse := false }}
+  {{ if (not (reflect.IsMap .Page)) }}
+    {{ $current = eq .CurrentPage .Page }}
+    {{ $ancestor = .Page.IsAncestor .CurrentPage }}
+    {{ $collapse = .Page.Params.bookCollapseSection }}
+    {{ $md5hash = md5 .Page }}
+    {{ $hasContent = .Page.Content }}
+    {{ $link = .Page.Permalink }}
+    {{ $title = partial "docs/title" .Page }}
+  {{ else }}
+    {{ $current = .Page.Current }}
+    {{ $ancestor = .Page.Ancestor }}
+    {{ $collapse = .Page.Collapse }}
+    {{ $md5hash = .Page.Md5 }}
+    {{ $hasContent = .Page.HasContent }}
+    {{ $link = .Page.Link }}
+    {{ $title = .Page.Title }}
+    {{ $isCourse = .Page.IsCourse }}
+  {{ end }}
+    {{ if or $collapse .InChildCourse }}
+      <input type="checkbox" id="section-{{ $md5hash }}" class="toggle" {{ if (or (or $current $ancestor) .InChildCourse) }}checked{{ end }} />
+      <label for="section-{{ $md5hash }}" class="flex justify-between">
+        <a {{ if $hasContent }}href="{{ $link }}"{{ end }} class="{{ if $current }}active{{ end }}">
+          {{ $title }}
+        </a>
+        <span>▾</span>
+      </label>
+    {{ else if $hasContent }}
+      <a href="{{ $link }}" class="{{ if $current }} active{{ end }}">
+        {{ $title }}
+      </a>
+    {{ else }}
+      <span>{{ $title }}</span>
+    {{ end }}
+{{ end }}

@@ -1,0 +1,6 @@
+{{ $arg := .Course }}
+{{ $result := false }}
+{{ if (eq $arg "course") }}
+  {{ $result = true }}
+{{ end }}
+{{ return $result }}

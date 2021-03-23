@@ -5,34 +5,40 @@ Generates the page for a single course (the child of a module).
 <article class="markdown book-post">
   {{/* Preamble and definitions */}}
   {{ $fname := .Page.Params.Title }}
-  {{ $fnameParent := .Page.Params.Parent }}
+  {{ $poKind := .Page.Params.Pokind }}
 
-  {{ $data := printf "%s_%s" "mhb" $.Page.Params.Degree }}
+  {{/* {{ $fnameParent := .Page.Params.Parent } instead have table of parents? */}}
+
+  {{ $data := printf "mhb_%s" $.Page.Params.Degree }}
   {{ $langmap := printf "%s_%s" $data "langmap" }}
+  {{ $courses := printf "%s_%s" $data "courses" }}
 
-  {{ $fileMap := (index $.Site.Data $langmap) }}
-  {{ $fileDict := (index $.Site.Data $data) }}
+  {{ $fileLangMap := (index $.Site.Data $langmap) }}
+  {{ $fileModules := (index $.Site.Data $data) }}
+  {{ $fileCourses := (index $.Site.Data $courses) }}
 
-  {{ $map := (index $fileMap "CourseFields") }}
-  {{ $mapModules := (index $fileMap "ModuleFields") }}
-  {{ $dictParent := (index $fileDict $fnameParent) }}
-  {{ $dict := (index (index $fileDict $fnameParent).Courses $fname) }}
+  {{ $map := (index $fileLangMap "CourseFields") }}
+  {{ $mapModules := (index $fileLangMap "ModuleFields") }}
+
+  {{/* {{ $dictParent := (index $fileModules $fnameParent) }} */}}
+  {{ $dict := (index $fileCourses $fname) }}
 
   {{/* Title of the page */}}
   <h2> {{ $dict.cfTitle | markdownify }} -
     <a href={{printf "%s/%s/%s" .Site.BaseURL "/tags" $dict.cfNum}}>{{ $dict.cfNum | markdownify }}</a>
   </h2>
 
-  <b>{{ $mapModules.mfDegree | markdownify }}</b> - {{ $dictParent.mfDegreeLang | markdownify }}
+  {{/* TODO: add a data file mapping short to long names for degrees and then use Degree field to lookup
+  {{/* <b>{{ $mapModules.mfDegree | markdownify }}</b> - {{ $dictParent.mfDegreeLong | markdownify }} */}}
 
   {{/* Generate first table about parent module */}}
-  {{ $header := (dict $mapModules.mfTitle $dictParent.mfTitle) }}
-  {{ $body := (dict $mapModules.mfNum $dictParent.mfNum) }}
+  {{/* {{ $header := (dict $mapModules.mfTitle $dictParent.mfTitle) }} */}}
+  {{/* {{ $body := (dict $mapModules.mfNum $dictParent.mfNum) }} */}}
   {{/* Generate module overview table */}}
-  {{ partial "genTable.html" (dict "Head" $header "Body" $body) }}
+  {{/* {{ partial "genTable.html" (dict "Head" $header "Body" $body) }} */}}
   {{/* Generate second table about this course */}}
-  {{ $header = (dict $map.cfTitle $dict.cfTitle) }}
-  {{ $body = (dict $map.cfNum $dict.cfNum) }}
+  {{ $header := (dict $map.cfTitle $dict.cfTitle) }}
+  {{ $body := (dict $map.cfNum $dict.cfNum) }}
   {{ partial "genTable.html" (dict "Head" $header "Body" $body) }}
 
   {{/* Read the header */}}

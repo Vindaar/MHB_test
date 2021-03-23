@@ -1,0 +1,11 @@
+{{ printf "%s" .Page.Params.Categories }}
+{{ $cat := .Page.Params.Categories }}
+{{ $result := "" }}
+{{ if (not (eq $cat nil)) }}
+  {{ if (eq (len $cat) 1)  }}
+    {{/* check first entry */}}
+    {{ $el := (index $cat 0) }}
+    {{ $result = $el }}
+  {{ end }}
+{{ end }}
+{{ return $result }}

@@ -5,16 +5,19 @@ Generates the page for a single module (the parent of possible multiple courses)
 <article class="markdown book-post">
   {{/* Preamble and definitions */}}
   {{ $fname := .Page.Params.Title }}
+  {{ $poKind := .Page.Params.Pokind }}
 
-  {{ $data := printf "%s_%s" "mhb" $.Page.Params.Degree }}
+  {{ $data := printf "mhb_%s" $.Page.Params.Degree }}
   {{ $langmap := printf "%s_%s" $data "langmap" }}
+  {{ $courseDegreeMap := printf "%s_course_map" $poKind }}
 
-  {{ $fileMap := (index $.Site.Data $langmap) }}
-  {{ $fileDict := (index $.Site.Data $data) }}
+  {{ $fileLangMap := (index $.Site.Data $langmap) }}
+  {{ $fileModules := (index $.Site.Data $data) }}
+  {{ $fileCourseDegreeMap := (index $.Site.Data $courseDegreeMap) }}
 
-  {{ $map := (index $fileMap "ModuleFields") }}
-  {{ $mapCourse := (index $fileMap "CourseFields") }}
-  {{ $dict := (index $fileDict $fname) }}
+  {{ $langMap := (index $fileLangMap "ModuleFields") }}
+  {{ $langMapCourses := (index $fileLangMap "CourseFields") }}
+  {{ $dict := (index $fileModules $fname) }}
 
   {{/* Title of the page */}}
   <h1> {{ $dict.mfTitle | markdownify }} -
@@ -22,29 +25,29 @@ Generates the page for a single module (the parent of possible multiple courses)
   </h1>
 
   {{/* Generate module overview table */}}
-  {{ $header := (dict $map.mfNum $dict.mfNum) }}
-  {{ $body := (dict $map.mfCP $dict.mfCP $map.mfCategory $dict.mfCategory $map.mfSemester $dict.mfSemester) }}
+  {{ $header := (dict $langMap.mfNum $dict.mfNum) }}
+  {{ $body := (dict $langMap.mfCP $dict.mfCP $langMap.mfCategory $dict.mfCategory $langMap.mfSemester $dict.mfSemester) }}
   {{ partial "genTable.html" (dict "Head" $header "Body" $body) }}
 
   {{/* Secondary headline */}}
-  <h3> {{ $map.mfTitle }}: {{ $dict.mfTitle }} </h3>
-  <em> {{ $map.mfParts }}: </em>
+  <h3> {{ $langMap.mfTitle }}: {{ $dict.mfTitle }} </h3>
+  <em> {{ $langMap.mfParts }}: </em>
 
   {{/* The first column of the next table is just a numbering of all courses. Add the "Nr." column
   first. Then add all of the fields we will add from course table */}}
   {{ $rowFields := (slice "cfTitle" "cfNum" "cfCP" "cfKindShort" "cfWorkload" "cfSemester") }}
   {{/* Read the header */}}
   {{ $header = slice "Nr" }}
-  {{ $header = $header | append (partial "getFields.html" (dict "Map" $mapCourse "Data" $rowFields)) }}
+  {{ $header = $header | append (partial "getFields.html" (dict "Map" $langMapCourses "Data" $rowFields)) }}
 
-  {{ $tabBody := partial "getCourseFields.html" (dict "Map" $dict "Fields" $rowFields)}}
+  {{ $tabBody := partial "getCourseFields.html" (dict "Map" $dict "Fields" $rowFields "CourseDegreeMap" $fileCourseDegreeMap "Data" $.Site.Data)}}
   {{ $tabBody = dict "Head" $header "Body" $tabBody "Type" "Module" }}
   {{/* Generate the table listing all courses in this module */}}
   {{ partial "genCourseTable.html" $tabBody }}
 
   {{/* Finally read all of the last key/value pairs and emit */}}
   {{ $cntFields := (slice "mfRequirements" "mfPreparation" "mfContent" "mfGoals" "mfFormalities" "mfLength" "mfParticipants" "mfSignup" "mfNotes") }}
-  {{ $body = partial "getMapDictFields.html" (dict "Map" $map "Dict" $dict "Fields" $cntFields) }}
+  {{ $body = partial "getMapDictFields.html" (dict "Map" $langMap "Dict" $dict "Fields" $cntFields) }}
   {{ range $el := $body }}
     {{ range $key, $val := $el }}
       <b> {{ $key | markdownify }}: </b>
