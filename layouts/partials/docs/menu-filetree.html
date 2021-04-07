@@ -3,9 +3,6 @@
   {{ $bookSection = "/" }}{{/* Backward compatibility */}}
 {{ end }}
 
-{{ printf "this is wrong no? %s" (path.Base .Page) }}
-
-{{ .Page.Scratch.Set "hahaha" (path.Base .Page) }}
 {{ $realPath := (path.Base .Page.Permalink) }}
 
 {{ with .Site.GetPage $bookSection }}
