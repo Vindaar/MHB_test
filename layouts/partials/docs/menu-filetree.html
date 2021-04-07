@@ -3,7 +3,7 @@
   {{ $bookSection = "/" }}{{/* Backward compatibility */}}
 {{ end }}
 
-{{ $realPath := (path.Base .Page.Permalink) }}
+{{ $realPath := .Page.Permalink }}
 
 {{ with .Site.GetPage $bookSection }}
   {{ template "book-section-children" (dict "Section" . "CurrentPage" $ "Site" .Site "CurrentFile" $realPath) }}
@@ -22,6 +22,7 @@
           {{/* TODO: merge this into a partial */}}
           {{ $degree := .Page.Params.Degree }}
           {{ $module := .Page.Params.Title }}
+          {{ $pokind := .Page.Params.Pokind }}
 
           {{ $fileData := printf "mhb_%s" $degree }}
 
@@ -29,6 +30,7 @@
           {{ $thisModule := (index $data $module) }}
           {{ $courses := (index $thisModule "CourseList") }}
 
+          {{ $pageName := $.Site.BaseURL }}
           {{ $basename := path.Dir .Permalink }}
 
           {{ $courseInThisModule := (in $courses (path.Base $.CurrentFile)) }}
@@ -40,7 +42,12 @@
               {{ $current := eq $course (path.Base $.CurrentFile) }}
               {{ $ancestor := true }}
               {{ $collapse := false }}
-              {{ $link := printf "//%s/../%s/%s" $basename "courses" $course }}
+
+              {{ $courseDegreeMap := printf "%s_course_map" $pokind }}
+              {{ $fileCourseDegreeMap := (index $.Site.Data $courseDegreeMap) }}
+              {{ $degreeCourse := partial "determineDegree.html" (dict "Map" $fileCourseDegreeMap "Course" $course)}}
+              {{ $link := partial "genLink.html" (dict "Degree" (lower $degreeCourse) "Course" $course "PoKind" $pokind) }}
+
               {{ $md5hash := md5 $link }}
               {{ $hasContent := true }}
               {{ $title := $course }}

@@ -1,0 +1,7 @@
+{{ $pokind := .PoKind }}
+{{ $degree := .Degree }}
+{{ $course := .Course }}
+
+{{ $result := printf "/docs/%s/mhb_%s/courses/%s" $pokind $degree $course }}
+
+{{ return $result }}
