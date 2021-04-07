@@ -30,7 +30,7 @@
           {{ $thisModule := (index $data $module) }}
           {{ $courses := (index $thisModule "CourseList") }}
 
-          {{ $pageName := $.Site.BaseURL }}
+          {{ $baseURL := $.Site.BaseURL }}
           {{ $basename := path.Dir .Permalink }}
 
           {{ $courseInThisModule := (in $courses (path.Base $.CurrentFile)) }}
@@ -46,7 +46,7 @@
               {{ $courseDegreeMap := printf "%s_course_map" $pokind }}
               {{ $fileCourseDegreeMap := (index $.Site.Data $courseDegreeMap) }}
               {{ $degreeCourse := partial "determineDegree.html" (dict "Map" $fileCourseDegreeMap "Course" $course)}}
-              {{ $link := partial "genLink.html" (dict "Degree" (lower $degreeCourse) "Course" $course "PoKind" $pokind) }}
+              {{ $link := partial "genLink.html" (dict "BaseURL" $baseURL "Degree" (lower $degreeCourse) "Course" $course "PoKind" $pokind) }}
 
               {{ $md5hash := md5 $link }}
               {{ $hasContent := true }}

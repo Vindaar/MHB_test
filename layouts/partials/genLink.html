@@ -1,7 +1,8 @@
 {{ $pokind := .PoKind }}
 {{ $degree := .Degree }}
 {{ $course := .Course }}
+{{ $baseURL := .BaseURL }}
 
-{{ $result := printf "/docs/%s/mhb_%s/courses/%s" $pokind $degree $course }}
+{{ $result := printf "%s/docs/%s/mhb_%s/courses/%s" $baseURL $pokind $degree $course }}
 
 {{ return $result }}
