@@ -1,6 +1,6 @@
 +++
 weight = 121
-pokind = "other"
+pokind = "Other"
 title = "astro121"
 degree = "lvandere"
 parents = ["astro080"]

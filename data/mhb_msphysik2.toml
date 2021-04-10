@@ -284,7 +284,7 @@ mfParticipants = "ca. 100"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = "Note: The student must achieve at least 18 CP out of all 4 Elective Advanced Modules"
 mfOrder = 710.0
-CourseList = ["physics711", "physics712", "physics713", "physics714", "physics715", "physics716", "physics717", "physics718", "physics719", "physics720", "physics721", "physics721", "physics722", "physics723", "physics724", "physics731", "physics732", "physics734", "physics735", "physics736", "physics737", "physics737", "physics738", "physics739", "physics740", "physics741", "physics742", "physics743", "physics799", "physics799"]
+CourseList = ["physics711", "physics712", "physics713", "physics714", "physics715", "physics716", "physics717", "physics718", "physics719", "physics720", "physics721", "physics722", "physics723", "physics724", "physics731", "physics732", "physics734", "physics735", "physics736", "physics737", "physics738", "physics739", "physics740", "physics741", "physics742", "physics743", "physics799"]
 
 
 [physics70b]
@@ -305,7 +305,7 @@ mfParticipants = "ca. 100"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = "Note: The student must achieve at least 18 CP out of all 4 Elective Advanced Modules"
 mfOrder = 720.0
-CourseList = ["physics712", "physics713", "physics714", "physics718", "physics723", "physics731", "physics732", "physics734", "physics736", "physics739", "physics740", "physics741", "physics771", "physics772", "physics773", "physics774", "physics775", "physics776", "physics799", "physics799"]
+CourseList = ["physics712", "physics713", "physics714", "physics718", "physics723", "physics731", "physics732", "physics734", "physics736", "physics739", "physics740", "physics741", "physics771", "physics772", "physics773", "physics774", "physics775", "physics776", "physics799"]
 
 
 [physics70c]
@@ -326,7 +326,7 @@ mfParticipants = "ca. 100"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = "Note: The student must achieve at least 18 CP out of all 4 Elective Advanced Modules"
 mfOrder = 730.0
-CourseList = ["physics742", "physics751", "physics752", "physics753", "physics754", "physics755", "physics756", "physics757", "physics758", "physics759", "physics760", "physics761", "physics762", "physics763", "physics764", "physics765", "physics766", "physics767", "physics768", "physics769", "physics7501", "physics7502", "physics7503", "physics7504", "physics7505", "physics7506", "physics7507", "physics7508", "physics7509", "physics799", "physics799"]
+CourseList = ["physics742", "physics751", "physics752", "physics753", "physics754", "physics755", "physics756", "physics757", "physics758", "physics759", "physics760", "physics761", "physics762", "physics763", "physics764", "physics765", "physics766", "physics767", "physics768", "physics769", "physics7501", "physics7502", "physics7503", "physics7504", "physics7505", "physics7506", "physics7507", "physics7508", "physics7509", "physics799"]
 
 
 [physics70d]

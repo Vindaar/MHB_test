@@ -171,7 +171,7 @@ mfParticipants = "ca. 100"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = "The students must obtain 18 CP in all out of the modules astro840 and astro850."
 mfOrder = 840.0
-CourseList = ["astro831", "astro831", "astro841", "astro842", "astro843", "astro845", "astro846", "astro847", "astro848", "astro849", "astro8401", "astro8402", "astro8403", "astro8404", "AGN", "MethExpAstro", "FTA"]
+CourseList = ["astro831", "astro841", "astro842", "astro843", "astro845", "astro846", "astro847", "astro848", "astro849", "astro8401", "astro8402", "astro8403", "astro8404", "AGN", "MethExpAstro", "FTA"]
 
 
 [astro850]
@@ -192,7 +192,7 @@ mfParticipants = "ca. 100"
 mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
 mfNotes = "The students must obtain 18 CP in all out of the modules astro840 and astro850."
 mfOrder = 850.0
-CourseList = ["astro831", "astro831", "astro851", "astro852", "astro8531", "astro854", "astro856", "astro857", "astro858", "astro859", "astro8501", "astro8502", "astro8503", "astro8504", "Astrophysics II", "Star Formation", "Galaxy Dynamics"]
+CourseList = ["astro831", "astro851", "astro852", "astro8531", "astro854", "astro856", "astro857", "astro858", "astro859", "astro8501", "astro8502", "astro8503", "astro8504", "Astrophysics II", "Star Formation", "Galaxy Dynamics"]
 
 
 [astro940]

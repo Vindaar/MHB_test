@@ -17,7 +17,7 @@ mfParticipants = ""
 mfSignup = ""
 mfNotes = "* Wird in der Bachelor-Prüfungsordnung des importierenden Faches festgelegt."
 mfOrder = 10.0
-CourseList = ["physik011", "physik012", "physik013", "physik013", "physik014", "physik014", "physik021", "physik022", "physik022", "physik023", "physik023", "physik024", "physik024", "physik025", "physik025", "physik026", "physik026", "physik041", "physik041", "physik051"]
+CourseList = ["physik011", "physik012", "physik013", "physik014", "physik021", "physik022", "physik023", "physik024", "physik025", "physik026", "physik041", "physik051"]
 
 
 [astro080]
