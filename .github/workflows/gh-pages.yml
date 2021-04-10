@@ -80,11 +80,7 @@ jobs:
       - name: Unpack tools and run
         run: |
           tar xf tools/tools.tar.gz
-          ls
-          echo "----"
           cd tools
-          ls
-          chmod +x genPdfs
           ./genPdfs
 
       - name: Upload page with PDFs
