@@ -82,6 +82,8 @@ jobs:
           tar xf tools/tools.tar.gz
           cd tools
           ./genPdfs
+          cd ..
+          tar czf pageWithPdfs.tar.gz public
 
       - name: Upload page with PDFs
         uses: actions/upload-artifact@v2
