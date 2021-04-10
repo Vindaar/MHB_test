@@ -23,6 +23,25 @@ jobs:
           hugo --minify --theme book
           tar czf page.tar.gz public
 
+      - name: Setup Nim
+        uses: alaviss/setup-nim@0.1.1
+        with:
+          path: nim
+          version: version-1-4
+
+      - name: Install parsetoml
+        shell: bash
+        run: |
+          nimble refresh -y
+          nimble install parsetoml -y
+
+      - name: Build binary
+        run: |
+          cd tools
+          nim c genPdfs.nim
+          cd ..
+          tar czf tools.tar.gz tools
+
       - name: Upload page
         uses: actions/upload-artifact@v2
         with:
@@ -30,26 +49,21 @@ jobs:
           path: page.tar.gz
           retention-days: 2
 
+      - name: Upload tools
+        uses: actions/upload-artifact@v2
+        with:
+          name: tools
+          path: tools.tar.gz
+          retention-days: 2
+
   convert_via_pandoc:
     needs: [ gen-hugo ]
     runs-on: ubuntu-20.04
     container:
       image: docker://pandoc/latex:2.10
-      options: --entrypoint=/bin/bash # does this work to force bash?
+      options: --entrypoint=/bin/bash -l -c # does this work to force bash?
     steps:
-      - name: Setup Nim
-        uses: alaviss/setup-nim@0.1.1
-        with:
-          path: nim
-          version: version-1-4
-
       - uses: actions/checkout@v2
-
-      - name: Install parsetoml
-        shell: bash
-        run: |
-          nimble refresh -y
-          nimble install parsetoml -y
 
       - name: Download all artifacts
         uses: actions/download-artifact@v2
@@ -58,11 +72,15 @@ jobs:
         run: |
           tar xf page/page.tar.gz
 
-      - name: Build PDFs
+      - name: Unpack tools and run
         run: |
+          tar xf tools/tools.tar.gz
+          ls
+          echo "----"
           cd tools
-          nim c -r genPdfs.nim
-          tar czf pageWithPdfs.tar.gz public
+          ls
+          chmod +x genPdfs
+          ./genPdfs
 
       - name: Upload page with PDFs
         uses: actions/upload-artifact@v2
