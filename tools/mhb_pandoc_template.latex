@@ -356,6 +356,13 @@ $if(dir)$
   \newenvironment{LTR}{\beginL}{\endL}
 \fi
 $endif$
+
+\let\oldsubsection\subsection
+\renewcommand{\subsection}{
+\clearpage
+\oldsubsection
+}
+
 $if(natbib)$
 \usepackage[$natbiboptions$]{natbib}
 \bibliographystyle{$if(biblio-style)$$biblio-style$$else$plainnat$endif$}
