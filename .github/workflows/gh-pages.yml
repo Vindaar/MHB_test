@@ -29,6 +29,11 @@ jobs:
           path: nim
           version: version-1-4
 
+      - name: Install musl
+        shell: bash
+        run: |
+          sudo apt-get install musl-tools
+
       - name: Install parsetoml
         shell: bash
         run: |
@@ -38,7 +43,7 @@ jobs:
       - name: Build binary
         run: |
           cd tools
-          nim c genPdfs.nim
+          nim musl genPdfs.nim
           cd ..
           tar czf tools.tar.gz tools
 
