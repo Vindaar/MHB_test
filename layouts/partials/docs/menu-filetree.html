@@ -12,7 +12,6 @@
 {{ define "book-section-children" }}{{/* (dict "Section" .Section "CurrentPage" .CurrentPage) */}}
   <ul>
     {{ range (where .Section.Pages "Params.bookhidden" "ne" true) }}
-
       {{ $courseModule := partial "getCourseModuleString.html" . }}
       {{ $currentModulePath := .Page.Permalink }}
       {{ if (partial "isModule" (dict "Module" $courseModule)) }}
@@ -71,13 +70,14 @@
         <li>
           {{ template "book-page-link" (dict "Page" . "CurrentPage" $.CurrentPage) }}
         </li>
+      {{ else }}
+        {{ template "book-section-children" (dict "Section" . "CurrentPage" $.CurrentPage "Site" .Site "CurrentFile" $.CurrentFile) }}
       {{ end }}
     {{ end }}
   </ul>
 {{ end }}
 
 {{ define "book-page-link" }}{{/* (dict "Page" .Page "CurrentPage" .CurrentPage) */}}
-
   {{/* errorf "is a map ? %s for %s" (reflect.IsMap .Page) .Page.Permalink */}}
   {{ $current := false }}
   {{ $ancestor := false }}
