@@ -7,9 +7,9 @@ from subprocess import Popen, PIPE
 from pathlib import Path
 
 class POKind(str, Enum):
-    poNone = "Other"
-    po2006 = "PO2006"
-    po2014 = "PO2014"
+    poNone = "other"
+    po2006 = "po2006"
+    po2014 = "po2014"
 
 class Degree(str, Enum):
     dkBachelor = "bsphysik"
@@ -17,7 +17,7 @@ class Degree(str, Enum):
     dkAstro = "msastro"
     dkLvAndere = "lvandere"
 
-Prefix = "../public"
+Prefix = "/var/cache/www"
 
 def to_mhb_path(degree: str) -> str:
     return "mhb_{}".format(degree.lower())
@@ -50,12 +50,19 @@ def to_course_path(poKind, degree, course: str) -> str:
 def to_module_path(poKind, degree, course: str) -> str:
     # hugo auto replaces spaces in paths by `-`
     m = course.replace(" ", "-")
-    return os.path.join(Prefix, "docs", poKind, degree, m, "index.html")
+    return os.path.join(Prefix, "docs", poKind, degree, m, "index.html").lower()
 
 def build_pdf(paths: list, outfile: str):
-    print("Building PDF for {} storing as {}".format(paths, outfile))
+
+    lcpaths = [p.lower() for p in paths]
+    lcoutfile = outfile.lower()
+
+    if not os.path.exists(Prefix + '/pdfs'):
+        os.makedirs(Prefix + '/pdfs')
+
+    print("Building PDF for {} storing as {}".format(lcpaths, lcoutfile))
     xmlData = ""
-    for p in paths:
+    for p in lcpaths:
         # XML module in python's stdlib cannot handle HTML, thus hack around to extract
         # <article> tag...
         data = open(p).read()
@@ -65,21 +72,21 @@ def build_pdf(paths: list, outfile: str):
         xmlData = xmlData + data[idx : idxStop]
     # start a pandoc process and feed the xml data
     pid = Popen(["pandoc", "-f", "html", "--template",
-                 "mhb_pandoc_template.latex", "-o", outfile],
+                 "/var/cache/web-mhb/tools/mhb_pandoc_template.latex", "-o", lcoutfile],
                 stdin = PIPE)
     res = pid.communicate(input = xmlData.encode())
     pid.wait()
     if pid.returncode != 0:
         print(pid.stdout)
         print(pid.stderr)
-        quit("Failed to convert {}".format(paths))
+        quit("Failed to convert {}".format(lcpaths))
 
 def handle_course(poKind: POKind, course: str) -> str:
     """
     For each course determine which degree it is part in by the same (somewhat
     silly) way as it is done in Hugo to actually produce the correct results.
     """
-    courseMap = toml.load("../data/{}_course_map.toml".format(poKind))
+    courseMap = toml.load("/var/cache/web-mhb/data/{}_course_map.toml".format(poKind))
     # course may not be in this module's degree. Thus look up degree
     lookupDeg = determine_degree(courseMap, course)
     return to_course_path("{}/".format(poKind), lookupDeg, course)
@@ -110,7 +117,7 @@ def handleDegree(poKind: POKind, deg: Degree):
     """
     # set possible degree name suffix if PO is 2014
     suffix = "{}2".format(deg) if poKind == POKind.po2014 else "{}".format(deg)
-    data = toml.load("../data/mhb_{}.toml".format(suffix))
+    data = toml.load("/var/cache/web-mhb/data/mhb_{}.toml".format(suffix))
     for module in data["ModuleList"]:
         handle_module(data, poKind, suffix, module)
 
