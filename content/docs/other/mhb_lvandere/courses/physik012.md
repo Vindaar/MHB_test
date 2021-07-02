@@ -1,10 +1,10 @@
 +++
-weight = 110
-pokind = "Other"
-title = "physik011"
+weight = 120
+pokind = "other"
+title = "physik012"
 degree = "lvandere"
 parents = ["physik010"]
-tags = ["lvandere", "physik011", "physik010"]
+tags = ["lvandere", "physik012", "physik010"]
 categories = ["course"]
 bookCollapseSection = false
 +++

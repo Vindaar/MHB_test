@@ -1,10 +1,10 @@
 +++
-weight = 811
-pokind = "Other"
-title = "astro811"
+weight = 822
+pokind = "other"
+title = "astro822"
 degree = "lvandere"
 parents = ["astro080"]
-tags = ["lvandere", "astro811", "astro080"]
+tags = ["lvandere", "astro822", "astro080"]
 categories = ["course"]
 bookCollapseSection = false
 +++

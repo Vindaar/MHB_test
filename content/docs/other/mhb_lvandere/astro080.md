@@ -1,6 +1,6 @@
 +++
 weight = 20
-pokind = "Other"
+pokind = "other"
 title = "astro080"
 degree = "lvandere"
 tags = ["lvandere", "astro080"]

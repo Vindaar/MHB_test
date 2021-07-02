@@ -1,6 +1,6 @@
 +++
 weight = 10
-pokind = "Other"
+pokind = "other"
 title = "physik010"
 degree = "lvandere"
 tags = ["lvandere", "physik010"]
