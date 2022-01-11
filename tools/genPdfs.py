@@ -39,7 +39,7 @@ def determine_degree(data: dict, course: str) -> str:
 def to_outpath(name: str, poKind: POKind) -> str:
     path = "{}/pdfs/{}".format(Prefix, poKind)
     if not os.path.exists(path):
-        os.mkdir(path)
+        os.makedirs(path)
     return os.path.join(path, Path(Path(name).parent.absolute()).name + ".pdf")
 
 def to_course_path(poKind, degree, course: str) -> str:
