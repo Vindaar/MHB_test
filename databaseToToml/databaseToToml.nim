@@ -7,7 +7,9 @@ import datamancer, parsetoml, cligen
 
 type
   POKind = enum
-    PONone = "Other", PO2006, PO2014
+    PONone = "other"
+    PO2006 = "po2006"
+    PO2014 = "po2014"
 
   ElementKind = enum
     ekModule = "module"
