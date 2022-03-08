@@ -1,5 +1,9 @@
-import strutils, tables, os, strformat, db_mysql
-import datamancer, multiLang, sql_utils
+# stdlib
+import std / [strutils, tables, os, strformat, db_mysql, sets]
+# local modules
+import multiLang, sql_utils
+# nimble packages
+import datamancer
 
 proc get*[T: SomeLanguageEnum](df: DataFrame, idx: int, field: T): string =
   mixin sanitize
