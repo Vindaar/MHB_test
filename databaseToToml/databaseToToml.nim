@@ -30,6 +30,8 @@ proc sanitize*[T: SomeLanguageEnum](s: string, em: T): string =
 proc createDirAndWrite(prefix, name, degree: string, kind: ElementKind, weight: string,
                        poKind: POKind,
                        parents: seq[string] = @[], toCollapse = true) =
+  ## (Possibly) create the directory for the module / course & write the
+  ## Markdown file required for Hugo.
   let path = if kind == ekCourse: "courses/" else: ""
   let fname = path / name.replace("/", "_") & ".md"
   echo "Create ", prefix / path
@@ -296,6 +298,8 @@ proc writeTomlFiles(prefix, degree: string,
                     langMap: LanguageMap,
                     modules, courses: seq[string]) =
   ## Writes the generated tables as TOML files
+  # make sure the directory exists
+  createDir(prefix.parentDir)
   proc writeFile(fname: string,
                  tab: OrderedTable[string, TomlValueRef],
                  key: string, elems: seq[string]) =
@@ -312,7 +316,7 @@ proc writeTomlFiles(prefix, degree: string,
 proc genMhb(db: DBConn,
             df1, df2: DataFrame,
             degree: string,
-            outname: string,
+            outpath, outname, dataPath, contentPath: string,
             poKind: POKind,
             lang: LanguageKind): DataFrame =
   ## Generate the following layout
@@ -337,9 +341,10 @@ proc genMhb(db: DBConn,
   langMap.updateLanguageMap(db.tableToDf("bezeichner")
     .filter(fn {string -> bool: `Studiengang` == degree}))
   # output prefix based on POKind & given input
-  let prefix = &"/tmp/{poKind}/{outname}"
+  let contentPrefix = &"{outpath}/{contentPath}/{poKind}/{outname}"
+  let dataPrefix = &"{outpath}/{dataPath}/{outname}"
   # generate the directory for this degree
-  genMhbDirectory(prefix, df1.get(0, mfDegreeLong), degree)
+  genMhbDirectory(contentPrefix, df1.get(0, mfDegreeLong), degree)
   # get the courses we explicitly exclude
   let excludeSet = excludedCourses()
   # 1. construct the table for all ``modules``
@@ -368,7 +373,7 @@ proc genMhb(db: DBConn,
       modNum = df1.get(i, mfTitle)
     ## TODO: either filter dummy or just check module name > 0?
     doAssert modNum.len > 0
-    createDirAndWrite(prefix, modNum, degree, ekModule,
+    createDirAndWrite(contentPrefix, modNum, degree, ekModule,
                       weight = df1.get(i, mfOrder), poKind = poKind)
 
     # if looking at `physik120` add the needed data
@@ -420,36 +425,42 @@ proc genMhb(db: DBConn,
     # first appearance, as there are duplicate courses (`lastchanged`, `modteilID` and `zuordID`
     # are different. We use the last one (due to `arrange`)
     if courseNum notin tcourses:
-      createDirAndWrite(prefix, courseNum, degree, ekCourse,
+      createDirAndWrite(contentPrefix, courseNum, degree, ekCourse,
                         weight = df2.get(i, cfOrder), poKind = poKind,
                         parents = parentDf[$mfNum, string].toRawSeq, toCollapse = false)
       tcourses[courseNum] = tcourse
       courses.add courseNum
   # write the generated tables to TOML files
-  writeTomlFiles(prefix, degree, tmodules, tcourses, langMap, modules, courses)
+  writeTomlFiles(dataPrefix, degree, tmodules, tcourses, langMap, modules, courses)
   result = seqsToDf({"courses" : courses})
   result["degree"] = constantColumn(degree, result.len)
 
-proc buildModuleHandbook(db: DBConn, std: string): DataFrame =
+proc buildModuleHandbook(db: DBConn, degree: string,
+                         outpath, dataPath, contentPath: string): DataFrame =
+  ## Given a degree `degree` generates the module handbook TOML + Markdown data,
+  ## storing everything in `outpath`
   let lang = block:
     var res: LanguageKind
-    case std
+    case degree
     of "BSPHYSIK", "BSPHYSIK2", "LVANDERE", "LABPHYSIK": res = lkGerman
     of "MSPHYSIK", "MSPHYSIK2", "MSASTRO", "MSASTRO2": res = lkEnglish
-    else: doAssert false, "Invalid degree! " & $std
+    else: doAssert false, "Invalid degree! " & $degree
     res
-  let poKind = if std.endsWith("2"): PO2014
-               elif std == "LVANDERE": PONone
+  let poKind = if degree.endsWith("2"): PO2014
+               elif degree == "LVANDERE": PONone
                else: PO2006
-  let dfHeader = db.getModules(std)
+  let dfHeader = db.getModules(degree)
   let dfParts = db.getCourses(dfHeader)
-  result = db.genMhb(dfHeader, dfParts, std, &"mhb_{std.normalize}", poKind, lang)
+  result = db.genMhb(dfHeader, dfParts, degree,
+                     outpath, &"mhb_{degree.normalize}", dataPath, contentPath,
+                     poKind, lang)
 
 proc writeGlobalCourseList(poKind: POKind, df: DataFrame,
+                           outpath: string,
                            showDataframes: bool) =
   ## Generates the `*_course_map.toml` files that map the courses to the
   ## modules for reference in Hugo
-  var f = open("/tmp/" & $poKind & "_course_map.toml", fmWrite)
+  var f = open(&"{outpath}/{poKind}_course_map.toml", fmWrite)
   let degrees = df.clone.unique("degree")["degree", string].toRawSeq
   f.write(&"Degrees = {(? degrees).toTomlString}\n")
   if showDataframes: # show the DF in the browser
@@ -469,23 +480,26 @@ proc main(host = "localhost",
           user = "root",
           password = "",
           mhbTable = "modulhandbuch",
+          outpath = getTempDir(),
+          dataPath = "data",
+          contentPath = "content",
           showDataframes = false) =
   let db = open(host, user, password, mhbTable)
 
   # PO2006
-  var df2006 = db.buildModuleHandbook("BSPHYSIK")
-  df2006.add db.buildModuleHandbook("MSPHYSIK")
-  df2006.add db.buildModuleHandbook("MSASTRO")
+  var df2006 = db.buildModuleHandbook("BSPHYSIK", outpath, dataPath, contentPath)
+  df2006.add db.buildModuleHandbook("MSPHYSIK", outpath, dataPath, contentPath)
+  df2006.add db.buildModuleHandbook("MSASTRO", outpath, dataPath, contentPath)
   # PO2014
-  var df2014 = db.buildModuleHandbook("BSPHYSIK2")
-  df2014.add db.buildModuleHandbook("MSPHYSIK2")
-  df2014.add db.buildModuleHandbook("MSASTRO2")
+  var df2014 = db.buildModuleHandbook("BSPHYSIK2", outpath, dataPath, contentPath)
+  df2014.add db.buildModuleHandbook("MSPHYSIK2", outpath, dataPath, contentPath)
+  df2014.add db.buildModuleHandbook("MSASTRO2", outpath, dataPath, contentPath)
   # other
-  var dfOther = db.buildModuleHandbook("LVANDERE")
+  var dfOther = db.buildModuleHandbook("LVANDERE", outpath, dataPath, contentPath)
 
-  writeGlobalCourseList(PO2006, df2006, showDataframes = showDataframes)
-  writeGlobalCourseList(PO2014, df2014, showDataframes = showDataframes)
-  writeGlobalCourseList(PONone, dfOther, showDataframes = showDataframes)
+  writeGlobalCourseList(PO2006, df2006, outpath / dataPath, showDataframes)
+  writeGlobalCourseList(PO2014, df2014, outpath / dataPath, showDataframes)
+  writeGlobalCourseList(PONone, dfOther, outpath / dataPath, showDataframes)
 
   db.close()
 
