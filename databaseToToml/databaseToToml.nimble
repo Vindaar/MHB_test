@@ -4,7 +4,6 @@ version       = "0.1.0"
 author        = "Vindaar"
 description   = "Tool to extract MHB data from DB"
 license       = "MIT"
-srcDir        = "src"
 bin           = @["databaseToToml"]
 
 
