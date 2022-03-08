@@ -1,0 +1,42 @@
+
+name: "tagged-release"
+
+on:
+  push:
+    tags:
+      - "*" # for now take any tag
+
+jobs:
+  tagged-release:
+    name: "Tagged Release"
+    runs-on: "ubuntu-latest"
+
+    steps:
+      - name: Setup Nim
+        uses: alaviss/setup-nim@0.1.1
+        with:
+          path: nim
+          version: version-1-6
+
+      - name: Install dependencies (Musl & MariaDB)
+        shell: bash
+        run: |
+          sudo apt-get install musl-tools libmariadbclient-dev
+
+      - name: Install Nim dependencies
+        shell: bash
+        run: |
+          cd tools/databaseToToml
+          nimble install -d -y
+
+      - name: Build binary
+        shell: bash
+        run: |
+          nimble muslBuild
+
+      - uses: "marvinpinto/action-automatic-releases@latest"
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          prerelease: false
+          files: |
+            databaseToToml
