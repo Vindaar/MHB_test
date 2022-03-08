@@ -1,4 +1,4 @@
-import ggplotnim, strutils
+import datamancer, strutils
 
 type
   LanguageKind* = enum

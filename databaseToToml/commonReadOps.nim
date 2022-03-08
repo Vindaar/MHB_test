@@ -1,5 +1,5 @@
 import strutils, tables, os, strformat, db_mysql
-import ggplotnim, multiLang, sql_utils
+import datamancer, multiLang, sql_utils
 
 proc get*[T: SomeLanguageEnum](df: DataFrame, idx: int, field: T): string =
   mixin sanitize
