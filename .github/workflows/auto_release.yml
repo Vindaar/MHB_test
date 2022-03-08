@@ -1,0 +1,42 @@
+
+name: "tagged-release"
+
+on:
+  push:
+    tags:
+      - "*" # for now take any tag
+
+jobs:
+  tagged-release:
+    name: "Tagged Release"
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v1
+      - uses: iffy/install-nim@v4.1.1
+        with:
+          version: 1.6.4
+
+      - name: Install Musl
+        shell: bash
+        run: |
+          sudo apt-get install musl-tools
+
+      - name: Install Nim dependencies
+        shell: bash
+        run: |
+          cd databaseToToml
+          nimble install -d -y
+
+      - name: Build binary
+        shell: bash
+        run: |
+          cd databaseToToml
+          nimble muslBuild
+
+      - uses: "marvinpinto/action-automatic-releases@latest"
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          prerelease: false
+          files: |
+            databaseToToml/databaseToToml
