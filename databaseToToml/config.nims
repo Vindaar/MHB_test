@@ -1,6 +1,6 @@
 ## Shortened version of:
 ## https://github.com/kaushalmodi/nim_config/
-## with custom addition about `MariaDB`
+## with custom addition about `Mysql`
 
 from macros import error
 from strutils import `%`, endsWith, strip, replace
@@ -44,9 +44,9 @@ let
   root = getGitRootMaybe()
   (_, pkgName) = root.splitPath()
   srcFile = root / "src" / (pkgName & ".nim")
-  # maria DB
-  mariaLibDir = "/usr/lib"
-  mariaLibFile = mariaLibDir / "libmariadbclient.a"
+  # mysql DB
+  mysqlLibDir = "/usr/lib/x86_64-linux-gnu/"
+  mysqlLibFile = mysqlLibDir / "libmysqlclient.a"
   # Custom Header file to force to link to GLibC 2.5, for old Linux (x86_64).
   glibc25DownloadLink = "https://raw.githubusercontent.com/wheybags/glibc_version_header/master/version_headers/x64/force_link_glibc_2.5.h"
 
@@ -201,12 +201,12 @@ when defined(musl):
   switch("passL", "-static")
   switch("gcc.exe", muslGccPath)
   switch("gcc.linkerexe", muslGccPath)
-  when defined(mariadb):
+  when defined(mysql):
     let
-      mariaIncludeDir = "/usr/include/mysql"
-    switch("passC", "-I" & mariaIncludeDir) # So that pcre.h is found when running the musl task
-    switch("define", "useMariaHeader")
-    switch("passL", "-L" & mariaLibDir)
-    switch("passL", mariaLibFile)
-    switch("passL", "-lmariadbclient")
-    switch("dynlibOverride", "mariadb")
+      mysqlIncludeDir = "/usr/include/mysql"
+    switch("passC", "-I" & mysqlIncludeDir) # So that pcre.h is found when running the musl task
+    switch("define", "useMysqlHeader")
+    switch("passL", "-L" & mysqlLibDir)
+    switch("passL", mysqlLibFile)
+    switch("passL", "-lmysqlclient")
+    switch("dynlibOverride", "mysql")

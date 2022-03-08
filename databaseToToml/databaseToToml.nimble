@@ -15,4 +15,4 @@ requires "datamancer >= 0.2.1"
 requires "parsetoml"
 
 task muslBuild, "Builds a static binary using musl":
-  exec "nim musl -d:release -d:mariadb databaseToToml.nim"
+  exec "nim musl -d:release -d:mysqldb databaseToToml.nim"
