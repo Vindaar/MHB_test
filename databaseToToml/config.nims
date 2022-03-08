@@ -1,6 +1,6 @@
 ## Shortened version of:
 ## https://github.com/kaushalmodi/nim_config/
-## with custom addition about `Mysql`
+## with custom addition about `Mariadb`
 
 from macros import error
 from strutils import `%`, endsWith, strip, replace
@@ -18,8 +18,7 @@ when defined(strictMode):
 const
   doOptimize = false
   stripSwitches = @["--strip-all", "--remove-section=.comment", "--remove-section=.note.gnu.gold-version", "--remove-section=.note", "--remove-section=.note.gnu.build-id", "--remove-section=.note.ABI-tag"]
-  # upxSwitches = @["--best"]     # fast
-  upxSwitches = @["--ultra-brute"] # slower
+  upxSwitches = @["--best"]     # fast
   checksumsSwitches = @["--tag"]
   gpgSignSwitches = @["--clear-sign", "--armor", "--detach-sign", "--digest-algo sha512"]
   gpgEncryptSwitches = @["--armor", "--symmetric", "--s2k-digest-algo sha512", "--cipher-algo AES256", "-z 9"] # 9=Max, 0=Disabled
@@ -44,9 +43,9 @@ let
   root = getGitRootMaybe()
   (_, pkgName) = root.splitPath()
   srcFile = root / "src" / (pkgName & ".nim")
-  # mysql DB
-  mysqlLibDir = "/usr/lib/x86_64-linux-gnu/"
-  mysqlLibFile = mysqlLibDir / "libmysqlclient.a"
+  # mariadb DB
+  mariadbLibDir = "/usr/lib" #/x86_64-linux-gnu/"
+  mariadbLibFile = mariadbLibDir / "libmariadbclient.a"
   # Custom Header file to force to link to GLibC 2.5, for old Linux (x86_64).
   glibc25DownloadLink = "https://raw.githubusercontent.com/wheybags/glibc_version_header/master/version_headers/x64/force_link_glibc_2.5.h"
 
@@ -195,18 +194,22 @@ when defined(musl):
   var
     muslGccPath: string
   echo "  [-d:musl] Building a static binary using musl .."
-  muslGccPath = findExe("musl-gcc")
+  muslGccPath = findExe("gcc") # on alpine `gcc` is `musl-gcc`
   if muslGccPath == "":
     error("'musl-gcc' binary was not found in PATH.")
   switch("passL", "-static")
   switch("gcc.exe", muslGccPath)
   switch("gcc.linkerexe", muslGccPath)
-  when defined(mysql):
+  when defined(mariadb):
     let
-      mysqlIncludeDir = "/usr/include/mysql"
-    switch("passC", "-I" & mysqlIncludeDir) # So that pcre.h is found when running the musl task
-    switch("define", "useMysqlHeader")
-    switch("passL", "-L" & mysqlLibDir)
-    switch("passL", mysqlLibFile)
-    switch("passL", "-lmysqlclient")
-    switch("dynlibOverride", "mysql")
+      mariadbIncludeDir = "/usr/include/mysql"
+    switch("passC", "-I" & mariadbIncludeDir)
+    switch("define", "useMariadbHeader")
+    switch("passL", "-L" & mariadbLibDir)
+    switch("passL", mariadbLibFile)
+    switch("passL", "-lmariadbclient")
+    switch("dynlibOverride", "mariadb")
+    switch("dynlibOverrideAll") ## just disable dynlib...
+    switch("passL", "-lz")
+    switch("passL", "-lssl")
+    switch("passL", "-lcrypto")

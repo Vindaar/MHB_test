@@ -9,30 +9,30 @@ on:
 jobs:
   tagged-release:
     name: "Tagged Release"
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
+    container: alpine:latest
 
     steps:
       - uses: actions/checkout@v1
-      - uses: iffy/install-nim@v4.1.1
-        with:
-          version: 1.6.4
-
-      - name: Install Musl
-        shell: bash
+      - name: Install Musl & git
+        shell: sh
         run: |
-          sudo apt-get install musl-tools
+          apk update
+          apk add mariadb mariadb-static zlib-static upx openssl openssl-libs-static mariadb-dev git gcc make musl-dev nim nimble
 
       - name: Install Nim dependencies
-        shell: bash
+        shell: sh
         run: |
           cd databaseToToml
           nimble install -d -y
 
       - name: Build binary
-        shell: bash
+        shell: sh
         run: |
           cd databaseToToml
           nimble muslBuild
+          nim strip databaseToToml
+          nim upx databaseToToml
 
       - uses: "marvinpinto/action-automatic-releases@latest"
         with:
