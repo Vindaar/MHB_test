@@ -14,11 +14,11 @@ jobs:
 
     steps:
       - uses: actions/checkout@v1
-      - name: Install Musl & git
+      - name: Install required dependencies
         shell: sh
         run: |
           apk update
-          apk add mariadb mariadb-static zlib-static upx openssl openssl-libs-static mariadb-dev git gcc make musl-dev nim nimble
+          apk add mariadb mariadb-static mariadb-dev zlib-static openssl openssl-libs-static musl-dev git gcc make nim nimble upx
 
       - name: Install Nim dependencies
         shell: sh

@@ -56,3 +56,65 @@ For each "Prüfungsordnung" one directory is generated:
 
 These contain both the =TOML= files with all the data as well as the
 basic Markdown files needed for Hugo.
+
+** Static binary building
+
+We build a statically linked binary in the CI using an Alpine Linux
+docker image in Github Actions. Each time a semver-like tag is pushed
+(i.e. =v0.1.0=, =v15.0.2=, ...) the build is automatically triggered
+and a new release is made including the static binary.
+
+There are a few things to note for this.
+
+We use Alpine Linux as it is tiny and uses [[https://www.musl-libc.org/][musl]] by default. =musl=
+makes static linking of libraries comparatively easy.
+
+Statically linking on the available Ubuntu images in Github Actions
+does not really work. It effectively tries to shoehorn =dlopen= calls
+into the binary somehow. Locally using Void Linux building a static
+binary from my local =libmariadbclient.a= works perfectly fine
+however.
+
+Alpine Linux's package repository contains everything we need, but
+choosing the right dependencies (=openssl= says hello) is a bit of a
+pain. The static version of MariaDB in Alpine is apparently linked
+against the =openssl= package { and requiring =openssl-libs-static=,
+not =openssl3-libs-static= }, nor =libressl=!). If someone knows where
+these things are documented, let me know.
+
+Also, don't forget:
+- =-lz= and =zlib-static=
+- =-lcrypto= and not only =-lssl=!
+
+To summarize, we install the following packages:
+#+begin_src sh
+apk add mariadb mariadb-static mariadb-dev \ # MariaDB and the static library (`libmariadbclient.a`)
+    zlib-static \ # for `libz.a`
+    openssl openssl-libs-static \ # for the correct `libssl.a` and `libcrypto.a`
+    musl-dev \ # general musl related build tools
+    git gcc make \ # general stuff to build things (maybe not needed/installed already?)
+    nim nimble \ # to build Nim stuff. Currently has version 1.4.8, which is fine for us
+#+end_src
+See here:
+[[../.github/workflows/auto_release.yml]]
+It's possible we only need the static packages or don't have to
+install them explicitly (maybe they are installed as part of the main
+packages, didn't check).
+
+With these things in mind, the following are the important NimScript switches:
+#+begin_src nim
+let
+  mariadbIncludeDir = "/usr/include/mysql"
+switch("passC", "-I" & mariadbIncludeDir)
+switch("define", "useMariadbHeader")
+switch("passL", "-L" & mariadbLibDir)
+switch("passL", mariadbLibFile)
+switch("passL", "-lmariadbclient")
+switch("dynlibOverride", "mariadb")
+switch("dynlibOverrideAll") ## just disable dynlib...
+switch("passL", "-lz")
+switch("passL", "-lssl")
+switch("passL", "-lcrypto")
+#+end_src
+which can be found here:
+[[./config.nims]]
