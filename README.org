@@ -361,7 +361,7 @@ requires one more step.
 After this, a rebuild with Hugo should show a new course.   
    
 
-*** TODO 
+*** TODO Things still to be explained
 
 - finish the above:
   - partial templates: what are they, where are they
