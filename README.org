@@ -147,9 +147,9 @@ degree. For example a shortened version of the
 =po20016_course_map.toml= file is:
 #+begin_src toml
 Degrees = ["BSPHYSIK2", "MSPHYSIK2", "MSASTRO2"]
-BSPHYSIK2 = ["math241", ...]
-MSASTRO2 = ["astro608", ...]
-MSPHYSIK2 = ["physics606", ...] 
+BSPHYSIK2 = ["math241", "..."]
+MSASTRO2 = ["astro608", "..."]
+MSPHYSIK2 = ["physics606", "..."] 
 #+end_src
 where =Degrees= is the degrees part of this and the individual
 elements for each degree simply list all courses.
@@ -175,7 +175,7 @@ following file name structure:
 The basic structure is as follows, consider the beginning of the
 =BSPHYSIK= (PO 2006) file:
                                                #+begin_src TOML
-ModuleList = ["physik110", "physik120", ...]   # list of *all* modules in this degree & in this file
+ModuleList = ["physik110", "physik120", "..."]   # list of *all* modules in this degree & in this file
 
 [physik110]                                    # name of the module as it appears in the `ModuleList`, starts a TOML sub table
 mfDegree = "BSPHYSIK"                          # must match a string found in the PO course map
@@ -204,8 +204,8 @@ mfNotes = ""
 mfOrder = 110.0                                # should match the `weight` field in the markdown file! Menu sorting order depends on this.
 CourseList = ["physik111", "physik112"]        # all courses *part of this module*
 
-[...]
-... 
+["..."]
+ * 
 #+end_src
 
 Most of these fields are pretty self explanatory. Few are mandatory
@@ -223,7 +223,7 @@ fields are different and start with a prefix =cf=, "course field".
 
 Again another example from the =BSPHYSIK= (PO 2006) degree:
 #+begin_src TOML
-CourseList = ["physik131", "math141", ...]     # all courses listed in this degree & in this file
+CourseList = ["physik131", "math141", "..."]     # all courses listed in this degree & in this file
 
 [physik131]                                    # name of the course as it appears in the `CourseList`, starts a TOML sub table
 cfTitle = "EDV für Physiker und Physikerinnen" # title of he course
@@ -251,8 +251,8 @@ astro@uni-bonn.de
 '''
 cfOrder = 10.0                                 # field similar to `mfOrder`, affects ordering in menu & overview table showing courses in table
 
-[...]
-...
+["..."]
+ *
 #+end_src
 
 ***** Language map TOML file
