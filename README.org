@@ -120,13 +120,254 @@ Shortcodes however are pretty restricted. The majority of Hugo templating is
 done via full [[https://golang.org/pkg/html/template/][HTML focussed templates]] (a Go library to build HTML using the
 above mentioned Go text templates).
 
+*** TOML data files
+
+The markdown files introduced in the previous section need to be
+filled with data. The shortcodes used inside the markdown file
+internally call multiple Hugo templates. These templates get their
+data from the TOML files stored in [[./data/]].
+
+From highest to lowest level, the TOML abstraction is as follows.
+
+**** 'Prüfungsordnung' course map
+
+Each 'Prüfungsordnung' (PO) has a file with the filename:
+#+begin_src
+<po_short>_course_map.toml
+#+end_src
+where =<po_short>= is the short name of the
+PO. Three different POs are defined as of now:
+- po2006: 'Prüfungsordnung' of the year 2006
+- po2014: 'Prüfungsordnung' of the year 2014. Each degree in it is
+  suffixed by a =2=.
+- other: list for all courses not part of the physics degree
+Each of these TOML files simply lists the different degrees in that
+PO and contains a list of all *courses* (not modules!) in that
+degree. For example a shortened version of the
+=po20016_course_map.toml= file is:
+#+begin_src toml
+Degrees = ["BSPHYSIK2", "MSPHYSIK2", "MSASTRO2"]
+BSPHYSIK2 = ["math241", ...]
+MSASTRO2 = ["astro608", ...]
+MSPHYSIK2 = ["physics606", ...] 
+#+end_src
+where =Degrees= is the degrees part of this and the individual
+elements for each degree simply list all courses.
+
+The course map on the level of the PO is necessary, as courses can
+appear in multiple degrees. 
+
+**** Degree TOML files
+
+Each degree in each PO has 3 additional TOML files. These are of the
+following file name structure:
+- =mhb_<degree>.toml=: contains a list of all *modules* in
+  the degree and the data for each module. 
+- =mhb_<degree>_courses.toml=: contains a list of all *courses* and
+  the data for each course.
+- =mhb_<degree>_langmap.toml=: contains the mapping of the data field
+  names used in the module and course TOML files to names used in the
+  generated HTML. Normally used to differentiate between German and
+  English depending on the degree (hence the =langmap= suffix).
+
+***** Module TOML file
+
+The basic structure is as follows, consider the beginning of the
+=BSPHYSIK= (PO 2006) file:
+                                               #+begin_src TOML
+ModuleList = ["physik110", "physik120", ...]   # list of *all* modules in this degree & in this file
+
+[physik110]                                    # name of the module as it appears in the `ModuleList`, starts a TOML sub table
+mfDegree = "BSPHYSIK"                          # must match a string found in the PO course map
+mfDegreeLong = "B.Sc. in Physik (PO von 2006)" # long version of degree (any string)
+mfTitle = "Physik I (Mechanik, Wärmelehre)"
+mfNum = "physik110"                            # e.g. physik110, must be the same as the table name (in brackets [] above)
+mfCP = "10"                                    # number of credit points for this module
+mfCategory = "Pflicht"                         # category, compare with other modules, any value 
+mfSemester = "1.-2."                           # which semester this module belongs to
+mfRequirements = "" 
+mfPreparation = ""
+mfContent = "Mechanik-Grundlagen mit Demonstrationsversuchen, Mechanik des Massenpunktes, deformierbare Medien, Vielteilchensysteme, Wärmelehre, Relativistische Aspekte. Dazu 6 Praktikumsversuche"
+mfGoals = "Einarbeitung in die Mechanik und die Wärmelehre; Erarbeitung der Phänomenologie in Vorbereitung auf den theoretischen Unterbau"
+mfFormalities = '''physik111: Zulassungsvoraussetzung zur Modulteilprüfung (Klausur oder mündliche Prüfung):
+
+erfolgreiche Teilnahme an den Übungen.
+
+physik112: Zulassungsvoraussetzung zur Modulteilprüfung (Klausur oder mündliche Prüfung):
+
+erfolgreiche Bearbeitung der Versuchsprotokolle, mündliche Überprüfung der Versuchsvorbereitung und Durchführung der Versuche
+'''
+mfLength = "2 Semester"                        # length in semesters of this course
+mfParticipants = "ca. 200"
+mfSignup = "s. https://basis.uni-bonn.de u. http://bamawww.physik.uni-bonn.de"
+mfNotes = ""
+mfOrder = 110.0                                # should match the `weight` field in the markdown file! Menu sorting order depends on this.
+CourseList = ["physik111", "physik112"]        # all courses *part of this module*
+
+[...]
+... 
+#+end_src
+
+Most of these fields are pretty self explanatory. Few are mandatory
+specific strings, as mentioned.
+
+The prefix of the field names =mf<Name>= stands for "module
+field". These names are mapped to proper string names in the language
+map, see below.
+
+***** Course TOML file
+
+The course TOML file for a degree follows essentially the same
+structure as the module field, with the only difference that the
+fields are different and start with a prefix =cf=, "course field".
+
+Again another example from the =BSPHYSIK= (PO 2006) degree:
+#+begin_src TOML
+CourseList = ["physik131", "math141", ...]     # all courses listed in this degree & in this file
+
+[physik131]                                    # name of the course as it appears in the `CourseList`, starts a TOML sub table
+cfTitle = "EDV für Physiker und Physikerinnen" # title of he course
+cfNum = "physik131"                            # name of the course again, as a field
+cfCP = "4"                                     # number of credit points for this course
+cfWorkload = "1+2" 
+cfKind = "Vorlesung mit Übungen"
+cfCategory = "Pflicht"
+cfLanguage = "deutsch"
+cfRequirements = ""
+cfPreparation = ""
+cfFormalities = "Zulassungsvoraussetzung zur Modulprüfung (Abschlussbericht oder Klausur): erfolgreiche Teilnahme an den Übungen"
+cfLength = "1 Semester"
+cfGoals = "Die Studierenden sollen mit Betriebssystemen vertraut gemacht werden, moderne Editierprogramme kennen lernen, gezielt lernen Webrecherchen durchzuführen und erste Schritte mit einer Programmiersprache machen. Die Lehrveranstaltung ist praxisbezogen und liefert damit eine solide Grundlage für den Umgang mit Rechnern im weiteren Studium"
+cfContent = "Betriebssysteme: Linux, UNIX; Editierprogramme: emacs, vi; LaTeX, TeX; Postscript, ghostview, PDF; Algebrasysteme: Maple, Mathematica; Programmiersprache: C++; Plotprogramme: gnuplot, root; shellscripts; Tabellenkalkulation; Web: effiziente Recherchen, Deutung von Webadressen, Einblick in HTML"
+cfLiterature = "Es werden kompakte Anleitungen zur Verfügung gestellt"
+cfKindShort = "Vorl. + Üb."
+cfSemester = "WS"                              # which semester this course is given in
+cfLecturer = "Dozentinnen und Dozenten der Physik und Astronomie"
+cfMail = '''exphysik@uni-bonn.de
+
+theophysik@uni-bonn.de
+
+astro@uni-bonn.de
+'''
+cfOrder = 10.0                                 # field similar to `mfOrder`, affects ordering in menu & overview table showing courses in table
+
+[...]
+...
+#+end_src
+
+***** Language map TOML file
+
+The =mhb_<degree>_langmap.toml= simply maps the field names found in
+the module and course TOML files to properly formatted strings to be
+inserted into the HTML.
+
+An example file, again for =BSPHYSIK= (PO 2006):
+#+begin_src TOML
+Degree = "BSPHYSIK"
+[ModuleFields]
+mfDegree = "Studiengang"
+mfDegreeLong = ""
+mfTitle = "Modul"
+mfNum = "Modul-Nr."
+mfModules = "Module"
+mfCP = "Leistungspunkte"
+mfCategory = "Kategorie"
+mfSemester = "Semester"
+mfParts = "Modulbestandteile"
+mfCourseTitle = "LV Titel"
+mfCourseNum = "LV Nr"
+mfCourseKind = "LV-Art"
+mfCourseLP = "LP"
+mfTotalWorkload = "Aufwand"
+mfCourseSemester = "Sem"
+mfRequirements = "Zulassungsvoraussetzungen"
+mfPreparation = "Empfohlene Vorkenntnisse"
+mfContent = "Inhalt"
+mfGoals = "Lernziele/Kompetenzen"
+mfFormalities = "Prüfungsmodalitäten"
+mfLength = "Dauer des Moduls"
+mfParticipants = "Max. Teilnehmerzahl"
+mfSignup = "Anmeldeformalitäten"
+mfNotes = "Anmerkung"
+mfKindShort = "LV-Art"
+mfOrder = "Reihenfolge"
+
+[CourseFields]
+cfTitle = "Lehrveranstaltung"
+cfNum = "LV-Nr."
+cfCP = "LP"
+cfWorkload = "SWS"
+cfKind = "LV-Art"
+cfCategory = "Kategorie"
+cfLanguage = "Sprache"
+cfRequirements = "Zulassungsvoraussetzungen"
+cfPreparation = "Empfohlene Vorkenntnisse"
+cfFormalities = "Studien- und Prüfungsmodalitäten"
+cfLength = "Dauer der Lehrveranstaltung"
+cfGoals = "Lernziele der LV"
+cfContent = "Inhalte der LV"
+cfLiterature = "Literaturhinweise"
+cfKindShort = "LV-Art"
+cfSemester = "Semester"
+cfLecturer = "Dozenten"
+cfMail = "email"
+cfOrder = "Reihenfolge"
+cfUseFor = "Verwendung"
+#+end_src
+
+As we can see, it simply maps the field maps to nicer names that are
+inserted into the corresponding =cf/mf<Name>= places in the Hugo
+templates.
+
+*** Adding a new module / course by hand
+
+In order to add a new course or module by hand, simply the
+corresponding elements in the above data structure has to be added by
+hand. 
+
+**** Adding a new module
+
+To add a new module, the following steps have to be done:
+
+1. Add the new module name to the =ModuleList= entry in the
+   =mhb_<degree>.toml= file (first line), e.g. =MyNewModule=.
+2. Add a new TOML table to the same TOML file by adding a
+   =[MyNewModule]= with all fields and their appropriate content.
+3. Add a new markdown file in
+   =./content/docs/<po_short>/mhb_<degree>/MyNewModule.md=
+   with the contents as described further up.
+
+Once this is done, rebuilding the site with Hugo should result in a
+new module.
+
+**** Adding a new course
+
+Adding a new course is almost the same as adding a new module, but
+requires one more step.
+
+1. Add the new course to the =<po_short>_course_map.toml= file,
+   adding it to all degree lists in which the course may appear.
+2. Add the new course to *all* =mhb_<degree>_courses.toml= files, in
+   which the course will appear. If it's for a single degree, only a
+   single file needs to be modified. In these files add the new course
+   =MyNewCourse= to the =CourseList= in the first line.
+3. Then add a new table =[MyNewCourse]= to each file and fill the
+   fields as needed.
+4. Add new markdown files in
+   =./content/docs/<po_short>/mhb_<degree>/courses/MyNewCourse.md=,
+   where you just need to make sure to adjust the degree in each
+   subdirectory accordingly.
+
+After this, a rebuild with Hugo should show a new course.   
+   
+
 *** TODO 
 
 - finish the above:
   - partial templates: what are they, where are they
   - distinguish genCoursePage and genModulePage
   - give brief idea about how they work
-- explain the data model
+
 
 ** PDF generation
 
