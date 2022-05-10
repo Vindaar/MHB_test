@@ -3,9 +3,9 @@ import parsetoml
 
 type
   POKind = enum
-    poNone = "Other"
-    po2006 = "PO2006"
-    po2014 = "PO2014"
+    poNone = "other"
+    po2006 = "po2006"
+    po2014 = "po2014"
 
   Degree = enum
     dkBachelor = "bsphysik"
@@ -41,8 +41,21 @@ proc toModulePath(poKind, degree, module: string): string =
   let m = module.replace(" ", "-")
   result = Prefix & "/docs" / poKind & degree / m / "index.html"
 
-proc buildPdf(paths: seq[string], outfile: string) =
-  echo "Building PDF for: ", paths
+proc buildPdfs(paths: seq[string]) =
+  ## Executes the pandoc commands in parallel using `execProcesses`. The input
+  ## files are generated in our case beforehand (but normally will probably
+  ## exist). If one or more processes returns an error code > 0, we quit. In
+  ## a production environment we should of course handle that in the appropriate
+  ## manner instead.
+  let res = execProcesses(paths)
+  if res != 0:
+    quit("Couldn't convert something... (don't quit me..)")
+
+proc genCommands(paths: seq[string], outfile: string): string =
+  ## writes out the XML data as "input files" and returns the full pandoc commands
+  ## needed to run the conversion. As such we can then call multiple pandoc processes
+  ## to do the job for us.
+  echo "Building XML file & pandoc command for : ", paths
   var xmlData = ""
   for p in paths:
     let tree = loadHtml(p).findAll("article")
@@ -51,23 +64,10 @@ proc buildPdf(paths: seq[string], outfile: string) =
     # take the outer tag
     xmlData.add $(tree[0])
   # start a pandoc process and feed the xml data
-  let cmd = &"pandoc -f html --template mhb_pandoc_template.latex -o {outfile}"
-  var pid = startProcess(cmd, options = {poStdErrToStdOut, poEvalCommand})
-  let inStream = pid.inputStream
-  inStream.write($xmlData)
-  inStream.close()
-  let sig = pid.waitForExit()
-  if sig != 0:
-    # in case the command failed print stdout and stderr and quit
-    let output = pid.outputStream
-    let err = pid.errorStream
-    echo output.readAll()
-    echo err.readAll()
-    output.close()
-    err.close()
-    pid.close()
-    quit("Failed to convert " & $paths)
-  pid.close()
+  let infile = &"/tmp/{outfile.extractFilename}.xml"
+  writeFile(infile, $xmlData)
+  let cmd = &"pandoc -s {infile} -f html --template mhb_pandoc_template.latex -o {outfile}"
+  result = cmd
 
 proc handleCourse(poKind: POKind, course: string): string =
   let courseMap = parseFile(&"../data/{poKind}_course_map.toml")
@@ -82,14 +82,19 @@ proc handleModule(data: TomlValueRef, poKind: POKind, degree, module: string) =
   var paths = newSeq[string]()
   # add module path
   paths.add toModulePath($poKind & "/", toMhbPath degree, module)
+  var commands = newSeq[string]()
   for course in data[module]["CourseList"].getElems:
     # read course map
     let path = handleCourse(poKind, course.getStr)
-    # build individual course PDF here
-    buildPdf(@[path], outfile = path.toOutpath(poKind))
+    # build the commands to generate the outputs
+    commands.add genCommands(@[path], outfile = path.toOutpath(poKind))
     # and add path to result
     paths.add path
-  buildPdf(paths, outfile = paths[0].toOutpath(poKind))
+  echo "Building the commands: ", commands.len
+  # now using the commands call `execProcesses` to run them in parallel
+  buildPdfs(commands)
+  ## TODO: to properly multithread this tool, we'd have to also take care of the
+  ## modules themselves, but that's an irrelevant detail for the PoC.
 
 proc handleDegree(poKind: POKind, deg: Degree) =
   # open data file for this degree
