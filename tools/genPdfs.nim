@@ -3,9 +3,9 @@ import parsetoml
 
 type
   POKind = enum
-    poNone = "Other"
-    po2006 = "PO2006"
-    po2014 = "PO2014"
+    poNone = "other"
+    po2006 = "po2006"
+    po2014 = "po2014"
 
   Degree = enum
     dkBachelor = "bsphysik"
