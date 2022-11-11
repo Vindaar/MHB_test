@@ -1,0 +1,58 @@
+* =databaseToToml=
+
+This tool can be used to extract the data from the MySQL database and
+generate the required TOML files + Markdown files & directory
+structure needed for the Hugo project.
+
+** Installation
+
+At this time we don't have a CI task yet to generate a binary that can
+just be downloaded. So for now, we have to build from source.
+
+First we need a recent version of [[https://nim-lang.org][Nim]]. If the Nim compiler and
+=nimble= (the Nim package manager) are in =PATH=, compilation is a
+simple:
+
+#+begin_src sh
+nim c -d:release databaseToToml.nim
+#+end_src
+
+The tool is extremely simple. See the help:
+#+begin_src sh
+./databaseToToml -h
+#+end_src
+
+#+begin_src
+basti at void in ~/src/tinyIap/staticExample/databaseToToml ツ ./databaseToToml -h            
+Usage:
+  main [optional-params] 
+Options:
+  -h, --help                                     print this cligen-erated help
+  --help-syntax                                  advanced: prepend,plurals,..
+  --host=               string  "localhost"      set host
+  -u=, --user=          string  "root"           set user
+  -p=, --password=      string  ""               set password
+  -m=, --mhbTable=      string  "modulhandbuch"  set mhbTable
+  -s, --showDataframes  bool    false            set showDataframes
+#+end_src
+
+Essentially, the tool only needs information about the host of the
+database, a user & password (currently it has to be handed as an
+argument. We can make that e.g. an environment variable).
+
+So, if the database is local and we just have a =root= user, we'd call
+the tool as:
+#+begin_src sh
+./databaseToToml --password <foo>
+#+end_src
+
+The tool reads all module & course information and writes the data
+(currently) to =/tmp=.
+
+For each "Prüfungsordnung" one directory is generated:
+- =/tmp/PO2006=
+- =/tmp/PO2014=
+- =/tmp/Other=
+
+These contain both the =TOML= files with all the data as well as the
+basic Markdown files needed for Hugo.
